@@ -1,0 +1,43 @@
+# Site settings
+name: Softelos
+description: "Softelos is a Web Design and Development Agency located in Lynchburg (VA). We make beautiful, cutting edge, powerfull websites for clients all over the United States."
+email: hello@softelos.com
+baseurl: "" 
+copyright: 2015
+# Build settings
+markdown: kramdown
+excerpt_separator: <!--more-->
+
+
+# S E R V I C E S
+
+picA: /assets/img/Web.png
+iconA: /assets/img/WebDesignIcon.png
+textA: "Web Design"
+textAShort: "Web Design"
+
+picB: /assets/img/cms.png
+iconB: /assets/img/CMSIcon.png
+textB: "Content Management Systems"
+textBShort: "CMS"
+
+picC: /assets/img/WebDevelopment.png
+iconC: /assets/img/WebDevelopmentIcon.png
+textC: "Web Development"
+textCShort: "Web Development"
+
+picD: /assets/img/responsive.png
+iconD: /assets/img/ResponsiveIcon.png
+textD: "Mobile & Responsive"
+textDShort: "Mobile & Responsive"
+
+picE: /assets/img/eCommerce.png
+iconE: /assets/img/eCommerceIcon.png
+textE: "Online Stores"
+textEShort: "Online Stores"
+
+picF: /assets/img/SEO.png
+iconF: /assets/img/SEOIcon.png
+textF: "Search Engine Optimization"
+textFShort: "SEO"
+

@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<!--[if IE 9]><html class="lt-ie10" lang="en" > <![endif]-->
+<html class="no-js" lang="en" >
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width initial-scale=1" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>Contact Us | Softelos | Web Design + Web Development + SEO | Lynchburg (VA)</title>
+    <meta name="description" content="Softelos is a Web Design and Development Agency located in Lynchburg (VA). We make beautiful, cutting edge, powerfull websites for clients all over the United States."> 
+    <link rel="canonical" href="/contactus/">
+    <link rel="stylesheet" href="/stylesheets/app.css">
+	<link href='http://fonts.googleapis.com/css?family=Oleo+Script|Muli|Montserrat' rel='stylesheet' type='text/css'>		
+	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+</head>
+
+	<body class="light">
+		<div id="wrapper">
+		<header class="site-header ">
+  <div class="sticky">
+    <nav class="top-bar" role="navigation" data-topbar>
+      <ul class="title-area">
+        <li class="name">
+          <a href="/" class="logo"><img src="/assets/img/logo.png"></a>
+        </li>
+        <li class="toggle-topbar menu-icon"><a href="#"><span></span></a></li>
+      </ul>
+      <section class="top-bar-section">
+        <ul class="right">
+          <li class=""><a href="/" class="hvr-underline-from-center">Hello!</a></li>
+          <li class=""><a href="/whatwedo" class="hvr-underline-from-center">What We Do</a></li>
+          <li class=""><a href="/ourteam" class="hvr-underline-from-center">Our Team</a></li>
+          <li class=" active "><a href="/contactus" class="hvr-underline-from-center">Contact Us</a></li>
+          <li class=""><a href="/notepad" class="hvr-underline-from-center">Notepad</a></li>
+        </ul>
+      </section>
+    </nav>
+  </div>   
+</header>
+
+		<div class="banner">
+</div>
+
+<div id="banner-intro" class="row fullWidth" height="400px">
+	<div class="large-12 columns text-center animated fadeInDown">
+		<p class="title">WELL CRAFTED WEB SITES</p>
+	</div>
+
+	<div class="large-12 columns text-center animated fadeInDown">
+		<p class="subtitle"><a href="/contactus" class="button round">Work With Us</a></p>
+	</div>
+</div>
+		<section class="dark content">
+	<div class="row">
+		<div class="small-centered text-center">
+			<h1>Let's make something great together</h1>
+		</div>
+		<div class="small-centered text-center">
+			<p class="subtitle">There’s nothing we enjoy more than rolling up our sleeves and starting a new project.</p>
+		</div>
+	</div>	
+</section>
+
+<section class="light content">
+
+	<div class="show-for-medium-up">
+		<div class="row">
+		
+			<div class="medium-8 column">
+				<form action="//formspree.io/cmrabet@softelos.com" method="post" class="contact">
+				    <label for="name">Name</label><input type="text" name="name" autocomplete="off" required/>
+				    <label for="_replyto">email</label><input type="text" autocomplete="off" name="_replyto" required />
+				    <label for="company">Company/Organization</label><input type="text" name="company" autocomplete="off" />
+				    <label for="phone">Phone<input type="text" name="phone" autocomplete="off" />
+				    <label for="message">Message</label><textarea name="message" rows="5" cols="20" autocomplete="off" required></textarea>
+				    <input type="text" name="_gotcha" style="display:none" />
+				    <input type="submit" value="Send" class="button round">
+				    <input type="hidden" name="_next" value="/contactus" />
+				    <input type="hidden" name="_subject" value="New customer request!" />
+				</form>			
+			</div>
+			<div class="medium-4 column contact">
+				<div class="row footer-social">
+					<div class="small-12 columns">
+						<a href="http://www.facebook.com/softelos" target="_blank" class="fa fa-facebook-official"></a>
+						<a href="http://www.facebook.com/softelos" target="_blank" class="fa fa-google-plus-square"></a>
+						<a href="http://www.facebook.com/softelos" target="_blank" class="fa fa-linkedin-square"></a>
+						<a href="http://www.facebook.com/softelos" target="_blank" class="fa fa-twitter-square"></a>
+					</div>
+				</div>
+				<strong>Softelos LLC</strong>
+				<p>
+					1472 Old Farm Rd.<br>
+					Lynchburg, 24503 VA
+				</p>
+				<strong>New business:</strong>
+				<p>
+					<a href="mailto:hello@softelos.com">hello@softelos.com</a><br>
+					(434) 534-7761
+				</p>
+			</div>
+
+		</div>
+	</div>
+	
+</section>
+
+
+<section class="dark map">
+	<div id="map"></div>
+</section>
+
+<script src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
+<script>
+	function initialize(){
+  		var mapStyle=[{"featureType":"landscape","stylers":[{"saturation":-100},{"lightness":65},{"visibility":"on"}]},{"featureType":"poi","stylers":[{"saturation":-100},{"lightness":51},{"visibility":"simplified"}]},{"featureType":"road.highway","stylers":[{"saturation":-100},{"visibility":"simplified"}]},{"featureType":"road.arterial","stylers":[{"saturation":-100},{"lightness":30},{"visibility":"on"}]},{"featureType":"road.local","stylers":[{"saturation":-100},{"lightness":40},{"visibility":"on"}]},{"featureType":"transit","stylers":[{"saturation":-100},{"visibility":"simplified"}]},{"featureType":"administrative.province","stylers":[{"visibility":"off"}]},{"featureType":"water","elementType":"labels","stylers":[{"visibility":"on"},{"lightness":-25},{"saturation":-100}]},{"featureType":"water","elementType":"geometry","stylers":[{"hue":"#ffff00"},{"lightness":-25},{"saturation":-97}]}];  		
+  		var mapOptions={
+    		zoom: 10,
+    		center: new google.maps.LatLng(37.419656,-79.284798),
+    		disableDefaultUI: true,
+    		styles:mapStyle
+  		}
+  		var map=new google.maps.Map(document.getElementById('map'),mapOptions);
+  		var marker = new google.maps.Marker({
+        	position: new google.maps.LatLng(37.419656,-79.284798),
+            map: map,
+            icon:'/assets/img/orange_MarkerS.png',
+            title: 'Softelos'
+        });
+	}
+	google.maps.event.addDomListener(window, 'load', initialize);
+</script>
+
+
+
+	  	<footer class="footer">
+	<div class="row fullWidth">
+		<div class="large-12 columns text-center">
+			<ul class="small-block-grid-1 medium-block-grid-3">
+				<li>
+					<div class="row text-center footer-social">
+						<div class="small-12 columns">
+							<a href="http://www.facebook.com/softelos" target="_blank" class="fa fa-facebook-official"></a>
+							<a href="http://www.facebook.com/softelos" target="_blank" class="fa fa-google-plus-square"></a>
+							<a href="http://www.facebook.com/softelos" target="_blank" class="fa fa-linkedin-square"></a>
+							<a href="http://www.facebook.com/softelos" target="_blank" class="fa fa-twitter-square"></a>
+						</div>
+					</div>
+				</li>
+				<li>
+					<div class="small-12 columns">
+						Made in Lynchburg (VA) &copy;2015 Softelos
+					</div>
+				</li>
+				<li><a href="/contactus" class="button round"><i class="fa fa-envelope-o"></i> CONTACT US</a></li>
+			</ul>
+		</div>
+	</div>
+</footer>
+
+		    <script src="/bower_components/foundation/js/vendor/jquery.js"></script>
+    <script src="/bower_components/foundation/js/foundation.min.js"></script>   
+    <script src="/js/app.js"></script>   
+    
+	<script>
+		// Load control
+		$(document).ready(function(){
+			$('div#wrapper').fadeIn();
+		});
+	</script>
+
+	<script>
+  		// Foundation load
+    	$(document).foundation();
+	</script>
+	<script>
+    	// General top-bar & banner control
+		$(document).ready(function(){
+			var scrolled=false;
+			$(window).scroll(function(){
+				var shrinkOn=100;
+				var $header=$('header');
+				if(!$header.hasClass('bar-no-reduction')){
+	
+					if(!$header.hasClass('notepad')){
+						var $banner=$('div#banner-intro');
+						var distanceY=$(window).scrollTop();
+						if(distanceY>shrinkOn){
+							$header.removeClass('bigger');
+							$header.addClass('smaller');
+							$banner.removeClass('fadeIn');
+				            $banner.addClass('animated fadeOut');
+				            scrolled=true;
+						}else{
+							$header.removeClass('smaller');
+							$header.addClass('bigger');
+							if(scrolled){
+								$banner.removeClass('fadeOut');
+								$banner.addClass('animated fadeIn');
+							}
+						}
+					}
+				}
+			});
+		});
+	</script>	
+	<script>
+		// icon-bar achors control
+		$(document).ready(function(){
+			// Smooth scrollz
+			if($('div#services-icon-bar')!=null){
+				$('div#services-icon-bar a.item').click(function(e){
+					e.preventDefault();
+					// Calc offset
+					var offset=0;
+					if($('div#services-icon-bar').hasClass('fixedPosition')) offset=$('div#services-icon-bar').outerHeight()+$('nav.top-bar').outerHeight();
+					else offset=($('div#services-icon-bar').outerHeight()*2)+$('nav.top-bar').outerHeight();
+					// Calc final position
+					var name=$(this).attr('href').substr(1);
+					var pos=$('a[name="'+name+'"]').parent('section').offset().top-offset;
+					$('html,body').scrollTo(pos);
+				});
+			}
+		});
+	</script>
+
+	<script>
+		$(document).ready(function(){
+			$(window).scroll(function(){
+				if($('div#services-icon-bar')!=null){
+					var a;
+					var sections=['Web Design','Content Management Systems','Web Development','Mobile & Responsive','Online Stores','Search Engine Optimization'];
+					for(a=0;a<sections.length;a++){
+						var name=sections[a];
+						var size=$('a[name="'+name+'"]').parent('section').outerHeight();
+						var pos=$('section a[name="'+name+'"]').offset().top-$(this).scrollTop();
+		    			if((pos>(-size/2)) && (pos<$(this).height())) $('div#services-icon-bar a[href="#'+name+'"]').addClass('active');
+		    			else $('div#services-icon-bar a[href="#'+name+'"]').removeClass('active');
+		    		}
+		    	}
+			});
+		});
+	</script>
+	<script>
+		// Services icon-bar control
+		$(document).ready(function(){
+			$(window).scroll(function(){
+				var shrinkOn=45;
+				var windowTop=$(window).scrollTop();
+				var $guide=$('div#services-icon-bar-guide');
+				var $iconBar=$('div#services-icon-bar');
+				var topped=false;
+				var iconBarY;
+				if($iconBar){
+					iconBarY=$guide.offset().top;
+					var posY=iconBarY-windowTop;
+					if(posY<=shrinkOn){
+						$iconBar.addClass('fixedPosition');
+						
+					}else $iconBar.removeClass('fixedPosition');
+				}
+			});
+		});	
+	</script>
+
+ 
+
+		</div>
+	</body>
+</html>

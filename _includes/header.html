@@ -1,0 +1,21 @@
+<header class="site-header {% if page.id == 'notepad' %} bar-no-reduction smaller {% endif %}">
+  <div class="sticky">
+    <nav class="top-bar" role="navigation" data-topbar>
+      <ul class="title-area">
+        <li class="name">
+          <a href="{{ site.baseurl }}/" class="logo"><img src="{{ site.baseurl }}/assets/img/logo.png"></a>
+        </li>
+        <li class="toggle-topbar menu-icon"><a href="#"><span></span></a></li>
+      </ul>
+      <section class="top-bar-section">
+        <ul class="right">
+          <li class="{% if page.id == 'hello' %} active {% endif %}"><a href="{{ site.baseurl }}/" class="hvr-underline-from-center">Hello!</a></li>
+          <li class="{% if page.id == 'whatwedo' %} active {% endif %}"><a href="{{ site.baseurl }}/whatwedo" class="hvr-underline-from-center">What We Do</a></li>
+          <li class="{% if page.id == 'ourteam' %} active {% endif %}"><a href="{{ site.baseurl }}/ourteam" class="hvr-underline-from-center">Our Team</a></li>
+          <li class="{% if page.id == 'contactus' %} active {% endif %}"><a href="{{ site.baseurl }}/contactus" class="hvr-underline-from-center">Contact Us</a></li>
+          <li class="{% if page.id == 'notepad' %} active {% endif %}"><a href="{{ site.baseurl }}/notepad" class="hvr-underline-from-center">Notepad</a></li>
+        </ul>
+      </section>
+    </nav>
+  </div>   
+</header>

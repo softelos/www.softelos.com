@@ -1,0 +1,29 @@
+---
+layout: notepad
+id: notepad
+---
+
+{% include notepad/top-section.html %}
+
+{% include notepad/banner.html %}
+
+<section class="content">
+		<div class="row"><div class="small-12">
+			<p>{{ page.date | date: '%B %d, %Y' }} | <a href="{{ site.baseurl }}/notepad/{{ page.categories }}.html">{{ page.categories }}</a></p>
+		</div></div>
+		<div class="row">
+			<div class="small-12">
+				<h1>{{ page.subtitle }}</h1>
+			</div>
+		</div>
+		<div class="row">
+			<div class="small-12">
+				<p>{{ content }}</p>
+			</div>
+		</div>
+		<div class="row">
+			<div class="small-12">
+				{% include notepad/social.html %}
+			</div>
+		</div>		
+</section>

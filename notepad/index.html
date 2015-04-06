@@ -1,0 +1,35 @@
+---
+layout: notepad
+id: notepad
+title: The Notepad | Softelos | Web Design + Web Development + SEO | Lynchburg (VA)
+---
+
+{% include notepad/top-section.html %}
+
+{% for page in site.posts %}
+
+	<a class="light" href="{{ site.baseurl }}{{ page.url }}">{% include notepad/banner.html %}</a>
+	<section class="content light">
+		<div class="row"><div class="small-12">
+			<p>{{ page.date | date: '%B %d, %Y' }} | <a href="{{ site.baseurl }}/notepad/{{ page.categories }}.html">{{ page.categories }}</a></p>
+		</div></div>
+		<div class="row">
+			<div class="small-12">
+				<h1>{{ page.subtitle }}</h1>
+			</div>
+		</div>
+		<div class="row">
+			<div class="small-12">
+				<p>{{ page.excerpt }}</p>
+			</div>
+		</div>
+		
+		<div class="row">
+			<div class="small-12">
+				{% include notepad/social.html %}
+			</div>
+		</div>
+
+	</section>
+
+{% endfor %}

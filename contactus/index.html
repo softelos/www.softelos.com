@@ -1,0 +1,89 @@
+---
+layout: default
+id: contactus
+title: Contact Us | Softelos | Web Design + Web Development + SEO | Lynchburg (VA)
+banner: http://placehold.it/1200x500
+---
+
+<section class="dark content">
+	<div class="row">
+		<div class="small-centered text-center">
+			<h1>Let's make something great together</h1>
+		</div>
+		<div class="small-centered text-center">
+			<p class="subtitle">There’s nothing we enjoy more than rolling up our sleeves and starting a new project.</p>
+		</div>
+	</div>	
+</section>
+
+<section class="light content">
+
+	<div class="show-for-medium-up">
+		<div class="row">
+		
+			<div class="medium-8 column">
+				<form action="//formspree.io/cmrabet@softelos.com" method="post" class="contact">
+				    <label for="name">Name</label><input type="text" name="name" autocomplete="off" required/>
+				    <label for="_replyto">email</label><input type="text" autocomplete="off" name="_replyto" required />
+				    <label for="company">Company/Organization</label><input type="text" name="company" autocomplete="off" />
+				    <label for="phone">Phone<input type="text" name="phone" autocomplete="off" />
+				    <label for="message">Message</label><textarea name="message" rows="5" cols="20" autocomplete="off" required></textarea>
+				    <input type="text" name="_gotcha" style="display:none" />
+				    <input type="submit" value="Send" class="button round">
+				    <input type="hidden" name="_next" value="/contactus" />
+				    <input type="hidden" name="_subject" value="New customer request!" />
+				</form>			
+			</div>
+			<div class="medium-4 column contact">
+				<div class="row footer-social">
+					<div class="small-12 columns">
+						<a href="http://www.facebook.com/softelos" target="_blank" class="fa fa-facebook-official"></a>
+						<a href="http://www.facebook.com/softelos" target="_blank" class="fa fa-google-plus-square"></a>
+						<a href="http://www.facebook.com/softelos" target="_blank" class="fa fa-linkedin-square"></a>
+						<a href="http://www.facebook.com/softelos" target="_blank" class="fa fa-twitter-square"></a>
+					</div>
+				</div>
+				<strong>Softelos LLC</strong>
+				<p>
+					1472 Old Farm Rd.<br>
+					Lynchburg, 24503 VA
+				</p>
+				<strong>New business:</strong>
+				<p>
+					<a href="mailto:hello@softelos.com">hello@softelos.com</a><br>
+					(434) 534-7761
+				</p>
+			</div>
+
+		</div>
+	</div>
+	
+</section>
+
+
+<section class="dark map">
+	<div id="map"></div>
+</section>
+
+<script src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
+<script>
+	function initialize(){
+  		var mapStyle=[{"featureType":"landscape","stylers":[{"saturation":-100},{"lightness":65},{"visibility":"on"}]},{"featureType":"poi","stylers":[{"saturation":-100},{"lightness":51},{"visibility":"simplified"}]},{"featureType":"road.highway","stylers":[{"saturation":-100},{"visibility":"simplified"}]},{"featureType":"road.arterial","stylers":[{"saturation":-100},{"lightness":30},{"visibility":"on"}]},{"featureType":"road.local","stylers":[{"saturation":-100},{"lightness":40},{"visibility":"on"}]},{"featureType":"transit","stylers":[{"saturation":-100},{"visibility":"simplified"}]},{"featureType":"administrative.province","stylers":[{"visibility":"off"}]},{"featureType":"water","elementType":"labels","stylers":[{"visibility":"on"},{"lightness":-25},{"saturation":-100}]},{"featureType":"water","elementType":"geometry","stylers":[{"hue":"#ffff00"},{"lightness":-25},{"saturation":-97}]}];  		
+  		var mapOptions={
+    		zoom: 10,
+    		center: new google.maps.LatLng(37.419656,-79.284798),
+    		disableDefaultUI: true,
+    		styles:mapStyle
+  		}
+  		var map=new google.maps.Map(document.getElementById('map'),mapOptions);
+  		var marker = new google.maps.Marker({
+        	position: new google.maps.LatLng(37.419656,-79.284798),
+            map: map,
+            icon:'{{ site.baseurl }}/assets/img/orange_MarkerS.png',
+            title: 'Softelos'
+        });
+	}
+	google.maps.event.addDomListener(window, 'load', initialize);
+</script>
+
+

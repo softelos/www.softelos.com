@@ -1,0 +1,106 @@
+    <script src="{{ site.baseurl }}/bower_components/foundation/js/vendor/jquery.js"></script>
+    <script src="{{ site.baseurl }}/bower_components/foundation/js/foundation.min.js"></script>   
+    <script src="{{ site.baseurl }}/js/app.js"></script>   
+    
+	<script>
+		// Load control
+		$(document).ready(function(){
+			$('div#wrapper').fadeIn();
+		});
+	</script>
+
+	<script>
+  		// Foundation load
+    	$(document).foundation();
+	</script>
+	<script>
+    	// General top-bar & banner control
+		$(document).ready(function(){
+			var scrolled=false;
+			$(window).scroll(function(){
+				var shrinkOn=100;
+				var $header=$('header');
+				if(!$header.hasClass('bar-no-reduction')){
+	
+					if(!$header.hasClass('notepad')){
+						var $banner=$('div#banner-intro');
+						var distanceY=$(window).scrollTop();
+						if(distanceY>shrinkOn){
+							$header.removeClass('bigger');
+							$header.addClass('smaller');
+							$banner.removeClass('fadeIn');
+				            $banner.addClass('animated fadeOut');
+				            scrolled=true;
+						}else{
+							$header.removeClass('smaller');
+							$header.addClass('bigger');
+							if(scrolled){
+								$banner.removeClass('fadeOut');
+								$banner.addClass('animated fadeIn');
+							}
+						}
+					}
+				}
+			});
+		});
+	</script>	
+	<script>
+		// icon-bar achors control
+		$(document).ready(function(){
+			// Smooth scrollz
+			if($('div#services-icon-bar')!=null){
+				$('div#services-icon-bar a.item').click(function(e){
+					e.preventDefault();
+					// Calc offset
+					var offset=0;
+					if($('div#services-icon-bar').hasClass('fixedPosition')) offset=$('div#services-icon-bar').outerHeight()+$('nav.top-bar').outerHeight();
+					else offset=($('div#services-icon-bar').outerHeight()*2)+$('nav.top-bar').outerHeight();
+					// Calc final position
+					var name=$(this).attr('href').substr(1);
+					var pos=$('a[name="'+name+'"]').parent('section').offset().top-offset;
+					$('html,body').scrollTo(pos);
+				});
+			}
+		});
+	</script>
+
+	<script>
+		$(document).ready(function(){
+			$(window).scroll(function(){
+				if($('div#services-icon-bar')!=null){
+					var a;
+					var sections=['{{ site.textA }}','{{ site.textB }}','{{ site.textC }}','{{ site.textD }}','{{ site.textE}}','{{ site.textF }}'];
+					for(a=0;a<sections.length;a++){
+						var name=sections[a];
+						var size=$('a[name="'+name+'"]').parent('section').outerHeight();
+						var pos=$('section a[name="'+name+'"]').offset().top-$(this).scrollTop();
+		    			if((pos>(-size/2)) && (pos<$(this).height())) $('div#services-icon-bar a[href="#'+name+'"]').addClass('active');
+		    			else $('div#services-icon-bar a[href="#'+name+'"]').removeClass('active');
+		    		}
+		    	}
+			});
+		});
+	</script>
+	<script>
+		// Services icon-bar control
+		$(document).ready(function(){
+			$(window).scroll(function(){
+				var shrinkOn=45;
+				var windowTop=$(window).scrollTop();
+				var $guide=$('div#services-icon-bar-guide');
+				var $iconBar=$('div#services-icon-bar');
+				var topped=false;
+				var iconBarY;
+				if($iconBar){
+					iconBarY=$guide.offset().top;
+					var posY=iconBarY-windowTop;
+					if(posY<=shrinkOn){
+						$iconBar.addClass('fixedPosition');
+						
+					}else $iconBar.removeClass('fixedPosition');
+				}
+			});
+		});	
+	</script>
+
+ 
