@@ -1854,21 +1854,38 @@ p.belowfooter{
 
 div#banner-intro{
 	position: absolute;
-	top: 500px;
+	bottom: 30px;
 }
 div#banner-intro p.title{
 	font-family: 'Montserrat', sans-serif;
 	font-size: 2rem;
 	color:#ffffff;
+	margin-bottom: 0px;
 	-vendor-animation-duration: 1s;
   	-vendor-animation-delay: 1s;
 }
 div#banner-intro p.subtitle{
 	font-family: 'Montserrat', sans-serif;
-	font-size: 2rem;
+	font-size: 1rem;
 	color:#ffffff;
 	-vendor-animation-duration: 1s;
   	-vendor-animation-delay: 1s;
+}
+
+div#banner-intro a.hollow{
+	background-color: transparent;
+	color:#cccccc;
+	border:2pt solid #cccccc;
+}
+div#banner-intro a.hollow:hover{
+	border-color: #ffffff;
+	color:#ffffff;
+	margin-bottom: 0px;
+	-webkit-transition: all 0.75s;
+	-moz-transition: all 0.75s;
+	-ms-transition: all 0.75s;
+	-o-transition: all 0.75s;
+	transition: all 0.75s;	    
 }
 
 // S E R V I C E S  I C O N   B A R
