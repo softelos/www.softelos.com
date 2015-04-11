@@ -451,18 +451,12 @@ div.icon-bar a.active {
   background-color: rgba(150, 150, 150, 0.5);
 }
 
-/* line 1927, ../scss/_settings.scss */
-p.question {
-  font-family: 'Oleo Script', cursive;
-  font-size: 1.3rem;
-}
-
-/* line 1934, ../scss/_settings.scss */
+/* line 1929, ../scss/_settings.scss */
 form.contact label {
   font-family: 'Montserrat', sans-serif;
 }
 
-/* line 1937, ../scss/_settings.scss */
+/* line 1932, ../scss/_settings.scss */
 form.contact input[type=text], form.contact textarea {
   font-family: 'Muli', sans-serif;
   background-color: #aaaaaa;
@@ -476,55 +470,67 @@ form.contact input[type=text], form.contact textarea {
   box-shadow: none;
 }
 
-/* line 1949, ../scss/_settings.scss */
+/* line 1944, ../scss/_settings.scss */
 form.contact input[type=text] {
   height: 50px;
 }
 
-/* line 1952, ../scss/_settings.scss */
+/* line 1947, ../scss/_settings.scss */
 form.contact input:focus, form.contact textarea:focus {
   background-color: #dddddd;
   /*background-color: #DEA653;*/
   box-shadow: none;
 }
 
-/* line 1958, ../scss/_settings.scss */
+/* line 1953, ../scss/_settings.scss */
 div.contact p, div.contact strong {
   font-family: 'Montserrat', sans-serif;
   font-size: 1rem;
 }
 
-/* line 1962, ../scss/_settings.scss */
+/* line 1957, ../scss/_settings.scss */
 div.contact strong {
   font-size: 0.975rem;
   color: #000000;
 }
 
-/* line 1966, ../scss/_settings.scss */
+/* line 1961, ../scss/_settings.scss */
 div.contact div.footer-social {
   padding-top: 20px;
   padding-bottom: 20px;
 }
 
-/* line 1973, ../scss/_settings.scss */
+/* line 1968, ../scss/_settings.scss */
 div#map {
   width: 100%;
   height: 300px;
 }
 
-/* line 1982, ../scss/_settings.scss */
+/* line 1977, ../scss/_settings.scss */
 div#notepad-bar div.icon-bar {
   background-color: transparent;
 }
 
-/* line 1987, ../scss/_settings.scss */
+/* line 1982, ../scss/_settings.scss */
 div#notepad-bar div.icon-bar label {
   color: #666666;
 }
 
-/* line 1993, ../scss/_settings.scss */
+/* line 1988, ../scss/_settings.scss */
 div#wrapper {
   display: none;
+}
+
+/* line 1994, ../scss/_settings.scss */
+h2.faq {
+  font-family: 'Oleo Script', cursive;
+  text-transform: none;
+  font-size: 28px;
+}
+
+/* line 2000, ../scss/_settings.scss */
+p.question {
+  font-size: 17px;
 }
 
 /* line 347, ../bower_components/foundation/scss/foundation/components/_global.scss */

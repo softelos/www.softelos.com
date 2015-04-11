@@ -1922,12 +1922,7 @@ div.icon-bar a.active{
 	background-color: rgba(150,150,150,0.5);
 }
 
-// F A Q
 
-p.question{
-	font-family: 'Oleo Script', cursive;
-	font-size: 1.3rem;
-}
 
 // C O N T A C T   F O R M
 
@@ -1994,3 +1989,14 @@ div#wrapper{
 	display: none;
 }
 
+// F A Q
+
+h2.faq{
+	font-family: 'Oleo Script', cursive;
+	text-transform: none;
+	font-size: 28px;
+}
+
+p.question{
+	font-size: 17px;
+}
