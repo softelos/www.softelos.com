@@ -13,12 +13,12 @@ excerpt_separator: <!--more-->
 
 picA: /assets/img/Web.png
 iconA: /assets/img/WebDesignIcon.png
-textA: "Web Design"
-textAShort: "Web Design"
+textA: "Websites"
+textAShort: "Websites"
 
 picB: /assets/img/cms.png
 iconB: /assets/img/CMSIcon.png
-textB: "Content Management Systems"
+textB: "CMS"
 textBShort: "CMS"
 
 picC: /assets/img/WebDevelopment.png
@@ -28,8 +28,8 @@ textCShort: "Web Development"
 
 picD: /assets/img/responsive.png
 iconD: /assets/img/ResponsiveIcon.png
-textD: "Mobile & Responsive"
-textDShort: "Mobile & Responsive"
+textD: "Mobile Development"
+textDShort: "Mobile Development"
 
 picE: /assets/img/eCommerce.png
 iconE: /assets/img/eCommerceIcon.png
@@ -38,6 +38,6 @@ textEShort: "Online Stores"
 
 picF: /assets/img/SEO.png
 iconF: /assets/img/SEOIcon.png
-textF: "Search Engine Optimization"
+textF: "SEO"
 textFShort: "SEO"
 
