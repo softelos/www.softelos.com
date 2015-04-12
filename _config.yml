@@ -11,33 +11,33 @@ excerpt_separator: <!--more-->
 
 # S E R V I C E S
 
-picA: /assets/img/Web.png
-iconA: /assets/img/WebDesignIcon.png
-textA: "Websites"
-textAShort: "Websites"
+picWebsites: /assets/img/Web.png
+iconWebsites: /assets/img/WebDesignIcon.png
+textWebsites: "Websites"
+textWebsitesShort: "Websites"
 
-picB: /assets/img/cms.png
-iconB: /assets/img/CMSIcon.png
-textB: "CMS"
-textBShort: "CMS"
+picCMS: /assets/img/cms.png
+iconCMS: /assets/img/CMSIcon.png
+textCMS: "CMS"
+textCMSShort: "CMS"
 
-picC: /assets/img/WebDevelopment.png
-iconC: /assets/img/WebDevelopmentIcon.png
-textC: "Web Development"
-textCShort: "Web Development"
+picWebDev: /assets/img/WebDevelopment.png
+iconWebDev: /assets/img/WebDevelopmentIcon.png
+textWebDev: "Web Development"
+textWebDevShort: "Web Development"
 
-picD: /assets/img/responsive.png
-iconD: /assets/img/ResponsiveIcon.png
-textD: "Mobile Development"
-textDShort: "Mobile Development"
+picResponsive: /assets/img/responsive.png
+iconResponsive: /assets/img/ResponsiveIcon.png
+textResponsive: "Mobile & Responsive"
+textResponsiveShort: "Mobile & Responsive"
 
-picE: /assets/img/eCommerce.png
-iconE: /assets/img/eCommerceIcon.png
-textE: "Online Stores"
-textEShort: "Online Stores"
+picECommerce: /assets/img/eCommerce.png
+iconECommerce: /assets/img/eCommerceIcon.png
+textECommerce: "Online Stores"
+textECommerceShort: "Online Stores"
 
-picF: /assets/img/SEO.png
-iconF: /assets/img/SEOIcon.png
-textF: "SEO"
-textFShort: "SEO"
+picSEO: /assets/img/SEO.png
+iconSEO: /assets/img/SEOIcon.png
+textSEO: "SEO"
+textSEOShort: "SEO"
 

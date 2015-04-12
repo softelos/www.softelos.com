@@ -1617,7 +1617,7 @@ section h2{
 	font-size: 1rem;
    	font-family: 'Montserrat', sans-serif;
     font-weight: 700;
-    font-size: 20px;
+    font-size: 26px;
     line-height: 23px;
     text-transform: uppercase;
     letter-spacing: -1px;
@@ -1803,6 +1803,7 @@ section.products div.panel h3{
 
 div.productbox-description p{
 	color:#6D6D6D;
+	color:#999999;
 	text-align: center;
 }
 
@@ -1872,12 +1873,12 @@ div#banner-intro p.subtitle{
   	-vendor-animation-delay: 1s;
 }
 
-div#banner-intro a.hollow{
+div#banner-intro a.hollow,p a.hollow{
 	background-color: transparent;
 	color:#cccccc;
 	border:2pt solid #cccccc;
 }
-div#banner-intro a.hollow:hover{
+div#banner-intro a.hollow:hover,p a.hollow:hover{
 	border-color: #ffffff;
 	color:#ffffff;
 	margin-bottom: 0px;
@@ -1891,20 +1892,22 @@ div#banner-intro a.hollow:hover{
 // S E R V I C E S  I C O N   B A R
 
 // $icon-bar-bg: $oil;
-// $icon-bar-font-color: $white;
+//$icon-bar-font-color: #ffffff;
 
 // $icon-bar-font-color-hover: #aaaaaa;
 
 // $icon-bar-font-size: 1rem;
 
-$icon-bar-hover-color: rgba(175,175,175,0.5);
+$icon-bar-hover-color:transparent;
 
 // $icon-bar-icon-color: $white;
 // $icon-bar-icon-color-hover: $icon-bar-icon-color;
 // $icon-bar-icon-size: 1.875rem;
 // $icon-bar-image-width: 1.875rem;
 // $icon-bar-image-height: 1.875rem;
-// $icon-bar-active-color: $primary-color;
+
+$icon-bar-active-color:transparent;
+
 // $icon-bar-item-padding: 1.25rem;
 
 
@@ -1918,8 +1921,19 @@ div#services-icon-bar label{
 	position: fixed;
 	top:45px;
 }
-div.icon-bar a.active{
-	background-color: rgba(150,150,150,0.5);
+div.icon-bar a img{
+	-webkit-filter: grayscale(100%);
+}
+div.icon-bar a:hover img{
+	-webkit-filter: grayscale(0%);
+	-webkit-transition: all 0.75s;
+	-moz-transition: all 0.75s;
+	-ms-transition: all 0.75s;
+	-o-transition: all 0.75s;
+	transition: all 0.75s;	   	
+}
+div.icon-bar a.active img{
+	-webkit-filter: grayscale(50%);
 }
 
 
@@ -1931,7 +1945,7 @@ form.contact label{
 }
 form.contact input[type=text],form.contact textarea{
 	font-family: 'Muli', sans-serif;
-	background-color: #aaaaaa;
+	background-color: #dddddd;
 	border:none;
 	border-radius: 5px;
 	padding:10px 15px;
@@ -1945,7 +1959,7 @@ form.contact input[type=text]{
 	height: 50px;
 }
 form.contact input:focus,form.contact textarea:focus{
-	background-color: #dddddd;
+	background-color: #eeeeee;
 	/*background-color: #DEA653;*/
 	box-shadow: none;
 }
@@ -1955,7 +1969,7 @@ div.contact p, div.contact strong {
 	font-size: 1rem;
 }
 div.contact strong{
-	font-size: 0.975rem;
+	font-size: 1.10rem;
 	color: #000000;
 }
 div.contact div.footer-social{

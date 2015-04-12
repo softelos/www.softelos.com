@@ -69,7 +69,7 @@
 			$(window).scroll(function(){
 				if($('div#services-icon-bar')!=null){
 					var a;
-					var sections=['{{ site.textA }}','{{ site.textB }}','{{ site.textC }}','{{ site.textD }}','{{ site.textE}}','{{ site.textF }}'];
+					var sections=['{{ site.textWebsites }}','{{ site.textWebDev }}','{{ site.textResponsive }}','{{ site.textCMS }}','{{ site.textECommerce}}','{{ site.textSEO }}'];
 					for(a=0;a<sections.length;a++){
 						var name=sections[a];
 						var size=$('a[name="'+name+'"]').parent('section').outerHeight();
