@@ -49,7 +49,7 @@
 	</div>
 
 	<div class="large-12 columns text-center animated fadeInDown">
-		<p class="subtitle"><a href="/contactus" class="button round hollow">Work With Us!</a></p>
+		<p class="subtitle"><a href="/contactus" class="button round hollow">Start Now!</a></p>
 	</div>
 </div>
 		<section class="dark content">
@@ -107,34 +107,44 @@
 	
 </section>
 
-
-<section class="dark map">
-	<div id="map">
-		<div id="pipo">Hello</div>
+<section class="dark content">
+	<div class="row">
+		<div class="small-centered text-center">
+			<h2 class="faq">Frequently asked questions</h2>
+		</div>
+		<div class="small-centered text-center column">
+			<p class="subtitle">Please <a href="/contact" class="">contact us</a> if your have any questions and we’ll get back to you ASAP.</p>
+		</div>
+	</div>
+	<div class="row">
+		<ul class="small-block-grid-1 medium-block-grid-2">			
+			<li>
+				<p class="question"><strong><i class="fa fa-comment-o fa-flip-horizontal"></i>What is with the name?</strong></p>
+				<p>Softelos is the combination of <strong>Software</strong> and the Greek word <strong>Telos</strong> (end or purpose of something). We are a team who loves web design and software development. We want to put these passions at your service in ordder to help your business thrive.</p>
+			</li>
+			<li>
+				<p class="question"><strong><i class="fa fa-comment-o fa-flip-horizontal"></i>Who do you work with?</strong></p>
+				<p>We love working with anyone who understands the value of what we do and wants to use web design and software technologies to make their businesses more successful. Our perfect client is someone who loves great design, likes collaboration and appreciates our creative input.</p>
+			</li>
+			<li>
+				<p class="question"><strong><i class="fa fa-comment-o fa-flip-horizontal"></i>What do you charge?</strong></p>
+				<p>Our pricing is based on the amount of hours your project will take. In order to determine this, we'll need to have a brief discussion about your project, the level of detail involved and technical requirements. The best way to start this process is sending an email to <a href="mailto:hello@softelos.com">hello@softelos.com</a>, and we’ll get back to you.</p>
+			</li>
+			<li>
+				<p class="question"><strong><i class="fa fa-comment-o fa-flip-horizontal"></i>Why Softelos when I could build a web myself?</strong></p>
+				<p>Planning, designing, building and developing websites and complex web applications is what we do everyday. We’ve seen what works and what doesn’t. Why re-invent the wheel when you could use our expertise to create your vision?.</p>
+			</li>			
+			<li>
+				<p class="question"><strong><i class="fa fa-comment-o fa-flip-horizontal"></i>How long will it take you to complete my project?</strong></p>
+				<p>Each timeline is different, and is determined by the amount of deliverables and the level of intricacy your project requires. Once we get more information about your project, we’ll be able to give you an estimated timeframe. The best way to start this process is sending an email to <a href="mailto:hello@softelos.com">hello@softelos.com</a>, and we’ll get back to you.</p>
+			</li>
+			<li>
+				<p class="question"><strong><i class="fa fa-comment-o fa-flip-horizontal"></i>Can my graphic designer do the web design?</strong></p>
+				<p>Sure! Web design is quite a different style of design that involves usability, visitor interactivity, browser and screen resolution limitations, and a many more considerations. We recommend you make sure that your graphic designer is experienced with web design and has a grasp of what is required to meet the demands of a web page design.</p>
+			</li>
+		</ul> 
 	</div>
 </section>
-
-<script src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
-<script>
-	function initialize(){
-  		var mapStyle=[{"featureType":"landscape","stylers":[{"saturation":-100},{"lightness":65},{"visibility":"on"}]},{"featureType":"poi","stylers":[{"saturation":-100},{"lightness":51},{"visibility":"simplified"}]},{"featureType":"road.highway","stylers":[{"saturation":-100},{"visibility":"simplified"}]},{"featureType":"road.arterial","stylers":[{"saturation":-100},{"lightness":30},{"visibility":"on"}]},{"featureType":"road.local","stylers":[{"saturation":-100},{"lightness":40},{"visibility":"on"}]},{"featureType":"transit","stylers":[{"saturation":-100},{"visibility":"simplified"}]},{"featureType":"administrative.province","stylers":[{"visibility":"off"}]},{"featureType":"water","elementType":"labels","stylers":[{"visibility":"on"},{"lightness":-25},{"saturation":-100}]},{"featureType":"water","elementType":"geometry","stylers":[{"hue":"#ffff00"},{"lightness":-25},{"saturation":-97}]}];  		
-  		var mapOptions={
-    		zoom: 10,
-    		center: new google.maps.LatLng(37.419656,-79.284798),
-    		disableDefaultUI: true,
-    		styles:mapStyle
-  		}
-  		var map=new google.maps.Map(document.getElementById('map'),mapOptions);
-  		var marker = new google.maps.Marker({
-        	position: new google.maps.LatLng(37.419656,-79.284798),
-            map: map,
-            icon:'/assets/img/orange_MarkerS.png',
-            title: 'Softelos'
-        });
-	}
-	google.maps.event.addDomListener(window, 'load', initialize);
-</script>
-
 
 
 	  	<footer class="footer">
