@@ -2023,3 +2023,11 @@ h2.faq{
 p.question{
 	font-size: 17px;
 }
+
+// O U R  T E A M
+
+.vertical-center{
+	position:relative;
+  	top:50%;
+  	transform: translateY(-50%)
+}
