@@ -16,8 +16,9 @@
 
 	<body class="light">
 		<div id="wrapper">
-		<header class="site-header ">
+		<header class="site-header show-for-large-up ">
   <div class="sticky">
+
     <nav class="top-bar" role="navigation" data-topbar>
       <ul class="title-area">
         <li class="name">
@@ -38,18 +39,66 @@
   </div>   
 </header>
 
-		<div class="banner">
-</div>
 
-<div id="banner-intro" class="row fullWidth" height="400px">
-	<div class="large-12 columns text-center animated fadeInDown">
-		<p class="title">WE ARE CREATIVE GEEKS</p>
-		<p class="subtitle">Let us boost your business with our web designs and applications</p>
+<header class="site-header smaller show-for-medium-only">
+  <div class="sticky">
 
+    <nav class="top-bar" role="navigation" data-topbar>
+      <ul class="title-area">
+        <li class="name">
+          <a href="/" class="logo"><img src="/assets/img/logo.png"></a>
+        </li>
+        <li class="toggle-topbar menu-icon"><a href="#"><span></span></a></li>
+      </ul>
+      <section class="top-bar-section">
+        <ul class="right">
+          <li class=" active "><a href="/" class="hvr-underline-from-center">Hello!</a></li>
+          <li class=""><a href="/whatwedo" class="hvr-underline-from-center">What We Do</a></li>
+          <li class=""><a href="/ourteam" class="hvr-underline-from-center">Our Team</a></li>
+          <li class=""><a href="/contactus" class="hvr-underline-from-center">Contact Us</a></li>
+          <li class=""><a href="/notepad" class="hvr-underline-from-center">Notepad</a></li>
+        </ul>
+      </section>
+    </nav>
+  </div>   
+</header>
+
+<header class="site-header small show-for-small-only">
+  <div class="sticky">
+
+    <nav class="top-bar" role="navigation" data-topbar>
+      <ul class="title-area">
+        <li class="name">
+          <a href="/" class="logo"><img src="/assets/img/logo.png"></a>
+        </li>
+        <li class="toggle-topbar menu-icon"><a href="#"><span></span></a></li>
+      </ul>
+      <section id="mobile-topbar" class="top-bar-section">
+        <ul class="right">
+          <li class=" active "><a href="/">Hello!</a></li>
+          <li class=""><a href="/whatwedo">What We Do</a></li>
+          <li class=""><a href="/ourteam">Our Team</a></li>
+          <li class=""><a href="/contactus">Contact Us</a></li>
+          <li class=""><a href="/notepad">Notepad</a></li>
+        </ul>
+      </section>
+    </nav>
+  </div>   
+</header>
+
+
+		<div class="show-for-large-up">
+	<div class="banner">
 	</div>
 
-	<div class="large-12 columns text-center animated fadeInDown">
-		<p class="subtitle"><a href="/contactus" class="button round hollow">Start Now!</a></p>
+	<div id="banner-intro" class="row fullWidth" height="400px">
+		<div class="large-12 columns text-center animated fadeInDown">
+			<p class="title">WE ARE CREATIVE GEEKS</p>
+			<p class="subtitle">Let us boost your business with our websites and web applications</p>
+		</div>
+		<div class="large-12 columns text-center animated fadeInDown">
+			<p class="subtitle"><a href="/contactus" class="button round hollow">Get yours now!</a></p>
+		</div>
 	</div>
 </div>
 			<section class="content dark">
@@ -72,7 +121,7 @@
 </div>
     <section class="light content products">
 	<div class="row text-center">
-		<div class="small-block-grid-2 medium-block-grid-3">
+		<div class="small-block-grid-1 medium-block-grid-2">
 			
 			<li>
 				<div class="panel">
@@ -213,7 +262,7 @@
 			var scrolled=false;
 			$(window).scroll(function(){
 				var shrinkOn=100;
-				var $header=$('header');
+				var $header=$('header.show-for-large-up');
 				if(!$header.hasClass('bar-no-reduction')){
 	
 					if(!$header.hasClass('notepad')){

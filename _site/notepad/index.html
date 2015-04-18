@@ -16,8 +16,9 @@
 
   	<body class="light">
 		<div id="wrapper">
-			<header class="site-header  bar-no-reduction smaller ">
+			<header class="site-header show-for-large-up  bar-no-reduction smaller ">
   <div class="sticky">
+
     <nav class="top-bar" role="navigation" data-topbar>
       <ul class="title-area">
         <li class="name">
@@ -37,6 +38,54 @@
     </nav>
   </div>   
 </header>
+
+
+<header class="site-header smaller show-for-medium-only">
+  <div class="sticky">
+
+    <nav class="top-bar" role="navigation" data-topbar>
+      <ul class="title-area">
+        <li class="name">
+          <a href="/" class="logo"><img src="/assets/img/logo.png"></a>
+        </li>
+        <li class="toggle-topbar menu-icon"><a href="#"><span></span></a></li>
+      </ul>
+      <section class="top-bar-section">
+        <ul class="right">
+          <li class=""><a href="/" class="hvr-underline-from-center">Hello!</a></li>
+          <li class=""><a href="/whatwedo" class="hvr-underline-from-center">What We Do</a></li>
+          <li class=""><a href="/ourteam" class="hvr-underline-from-center">Our Team</a></li>
+          <li class=""><a href="/contactus" class="hvr-underline-from-center">Contact Us</a></li>
+          <li class=" active "><a href="/notepad" class="hvr-underline-from-center">Notepad</a></li>
+        </ul>
+      </section>
+    </nav>
+  </div>   
+</header>
+
+<header class="site-header small show-for-small-only">
+  <div class="sticky">
+
+    <nav class="top-bar" role="navigation" data-topbar>
+      <ul class="title-area">
+        <li class="name">
+          <a href="/" class="logo"><img src="/assets/img/logo.png"></a>
+        </li>
+        <li class="toggle-topbar menu-icon"><a href="#"><span></span></a></li>
+      </ul>
+      <section id="mobile-topbar" class="top-bar-section">
+        <ul class="right">
+          <li class=""><a href="/">Hello!</a></li>
+          <li class=""><a href="/whatwedo">What We Do</a></li>
+          <li class=""><a href="/ourteam">Our Team</a></li>
+          <li class=""><a href="/contactus">Contact Us</a></li>
+          <li class=" active "><a href="/notepad">Notepad</a></li>
+        </ul>
+      </section>
+    </nav>
+  </div>   
+</header>
+
 
 			<section class="light content">
 	<div class="row">
@@ -290,7 +339,7 @@
 			var scrolled=false;
 			$(window).scroll(function(){
 				var shrinkOn=100;
-				var $header=$('header');
+				var $header=$('header.show-for-large-up');
 				if(!$header.hasClass('bar-no-reduction')){
 	
 					if(!$header.hasClass('notepad')){

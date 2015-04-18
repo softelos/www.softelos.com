@@ -1574,7 +1574,12 @@ div.banner{
   	background: #DEA653;
   }
   
-
+section#mobile-topbar ul li.active{
+	background: #DEA653;
+}
+section#mobile-topbar ul li:hover{
+	background: #cccccc;
+}
 
 // S E C T I O N S
 
@@ -1718,8 +1723,6 @@ header.bigger .top-bar-section ul li:not(.has-form) a:not(.button){
 header.smaller .top-bar-section ul li:not(.has-form) a:not(.button){
 	    height: 45px;
 	    line-height: 45px;
-	   
-
 		-webkit-transition: all 0.5s;
 	    -moz-transition: all 0.5s;
 	    -ms-transition: all 0.5s;
@@ -1790,6 +1793,31 @@ header.bigger .top-bar li.name img{
 	transition: all 0.5s;	    
 }
 
+// TOP BAR FOR MOBILE
+
+header.small nav.top-bar, header.small .top-bar-section ul li{
+	    min-height: 45px;
+	    line-height: 45px;
+		background-color: rgba(25, 25, 25, 1);	    
+	}
+header.small .top-bar-section ul li:not(.has-form) a:not(.button){
+	    min-height: 45px;
+	    line-height: 45px;
+	}
+header.small .top-bar li.name{
+	font-size: $logo-small-size; 
+	margin-left: $logo-small-left-margin;
+	margin-top: 0px;
+}
+header.small .top-bar-section ul.right{
+	margin-right: 10px;
+	margin-top: $menu-small-top-margin;   
+}	
+header.small .top-bar li.name img{
+	margin-top: 24px;
+	width: 98px; 
+	height: 40px;
+}
 
 // P R O D U C T   B O X E S
 
