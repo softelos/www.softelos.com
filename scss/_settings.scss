@@ -1527,10 +1527,75 @@ $logo-small-left-margin:10px;
 $menu-big-top-margin:2.5rem;
 $menu-small-top-margin:0px;
 
-div.banner{
+div.banner-hello{
 	margin-top:-$topbar-height;
 	z-index: -100;
 	height:100vh;
+    width: 100vw; 
+    background: url('/assets/img/WomanHappy.jpg') no-repeat center center; 
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    position: relative;    
+  }
+
+div.banner-ourteam{
+	margin-top:-$topbar-height;
+	z-index: -100;
+	height:100vh;
+    width: 100vw; 
+    background: url('/assets/img/WomanHappy.jpg') no-repeat center center; 
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    position: relative;    
+  }
+
+div.banner-contactus{
+	margin-top:-$topbar-height;
+	z-index: -100;
+	height:450px;
+    width: 100vw; 
+    background: url('/assets/img/WomanHappy.jpg') no-repeat center center; 
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    position: relative;    
+  }
+
+ div.banner-whatwedo{
+	margin-top:-$topbar-height;
+	z-index: -100;
+	height: -o-calc(100vh - 70px); /* opera */
+	height: -webkit-calc(100vh - 70px); /* google, safari */
+	height: -moz-calc(100vh - 70px); /* firefox */
+    width: 100vw; 
+    background: url('/assets/img/WomanHappy.jpg') no-repeat center center; 
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    position: relative;    
+  }
+  div.banner-404{
+	margin-top:-$topbar-height;
+	z-index: -100;
+	height:100vh;
+    width: 100vw; 
+    background: url('/assets/img/WomanHappy.jpg') no-repeat center center; 
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    position: relative;    
+  }
+  div.banner-small-404{
+	margin-top:-$topbar-height;
+	z-index: -100;
+	height:650px;
     width: 100vw; 
     background: url('/assets/img/WomanHappy.jpg') no-repeat center center; 
 	-webkit-background-size: cover;
@@ -1894,7 +1959,15 @@ div#banner-intro{
 	position: absolute;
 	bottom: 30px;
 }
-div#banner-intro p.title{
+div#banner-intro-small{
+	position: absolute;
+	top: 250px;
+}
+div#banner-intro-only{
+	position: absolute;
+	bottom: 45px;
+}
+div#banner-intro p.title, div#banner-intro-small p.title, div#banner-intro-only p.title{
 	font-family: 'Montserrat', sans-serif;
 	font-size: 2rem;
 	color:#ffffff;
@@ -1902,7 +1975,7 @@ div#banner-intro p.title{
 	-vendor-animation-duration: 1s;
   	-vendor-animation-delay: 1s;
 }
-div#banner-intro p.subtitle{
+div#banner-intro p.subtitle, div#banner-intro-small p.subtitle, div#banner-intro-only p.subtitle{
 	font-family: 'Montserrat', sans-serif;
 	font-size: 1rem;
 	color:#ffffff;
@@ -1910,12 +1983,12 @@ div#banner-intro p.subtitle{
   	-vendor-animation-delay: 1s;
 }
 
-div#banner-intro a.hollow,p a.hollow{
+div#banner-intro a.hollow, div#banner-intro.small a.hollow, div#banner-intro-only a.hollow,p a.hollow{
 	background-color: transparent;
 	color:#cccccc;
 	border:2pt solid #cccccc;
 }
-div#banner-intro a.hollow:hover,p a.hollow:hover{
+div#banner-intro a.hollow:hover, div#banner-intro-small a.hollow:hover, div#banner-intro-only a.hollow:hover,p a.hollow:hover{
 	border-color: #ffffff;
 	color:#ffffff;
 	margin-bottom: 0px;
@@ -2066,4 +2139,21 @@ p.question{
 div.people-small img{
 	padding-top: 10px;
 	padding-bottom: 10px
+}
+
+a.fa-arrow-circle-down{
+	color:#ffffff;
+	font-size: 32px;
+}
+a.fa-arrow-circle-down:hover{
+	color:#cccccc;
+	-webkit-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	-ms-transition: all 0.5s;
+	-o-transition: all 0.5s;
+	transition: all 0.5s;	   
+}
+
+div.text-center p{
+	text-align: center;
 }

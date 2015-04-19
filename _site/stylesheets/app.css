@@ -32,7 +32,7 @@ body {
 }
 
 /* line 1530, ../scss/_settings.scss */
-div.banner {
+div.banner-hello {
   margin-top: -6.25rem;
   z-index: -100;
   height: 100vh;
@@ -46,30 +46,105 @@ div.banner {
 }
 
 /* line 1543, ../scss/_settings.scss */
+div.banner-ourteam {
+  margin-top: -6.25rem;
+  z-index: -100;
+  height: 100vh;
+  width: 100vw;
+  background: url("/assets/img/WomanHappy.jpg") no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  position: relative;
+}
+
+/* line 1556, ../scss/_settings.scss */
+div.banner-contactus {
+  margin-top: -6.25rem;
+  z-index: -100;
+  height: 450px;
+  width: 100vw;
+  background: url("/assets/img/WomanHappy.jpg") no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  position: relative;
+}
+
+/* line 1569, ../scss/_settings.scss */
+div.banner-whatwedo {
+  margin-top: -6.25rem;
+  z-index: -100;
+  height: -o-calc(100vh - 70px);
+  /* opera */
+  height: -webkit-calc(100vh - 70px);
+  /* google, safari */
+  height: -moz-calc(100vh - 70px);
+  /* firefox */
+  width: 100vw;
+  background: url("/assets/img/WomanHappy.jpg") no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  position: relative;
+}
+
+/* line 1583, ../scss/_settings.scss */
+div.banner-404 {
+  margin-top: -6.25rem;
+  z-index: -100;
+  height: 100vh;
+  width: 100vw;
+  background: url("/assets/img/WomanHappy.jpg") no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  position: relative;
+}
+
+/* line 1595, ../scss/_settings.scss */
+div.banner-small-404 {
+  margin-top: -6.25rem;
+  z-index: -100;
+  height: 650px;
+  width: 100vw;
+  background: url("/assets/img/WomanHappy.jpg") no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  position: relative;
+}
+
+/* line 1608, ../scss/_settings.scss */
 .top-bar li.name {
   margin-top: 10px;
   margin-left: 75px;
   font-size: 75px;
 }
 
-/* line 1549, ../scss/_settings.scss */
+/* line 1614, ../scss/_settings.scss */
 .top-bar li.name img {
   width: 250px;
   height: 102px;
 }
 
-/* line 1554, ../scss/_settings.scss */
+/* line 1619, ../scss/_settings.scss */
 .top-bar-section ul.right {
   margin-right: 75px;
   margin-top: 2.5rem;
 }
 
-/* line 1558, ../scss/_settings.scss */
+/* line 1623, ../scss/_settings.scss */
 .top-bar-section ul li a {
   letter-spacing: -0.02rem;
 }
 
-/* line 1563, ../scss/_settings.scss */
+/* line 1628, ../scss/_settings.scss */
 .top-bar-section ul li.active a:before {
   content: "";
   position: absolute;
@@ -81,48 +156,48 @@ div.banner {
   height: 4px;
 }
 
-/* line 1573, ../scss/_settings.scss */
+/* line 1638, ../scss/_settings.scss */
 .top-bar-section ul li:hover a:before {
   background: #DEA653;
 }
 
-/* line 1577, ../scss/_settings.scss */
+/* line 1642, ../scss/_settings.scss */
 section#mobile-topbar ul li.active {
   background: #DEA653;
 }
 
-/* line 1580, ../scss/_settings.scss */
+/* line 1645, ../scss/_settings.scss */
 section#mobile-topbar ul li:hover {
   background: #cccccc;
 }
 
-/* line 1589, ../scss/_settings.scss */
+/* line 1654, ../scss/_settings.scss */
 body {
   color: #6D6D6D;
 }
 
-/* line 1593, ../scss/_settings.scss */
+/* line 1658, ../scss/_settings.scss */
 body.light {
   background-color: #ffffff;
   background-image: url(/assets/img/mesh-bg.jpg);
 }
 
-/* line 1597, ../scss/_settings.scss */
+/* line 1662, ../scss/_settings.scss */
 section.light, div.light, section.light div.row {
   background: transparent;
 }
 
-/* line 1600, ../scss/_settings.scss */
+/* line 1665, ../scss/_settings.scss */
 section.dark {
   background-color: #DFE2DB;
 }
 
-/* line 1604, ../scss/_settings.scss */
+/* line 1669, ../scss/_settings.scss */
 section b {
   color: #000000;
 }
 
-/* line 1608, ../scss/_settings.scss */
+/* line 1673, ../scss/_settings.scss */
 section.content {
   padding-top: 50px;
   padding-bottom: 50px;
@@ -130,7 +205,7 @@ section.content {
   padding-right: 20px;
 }
 
-/* line 1614, ../scss/_settings.scss */
+/* line 1679, ../scss/_settings.scss */
 section h1 {
   color: #6D6D6D;
   font-family: 'Montserrat', sans-serif;
@@ -141,7 +216,7 @@ section h1 {
   margin: 0 0 15px 0;
 }
 
-/* line 1623, ../scss/_settings.scss */
+/* line 1688, ../scss/_settings.scss */
 section h2 {
   color: #6D6D6D;
   font-size: 1rem;
@@ -154,7 +229,7 @@ section h2 {
   margin: 0 0 23px 0;
 }
 
-/* line 1634, ../scss/_settings.scss */
+/* line 1699, ../scss/_settings.scss */
 section h3 {
   color: #6D6D6D;
   font-family: 'Montserrat', sans-serif;
@@ -165,14 +240,14 @@ section h3 {
   margin-top: 32px;
 }
 
-/* line 1644, ../scss/_settings.scss */
+/* line 1709, ../scss/_settings.scss */
 section.process h3 {
   font-family: 'Oleo Script', cursive;
   margin-top: 16px;
   margin-bottom: 16px;
 }
 
-/* line 1650, ../scss/_settings.scss */
+/* line 1715, ../scss/_settings.scss */
 section p {
   color: #6D6D6D;
   text-align: justify;
@@ -182,12 +257,12 @@ section p {
   margin: 0 0 23px 0;
 }
 
-/* line 1658, ../scss/_settings.scss */
+/* line 1723, ../scss/_settings.scss */
 section p.subtitle {
   text-align: center;
 }
 
-/* line 1662, ../scss/_settings.scss */
+/* line 1727, ../scss/_settings.scss */
 div.fullWidth {
   width: 100%;
   margin-left: auto;
@@ -195,18 +270,18 @@ div.fullWidth {
   max-width: initial;
 }
 
-/* line 1671, ../scss/_settings.scss */
+/* line 1736, ../scss/_settings.scss */
 div.learnmore-button {
   margin-top: -25px;
   background-color: transparent;
 }
 
-/* line 1678, ../scss/_settings.scss */
+/* line 1743, ../scss/_settings.scss */
 i.fa {
   padding-left: 5px;
 }
 
-/* line 1684, ../scss/_settings.scss */
+/* line 1749, ../scss/_settings.scss */
 header.bigger nav.top-bar {
   background-color: rgba(25, 25, 25, 0);
   -webkit-transition: all 0.5s;
@@ -216,7 +291,7 @@ header.bigger nav.top-bar {
   transition: all 0.5s;
 }
 
-/* line 1693, ../scss/_settings.scss */
+/* line 1758, ../scss/_settings.scss */
 header.bigger nav.top-bar, header.bigger .top-bar-section ul li {
   height: 6.25rem;
   line-height: 6.25rem;
@@ -227,7 +302,7 @@ header.bigger nav.top-bar, header.bigger .top-bar-section ul li {
   transition: all 0.5s;
 }
 
-/* line 1702, ../scss/_settings.scss */
+/* line 1767, ../scss/_settings.scss */
 header.bigger .top-bar-section ul li:not(.has-form) a:not(.button) {
   height: 6.25rem;
   line-height: 6.25rem;
@@ -238,7 +313,7 @@ header.bigger .top-bar-section ul li:not(.has-form) a:not(.button) {
   transition: all 0.5s;
 }
 
-/* line 1712, ../scss/_settings.scss */
+/* line 1777, ../scss/_settings.scss */
 header.smaller nav.top-bar, header.smaller .top-bar-section ul li {
   height: 45px;
   line-height: 45px;
@@ -250,7 +325,7 @@ header.smaller nav.top-bar, header.smaller .top-bar-section ul li {
   transition: all 0.5s;
 }
 
-/* line 1723, ../scss/_settings.scss */
+/* line 1788, ../scss/_settings.scss */
 header.smaller .top-bar-section ul li:not(.has-form) a:not(.button) {
   height: 45px;
   line-height: 45px;
@@ -261,7 +336,7 @@ header.smaller .top-bar-section ul li:not(.has-form) a:not(.button) {
   transition: all 0.5s;
 }
 
-/* line 1734, ../scss/_settings.scss */
+/* line 1799, ../scss/_settings.scss */
 header.smaller .top-bar li.name {
   font-size: 25px;
   margin-left: 10px;
@@ -273,7 +348,7 @@ header.smaller .top-bar li.name {
   transition: all 0.5s;
 }
 
-/* line 1746, ../scss/_settings.scss */
+/* line 1811, ../scss/_settings.scss */
 header.bigger .top-bar li.name {
   font-size: 75px;
   margin-left: 75px;
@@ -284,7 +359,7 @@ header.bigger .top-bar li.name {
   transition: all 0.5s;
 }
 
-/* line 1757, ../scss/_settings.scss */
+/* line 1822, ../scss/_settings.scss */
 header.bigger .top-bar-section ul.right {
   margin-right: 75px;
   margin-top: 2.5rem;
@@ -295,7 +370,7 @@ header.bigger .top-bar-section ul.right {
   transition: all 0.5s;
 }
 
-/* line 1766, ../scss/_settings.scss */
+/* line 1831, ../scss/_settings.scss */
 header.smaller .top-bar-section ul.right {
   margin-right: 10px;
   margin-top: 0px;
@@ -306,7 +381,7 @@ header.smaller .top-bar-section ul.right {
   transition: all 0.5s;
 }
 
-/* line 1777, ../scss/_settings.scss */
+/* line 1842, ../scss/_settings.scss */
 header.smaller .top-bar li.name img {
   width: 98px;
   height: 40px;
@@ -317,7 +392,7 @@ header.smaller .top-bar li.name img {
   transition: all 0.5s;
 }
 
-/* line 1786, ../scss/_settings.scss */
+/* line 1851, ../scss/_settings.scss */
 header.bigger .top-bar li.name img {
   width: 250px;
   height: 102px;
@@ -328,75 +403,75 @@ header.bigger .top-bar li.name img {
   transition: all 0.5s;
 }
 
-/* line 1798, ../scss/_settings.scss */
+/* line 1863, ../scss/_settings.scss */
 header.small nav.top-bar, header.small .top-bar-section ul li {
   min-height: 45px;
   line-height: 45px;
   background-color: #191919;
 }
 
-/* line 1803, ../scss/_settings.scss */
+/* line 1868, ../scss/_settings.scss */
 header.small .top-bar-section ul li:not(.has-form) a:not(.button) {
   min-height: 45px;
   line-height: 45px;
 }
 
-/* line 1807, ../scss/_settings.scss */
+/* line 1872, ../scss/_settings.scss */
 header.small .top-bar li.name {
   font-size: 25px;
   margin-left: 10px;
   margin-top: 0px;
 }
 
-/* line 1812, ../scss/_settings.scss */
+/* line 1877, ../scss/_settings.scss */
 header.small .top-bar-section ul.right {
   margin-right: 10px;
   margin-top: 0px;
 }
 
-/* line 1816, ../scss/_settings.scss */
+/* line 1881, ../scss/_settings.scss */
 header.small .top-bar li.name img {
   margin-top: 24px;
   width: 98px;
   height: 40px;
 }
 
-/* line 1824, ../scss/_settings.scss */
+/* line 1889, ../scss/_settings.scss */
 div.productbox-logo {
   height: 100px;
 }
 
-/* line 1827, ../scss/_settings.scss */
+/* line 1892, ../scss/_settings.scss */
 div.productbox-logo img {
   position: relative;
   top: 50%;
   transform: translateY(-50%);
 }
 
-/* line 1833, ../scss/_settings.scss */
+/* line 1898, ../scss/_settings.scss */
 section.products div.panel {
   border: none;
   background: none;
 }
 
-/* line 1837, ../scss/_settings.scss */
+/* line 1902, ../scss/_settings.scss */
 section.products div.panel h3 {
   color: #6D6D6D;
 }
 
-/* line 1841, ../scss/_settings.scss */
+/* line 1906, ../scss/_settings.scss */
 div.productbox-description p {
   color: #6D6D6D;
   color: #999999;
   text-align: center;
 }
 
-/* line 1847, ../scss/_settings.scss */
+/* line 1912, ../scss/_settings.scss */
 div.product {
   padding: 5px;
 }
 
-/* line 1850, ../scss/_settings.scss */
+/* line 1915, ../scss/_settings.scss */
 div.product:hover {
   filter: grayscale(100%);
   -webkit-filter: grayscale(100%);
@@ -407,7 +482,7 @@ div.product:hover {
   transition: all 0.75s;
 }
 
-/* line 1862, ../scss/_settings.scss */
+/* line 1927, ../scss/_settings.scss */
 footer {
   font-family: 'Montserrat', sans-serif;
   text-transform: uppercase;
@@ -421,7 +496,7 @@ footer {
   padding-right: 20px;
 }
 
-/* line 1874, ../scss/_settings.scss */
+/* line 1939, ../scss/_settings.scss */
 div.footer-social a {
   color: #666666;
   font-size: 2.10rem;
@@ -429,12 +504,12 @@ div.footer-social a {
   padding-left: 10px;
 }
 
-/* line 1880, ../scss/_settings.scss */
+/* line 1945, ../scss/_settings.scss */
 div.footer-social a:hover {
   color: #DEA653;
 }
 
-/* line 1884, ../scss/_settings.scss */
+/* line 1949, ../scss/_settings.scss */
 p.belowfooter {
   font-family: 'Oleo Script', cursive;
   text-transform: lowercase;
@@ -442,14 +517,26 @@ p.belowfooter {
   font-size: 18px;
 }
 
-/* line 1893, ../scss/_settings.scss */
+/* line 1958, ../scss/_settings.scss */
 div#banner-intro {
   position: absolute;
   bottom: 30px;
 }
 
-/* line 1897, ../scss/_settings.scss */
-div#banner-intro p.title {
+/* line 1962, ../scss/_settings.scss */
+div#banner-intro-small {
+  position: absolute;
+  top: 250px;
+}
+
+/* line 1966, ../scss/_settings.scss */
+div#banner-intro-only {
+  position: absolute;
+  bottom: 45px;
+}
+
+/* line 1970, ../scss/_settings.scss */
+div#banner-intro p.title, div#banner-intro-small p.title, div#banner-intro-only p.title {
   font-family: 'Montserrat', sans-serif;
   font-size: 2rem;
   color: #ffffff;
@@ -458,8 +545,8 @@ div#banner-intro p.title {
   -vendor-animation-delay: 1s;
 }
 
-/* line 1905, ../scss/_settings.scss */
-div#banner-intro p.subtitle {
+/* line 1978, ../scss/_settings.scss */
+div#banner-intro p.subtitle, div#banner-intro-small p.subtitle, div#banner-intro-only p.subtitle {
   font-family: 'Montserrat', sans-serif;
   font-size: 1rem;
   color: #ffffff;
@@ -467,15 +554,15 @@ div#banner-intro p.subtitle {
   -vendor-animation-delay: 1s;
 }
 
-/* line 1913, ../scss/_settings.scss */
-div#banner-intro a.hollow, p a.hollow {
+/* line 1986, ../scss/_settings.scss */
+div#banner-intro a.hollow, div#banner-intro.small a.hollow, div#banner-intro-only a.hollow, p a.hollow {
   background-color: transparent;
   color: #cccccc;
   border: 2pt solid #cccccc;
 }
 
-/* line 1918, ../scss/_settings.scss */
-div#banner-intro a.hollow:hover, p a.hollow:hover {
+/* line 1991, ../scss/_settings.scss */
+div#banner-intro a.hollow:hover, div#banner-intro-small a.hollow:hover, div#banner-intro-only a.hollow:hover, p a.hollow:hover {
   border-color: #ffffff;
   color: #ffffff;
   margin-bottom: 0px;
@@ -486,28 +573,28 @@ div#banner-intro a.hollow:hover, p a.hollow:hover {
   transition: all 0.75s;
 }
 
-/* line 1951, ../scss/_settings.scss */
+/* line 2024, ../scss/_settings.scss */
 div#services-icon-bar {
   z-index: 25;
 }
 
-/* line 1954, ../scss/_settings.scss */
+/* line 2027, ../scss/_settings.scss */
 div#services-icon-bar label {
   font-family: 'Montserrat', sans-serif;
 }
 
-/* line 1957, ../scss/_settings.scss */
+/* line 2030, ../scss/_settings.scss */
 .fixedPosition {
   position: fixed;
   top: 45px;
 }
 
-/* line 1961, ../scss/_settings.scss */
+/* line 2034, ../scss/_settings.scss */
 div.icon-bar a img {
   -webkit-filter: grayscale(100%);
 }
 
-/* line 1964, ../scss/_settings.scss */
+/* line 2037, ../scss/_settings.scss */
 div.icon-bar a:hover img {
   -webkit-filter: grayscale(0%);
   -webkit-transition: all 0.75s;
@@ -517,17 +604,17 @@ div.icon-bar a:hover img {
   transition: all 0.75s;
 }
 
-/* line 1972, ../scss/_settings.scss */
+/* line 2045, ../scss/_settings.scss */
 div.icon-bar a.active img {
   -webkit-filter: grayscale(50%);
 }
 
-/* line 1980, ../scss/_settings.scss */
+/* line 2053, ../scss/_settings.scss */
 form.contact label {
   font-family: 'Montserrat', sans-serif;
 }
 
-/* line 1983, ../scss/_settings.scss */
+/* line 2056, ../scss/_settings.scss */
 form.contact input[type=text], form.contact textarea {
   font-family: 'Muli', sans-serif;
   background-color: #dddddd;
@@ -541,80 +628,101 @@ form.contact input[type=text], form.contact textarea {
   box-shadow: none;
 }
 
-/* line 1995, ../scss/_settings.scss */
+/* line 2068, ../scss/_settings.scss */
 form.contact input[type=text] {
   height: 50px;
 }
 
-/* line 1998, ../scss/_settings.scss */
+/* line 2071, ../scss/_settings.scss */
 form.contact input:focus, form.contact textarea:focus {
   background-color: #eeeeee;
   /*background-color: #DEA653;*/
   box-shadow: none;
 }
 
-/* line 2004, ../scss/_settings.scss */
+/* line 2077, ../scss/_settings.scss */
 div.contact p, div.contact strong {
   font-family: 'Montserrat', sans-serif;
   font-size: 1rem;
 }
 
-/* line 2008, ../scss/_settings.scss */
+/* line 2081, ../scss/_settings.scss */
 div.contact strong {
   font-size: 1.10rem;
   color: #000000;
 }
 
-/* line 2012, ../scss/_settings.scss */
+/* line 2085, ../scss/_settings.scss */
 div.contact div.footer-social {
   padding-top: 20px;
   padding-bottom: 20px;
 }
 
-/* line 2019, ../scss/_settings.scss */
+/* line 2092, ../scss/_settings.scss */
 div#map {
   width: 100%;
   height: 300px;
 }
 
-/* line 2028, ../scss/_settings.scss */
+/* line 2101, ../scss/_settings.scss */
 div#notepad-bar div.icon-bar {
   background-color: transparent;
 }
 
-/* line 2033, ../scss/_settings.scss */
+/* line 2106, ../scss/_settings.scss */
 div#notepad-bar div.icon-bar label {
   color: #666666;
 }
 
-/* line 2039, ../scss/_settings.scss */
+/* line 2112, ../scss/_settings.scss */
 div#wrapper {
   display: none;
 }
 
-/* line 2045, ../scss/_settings.scss */
+/* line 2118, ../scss/_settings.scss */
 h2.faq {
   font-family: 'Oleo Script', cursive;
   text-transform: none;
   font-size: 28px;
 }
 
-/* line 2051, ../scss/_settings.scss */
+/* line 2124, ../scss/_settings.scss */
 p.question {
   font-size: 17px;
 }
 
-/* line 2057, ../scss/_settings.scss */
+/* line 2130, ../scss/_settings.scss */
 .vertical-center {
   position: relative;
   top: 50%;
   transform: translateY(-50%);
 }
 
-/* line 2066, ../scss/_settings.scss */
+/* line 2139, ../scss/_settings.scss */
 div.people-small img {
   padding-top: 10px;
   padding-bottom: 10px;
+}
+
+/* line 2144, ../scss/_settings.scss */
+a.fa-arrow-circle-down {
+  color: #ffffff;
+  font-size: 32px;
+}
+
+/* line 2148, ../scss/_settings.scss */
+a.fa-arrow-circle-down:hover {
+  color: #cccccc;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+/* line 2157, ../scss/_settings.scss */
+div.text-center p {
+  text-align: center;
 }
 
 /* line 347, ../bower_components/foundation/scss/foundation/components/_global.scss */

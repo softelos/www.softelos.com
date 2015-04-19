@@ -1,14 +1,64 @@
-<div class="show-for-large-up">
-	<div class="banner">
+<div class="show-for-medium-up">
+	<div class="banner-{{ page.id }}">
 	</div>
 
-	<div id="banner-intro" class="row fullWidth" height="400px">
-		<div class="large-12 columns text-center animated fadeInDown">
-			<p class="title">WE ARE CREATIVE GEEKS</p>
-			<p class="subtitle">Let us boost your business with our websites and web applications</p>
+	{% if page.id == "hello" %}
+		<div id="banner-intro" class="row fullWidth" height="400px">
+			<div class="large-12 columns text-center animated fadeInDown">
+				<p class="title">WE ARE CREATIVE GEEKS</p>
+				<p class="subtitle">Let us boost your business with our websites and web applications</p>
+			</div>
+			<div class="large-12 columns text-center animated fadeInDown">
+				<p class="subtitle"><a id="go-down-button" href="#section-start" class="fa fa-arrow-circle-down"></a></p>
+			</div>
 		</div>
-		<div class="large-12 columns text-center animated fadeInDown">
-			<p class="subtitle"><a href="{{ site.baseurl }}/contactus" class="button round hollow">Get yours now!</a></p>
+	{% endif %}
+
+
+
+	{% if page.id == "contactus" %}
+		<div id="banner-intro-small" class="row fullWidth" height="200px">
+			<div class="large-12 columns text-center animated fadeInDown">
+				<p class="title">LET'S MAKE SOMETHING TOGETHER</p>
+				<p class="subtitle">There’s nothing we enjoy more than rolling up our sleeves and starting a new project.</p>
+			</div>
 		</div>
-	</div>
+	{% endif %}
+
+
+
+	{% if page.id == "404" %}
+		<div id="banner-intro-only" class="row fullWidth" height="200px">
+			<div class="large-12 columns text-center animated fadeInDown">
+				<p class="title">OH, THE INTERNET EXPLODED!</p>
+				<p class="subtitle">What you’re looking for doesn't exist. But don’t worry, it’s probably our fault.<br>Unless you did something terrible. In that case, don’t do that again.</p>
+			</div>
+			<div class="large-12 columns text-center animated fadeInDown">
+				<p class="subtitle"><a href="{{ site.baseurl }}/" class="button hollow round">Go back to Home</a></p>
+			</div>			
+		</div>
+	{% endif %}
+
+
+</div>
+
+
+<div class="show-for-small-only">
+	{% if page.id == "404" %}
+		<div class="banner-small-{{ page.id }}">
+		</div>
+		<div id="banner-intro-only" class="row fullWidth" height="200px">
+			<div class="large-12 columns text-center animated fadeInDown">
+				<p class="title">OH, THE INTERNET EXPLODED!</p>
+				<p class="subtitle">
+					What you’re looking for doesn't exist.<br>
+					But don’t worry, it’s probably our fault.<br>
+					Unless you did something terrible.<br>
+					In that case, don’t do that again.</p>
+			</div>
+			<div class="large-12 columns text-center animated fadeInDown">
+				<p class="subtitle"><a href="{{ site.baseurl }}/" class="button hollow round">Go back to Home</a></p>
+			</div>			
+		</div>
+	{% endif %}
 </div>

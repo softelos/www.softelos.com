@@ -13,6 +13,9 @@
   		// Foundation load
     	$(document).foundation();
 	</script>
+	
+
+	
 	<script>
     	// General top-bar & banner control
 		$(document).ready(function(){
@@ -44,63 +47,85 @@
 			});
 		});
 	</script>	
-	<script>
-		// icon-bar achors control
-		$(document).ready(function(){
-			// Smooth scrollz
-			if($('div#services-icon-bar')!=null){
-				$('div#services-icon-bar a.item').click(function(e){
+
+	{% if page.id == "hello" %}
+		<script>
+			// icon-bar achors control
+			$(document).ready(function(){
+				// Smooth scrollz				
+				$('a#go-down-button').click(function(e){
 					e.preventDefault();
 					// Calc offset
-					var offset=0;
-					if($('div#services-icon-bar').hasClass('fixedPosition')) offset=$('div#services-icon-bar').outerHeight()+$('nav.top-bar').outerHeight();
-					else offset=($('div#services-icon-bar').outerHeight()*2)+$('nav.top-bar').outerHeight();
-					// Calc final position
-					var name=$(this).attr('href').substr(1);
-					var pos=$('a[name="'+name+'"]').parent('section').offset().top-offset;
+					// 145 is = 100 (when top bar is big) and 45 (when top bar is small)
+					var pos=$('a[name="section-start"]').offset().top-145;
 					$('html,body').scrollTo(pos);
+					
 				});
-			}
-		});
-	</script>
-
-	<script>
-		$(document).ready(function(){
-			$(window).scroll(function(){
-				if($('div#services-icon-bar')!=null){
-					var a;
-					var sections=['{{ site.textWebsites }}','{{ site.textWebDev }}','{{ site.textResponsive }}','{{ site.textCMS }}','{{ site.textECommerce}}','{{ site.textSEO }}'];
-					for(a=0;a<sections.length;a++){
-						var name=sections[a];
-						var size=$('a[name="'+name+'"]').parent('section').outerHeight();
-						var pos=$('section a[name="'+name+'"]').offset().top-$(this).scrollTop();
-		    			if((pos>(-size/2)) && (pos<$(this).height())) $('div#services-icon-bar a[href="#'+name+'"]').addClass('active');
-		    			else $('div#services-icon-bar a[href="#'+name+'"]').removeClass('active');
-		    		}
-		    	}
 			});
-		});
-	</script>
-	<script>
-		// Services icon-bar control
-		$(document).ready(function(){
-			$(window).scroll(function(){
-				var shrinkOn=45;
-				var windowTop=$(window).scrollTop();
-				var $guide=$('div#services-icon-bar-guide');
-				var $iconBar=$('div#services-icon-bar');
-				var topped=false;
-				var iconBarY;
-				if($iconBar){
-					iconBarY=$guide.offset().top;
-					var posY=iconBarY-windowTop;
-					if(posY<=shrinkOn){
-						$iconBar.addClass('fixedPosition');
-						
-					}else $iconBar.removeClass('fixedPosition');
+		</script>
+	{% endif %}
+
+	{% if page.id == "whatwedo" %}
+		
+		<script>
+			// icon-bar achors control
+			$(document).ready(function(){
+				// Smooth scrollz
+				if($('div#services-icon-bar')!=null){
+					$('div#services-icon-bar a.item').click(function(e){
+						e.preventDefault();
+						// Calc offset
+						var offset=0;
+						if($('div#services-icon-bar').hasClass('fixedPosition')) offset=$('div#services-icon-bar').outerHeight()+$('nav.top-bar').outerHeight();
+						else offset=($('div#services-icon-bar').outerHeight()*2)+$('nav.top-bar').outerHeight();
+						// Calc final position
+						var name=$(this).attr('href').substr(1);
+						var pos=$('a[name="'+name+'"]').parent('section').offset().top-offset;
+						$('html,body').scrollTo(pos);
+					});
 				}
 			});
-		});	
-	</script>
+		</script>
+
+	
+		<script>
+			$(document).ready(function(){
+				$(window).scroll(function(){
+					if($('div#services-icon-bar')!=null){
+						var a;
+						var sections=['{{ site.textWebsites }}','{{ site.textWebDev }}','{{ site.textResponsive }}','{{ site.textCMS }}','{{ site.textECommerce}}','{{ site.textSEO }}'];
+						for(a=0;a<sections.length;a++){
+							var name=sections[a];
+							var size=$('a[name="'+name+'"]').parent('section').outerHeight();
+							var pos=$('section a[name="'+name+'"]').offset().top-$(this).scrollTop();
+			    			if((pos>(-size/2)) && (pos<$(this).height())) $('div#services-icon-bar a[href="#'+name+'"]').addClass('active');
+			    			else $('div#services-icon-bar a[href="#'+name+'"]').removeClass('active');
+			    		}
+			    	}
+				});
+			});
+		</script>
+		<script>
+			// Services icon-bar control
+			$(document).ready(function(){
+				$(window).scroll(function(){
+					var shrinkOn=45;
+					var windowTop=$(window).scrollTop();
+					var $guide=$('div#services-icon-bar-guide');
+					var $iconBar=$('div#services-icon-bar');
+					var topped=false;
+					var iconBarY;
+					if($iconBar){
+						iconBarY=$guide.offset().top;
+						var posY=iconBarY-windowTop;
+						if(posY<=shrinkOn){
+							$iconBar.addClass('fixedPosition');
+							
+						}else $iconBar.removeClass('fixedPosition');
+					}
+				});
+			});	
+		</script>
+	{% endif %}
 
  

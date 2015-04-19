@@ -22,7 +22,7 @@
     <nav class="top-bar" role="navigation" data-topbar>
       <ul class="title-area">
         <li class="name">
-          <a href="/" class="logo"><img src="/assets/img/logo.png"></a>
+          <a href="/" class="logo"><img src="/assets/img/logo.png" width="250px" height="102px" alt="Softelos Logo"></a>
         </li>
         <li class="toggle-topbar menu-icon"><a href="#"><span></span></a></li>
       </ul>
@@ -87,19 +87,26 @@
 </header>
 
 
-		<div class="show-for-large-up">
-	<div class="banner">
+		<div class="show-for-medium-up">
+	<div class="banner-ourteam">
 	</div>
 
-	<div id="banner-intro" class="row fullWidth" height="400px">
-		<div class="large-12 columns text-center animated fadeInDown">
-			<p class="title">WE ARE CREATIVE GEEKS</p>
-			<p class="subtitle">Let us boost your business with our websites and web applications</p>
-		</div>
-		<div class="large-12 columns text-center animated fadeInDown">
-			<p class="subtitle"><a href="/contactus" class="button round hollow">Get yours now!</a></p>
-		</div>
-	</div>
+	
+
+
+
+	
+
+
+
+	
+
+
+</div>
+
+
+<div class="show-for-small-only">
+	
 </div>
 		<section class="dark content">
 	<div class="row">
@@ -131,6 +138,11 @@
 			</ul>
 		</div>
 	</div>
+	<div class="row">
+		<div class="small-centered column text-center">
+			<a href="/contactus" class="button round">Ready to work with us?</a>
+		</div>
+	</div>	
 </section>
 
 
@@ -154,6 +166,11 @@
 			<a href="/about/chakir.html"><img src="http://placehold.it/300" width="300px" height="300px" alt="Chakir Mrabet" class=""></a>
 		</div>
 	</div>
+	<div class="row">
+		<div class="small-centered column text-center">
+			<a href="/contactus" class="button round">Ready to work with us?</a>
+		</div>
+	</div>	
 </section>
 
 
@@ -184,11 +201,6 @@
 			<p>Once all the designs have been completed, it's time to get the programming started. At this stage all features and functionality would have been clarified. Our developers use this specification to build the site.</p>
 			<h3>.. show it to the world</h3>
 			<p>After intense testing and another round of feedback, we prepare to publish the master piece to the world. This is usually done by announcing the site as a email newsletter that we design and send to your customers.</p>
-		</div>
-	</div>
-	<div class="row">
-		<div class="small-centered column text-center">
-			<a href="/contactus" class="button round">Ready to work with us?</a>
 		</div>
 	</div>
 </section>
@@ -232,11 +244,6 @@
 			<p>After intense testing and another round of feedback, we prepare to publish the master piece to the world. This is usually done by announcing the site as a email newsletter that we design and send to your customers.</p>
 		</div>
 	</div>
-	<div class="row">
-		<div class="small-centered column text-center">
-			<a href="/contactus" class="button round">Ready to work with us?</a>
-		</div>
-	</div>
 </section>
 	  	<footer class="footer">
 	<div class="row fullWidth">
@@ -278,6 +285,9 @@
   		// Foundation load
     	$(document).foundation();
 	</script>
+	
+
+	
 	<script>
     	// General top-bar & banner control
 		$(document).ready(function(){
@@ -309,64 +319,10 @@
 			});
 		});
 	</script>	
-	<script>
-		// icon-bar achors control
-		$(document).ready(function(){
-			// Smooth scrollz
-			if($('div#services-icon-bar')!=null){
-				$('div#services-icon-bar a.item').click(function(e){
-					e.preventDefault();
-					// Calc offset
-					var offset=0;
-					if($('div#services-icon-bar').hasClass('fixedPosition')) offset=$('div#services-icon-bar').outerHeight()+$('nav.top-bar').outerHeight();
-					else offset=($('div#services-icon-bar').outerHeight()*2)+$('nav.top-bar').outerHeight();
-					// Calc final position
-					var name=$(this).attr('href').substr(1);
-					var pos=$('a[name="'+name+'"]').parent('section').offset().top-offset;
-					$('html,body').scrollTo(pos);
-				});
-			}
-		});
-	</script>
 
-	<script>
-		$(document).ready(function(){
-			$(window).scroll(function(){
-				if($('div#services-icon-bar')!=null){
-					var a;
-					var sections=['Websites','Web Development','Mobile & Responsive','CMS','Online Stores','SEO'];
-					for(a=0;a<sections.length;a++){
-						var name=sections[a];
-						var size=$('a[name="'+name+'"]').parent('section').outerHeight();
-						var pos=$('section a[name="'+name+'"]').offset().top-$(this).scrollTop();
-		    			if((pos>(-size/2)) && (pos<$(this).height())) $('div#services-icon-bar a[href="#'+name+'"]').addClass('active');
-		    			else $('div#services-icon-bar a[href="#'+name+'"]').removeClass('active');
-		    		}
-		    	}
-			});
-		});
-	</script>
-	<script>
-		// Services icon-bar control
-		$(document).ready(function(){
-			$(window).scroll(function(){
-				var shrinkOn=45;
-				var windowTop=$(window).scrollTop();
-				var $guide=$('div#services-icon-bar-guide');
-				var $iconBar=$('div#services-icon-bar');
-				var topped=false;
-				var iconBarY;
-				if($iconBar){
-					iconBarY=$guide.offset().top;
-					var posY=iconBarY-windowTop;
-					if(posY<=shrinkOn){
-						$iconBar.addClass('fixedPosition');
-						
-					}else $iconBar.removeClass('fixedPosition');
-				}
-			});
-		});	
-	</script>
+	
+
+	
 
  
 
