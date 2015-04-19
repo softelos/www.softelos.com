@@ -611,6 +611,12 @@ p.question {
   transform: translateY(-50%);
 }
 
+/* line 2066, ../scss/_settings.scss */
+div.people-small img {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
 /* line 347, ../bower_components/foundation/scss/foundation/components/_global.scss */
 meta.foundation-version {
   font-family: "/5.5.0/";
