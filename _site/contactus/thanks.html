@@ -264,7 +264,7 @@
 	<script>
 		// Load control
 		$(document).ready(function(){
-			$('div#wrapper').fadeIn();
+			//$('div#wrapper').fadeIn();
 		});
 	</script>
 
@@ -289,6 +289,7 @@
 						var distanceY=$(window).scrollTop();
 						if(distanceY>shrinkOn){
 							$header.removeClass('bigger');
+							$header.addClass('fixed');
 							$header.addClass('smaller');
 							$banner.removeClass('fadeIn');
 				            $banner.addClass('animated fadeOut');
@@ -297,8 +298,10 @@
 							$header.removeClass('smaller');
 							$header.addClass('bigger');
 							if(scrolled){
+								$header.removeClass('fixed');
 								$banner.removeClass('fadeOut');
 								$banner.addClass('animated fadeIn');
+								scrolled=false;
 							}
 						}
 					}

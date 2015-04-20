@@ -1527,6 +1527,14 @@ $logo-small-left-margin:10px;
 $menu-big-top-margin:2.5rem;
 $menu-small-top-margin:0px;
 
+div#services-top-padding.collapse{
+	height: 0px;
+}
+div#services-top-padding.expand{
+	height: 75px;
+}
+
+
 div.banner-hello{
 	margin-top:-$topbar-height;
 	z-index: -100;
@@ -2110,7 +2118,7 @@ div#notepad-bar div.icon-bar label{
 // B O D Y
 
 div#wrapper{
-	display: none;
+	/* display: none; */
 }
 
 // F A Q

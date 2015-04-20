@@ -111,22 +111,22 @@
 			<div id="services-icon-bar-guide"></div>
 <div class="show-for-large-up">
 	<div id="services-icon-bar" class="icon-bar six-up">
-		<a href="#Websites" class="item">
+		<a href="#Websites" class="item" aria-label="Websites">
 			<img src="/assets/img/WebDesignIcon.png" width="30px" height="30px" alt="Websites">
 		</a>
-		<a href="#Web Development" class="item">
+		<a href="#Web Development" class="item" aria-label="Web Development">
 			<img src="/assets/img/WebDevelopmentIcon.png" width="30px" height="30px" alt="Web Development">
 		</a>
-		<a href="#Mobile & Responsive" class="item">
+		<a href="#Mobile & Responsive" class="item" aria-label="Mobile & Responsive">
 			<img src="/assets/img/ResponsiveIcon.png" width="30px" height="30px" alt="Mobile & Responsive">
 		</a>
-		<a href="#CMS" class="item">
+		<a href="#CMS" class="item" aria-label="Content Management Systems">
 			<img src="/assets/img/CMSIcon.png" width="30px" height="30px" alt="Content Management Systems">
 		</a>
-		<a href="#Online Stores" class="item">
+		<a href="#Online Stores" class="item" aria-label="Online Stores">
 			<img src="/assets/img/eCommerceIcon.png" width="30px" height="30px" alt="Online Stores">
 		</a>
-		<a href="#SEO" class="item">
+		<a href="#SEO" class="item" aria-label="Search Engine Optimization">
 			<img src="/assets/img/SEOIcon.png" width="30px" height="30px" alt="Search Engine Optimization">
 		</a>
 	</div>
@@ -185,7 +185,8 @@
 	</div>
 </div>
 
-	<div class="show-for-medium-up">
+	<div id="services-top-padding"></div>
+<div class="show-for-medium-up">
 	<section class="light content">
 		<a name="Websites"></a>
 		<div class="row" data-equalizer>
@@ -281,7 +282,6 @@
 				<p>Search engines such as Google, Bing and Yahoo are the most important drivers of traffic to your website. The results of these search engines are based on the relevance to the user’s search and website authority. Search Engine Optimization (SEO) is the art of giving your website authority and making sure it shows up when relevant keywords are searched.</p>
 				<p>However in order to gain authority and relevance on the internet you need a fast website, a well made design, a great content and links to other websites with quality content. Softelos provides all of them.</p>
 				<p>All the websites we build for our customers are designed with SEO in mind, however if you already have a website that you want to rank up in the most important search engines, we can help with our SEO plans.</p>
-				<p class="text-center"><a href="/contactus" class="button round">Contact Us</a></p>				
 			</div>
 		</div>
 	</section>
@@ -430,7 +430,6 @@
 				<p>Search engines such as Google, Bing and Yahoo are the most important drivers of traffic to your website. The results of these search engines are based on the relevance to the user’s search and website authority. Search Engine Optimization (SEO) is the art of giving your website authority and making sure it shows up when relevant keywords are searched.</p>
 				<p>However in order to gain authority and relevance on the internet you need a fast website, a well made design, a great content and links to other websites with quality content. Softelos provides all of them.</p>
 				<p>All the websites we build for our customers are designed with SEO in mind, however if you already have a website that you want to rank up in the most important search engines, we can help with our SEO plans.</p>
-				<p class="text-center"><a href="/contactus" class="button round">Contact Us</a></p>		
 			</div>
 		</div>
 	</section>	
@@ -472,7 +471,7 @@
 	<script>
 		// Load control
 		$(document).ready(function(){
-			$('div#wrapper').fadeIn();
+			//$('div#wrapper').fadeIn();
 		});
 	</script>
 
@@ -497,6 +496,7 @@
 						var distanceY=$(window).scrollTop();
 						if(distanceY>shrinkOn){
 							$header.removeClass('bigger');
+							$header.addClass('fixed');
 							$header.addClass('smaller');
 							$banner.removeClass('fadeIn');
 				            $banner.addClass('animated fadeOut');
@@ -505,8 +505,10 @@
 							$header.removeClass('smaller');
 							$header.addClass('bigger');
 							if(scrolled){
+								$header.removeClass('fixed');
 								$banner.removeClass('fadeOut');
 								$banner.addClass('animated fadeIn');
+								scrolled=false;
 							}
 						}
 					}
@@ -572,8 +574,13 @@
 						var posY=iconBarY-windowTop;
 						if(posY<=shrinkOn){
 							$iconBar.addClass('fixedPosition');
-							
-						}else $iconBar.removeClass('fixedPosition');
+							$('div#services-top-padding').addClass('expand');
+							$('div#services-top-padding').removeClass('collapse');							
+						}else{
+							$iconBar.removeClass('fixedPosition');
+							$('div#services-top-padding').removeClass('expand');
+							$('div#services-top-padding').addClass('collapse');							
+						}
 					}
 				});
 			});	

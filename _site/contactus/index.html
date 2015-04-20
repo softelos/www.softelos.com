@@ -212,14 +212,11 @@
 		<div class="small-centered text-center">
 			<h2 class="faq">Frequently asked questions</h2>
 		</div>
-		<div class="small-centered text-center column">
-			<p class="subtitle">Please <a href="/contact" class="">contact us</a> if your have any questions and we’ll get back to you ASAP.</p>
-		</div>
 	</div>
 	<div class="row">
 		<ul class="small-block-grid-1 medium-block-grid-2">			
 			<li>
-				<p class="question"><strong>What is with the name?</strong></p>
+				<p class="question"><strong>Why the name?</strong></p>
 				<p>Softelos is the combination of <strong>Software</strong> and the Greek word <strong>Telos</strong> (end or purpose of something). We are a team who loves web design and software development. We want to put these passions at your service in ordder to help your business thrive.</p>
 			</li>
 			<li>
@@ -244,6 +241,11 @@
 			</li>
 		</ul> 
 	</div>
+	<div class="row">
+		<div class="small-centered text-center column">
+			<p class="subtitle">If your question is not above, please <a href="/contact" class="">contact us</a> and we’ll get back to you ASAP.</p>
+		</div>
+	</div>	
 </section>
 
 
@@ -279,7 +281,7 @@
 	<script>
 		// Load control
 		$(document).ready(function(){
-			$('div#wrapper').fadeIn();
+			//$('div#wrapper').fadeIn();
 		});
 	</script>
 
@@ -304,6 +306,7 @@
 						var distanceY=$(window).scrollTop();
 						if(distanceY>shrinkOn){
 							$header.removeClass('bigger');
+							$header.addClass('fixed');
 							$header.addClass('smaller');
 							$banner.removeClass('fadeIn');
 				            $banner.addClass('animated fadeOut');
@@ -312,8 +315,10 @@
 							$header.removeClass('smaller');
 							$header.addClass('bigger');
 							if(scrolled){
+								$header.removeClass('fixed');
 								$banner.removeClass('fadeOut');
 								$banner.addClass('animated fadeIn');
+								scrolled=false;
 							}
 						}
 					}

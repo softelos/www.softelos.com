@@ -5,7 +5,7 @@
 	<script>
 		// Load control
 		$(document).ready(function(){
-			$('div#wrapper').fadeIn();
+			//$('div#wrapper').fadeIn();
 		});
 	</script>
 
@@ -30,6 +30,7 @@
 						var distanceY=$(window).scrollTop();
 						if(distanceY>shrinkOn){
 							$header.removeClass('bigger');
+							$header.addClass('fixed');
 							$header.addClass('smaller');
 							$banner.removeClass('fadeIn');
 				            $banner.addClass('animated fadeOut');
@@ -38,8 +39,10 @@
 							$header.removeClass('smaller');
 							$header.addClass('bigger');
 							if(scrolled){
+								$header.removeClass('fixed');
 								$banner.removeClass('fadeOut');
 								$banner.addClass('animated fadeIn');
+								scrolled=false;
 							}
 						}
 					}
@@ -120,8 +123,13 @@
 						var posY=iconBarY-windowTop;
 						if(posY<=shrinkOn){
 							$iconBar.addClass('fixedPosition');
-							
-						}else $iconBar.removeClass('fixedPosition');
+							$('div#services-top-padding').addClass('expand');
+							$('div#services-top-padding').removeClass('collapse');							
+						}else{
+							$iconBar.removeClass('fixedPosition');
+							$('div#services-top-padding').removeClass('expand');
+							$('div#services-top-padding').addClass('collapse');							
+						}
 					}
 				});
 			});	
