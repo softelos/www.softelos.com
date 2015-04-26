@@ -18,47 +18,22 @@
 
 {% endfor %}
 
-<div id="notepad-bar" class="show-for-medium-up">
-	<div class="icon-bar six-up">
-		<a href="{{ site.baseurl }}/notepad/news.html" class="item {% if page.subid == 'news' %} active {% endif %}">
+<div id="notepad-bar">
+		<a href="{{ site.baseurl }}/notepad/news.html" class="{% if page.subid == 'news' %} active {% endif %}">
 			<img src="{{ site.baseurl }}/assets/img/news.png" alt="">
 			<label>News ({{ newsC | size }})</label>
-		</a>
-		<a href="{{ site.baseurl }}/notepad/work.html" class="item {% if page.subid == 'work' %} active {% endif %}">
+		</a><br>
+		<a href="{{ site.baseurl }}/notepad/work.html" class="{% if page.subid == 'work' %} active {% endif %}">
 			<img src="{{ site.baseurl }}/assets/img/work.png" alt="">
 			<label>Work ({{ workC | size }})</label>
-		</a>
-		<a href="{{ site.baseurl }}/notepad/events.html" class="item {% if page.subid == 'events' %} active {% endif %}">
+		</a><br>
+		<a href="{{ site.baseurl }}/notepad/events.html" class="{% if page.subid == 'events' %} active {% endif %}">
 			<img src="{{ site.baseurl }}/assets/img/events.png" alt="">
 			<label>Events ({{ eventsC | size }})</label>
-		</a>
-		<a href="{{ site.baseurl }}/notepad/advice.html" class="item {% if page.subid == 'advice' %} active {% endif %}">
+		</a><br>
+		<a href="{{ site.baseurl }}/notepad/advice.html" class="{% if page.subid == 'advice' %} active {% endif %}">
 			<img src="{{ site.baseurl }}/assets/img/advice.png" alt="">
 			<label>Advice ({{ adviceC | size }})</label>
 		</a>
-	</div>
 </div>
 
-
-<div id="notepad-bar" class="show-for-small-only">
-	<div class="icon-bar two-up">
-		<a href="{{ site.baseurl }}/notepad/news.html" class="item {% if page.subid == 'news' %} active {% endif %}">
-			<img src="{{ site.baseurl }}/assets/img/news.png" alt="">
-			<label>News ({{ newsC | size }})</label>
-		</a>
-		<a href="{{ site.baseurl }}/notepad/work.html" class="item {% if page.subid == 'work' %} active {% endif %}">
-			<img src="{{ site.baseurl }}/assets/img/work.png" alt="">
-			<label>Work ({{ workC | size }})</label>
-		</a>
-	</div>
-	<div class="icon-bar two-up">	
-		<a href="{{ site.baseurl }}/notepad/events.html" class="item {% if page.subid == 'events' %} active {% endif %}">
-			<img src="{{ site.baseurl }}/assets/img/events.png" alt="">
-			<label>Events ({{ eventsC | size }})</label>
-		</a>
-		<a href="{{ site.baseurl }}/notepad/advice.html" class="item {% if page.subid == 'advice' %} active {% endif %}">
-			<img src="{{ site.baseurl }}/assets/img/advice.png" alt="">
-			<label>Advice ({{ adviceC | size }})</label>
-		</a>
-	</div>
-</div>

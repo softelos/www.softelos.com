@@ -1496,6 +1496,7 @@ h1{
     font-size: 46px;
     text-transform: uppercase;
     margin: 0 0 23px 0;
+    word-wrap:break-word;
  }
 h2{
 	font-family: 'Droid Serif', serif;
@@ -1504,6 +1505,7 @@ h2{
     font-size: 20px;
     line-height: 23px;
     margin: 0 0 23px 0;
+    word-wrap:break-word;
  }
 p{
     font-family: 'Droid Serif', serif;
@@ -1562,6 +1564,19 @@ div.banner-ourteam{
   }
 
 div.banner-contactus{
+	margin-top:-$topbar-height;
+	z-index: -100;
+	height:450px;
+    width: 100vw; 
+    background: url('/assets/img/WomanHappy.jpg') no-repeat center center; 
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    position: relative;    
+  }
+
+div.banner-notepad{
 	margin-top:-$topbar-height;
 	z-index: -100;
 	height:450px;
@@ -2174,4 +2189,12 @@ div.text-center p{
 // T O P   P A D D I N G S
 header.fixed, header.fixed div.fixed{
 	height: 45px;
+}
+
+
+// B L O G
+
+img.blog-center{
+	width: 100%;
+	text-align: center;
 }

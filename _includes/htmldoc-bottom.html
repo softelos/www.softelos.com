@@ -85,7 +85,7 @@
 				// Smooth scrollz
 				if($('div#services-icon-bar')!=null){
 					$('div#services-icon-bar a.item').click(function(e){
-						e.preventDefault();
+						e.preventDefault();						
 						// Calc offset
 						var offset=0;
 						if($('div#services-icon-bar').hasClass('fixedPosition')) offset=$('div#services-icon-bar').outerHeight()+$('nav.top-bar').outerHeight();
@@ -94,6 +94,7 @@
 						var name=$(this).attr('href').substr(1);
 						var pos=$('a[name="'+name+'"]').parent('section').offset().top-offset;
 						$('html,body').scrollTo(pos);
+						console.log(pos);
 					});
 				}
 			});
@@ -137,21 +138,22 @@
 					var windowTop=$(window).scrollTop();
 					var $guide=$('div#services-icon-bar-guide');
 					var $iconBar=$('div#services-icon-bar');
-					var topped=false;
-					var iconBarY;
-					if($iconBar){
-						iconBarY=$guide.offset().top;
-						var posY=iconBarY-windowTop;
-						if(posY<=shrinkOn){
-							$iconBar.addClass('fixedPosition');
-							$('div#services-top-padding').addClass('expand');
-							$('div#services-top-padding').removeClass('collapse');							
-						}else{
-							$iconBar.removeClass('fixedPosition');
-							$('div#services-top-padding').removeClass('expand');
-							$('div#services-top-padding').addClass('collapse');							
+
+						var topped=false;
+						var iconBarY;
+						if($iconBar){
+							iconBarY=$guide.offset().top;
+							var posY=iconBarY-windowTop;
+							if(posY<=shrinkOn){
+								$iconBar.addClass('fixedPosition');
+								$('div#services-top-padding').addClass('expand');
+								$('div#services-top-padding').removeClass('collapse');							
+							}else{
+								$iconBar.removeClass('fixedPosition');
+								$('div#services-top-padding').removeClass('expand');
+								$('div#services-top-padding').addClass('collapse');							
+							}
 						}
-					}
 				});
 			});	
 		</script>

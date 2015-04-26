@@ -1,35 +1,39 @@
 ---
-layout: notepad
+layout: default
 id: notepad
 title: The Notepad | Softelos | Web Design + Web Development + SEO | Lynchburg (VA)
 ---
 
-{% include notepad/top-section.html %}
+<div class="row">
+	<div class="small-10 columns">
+		{% for page in site.posts %}
 
-{% for page in site.posts %}
+			<section class="content light">
+				<div class="row">
+					<div class="small-12">
+						<h1><a href="{{ site.baseurl }}{{ page.url }}">{{ page.subtitle }}</a></h1>
+					</div>
+				</div>
+				<div class="row"><div class="small-12">
+					<p>{{ page.date | date: '%B %d, %Y' }} | <a href="{{ site.baseurl }}/notepad/{{ page.categories }}.html">{{ page.categories }}</a></p>
+				</div></div>
+				<div class="row">
+					<div class="small-12">
+						<p>{{ page.excerpt }}</p>
+					</div>
+				</div>
+				
+				<div class="row">
+					<div class="small-12">
+						{% include notepad/social.html %}
+					</div>
+				</div>
 
-	<a class="light" href="{{ site.baseurl }}{{ page.url }}">{% include notepad/banner.html %}</a>
-	<section class="content light">
-		<div class="row"><div class="small-12">
-			<p>{{ page.date | date: '%B %d, %Y' }} | <a href="{{ site.baseurl }}/notepad/{{ page.categories }}.html">{{ page.categories }}</a></p>
-		</div></div>
-		<div class="row">
-			<div class="small-12">
-				<h1>{{ page.subtitle }}</h1>
-			</div>
-		</div>
-		<div class="row">
-			<div class="small-12">
-				<p>{{ page.excerpt }}</p>
-			</div>
-		</div>
-		
-		<div class="row">
-			<div class="small-12">
-				{% include notepad/social.html %}
-			</div>
-		</div>
+			</section>
 
-	</section>
-
-{% endfor %}
+		{% endfor %}
+	</div>
+	<div class="small-2 columns">
+		{% include notepad/top-section.html %}
+	</div>	
+</div>

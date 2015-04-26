@@ -5,24 +5,29 @@
     <description>Softelos is a Web Design and Development Agency located in Lynchburg (VA). We make beautiful, cutting edge, powerfull websites for clients all over the United States.</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 25 Apr 2015 21:15:35 -0400</pubDate>
-    <lastBuildDate>Sat, 25 Apr 2015 21:15:35 -0400</lastBuildDate>
+    <pubDate>Sun, 26 Apr 2015 18:13:21 -0400</pubDate>
+    <lastBuildDate>Sun, 26 Apr 2015 18:13:21 -0400</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
     
       <item>
         <title>Fast Websites</title>
-        <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed interdum tortor enim. Ut felis tellus, varius eleifend sapien a, sollicitudin ultrices lorem. Maecenas at pellentesque lacus. Donec sollicitudin eros erat, et porta nulla rutrum quis. Cras mauris odio, elementum at leo eu, pellentesque tincidunt elit. Phasellus ullamcorper leo sit amet urna congue, sit amet pellentesque sapien placerat. Integer sagittis dui a dignissim sodales. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam ullamcorper congue porta. Aenean cursus dapibus cursus. Nam eu commodo nulla, a sagittis orci.&lt;/p&gt;
-
-&lt;p&gt;Vivamus accumsan convallis tortor, in dictum massa viverra a. In sapien ipsum, placerat non odio id, volutpat ullamcorper neque. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Quisque mollis ut velit ut tempus. Fusce ut rutrum urna. In eu leo rhoncus mauris luctus condimentum. Integer rhoncus ipsum eu pulvinar feugiat.&lt;/p&gt;
-
-&lt;!--more--&gt;
-
-&lt;p&gt;Vestibulum a arcu tristique, tempor diam sit amet, malesuada ante. Curabitur bibendum orci vel sem aliquam, a rhoncus ex imperdiet. Aliquam erat volutpat. Aliquam finibus efficitur rutrum. Proin volutpat imperdiet dolor, a egestas orci hendrerit eget. Phasellus convallis commodo tortor, rutrum fermentum neque auctor ac. Suspendisse potenti. Nunc tempor faucibus ligula, eget bibendum lectus malesuada eget. Phasellus ac ultricies nisl. Mauris feugiat facilisis maximus. Etiam finibus nec nisl vitae maximus. Donec congue ex est, id aliquam neque pretium nec. Fusce in arcu diam. Nullam dictum eget diam id facilisis. Praesent aliquam dapibus lorem sed suscipit. Sed et nibh quis arcu feugiat dignissim at a nunc.&lt;/p&gt;
-
-&lt;p&gt;Nulla tempor ex nisi, nec pretium nibh fringilla non. Nunc dignissim ex mauris, quis auctor orci venenatis ac. Morbi placerat mattis diam, vitae interdum felis tempus feugiat. Nunc laoreet nisi in purus fringilla feugiat. Duis ac arcu et tortor pharetra maximus. Nunc vehicula erat id elit ullamcorper, ac vehicula diam fermentum. Praesent id venenatis ligula, mollis convallis leo. Nulla vulputate bibendum convallis. Duis aliquet metus elementum, elementum nulla quis, finibus purus. Nam pulvinar cursus eros, non finibus elit tincidunt eget. Proin faucibus luctus tristique. Curabitur luctus sapien neque, a sagittis ipsum fringilla eget. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aenean ac massa libero. Interdum et malesuada fames ac ante ipsum primis in faucibus.&lt;/p&gt;
-
-&lt;p&gt;Sed dictum augue at lorem rhoncus efficitur. Curabitur tincidunt ligula sed bibendum rhoncus. Nunc non pretium velit. Mauris facilisis elit ut mauris tristique, et sagittis risus eleifend. Pellentesque aliquam, eros sit amet mollis bibendum, elit purus efficitur mi, eu lacinia ipsum est sit amet libero. Nam tincidunt neque vel neque luctus viverra. Suspendisse sit amet egestas lacus, non aliquam arcu. Donec volutpat vel neque id faucibus. Nullam sodales blandit leo vitae vestibulum. Proin pharetra porta dictum. Cras quis scelerisque velit, at pellentesque nisi. Cras ultrices, nisl fermentum ultrices fringilla, diam urna convallis sapien, eget lobortis enim felis ac felis. Vivamus malesuada purus nulla, sit amet lacinia libero faucibus sed. Suspendisse potenti.&lt;/p&gt;
-</description>
+        <description>&lt;p&gt;Nowadays most of the websites are built using a Content Management System or &lt;span class=&quot;caps&quot;&gt;CMS&lt;/span&gt; such as WordPress, Drupal or Joomla.  They allow the user to manage all their content through nice administrator control screens, and &lt;span class=&quot;caps&quot;&gt;PHP&lt;/span&gt;, &lt;span class=&quot;caps&quot;&gt;ASP&lt;/span&gt;.&lt;span class=&quot;caps&quot;&gt;NET&lt;/span&gt;, or whatever server side technology the &lt;span class=&quot;caps&quot;&gt;CMS&lt;/span&gt; is built on, will magically and dynamically create the website pages every single time a visitor hits the page.&lt;/p&gt;
+&lt;p&gt;Building a website using a &lt;span class=&quot;caps&quot;&gt;CMS&lt;/span&gt; is one of the many ways the Internet has become so powerful, since the old days when all websites were just a link or two and a flash banner. However it&amp;#8217;s not the only way, building websites exclusively on .html static files is still one of the most efficient methods of creating fast and secure websites.&lt;/p&gt;
+&lt;p&gt;We are experts in technologies used to generate static websites, and we choose them to develop many projects we work on, including our own website &lt;a href=&quot;http://www.softelos.com&quot;&gt;www.softelos.com&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;!--more--&gt;&lt;/p&gt;
+&lt;h3&gt;What is a static .html site anyway?&lt;/h3&gt;
+&lt;p&gt;A static site is the opposite of a dynamic one. This doesn&amp;#8217;t mean that nothing on a static site moves, it means that the site is made in such a way that its .html content has already been pre-generated and is just laying out on the web server, as opposed to all the content being stored in a database waiting to be dynamically mashed together when a request comes by a server side technology like &lt;span class=&quot;caps&quot;&gt;PHP&lt;/span&gt;.&lt;/p&gt;
+&lt;p&gt;When we first heard about Jekyll, Rake, and a few other technologies to pre-generate a static site in seconds, we really wondered why would anyone want a static .html site with the options we have today in &lt;span class=&quot;caps&quot;&gt;CMS&lt;/span&gt; products?&lt;/p&gt;
+&lt;h3&gt;Why static .html sites?&lt;/h3&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Performance&lt;/strong&gt;.  Seconds can mean the difference between someone getting frustrated and leaving your website versus them staying and reading, buying, or clicking your ad.  With static .html, your site is ready and rearing to go because there is no database to query from or server side scripting to parse. Static websites are fast, superfast, since they are pure &lt;span class=&quot;caps&quot;&gt;HTML&lt;/span&gt;.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;No MySQL calls for WordPress or Joomla&lt;/strong&gt;.  No mashing together of content and templates, all that’s been done already.  &lt;span class=&quot;caps&quot;&gt;HTML&lt;/span&gt; is what browsers read and they don&amp;#8217;t know &lt;span class=&quot;caps&quot;&gt;PHP&lt;/span&gt; or &lt;span class=&quot;caps&quot;&gt;ASP&lt;/span&gt;.&lt;span class=&quot;caps&quot;&gt;NET&lt;/span&gt;, all they know is &lt;span class=&quot;caps&quot;&gt;HTML&lt;/span&gt; markup, and it’s already there waiting for them.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Security&lt;/strong&gt; is another thing static sites solve. When building websites we constantly need to watch for &lt;span class=&quot;caps&quot;&gt;SQL&lt;/span&gt; injection or other trickeries from the bad guys.  With static sites, the majority of the security issues go away since the site doesn’t have any database to inject &lt;span class=&quot;caps&quot;&gt;SQL&lt;/span&gt; to. It’s just a set of read-only files sitting out on a file server. Where WordPress or other &lt;span class=&quot;caps&quot;&gt;CMS&lt;/span&gt; products have access (potentially write) to the database, they are inherently more hacker-prone than static files.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;&lt;span class=&quot;caps&quot;&gt;HTML&lt;/span&gt; is portable&lt;/strong&gt;.  With static websites there is no more &lt;span class=&quot;caps&quot;&gt;PHP&lt;/span&gt;, &lt;span class=&quot;caps&quot;&gt;ASP&lt;/span&gt;.&lt;span class=&quot;caps&quot;&gt;NET&lt;/span&gt; or Java requirements for the web server. &lt;span class=&quot;caps&quot;&gt;HTML&lt;/span&gt; is the most portable website technology of all time, because at the end of the day, it&amp;#8217;s &lt;span class=&quot;caps&quot;&gt;THE&lt;/span&gt; web technology, and can be moved from Apache to &lt;span class=&quot;caps&quot;&gt;IIS&lt;/span&gt; to Nginx to whatever host environment we need and it&amp;#8217;s guaranteed it’ll work just as great as before we made the move.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;When to go with static websites?&lt;/h3&gt;
+&lt;p&gt;A good analogy for comparing static websites versus dynamic ones is whether the website could be printed out and still function properly. If the website will show information that is designed to be read, then we could print each page out and with the exception of any hyperlinks we may have, it would still work. For this the best option is to go with static websites due the advantages mentioned above.&lt;/p&gt;
+&lt;p&gt;However if the website needs to be interactive and capable of being used by people who will use it not just for reading, the best option is to go with a dynamic website, built on a &lt;span class=&quot;caps&quot;&gt;CMS&lt;/span&gt; or custom web development.&lt;/p&gt;</description>
         <pubDate>Sun, 08 Feb 2015 13:39:10 -0500</pubDate>
         <link>/advice/2015/02/08/why-we-dont-use-wordpress.html</link>
         <guid isPermaLink="true">/advice/2015/02/08/why-we-dont-use-wordpress.html</guid>
@@ -34,36 +39,43 @@
     
       <item>
         <title>How we made www.softelos.com</title>
-        <description>&lt;p&gt;This document describes our process when creating websites.&lt;/p&gt;
-
-&lt;!--more--&gt;
-
-&lt;p&gt;Our process is as follows:&lt;/p&gt;
-
-&lt;h1 id=&quot;discuss-your-needs&quot;&gt;Discuss your needs&lt;/h1&gt;
-
-&lt;p&gt;Firstly, we will find out what you require by listening to the bief and ensure we understand what is required. This is the key from the outset of all projects.&lt;/p&gt;
-
-&lt;h1 id=&quot;this-of-a-n-unique-idea&quot;&gt;This of a n unique idea&lt;/h1&gt;
-
-&lt;p&gt;After we define the brief from the discussion stage, we can begin to think of ideas that will make your project unique. Remember your competitors are a click away!&lt;/p&gt;
-
-&lt;h1 id=&quot;design-the-concept&quot;&gt;Design the concept&lt;/h1&gt;
-
-&lt;p&gt;After the wireframes are devined and all funcitonality is planned, we are able to turn those ideas into visuals that will WOW you and your potential site visitors.&lt;/p&gt;
-
-&lt;h1 id=&quot;you-comment-we-ammend&quot;&gt;You comment we ammend&lt;/h1&gt;
-
-&lt;p&gt;We always find that it is best to discuss the initial visual concept and refine based on your feedback for the best results. Adding extra touches here and there just enhaces the design for perfection.&lt;/p&gt;
-
-&lt;h1 id=&quot;website-development&quot;&gt;Website development&lt;/h1&gt;
-
-&lt;p&gt;Once all the designs have been finalized, it’s time to get the programming started. At this stage all features and functionality would have been clarified. Our developers use this specification to build the site.&lt;/p&gt;
-
-&lt;h1 id=&quot;show-it-to-the-world&quot;&gt;Show it to the world&lt;/h1&gt;
-
-&lt;p&gt;After intense testing and another round of feedback, we prepare to show the master piece to the world. This is usually done by announcing the site as a email newsletter that we design and send to your customers.&lt;/p&gt;
-</description>
+        <description>&lt;p&gt;Our web site is no different from other web projects we develop for our customers. We follow the same values and apply the same principles when creating software for us.&lt;/p&gt;
+&lt;p&gt;This article describes how we did this with &lt;a href=&quot;http:\\www.softelos.com&quot;&gt;www.softelos.com&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;!--more--&gt;&lt;/p&gt;
+&lt;h3&gt;.. discuss your needs&lt;/h3&gt;
+&lt;p&gt;This is the first and most important stage of any web design or web development project we work on. During this stage we meet with our customers to learn about their business and needs, and to discuss their requirements for the web design or development.&lt;/p&gt;
+&lt;p&gt;After a call to briefly introduce each other and to get a quick glimpse of what the customer needs, we usually meet in person for this stage. Sometimes when the project is very complex, we might need more than one session in order to gather all the information we need to develop the project.&lt;/p&gt;
+&lt;p&gt;In the case of Softelos, we are our own customers, and we needed a web site with the following requirements:&lt;/p&gt;
+&lt;ol&gt;
+	&lt;li&gt;The content has to summarize who we are, what we do and our values.&lt;/li&gt;
+	&lt;li&gt;The design has to be attractive but light.&lt;/li&gt;
+	&lt;li&gt;The design has to support mobile devices.&lt;/li&gt;
+	&lt;li&gt;The design has to load fast.&lt;/li&gt;
+	&lt;li&gt;The content doesn&amp;#8217;t flood the visitor with unnecessary information and graphics.&lt;/li&gt;
+	&lt;li&gt;A form that allows visitors to send inquiries.&lt;/li&gt;
+	&lt;li&gt;A blog where news, events and other interesting content can be published periodically to all visitors.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3&gt;.. think of an unique idea&lt;/h3&gt;
+&lt;p&gt;In this stage we review all the requirements gathered during our meetings with our customer and brainstorm amazing ways of implementing them in a unique way. During this stage we also evaluate different possible technologies and pick the one that fits the project needs in the most efficient way.&lt;/p&gt;
+&lt;p&gt;For www.softelos.com we decided to go very simple and implement the website in pure &lt;span class=&quot;caps&quot;&gt;HTML&lt;/span&gt;, with no databases or server side scripting. This makes our website simple, light and very secure.&lt;/p&gt;
+&lt;p&gt;Many web design agencies use content management systems (&lt;span class=&quot;caps&quot;&gt;CMS&lt;/span&gt;) for everything they do, no matter the size or requirements of the website or web development they are working on. Softelos takes a different approach, we are experts in many different web design and software development technologies, and we apply them when they make sense.&lt;/p&gt;
+&lt;p&gt;See why we don&amp;#8217;t use Wordpress to learn more about our philosophy.&lt;/p&gt;
+&lt;h3&gt;.. design the concept&lt;/h3&gt;
+&lt;p&gt;This is when the fun starts!&lt;/p&gt;
+&lt;p&gt;Once we have defined the customer&amp;#8217;s requirements, selected a couple of design ideas and chosen the technology to use, we are able to turn all them into reality.&lt;/p&gt;
+&lt;p&gt;First we start creating a wire frame structure of the website or web development, with no graphics and real content. This helps us to show to our customer how the project is taking shape and also allows us to get feedback if something needs change.&lt;/p&gt;
+&lt;p style=&quot;text-align:center;&quot;&gt;&lt;img src=&quot;/assets/img/blog/wireframe.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;Once the customer is happy with the wire frame structure and all his requests and changes have been applied, we proceed to apply the &amp;#8220;skin&amp;#8221; to the wire frame, which includes colors, pictures and real content.&lt;/p&gt;
+&lt;p&gt;The initial visual concept is ready!&lt;/p&gt;
+&lt;p style=&quot;text-align:center;&quot;&gt;&lt;img src=&quot;/assets/img/blog/skin.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;h3&gt;.. you comment and we amend&lt;/h3&gt;
+&lt;p&gt;During this stage we meet with our customer to discuss the initial visual concept and refine based on their feedback. Adding extra touches here and there just enhances the design for perfection.&lt;/p&gt;
+&lt;h3&gt;.. website development&lt;/h3&gt;
+&lt;p&gt;Once all the designs have been completed, it&amp;#8217;s time to get the programming started. At this stage all features and functionality would have been clarified. Our developers use this specification to build the site.&lt;/p&gt;
+&lt;p&gt;Although www.softelos.com doesn&amp;#8217;t require any server side scripting (development), still needs JavaScript code that makes possible some cool features such as the top header expanding and collapsing when scrolling the browser. This is an example of what is implemented in this stage.&lt;/p&gt;
+&lt;h3&gt;.. show it to the world&lt;/h3&gt;
+&lt;p&gt;After intense testing and another round of feedback, we prepare to publish the master piece to the world. This is usually done by announcing the site as an email newsletter that we design and send to your customers.&lt;/p&gt;
+&lt;p&gt;In our case since our site is pure &lt;span class=&quot;caps&quot;&gt;HTML&lt;/span&gt;, &lt;span class=&quot;caps&quot;&gt;CSS&lt;/span&gt; and JavaScript, we don&amp;#8217;t need an expensive hosting provider. For Softelos we are using GitHub, a source version control site that offers free hosting for web sites with no server side scripting or database support.&lt;/p&gt;</description>
         <pubDate>Sun, 08 Feb 2015 12:30:00 -0500</pubDate>
         <link>/work/2015/02/08/how-we-made.softelos.html</link>
         <guid isPermaLink="true">/work/2015/02/08/how-we-made.softelos.html</guid>

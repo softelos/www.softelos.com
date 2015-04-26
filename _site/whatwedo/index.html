@@ -86,7 +86,6 @@
       </section>
     </nav>
   </div>   
-  <div style="padding-bottom:100px"></div>
 </header>
 
 		<div class="show-for-large-up">
@@ -99,6 +98,7 @@
 
 	
 
+	
 
 
 	
@@ -158,29 +158,6 @@
 	</div>
 </div>
 
-
-<div class="show-for-small-only fixed" style="margin-top:100px;z-index:10">
-	<div id="services-icon-bar" class="icon-bar three-up">
-		<a href="#Websites" class="item" aria-label="Websites">
-		<img src="/assets/img/WebDesignIconSmall.png" width="30px" height="30px" alt="Websites">
-		</a>
-		<a href="#Web Development" class="item" aria-label="Web Development">
-			<img src="/assets/img/WebDevelopmentIconSmall.png" width="30px" height="30px" alt="Web Development">
-		</a>
-		<a href="#Mobile & Responsive" class="item" aria-label="Mobile & Responsive">
-			<img src="/assets/img/ResponsiveIconSmall.png" width="30px" height="30px" alt="Mobile & Responsive">
-		</a>
-		<a href="#CMS" class="item" aria-label="Content Management Systems">
-			<img src="/assets/img/CMSIconSmall.png" width="30px" height="30px" alt="Content Management Systems">
-		</a>
-		<a href="#Online Stores" class="item" aria-label="Online Stores">
-			<img src="/assets/img/eCommerceIconSmall.png" width="30px" height="30px" alt="Online Stores">
-		</a>
-		<a href="#SEO" class="item" aria-label="Search Engine Optimization">
-			<img src="/assets/img/SEOIconSmall.png" width="30px" height="30px" alt="Search Engine Optimization">
-		</a>
-	</div>
-</div>
 
 
 
@@ -294,7 +271,7 @@
 <div class="show-for-small-only">
 
 	<section class="light content">
-		<a name=""></a>
+		<a name="Websites"></a>
 		<div class="row">
 			<div class="small-12 column text-center">
 				<h2>Websites</h2>
@@ -319,7 +296,7 @@
 
 
 	<section class="dark content">
-		<a name=""></a>
+		<a name="Web Development"></a>
 		<div class="row">
 			<div class="small-12 column text-center">
 				<h2>Web Development</h2>
@@ -343,7 +320,7 @@
 
 
 	<section class="light content">
-		<a name=""></a>
+		<a name="Mobile & Responsive"></a>
 		<div class="row">
 			<div class="small-12 column text-center">
 				<h2>Mobile & Responsive</h2>
@@ -365,7 +342,7 @@
 	</section>	
 
 	<section class="dark content">
-		<a name=""></a>
+		<a name="CMS"></a>
 		<div class="row">
 			<div class="small-12 column text-center">
 				<h2>CMS</h2>
@@ -389,7 +366,7 @@
 
 
 	<section class="light content">
-		<a name=""></a>
+		<a name="Online Stores"></a>
 		<div class="row">
 			<div class="small-12 column text-center">
 				<h2>Online Stores</h2>
@@ -413,7 +390,7 @@
 
 
 	<section class="dark content">
-		<a name=""></a>
+		<a name="SEO"></a>
 		<div class="row">
 			<div class="small-12 column text-center">
 				<h2>SEO</h2>
@@ -535,7 +512,7 @@
 				// Smooth scrollz
 				if($('div#services-icon-bar')!=null){
 					$('div#services-icon-bar a.item').click(function(e){
-						e.preventDefault();
+						e.preventDefault();						
 						// Calc offset
 						var offset=0;
 						if($('div#services-icon-bar').hasClass('fixedPosition')) offset=$('div#services-icon-bar').outerHeight()+$('nav.top-bar').outerHeight();
@@ -544,6 +521,7 @@
 						var name=$(this).attr('href').substr(1);
 						var pos=$('a[name="'+name+'"]').parent('section').offset().top-offset;
 						$('html,body').scrollTo(pos);
+						console.log(pos);
 					});
 				}
 			});
@@ -587,21 +565,22 @@
 					var windowTop=$(window).scrollTop();
 					var $guide=$('div#services-icon-bar-guide');
 					var $iconBar=$('div#services-icon-bar');
-					var topped=false;
-					var iconBarY;
-					if($iconBar){
-						iconBarY=$guide.offset().top;
-						var posY=iconBarY-windowTop;
-						if(posY<=shrinkOn){
-							$iconBar.addClass('fixedPosition');
-							$('div#services-top-padding').addClass('expand');
-							$('div#services-top-padding').removeClass('collapse');							
-						}else{
-							$iconBar.removeClass('fixedPosition');
-							$('div#services-top-padding').removeClass('expand');
-							$('div#services-top-padding').addClass('collapse');							
+
+						var topped=false;
+						var iconBarY;
+						if($iconBar){
+							iconBarY=$guide.offset().top;
+							var posY=iconBarY-windowTop;
+							if(posY<=shrinkOn){
+								$iconBar.addClass('fixedPosition');
+								$('div#services-top-padding').addClass('expand');
+								$('div#services-top-padding').removeClass('collapse');							
+							}else{
+								$iconBar.removeClass('fixedPosition');
+								$('div#services-top-padding').removeClass('expand');
+								$('div#services-top-padding').addClass('collapse');							
+							}
 						}
-					}
 				});
 			});	
 		</script>
