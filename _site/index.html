@@ -16,7 +16,7 @@
 
 	<body class="light">
 		<div id="wrapper">
-		<header class="site-header show-for-large-up ">
+		<header class="site-header show-for-large-up">
   <div class="sticky">
 
     <nav class="top-bar" role="navigation" data-topbar>
@@ -40,7 +40,9 @@
 </header>
 
 
-<header class="site-header smaller show-for-medium-only">
+
+
+<header class="site-header smaller bar-no-reduction show-for-medium-only fixed">
   <div class="sticky">
 
     <nav class="top-bar" role="navigation" data-topbar>
@@ -50,20 +52,20 @@
         </li>
         <li class="toggle-topbar menu-icon"><a href="#"><span></span></a></li>
       </ul>
-      <section class="top-bar-section">
+      <section id="mobile-topbar" class="top-bar-section">
         <ul class="right">
-          <li class=" active "><a href="/" class="hvr-underline-from-center">Hello!</a></li>
-          <li class=""><a href="/whatwedo" class="hvr-underline-from-center">What We Do</a></li>
-          <li class=""><a href="/ourteam" class="hvr-underline-from-center">Our Team</a></li>
-          <li class=""><a href="/contactus" class="hvr-underline-from-center">Contact Us</a></li>
-          <li class=""><a href="/notepad" class="hvr-underline-from-center">Notepad</a></li>
+          <li class=" active "><a href="/" >Hello!</a></li>
+          <li class=""><a href="/whatwedo">What We Do</a></li>
+          <li class=""><a href="/ourteam">Our Team</a></li>
+          <li class=""><a href="/contactus">Contact Us</a></li>
+          <li class=""><a href="/notepad">Notepad</a></li>
         </ul>
       </section>
     </nav>
   </div>   
 </header>
 
-<header class="site-header small show-for-small-only">
+<header class="site-header small bar-no-reduction show-for-small-only">
   <div class="sticky">
 
     <nav class="top-bar" role="navigation" data-topbar>
@@ -84,10 +86,10 @@
       </section>
     </nav>
   </div>   
+  <div style="padding-bottom:100px"></div>
 </header>
 
-
-		<div class="show-for-medium-up">
+		<div class="show-for-large-up">
 	<div class="banner-hello">
 	</div>
 
@@ -145,7 +147,7 @@
 				<div class="panel">
 					<div class="row small-centered product">
 						<a href="/whatwedo#Websites">
-							<div class="small-12 productbox-logo"><img src="/assets/img/WebDesignIcon.png" width="100px" height="92px" alt="Websites"></div>
+							<div class="small-12 productbox-logo"><img src="/assets/img/WebDesignIcon.png" width="110" height="106px" alt="Websites"></div>
 						</a>
 						<div class="small-12 productbox-title"><h3>Websites</h3></div>
 						
@@ -160,7 +162,7 @@
 				<div class="panel">
 					<div class="row small-centered product">
 						<a href="/whatwedo#Web Development">					
-							<div class="small-12 productbox-logo"><img src="/assets/img/WebDevelopmentIcon.png" width="100px" height="92px" alt="Web Development"></div>
+							<div class="small-12 productbox-logo"><img src="/assets/img/WebDevelopmentIcon.png" width="110" height="106px" alt="Web Development"></div>
 						</a>
 						<div class="small-12 productbox-title"><h3>Web Development</h3></div>
 						<div class="small-12 productbox-description">
@@ -174,7 +176,7 @@
 				<div class="panel">
 					<div class="row small-centered product">
 						<a href="/whatwedo#Mobile & Responsive">					
-							<div class="small-12 productbox-logo"><img src="/assets/img/ResponsiveIcon.png" width="100px" height="92px" alt="Mobile & Responsive"></div>
+							<div class="small-12 productbox-logo"><img src="/assets/img/ResponsiveIcon.png" width="110" height="106px" alt="Mobile & Responsive"></div>
 						</a>
 						<div class="small-12 productbox-title"><h3>Mobile & Responsive</h3></div>
 						<div class="small-12 productbox-description">
@@ -188,7 +190,7 @@
 				<div class="panel">
 					<div class="row small-centered product">
 						<a href="/whatwedo#CMS">					
-							<div class="small-12 productbox-logo"><img src="/assets/img/CMSIcon.png" width="100px" height="92px" alt="Content Management Systems"></div>
+							<div class="small-12 productbox-logo"><img src="/assets/img/CMSIcon.png" width="110" height="106px" alt="Content Management Systems"></div>
 						</a>
 						<div class="small-12 productbox-title"><h3>CMS</h3></div>						
 						<div class="small-12 productbox-description">
@@ -202,7 +204,7 @@
 				<div class="panel">
 					<div class="row small-centered product">
 						<a href="/whatwedo#Online Stores">					
-							<div class="small-12 productbox-logo"><img src="/assets/img/eCommerceIcon.png" width="100px" height="92px" alt="Online Stores"></div>
+							<div class="small-12 productbox-logo"><img src="/assets/img/eCommerceIcon.png" width="110" height="106px" alt="Online Stores"></div>
 						</a>
 						<div class="small-12 productbox-title"><h3>Online Stores</h3></div>
 						<div class="small-12 productbox-description">
@@ -216,7 +218,7 @@
 				<div class="panel">
 					<div class="row small-centered product">
 						<a href="/whatwedo#SEO">					
-							<div class="small-12 productbox-logo"><img src="/assets/img/SEOIcon.png" width="100px" height="92px" alt="Search Engine Optimization"></div>
+							<div class="small-12 productbox-logo"><img src="/assets/img/SEOIcon.png" width="110" height="106px" alt="Search Engine Optimization"></div>
 						</a>
 						<div class="small-12 productbox-title"><h3>SEO</h3></div>
 						<div class="small-12 productbox-description">
@@ -263,32 +265,40 @@
     <script src="/bower_components/foundation/js/foundation.min.js"></script>   
     <script src="/js/app.js"></script>   
     
-	<script>
-		// Load control
-		$(document).ready(function(){
-			//$('div#wrapper').fadeIn();
-		});
-	</script>
-
+	
 	<script>
   		// Foundation load
     	$(document).foundation();
 	</script>
 	
-
-	
 	<script>
     	// General top-bar & banner control
 		$(document).ready(function(){
 			var scrolled=false;
+			var moved=false;
+			var lastY=0;
+
 			$(window).scroll(function(){
 				var shrinkOn=100;
 				var $header=$('header.show-for-large-up');
 				if(!$header.hasClass('bar-no-reduction')){
-	
+
 					if(!$header.hasClass('notepad')){
 						var $banner=$('div#banner-intro');
 						var distanceY=$(window).scrollTop();
+						
+						// Top padding for when the top nave goes fixed
+						if(distanceY>0){
+							$('div.banner-hello').css('margin-top','0px');
+							lastY=distanceY;
+							moved=true;
+						}
+						if((distanceY<lastY) && (moved)){
+							$('div.banner-hello').css('margin-top','-100px');
+							moved=false;
+						}
+
+						// Control of the size of the top bar
 						if(distanceY>shrinkOn){
 							$header.removeClass('bigger');
 							$header.addClass('fixed');
@@ -299,6 +309,7 @@
 						}else{
 							$header.removeClass('smaller');
 							$header.addClass('bigger');
+							$('div#hello-toppadding').hide();
 							if(scrolled){
 								$header.removeClass('fixed');
 								$banner.removeClass('fadeOut');
@@ -321,7 +332,7 @@
 					e.preventDefault();
 					// Calc offset
 					// 145 is = 100 (when top bar is big) and 45 (when top bar is small)
-					var pos=$('a[name="section-start"]').offset().top-145;
+					var pos=$('a[name="section-start"]').offset().top-45;
 					$('html,body').scrollTo(pos);
 					
 				});

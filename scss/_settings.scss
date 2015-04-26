@@ -1898,9 +1898,11 @@ div.productbox-logo{
 	height: 100px;
 }
 	div.productbox-logo img{
-		position: relative;
+		/*position: relative;
   		top: 50%;
-  		transform: translateY(-50%);
+  		transform: translateY(-50%);*/
+  		width: 110px;
+  		height: 106px;
 	}
 
 section.products div.panel{
@@ -2039,19 +2041,18 @@ div#services-icon-bar label{
 	position: fixed;
 	top:45px;
 }
-div.icon-bar a img{
-	-webkit-filter: grayscale(100%);
-}
-div.icon-bar a:hover img{
-	-webkit-filter: grayscale(0%);
+
+div.icon-bar a:hover{
+
+	background-color: #E4EBED;
 	-webkit-transition: all 0.75s;
 	-moz-transition: all 0.75s;
 	-ms-transition: all 0.75s;
 	-o-transition: all 0.75s;
 	transition: all 0.75s;	   	
 }
-div.icon-bar a.active img{
-	-webkit-filter: grayscale(50%);
+div.icon-bar a.active{
+	background-color: #E4EBED;
 }
 
 
@@ -2149,7 +2150,7 @@ div.people-small img{
 	padding-bottom: 10px
 }
 
-a.fa-arrow-circle-down{
+a.fa-arrow-circle-down,a.fa-arrow-circle-down:active,a.fa-arrow-circle-down:visited{
 	color:#ffffff;
 	font-size: 32px;
 }
@@ -2164,4 +2165,13 @@ a.fa-arrow-circle-down:hover{
 
 div.text-center p{
 	text-align: center;
+}
+
+
+
+
+
+// T O P   P A D D I N G S
+header.fixed, header.fixed div.fixed{
+	height: 45px;
 }

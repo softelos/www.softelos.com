@@ -16,7 +16,7 @@
 
   	<body class="light">
 		<div id="wrapper">
-			<header class="site-header show-for-large-up  bar-no-reduction smaller ">
+			<header class="site-header show-for-large-up">
   <div class="sticky">
 
     <nav class="top-bar" role="navigation" data-topbar>
@@ -40,7 +40,9 @@
 </header>
 
 
-<header class="site-header smaller show-for-medium-only">
+
+
+<header class="site-header smaller bar-no-reduction show-for-medium-only fixed">
   <div class="sticky">
 
     <nav class="top-bar" role="navigation" data-topbar>
@@ -50,20 +52,20 @@
         </li>
         <li class="toggle-topbar menu-icon"><a href="#"><span></span></a></li>
       </ul>
-      <section class="top-bar-section">
+      <section id="mobile-topbar" class="top-bar-section">
         <ul class="right">
-          <li class=""><a href="/" class="hvr-underline-from-center">Hello!</a></li>
-          <li class=""><a href="/whatwedo" class="hvr-underline-from-center">What We Do</a></li>
-          <li class=""><a href="/ourteam" class="hvr-underline-from-center">Our Team</a></li>
-          <li class=""><a href="/contactus" class="hvr-underline-from-center">Contact Us</a></li>
-          <li class=" active "><a href="/notepad" class="hvr-underline-from-center">Notepad</a></li>
+          <li class=""><a href="/" >Hello!</a></li>
+          <li class=""><a href="/whatwedo">What We Do</a></li>
+          <li class=""><a href="/ourteam">Our Team</a></li>
+          <li class=""><a href="/contactus">Contact Us</a></li>
+          <li class=" active "><a href="/notepad">Notepad</a></li>
         </ul>
       </section>
     </nav>
   </div>   
 </header>
 
-<header class="site-header small show-for-small-only">
+<header class="site-header small bar-no-reduction show-for-small-only">
   <div class="sticky">
 
     <nav class="top-bar" role="navigation" data-topbar>
@@ -84,14 +86,14 @@
       </section>
     </nav>
   </div>   
+  <div style="padding-bottom:100px"></div>
 </header>
-
 
 			<section class="light content">
 	<div class="row">
 		<div class="medium-6 column">
 			<p>
-			The notepad is a collection of news from <strong>Softelos</strong>, events we particpate in, our latest work and technical advice we like to share
+			The notepad is a collection of news from <strong>Softelos</strong>, events we participate in, our latest work and technical advice we like to share
 			</p>
 		</div>		
 		<div class="medium-6 column">
@@ -322,32 +324,40 @@
     <script src="/bower_components/foundation/js/foundation.min.js"></script>   
     <script src="/js/app.js"></script>   
     
-	<script>
-		// Load control
-		$(document).ready(function(){
-			//$('div#wrapper').fadeIn();
-		});
-	</script>
-
+	
 	<script>
   		// Foundation load
     	$(document).foundation();
 	</script>
 	
-
-	
 	<script>
     	// General top-bar & banner control
 		$(document).ready(function(){
 			var scrolled=false;
+			var moved=false;
+			var lastY=0;
+
 			$(window).scroll(function(){
 				var shrinkOn=100;
 				var $header=$('header.show-for-large-up');
 				if(!$header.hasClass('bar-no-reduction')){
-	
+
 					if(!$header.hasClass('notepad')){
 						var $banner=$('div#banner-intro');
 						var distanceY=$(window).scrollTop();
+						
+						// Top padding for when the top nave goes fixed
+						if(distanceY>0){
+							$('div.banner-notepad').css('margin-top','0px');
+							lastY=distanceY;
+							moved=true;
+						}
+						if((distanceY<lastY) && (moved)){
+							$('div.banner-notepad').css('margin-top','-100px');
+							moved=false;
+						}
+
+						// Control of the size of the top bar
 						if(distanceY>shrinkOn){
 							$header.removeClass('bigger');
 							$header.addClass('fixed');
@@ -358,6 +368,7 @@
 						}else{
 							$header.removeClass('smaller');
 							$header.addClass('bigger');
+							$('div#notepad-toppadding').hide();
 							if(scrolled){
 								$header.removeClass('fixed');
 								$banner.removeClass('fadeOut');

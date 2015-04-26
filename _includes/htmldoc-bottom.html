@@ -2,32 +2,40 @@
     <script src="{{ site.baseurl }}/bower_components/foundation/js/foundation.min.js"></script>   
     <script src="{{ site.baseurl }}/js/app.js"></script>   
     
-	<script>
-		// Load control
-		$(document).ready(function(){
-			//$('div#wrapper').fadeIn();
-		});
-	</script>
-
+	
 	<script>
   		// Foundation load
     	$(document).foundation();
 	</script>
 	
-
-	
 	<script>
     	// General top-bar & banner control
 		$(document).ready(function(){
 			var scrolled=false;
+			var moved=false;
+			var lastY=0;
+
 			$(window).scroll(function(){
 				var shrinkOn=100;
 				var $header=$('header.show-for-large-up');
 				if(!$header.hasClass('bar-no-reduction')){
-	
+
 					if(!$header.hasClass('notepad')){
 						var $banner=$('div#banner-intro');
 						var distanceY=$(window).scrollTop();
+						
+						// Top padding for when the top nave goes fixed
+						if(distanceY>0){
+							$('div.banner-{{ page.id }}').css('margin-top','0px');
+							lastY=distanceY;
+							moved=true;
+						}
+						if((distanceY<lastY) && (moved)){
+							$('div.banner-{{ page.id }}').css('margin-top','-100px');
+							moved=false;
+						}
+
+						// Control of the size of the top bar
 						if(distanceY>shrinkOn){
 							$header.removeClass('bigger');
 							$header.addClass('fixed');
@@ -38,6 +46,7 @@
 						}else{
 							$header.removeClass('smaller');
 							$header.addClass('bigger');
+							$('div#{{ page.id }}-toppadding').hide();
 							if(scrolled){
 								$header.removeClass('fixed');
 								$banner.removeClass('fadeOut');
@@ -60,7 +69,7 @@
 					e.preventDefault();
 					// Calc offset
 					// 145 is = 100 (when top bar is big) and 45 (when top bar is small)
-					var pos=$('a[name="section-start"]').offset().top-145;
+					var pos=$('a[name="section-start"]').offset().top-45;
 					$('html,body').scrollTo(pos);
 					
 				});
@@ -97,12 +106,24 @@
 					if($('div#services-icon-bar')!=null){
 						var a;
 						var sections=['{{ site.textWebsites }}','{{ site.textWebDev }}','{{ site.textResponsive }}','{{ site.textCMS }}','{{ site.textECommerce}}','{{ site.textSEO }}'];
+						// Gest size of bars
+						var barSize=$('nav.top-bar').outerHeight();
+						var miniBarSize=$('div#services-icon-bar').outerHeight();
+						var offset=barSize+miniBarSize+45;
+
+						console.log(offset);
+
 						for(a=0;a<sections.length;a++){
 							var name=sections[a];
-							var size=$('a[name="'+name+'"]').parent('section').outerHeight();
-							var pos=$('section a[name="'+name+'"]').offset().top-$(this).scrollTop();
-			    			if((pos>(-size/2)) && (pos<$(this).height())) $('div#services-icon-bar a[href="#'+name+'"]').addClass('active');
+
+							var sectionSize=$('a[name="'+name+'"]').parent('section').outerHeight();							
+							var sectionPos=$('section a[name="'+name+'"]').offset().top;
+							var cursor=$(this).scrollTop()+offset;
+
+							if((cursor>sectionPos) && (cursor<(sectionPos+sectionSize))) $('div#services-icon-bar a[href="#'+name+'"]').addClass('active');
 			    			else $('div#services-icon-bar a[href="#'+name+'"]').removeClass('active');
+
+
 			    		}
 			    	}
 				});
