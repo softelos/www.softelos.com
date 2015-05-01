@@ -1,30 +1,44 @@
 ---
 layout: default
 id: notepad
+subid: all
 title: The Notepad | Softelos | Web Design + Web Development + SEO | Lynchburg (VA)
 ---
 
 <div class="row">
-	<div class="small-10 columns">
+	<div class="small-12 columns">
+		{% include notepad/bar.html %}
+	</div>	
+</div>
+
+<div class="row">
+	<div class="small-12 columns">
 		{% for page in site.posts %}
 
-			<section class="content light">
+			<section class="content light blog">
 				<div class="row">
-					<div class="small-12">
-						<h1><a href="{{ site.baseurl }}{{ page.url }}">{{ page.subtitle }}</a></h1>
+					<div class="small-2 columns post-author">
+						<img class="post-author" alt="{{ page.author }}" src="http://placehold.it/75x75"/>
+					</div>
+					<div class="small-10 columns">
+						<div class="row">
+							<div class="small-12 columns post-link">
+								<h1><a href="{{ site.baseurl }}{{ page.url }}">{{ page.subtitle }}</a></h1>
+							</div>
+							<div class="small-12 columns">
+								<p>{{ page.date | date: '%B %d, %Y' }} | <a href="{{ site.baseurl }}/notepad/{{ page.categories }}.html">{{ page.categories }}</a></p>
+							</div>
 					</div>
 				</div>
-				<div class="row"><div class="small-12">
-					<p>{{ page.date | date: '%B %d, %Y' }} | <a href="{{ site.baseurl }}/notepad/{{ page.categories }}.html">{{ page.categories }}</a></p>
-				</div></div>
 				<div class="row">
-					<div class="small-12">
+					<div class="small-12 columns">
 						<p>{{ page.excerpt }}</p>
+						<p><a href="{{ site.baseurl }}{{ page.url }}#disqus_thread">Read more..</a></p>
 					</div>
 				</div>
 				
 				<div class="row">
-					<div class="small-12">
+					<div class="small-12 columns">
 						{% include notepad/social.html %}
 					</div>
 				</div>
@@ -33,7 +47,4 @@ title: The Notepad | Softelos | Web Design + Web Development + SEO | Lynchburg (
 
 		{% endfor %}
 	</div>
-	<div class="small-2 columns">
-		{% include notepad/top-section.html %}
-	</div>	
 </div>

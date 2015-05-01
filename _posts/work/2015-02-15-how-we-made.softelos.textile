@@ -2,8 +2,8 @@
 layout: post
 id: notepad
 subid: work
-title:  "How we made www.softelos.com"
-subtitle: "How we made www.softelos.com"
+title:  "How we made softelos.com"
+subtitle: "How we made softelos.com"
 date:   2015-02-08 17:30:00
 banner: http://placehold.it/1500x500
 categories: "work"

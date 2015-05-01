@@ -147,30 +147,35 @@ div.banner-small-404 {
 }
 
 /* line 1631, ../scss/_settings.scss */
+p.title {
+  text-transform: uppercase;
+}
+
+/* line 1635, ../scss/_settings.scss */
 .top-bar li.name {
   margin-top: 10px;
   margin-left: 75px;
   font-size: 75px;
 }
 
-/* line 1637, ../scss/_settings.scss */
+/* line 1641, ../scss/_settings.scss */
 .top-bar li.name img {
   width: 250px;
   height: 102px;
 }
 
-/* line 1642, ../scss/_settings.scss */
+/* line 1646, ../scss/_settings.scss */
 .top-bar-section ul.right {
   margin-right: 75px;
   margin-top: 2.5rem;
 }
 
-/* line 1646, ../scss/_settings.scss */
+/* line 1650, ../scss/_settings.scss */
 .top-bar-section ul li a {
   letter-spacing: -0.02rem;
 }
 
-/* line 1651, ../scss/_settings.scss */
+/* line 1655, ../scss/_settings.scss */
 .top-bar-section ul li.active a:before {
   content: "";
   position: absolute;
@@ -182,48 +187,48 @@ div.banner-small-404 {
   height: 4px;
 }
 
-/* line 1661, ../scss/_settings.scss */
+/* line 1665, ../scss/_settings.scss */
 .top-bar-section ul li:hover a:before {
   background: #DEA653;
 }
 
-/* line 1665, ../scss/_settings.scss */
+/* line 1669, ../scss/_settings.scss */
 section#mobile-topbar ul li.active {
   background: #DEA653;
 }
 
-/* line 1668, ../scss/_settings.scss */
+/* line 1672, ../scss/_settings.scss */
 section#mobile-topbar ul li:hover {
   background: #cccccc;
 }
 
-/* line 1677, ../scss/_settings.scss */
+/* line 1681, ../scss/_settings.scss */
 body {
   color: #6D6D6D;
 }
 
-/* line 1681, ../scss/_settings.scss */
+/* line 1685, ../scss/_settings.scss */
 body.light {
   background-color: #ffffff;
   background-image: url(/assets/img/mesh-bg.jpg);
 }
 
-/* line 1685, ../scss/_settings.scss */
+/* line 1689, ../scss/_settings.scss */
 section.light, div.light, section.light div.row {
   background: transparent;
 }
 
-/* line 1688, ../scss/_settings.scss */
+/* line 1692, ../scss/_settings.scss */
 section.dark {
   background-color: #DFE2DB;
 }
 
-/* line 1692, ../scss/_settings.scss */
+/* line 1696, ../scss/_settings.scss */
 section b {
   color: #000000;
 }
 
-/* line 1696, ../scss/_settings.scss */
+/* line 1700, ../scss/_settings.scss */
 section.content {
   padding-top: 50px;
   padding-bottom: 50px;
@@ -231,7 +236,7 @@ section.content {
   padding-right: 20px;
 }
 
-/* line 1702, ../scss/_settings.scss */
+/* line 1706, ../scss/_settings.scss */
 section h1 {
   color: #6D6D6D;
   font-family: 'Montserrat', sans-serif;
@@ -242,7 +247,7 @@ section h1 {
   margin: 0 0 15px 0;
 }
 
-/* line 1711, ../scss/_settings.scss */
+/* line 1715, ../scss/_settings.scss */
 section h2 {
   color: #6D6D6D;
   font-size: 1rem;
@@ -255,7 +260,7 @@ section h2 {
   margin: 0 0 23px 0;
 }
 
-/* line 1722, ../scss/_settings.scss */
+/* line 1726, ../scss/_settings.scss */
 section h3 {
   color: #6D6D6D;
   font-family: 'Montserrat', sans-serif;
@@ -266,14 +271,14 @@ section h3 {
   margin-top: 32px;
 }
 
-/* line 1732, ../scss/_settings.scss */
+/* line 1736, ../scss/_settings.scss */
 section.process h3 {
   font-family: 'Oleo Script', cursive;
   margin-top: 16px;
   margin-bottom: 16px;
 }
 
-/* line 1738, ../scss/_settings.scss */
+/* line 1742, ../scss/_settings.scss */
 section p {
   color: #6D6D6D;
   text-align: justify;
@@ -283,12 +288,12 @@ section p {
   margin: 0 0 23px 0;
 }
 
-/* line 1746, ../scss/_settings.scss */
+/* line 1750, ../scss/_settings.scss */
 section p.subtitle {
   text-align: center;
 }
 
-/* line 1750, ../scss/_settings.scss */
+/* line 1754, ../scss/_settings.scss */
 div.fullWidth {
   width: 100%;
   margin-left: auto;
@@ -296,18 +301,18 @@ div.fullWidth {
   max-width: initial;
 }
 
-/* line 1759, ../scss/_settings.scss */
+/* line 1763, ../scss/_settings.scss */
 div.learnmore-button {
   margin-top: -25px;
   background-color: transparent;
 }
 
-/* line 1766, ../scss/_settings.scss */
+/* line 1770, ../scss/_settings.scss */
 i.fa {
   padding-left: 5px;
 }
 
-/* line 1772, ../scss/_settings.scss */
+/* line 1776, ../scss/_settings.scss */
 header.bigger nav.top-bar {
   background-color: rgba(25, 25, 25, 0);
   -webkit-transition: all 0.5s;
@@ -317,7 +322,7 @@ header.bigger nav.top-bar {
   transition: all 0.5s;
 }
 
-/* line 1781, ../scss/_settings.scss */
+/* line 1785, ../scss/_settings.scss */
 header.bigger nav.top-bar, header.bigger .top-bar-section ul li {
   height: 6.25rem;
   line-height: 6.25rem;
@@ -328,7 +333,7 @@ header.bigger nav.top-bar, header.bigger .top-bar-section ul li {
   transition: all 0.5s;
 }
 
-/* line 1790, ../scss/_settings.scss */
+/* line 1794, ../scss/_settings.scss */
 header.bigger .top-bar-section ul li:not(.has-form) a:not(.button) {
   height: 6.25rem;
   line-height: 6.25rem;
@@ -339,7 +344,7 @@ header.bigger .top-bar-section ul li:not(.has-form) a:not(.button) {
   transition: all 0.5s;
 }
 
-/* line 1800, ../scss/_settings.scss */
+/* line 1804, ../scss/_settings.scss */
 header.smaller nav.top-bar, header.smaller .top-bar-section ul li {
   height: 45px;
   line-height: 45px;
@@ -351,7 +356,7 @@ header.smaller nav.top-bar, header.smaller .top-bar-section ul li {
   transition: all 0.5s;
 }
 
-/* line 1811, ../scss/_settings.scss */
+/* line 1815, ../scss/_settings.scss */
 header.smaller .top-bar-section ul li:not(.has-form) a:not(.button) {
   height: 45px;
   line-height: 45px;
@@ -362,7 +367,7 @@ header.smaller .top-bar-section ul li:not(.has-form) a:not(.button) {
   transition: all 0.5s;
 }
 
-/* line 1822, ../scss/_settings.scss */
+/* line 1826, ../scss/_settings.scss */
 header.smaller .top-bar li.name {
   font-size: 25px;
   margin-left: 10px;
@@ -374,7 +379,7 @@ header.smaller .top-bar li.name {
   transition: all 0.5s;
 }
 
-/* line 1834, ../scss/_settings.scss */
+/* line 1838, ../scss/_settings.scss */
 header.bigger .top-bar li.name {
   font-size: 75px;
   margin-left: 75px;
@@ -385,7 +390,7 @@ header.bigger .top-bar li.name {
   transition: all 0.5s;
 }
 
-/* line 1845, ../scss/_settings.scss */
+/* line 1849, ../scss/_settings.scss */
 header.bigger .top-bar-section ul.right {
   margin-right: 75px;
   margin-top: 2.5rem;
@@ -396,7 +401,7 @@ header.bigger .top-bar-section ul.right {
   transition: all 0.5s;
 }
 
-/* line 1854, ../scss/_settings.scss */
+/* line 1858, ../scss/_settings.scss */
 header.smaller .top-bar-section ul.right {
   margin-right: 10px;
   margin-top: 0px;
@@ -407,7 +412,7 @@ header.smaller .top-bar-section ul.right {
   transition: all 0.5s;
 }
 
-/* line 1865, ../scss/_settings.scss */
+/* line 1869, ../scss/_settings.scss */
 header.smaller .top-bar li.name img {
   width: 98px;
   height: 40px;
@@ -418,7 +423,7 @@ header.smaller .top-bar li.name img {
   transition: all 0.5s;
 }
 
-/* line 1874, ../scss/_settings.scss */
+/* line 1878, ../scss/_settings.scss */
 header.bigger .top-bar li.name img {
   width: 250px;
   height: 102px;
@@ -429,45 +434,45 @@ header.bigger .top-bar li.name img {
   transition: all 0.5s;
 }
 
-/* line 1886, ../scss/_settings.scss */
+/* line 1890, ../scss/_settings.scss */
 header.small nav.top-bar, header.small .top-bar-section ul li {
   min-height: 45px;
   line-height: 45px;
   background-color: #191919;
 }
 
-/* line 1891, ../scss/_settings.scss */
+/* line 1895, ../scss/_settings.scss */
 header.small .top-bar-section ul li:not(.has-form) a:not(.button) {
   min-height: 45px;
   line-height: 45px;
 }
 
-/* line 1895, ../scss/_settings.scss */
+/* line 1899, ../scss/_settings.scss */
 header.small .top-bar li.name {
   font-size: 25px;
   margin-left: 10px;
   margin-top: 0px;
 }
 
-/* line 1900, ../scss/_settings.scss */
+/* line 1904, ../scss/_settings.scss */
 header.small .top-bar-section ul.right {
   margin-right: 10px;
   margin-top: 0px;
 }
 
-/* line 1904, ../scss/_settings.scss */
+/* line 1908, ../scss/_settings.scss */
 header.small .top-bar li.name img {
   margin-top: 24px;
   width: 98px;
   height: 40px;
 }
 
-/* line 1912, ../scss/_settings.scss */
+/* line 1916, ../scss/_settings.scss */
 div.productbox-logo {
   height: 100px;
 }
 
-/* line 1915, ../scss/_settings.scss */
+/* line 1919, ../scss/_settings.scss */
 div.productbox-logo img {
   		/*position: relative;
     		top: 50%;
@@ -476,30 +481,30 @@ div.productbox-logo img {
   height: 106px;
 }
 
-/* line 1923, ../scss/_settings.scss */
+/* line 1927, ../scss/_settings.scss */
 section.products div.panel {
   border: none;
   background: none;
 }
 
-/* line 1927, ../scss/_settings.scss */
+/* line 1931, ../scss/_settings.scss */
 section.products div.panel h3 {
   color: #6D6D6D;
 }
 
-/* line 1931, ../scss/_settings.scss */
+/* line 1935, ../scss/_settings.scss */
 div.productbox-description p {
   color: #6D6D6D;
   color: #999999;
   text-align: center;
 }
 
-/* line 1937, ../scss/_settings.scss */
+/* line 1941, ../scss/_settings.scss */
 div.product {
   padding: 5px;
 }
 
-/* line 1940, ../scss/_settings.scss */
+/* line 1944, ../scss/_settings.scss */
 div.product:hover {
   filter: grayscale(100%);
   -webkit-filter: grayscale(100%);
@@ -510,7 +515,7 @@ div.product:hover {
   transition: all 0.75s;
 }
 
-/* line 1952, ../scss/_settings.scss */
+/* line 1956, ../scss/_settings.scss */
 footer {
   font-family: 'Montserrat', sans-serif;
   text-transform: uppercase;
@@ -524,7 +529,7 @@ footer {
   padding-right: 20px;
 }
 
-/* line 1964, ../scss/_settings.scss */
+/* line 1968, ../scss/_settings.scss */
 div.footer-social a {
   color: #666666;
   font-size: 2.10rem;
@@ -532,12 +537,12 @@ div.footer-social a {
   padding-left: 10px;
 }
 
-/* line 1970, ../scss/_settings.scss */
+/* line 1974, ../scss/_settings.scss */
 div.footer-social a:hover {
   color: #DEA653;
 }
 
-/* line 1974, ../scss/_settings.scss */
+/* line 1978, ../scss/_settings.scss */
 p.belowfooter {
   font-family: 'Oleo Script', cursive;
   text-transform: lowercase;
@@ -545,25 +550,25 @@ p.belowfooter {
   font-size: 18px;
 }
 
-/* line 1983, ../scss/_settings.scss */
+/* line 1987, ../scss/_settings.scss */
 div#banner-intro {
   position: absolute;
   bottom: 30px;
 }
 
-/* line 1987, ../scss/_settings.scss */
+/* line 1991, ../scss/_settings.scss */
 div#banner-intro-small {
   position: absolute;
   top: 250px;
 }
 
-/* line 1991, ../scss/_settings.scss */
+/* line 1995, ../scss/_settings.scss */
 div#banner-intro-only {
   position: absolute;
   bottom: 45px;
 }
 
-/* line 1995, ../scss/_settings.scss */
+/* line 1999, ../scss/_settings.scss */
 div#banner-intro p.title, div#banner-intro-small p.title, div#banner-intro-only p.title {
   font-family: 'Montserrat', sans-serif;
   font-size: 2rem;
@@ -573,7 +578,7 @@ div#banner-intro p.title, div#banner-intro-small p.title, div#banner-intro-only 
   -vendor-animation-delay: 1s;
 }
 
-/* line 2003, ../scss/_settings.scss */
+/* line 2007, ../scss/_settings.scss */
 div#banner-intro p.subtitle, div#banner-intro-small p.subtitle, div#banner-intro-only p.subtitle {
   font-family: 'Montserrat', sans-serif;
   font-size: 1rem;
@@ -582,14 +587,14 @@ div#banner-intro p.subtitle, div#banner-intro-small p.subtitle, div#banner-intro
   -vendor-animation-delay: 1s;
 }
 
-/* line 2011, ../scss/_settings.scss */
+/* line 2015, ../scss/_settings.scss */
 div#banner-intro a.hollow, div#banner-intro.small a.hollow, div#banner-intro-only a.hollow, p a.hollow {
   background-color: transparent;
   color: #cccccc;
   border: 2pt solid #cccccc;
 }
 
-/* line 2016, ../scss/_settings.scss */
+/* line 2020, ../scss/_settings.scss */
 div#banner-intro a.hollow:hover, div#banner-intro-small a.hollow:hover, div#banner-intro-only a.hollow:hover, p a.hollow:hover {
   border-color: #ffffff;
   color: #ffffff;
@@ -601,23 +606,23 @@ div#banner-intro a.hollow:hover, div#banner-intro-small a.hollow:hover, div#bann
   transition: all 0.75s;
 }
 
-/* line 2049, ../scss/_settings.scss */
+/* line 2053, ../scss/_settings.scss */
 div#services-icon-bar {
   z-index: 25;
 }
 
-/* line 2052, ../scss/_settings.scss */
+/* line 2056, ../scss/_settings.scss */
 div#services-icon-bar label {
   font-family: 'Montserrat', sans-serif;
 }
 
-/* line 2055, ../scss/_settings.scss */
+/* line 2059, ../scss/_settings.scss */
 .fixedPosition {
   position: fixed;
   top: 45px;
 }
 
-/* line 2060, ../scss/_settings.scss */
+/* line 2064, ../scss/_settings.scss */
 div.icon-bar a:hover {
   background-color: #E4EBED;
   -webkit-transition: all 0.75s;
@@ -627,17 +632,17 @@ div.icon-bar a:hover {
   transition: all 0.75s;
 }
 
-/* line 2069, ../scss/_settings.scss */
+/* line 2073, ../scss/_settings.scss */
 div.icon-bar a.active {
   background-color: #E4EBED;
 }
 
-/* line 2077, ../scss/_settings.scss */
+/* line 2081, ../scss/_settings.scss */
 form.contact label {
   font-family: 'Montserrat', sans-serif;
 }
 
-/* line 2080, ../scss/_settings.scss */
+/* line 2084, ../scss/_settings.scss */
 form.contact input[type=text], form.contact textarea {
   font-family: 'Muli', sans-serif;
   background-color: #dddddd;
@@ -651,89 +656,229 @@ form.contact input[type=text], form.contact textarea {
   box-shadow: none;
 }
 
-/* line 2092, ../scss/_settings.scss */
+/* line 2096, ../scss/_settings.scss */
 form.contact input[type=text] {
   height: 50px;
 }
 
-/* line 2095, ../scss/_settings.scss */
+/* line 2099, ../scss/_settings.scss */
 form.contact input:focus, form.contact textarea:focus {
   background-color: #eeeeee;
   /*background-color: #DEA653;*/
   box-shadow: none;
 }
 
-/* line 2101, ../scss/_settings.scss */
+/* line 2105, ../scss/_settings.scss */
 div.contact p, div.contact strong {
   font-family: 'Montserrat', sans-serif;
   font-size: 1rem;
 }
 
-/* line 2105, ../scss/_settings.scss */
+/* line 2109, ../scss/_settings.scss */
 div.contact strong {
   font-size: 1.10rem;
   color: #000000;
 }
 
-/* line 2109, ../scss/_settings.scss */
+/* line 2113, ../scss/_settings.scss */
 div.contact div.footer-social {
   padding-top: 20px;
   padding-bottom: 20px;
 }
 
-/* line 2116, ../scss/_settings.scss */
+/* line 2120, ../scss/_settings.scss */
 div#map {
   width: 100%;
   height: 300px;
 }
 
-/* line 2125, ../scss/_settings.scss */
-div#notepad-bar div.icon-bar {
-  background-color: transparent;
+/* line 2129, ../scss/_settings.scss */
+div#notepad-bar {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  position: fixed;
+  width: 110px;
+  text-align: center;
+  background-color: #191919;
+  border-radius: 10px;
 }
 
-/* line 2130, ../scss/_settings.scss */
-div#notepad-bar div.icon-bar label {
-  color: #666666;
+/* line 2139, ../scss/_settings.scss */
+div#notepad-bar div {
+  margin-left: 0px;
+  margin-right: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
 }
 
-/* line 2136, ../scss/_settings.scss */
+/* line 2148, ../scss/_settings.scss */
+div#notepad-bar div.notepad-bar-icon {
+  width: 32px;
+  height: 32px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* line 2154, ../scss/_settings.scss */
+div#notepad-bar div.bar-all {
+  background-image: url(/assets/img/bar-all.png);
+}
+
+/* line 2157, ../scss/_settings.scss */
+div#notepad-bar div.bar-all-active, div#notepad-bar div.bar-all:hover {
+  background-image: url(/assets/img/bar-all-active.png);
+}
+
+/* line 2160, ../scss/_settings.scss */
+div#notepad-bar div.bar-news {
+  background-image: url(/assets/img/bar-news.png);
+}
+
+/* line 2163, ../scss/_settings.scss */
+div#notepad-bar div.bar-news-active, div#notepad-bar div.bar-news:hover {
+  background-image: url(/assets/img/bar-news-active.png);
+}
+
+/* line 2166, ../scss/_settings.scss */
+div#notepad-bar div.bar-events {
+  background-image: url(/assets/img/bar-events.png);
+}
+
+/* line 2169, ../scss/_settings.scss */
+div#notepad-bar div.bar-events-active, div#notepad-bar div.bar-events:hover {
+  background-image: url(/assets/img/bar-events-active.png);
+}
+
+/* line 2172, ../scss/_settings.scss */
+div#notepad-bar div.bar-work {
+  background-image: url(/assets/img/bar-work.png);
+}
+
+/* line 2175, ../scss/_settings.scss */
+div#notepad-bar div.bar-work-active, div#notepad-bar div.bar-work:hover {
+  background-image: url(/assets/img/bar-work-active.png);
+}
+
+/* line 2178, ../scss/_settings.scss */
+div#notepad-bar div.bar-advice {
+  background-image: url(/assets/img/bar-advice.png);
+}
+
+/* line 2181, ../scss/_settings.scss */
+div#notepad-bar div.bar-advice-active, div#notepad-bar div.bar-advice:hover {
+  background-image: url(/assets/img/bar-advice-active.png);
+}
+
+/* line 2184, ../scss/_settings.scss */
+div#notepad-bar div.bar-right {
+  background-image: url(/assets/img/bar-right.png);
+}
+
+/* line 2187, ../scss/_settings.scss */
+div#notepad-bar div.handle-show {
+  opacity: 1;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+/* line 2195, ../scss/_settings.scss */
+div#notepad-bar div.handle-hide {
+  opacity: 0;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+/* line 2205, ../scss/_settings.scss */
+div#handle {
+  position: relative;
+  top: 155px;
+  width: 32px;
+  margin-left: -5px !important;
+}
+
+/* line 2211, ../scss/_settings.scss */
+div.notepad-bar-hide {
+  left: -85px;
+  top: 200px;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+/* line 2220, ../scss/_settings.scss */
+div.notepad-bar-show {
+  left: -10px;
+  top: 200px;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+/* line 2230, ../scss/_settings.scss */
+div#notepad-bar label {
+  color: #eeeeee;
+  font-family: 'Muli', sans-serif;
+  font-size: 12px;
+}
+
+/* line 2235, ../scss/_settings.scss */
+div#note-bar img {
+  width: 32px;
+  height: 32px;
+}
+
+/* line 2239, ../scss/_settings.scss */
+div#notepad-bar a:hover {
+  background-color: #DEA653;
+}
+
+/* line 2245, ../scss/_settings.scss */
 div#wrapper {
   /* display: none; */
 }
 
-/* line 2142, ../scss/_settings.scss */
+/* line 2251, ../scss/_settings.scss */
 h2.faq {
   font-family: 'Oleo Script', cursive;
   text-transform: none;
   font-size: 28px;
 }
 
-/* line 2148, ../scss/_settings.scss */
+/* line 2257, ../scss/_settings.scss */
 p.question {
   font-size: 17px;
 }
 
-/* line 2154, ../scss/_settings.scss */
+/* line 2263, ../scss/_settings.scss */
 .vertical-center {
   position: relative;
   top: 50%;
   transform: translateY(-50%);
 }
 
-/* line 2163, ../scss/_settings.scss */
+/* line 2272, ../scss/_settings.scss */
 div.people-small img {
   padding-top: 10px;
   padding-bottom: 10px;
 }
 
-/* line 2168, ../scss/_settings.scss */
+/* line 2277, ../scss/_settings.scss */
 a.fa-arrow-circle-down, a.fa-arrow-circle-down:active, a.fa-arrow-circle-down:visited {
   color: #ffffff;
   font-size: 32px;
 }
 
-/* line 2172, ../scss/_settings.scss */
+/* line 2281, ../scss/_settings.scss */
 a.fa-arrow-circle-down:hover {
   color: #cccccc;
   -webkit-transition: all 0.5s;
@@ -743,20 +888,66 @@ a.fa-arrow-circle-down:hover {
   transition: all 0.5s;
 }
 
-/* line 2181, ../scss/_settings.scss */
+/* line 2290, ../scss/_settings.scss */
 div.text-center p {
   text-align: center;
 }
 
-/* line 2190, ../scss/_settings.scss */
+/* line 2299, ../scss/_settings.scss */
 header.fixed, header.fixed div.fixed {
   height: 45px;
 }
 
-/* line 2197, ../scss/_settings.scss */
+/* line 2305, ../scss/_settings.scss */
+section.blog {
+  padding-bottom: 0px;
+}
+
+/* line 2308, ../scss/_settings.scss */
 img.blog-center {
   width: 100%;
   text-align: center;
+}
+
+/* line 2313, ../scss/_settings.scss */
+div.post-author {
+  padding-left: 0px;
+  padding-right: 0px;
+  width: 75px;
+}
+
+/* line 2318, ../scss/_settings.scss */
+img.post-author {
+  width: 75px;
+  height: 75px;
+  border-radius: 75px;
+  -webkit-border-radius: 75px;
+  -moz-border-radius: 75px;
+}
+
+/* line 2326, ../scss/_settings.scss */
+div.post-link a, div.post-link a:active, div.post-link a:visited {
+  color: #777777;
+}
+
+/* line 2329, ../scss/_settings.scss */
+div.post-link a:hover {
+  color: #999999;
+}
+
+/* line 2335, ../scss/_settings.scss */
+#share-buttons {
+  text-align: right;
+}
+
+/* line 2338, ../scss/_settings.scss */
+#share-buttons img {
+  width: 35px;
+  padding: 5px;
+  border: 0;
+  box-shadow: 0;
+  display: inline;
+  -webkit-filter: grayscale(100%);
 }
 
 /* line 347, ../bower_components/foundation/scss/foundation/components/_global.scss */

@@ -1,28 +1,31 @@
 ---
-layout: notepad
+layout: default
 id: notepad
 subid: advice
 title: The Notepad
 ---
 
-{% include notepad/top-section.html %}
+<div class="row">
+	<div class="small-12 columns">
+		{% include notepad/bar.html %}
+	</div>	
+</div>
 
 {% for page in site.posts %}
 
 	{% if page.categories contains 'advice' %}
 
-		<a href="{{ site.baseurl }}{{ page.url }}">{% include notepad/banner.html %}</a>
 		<section class="content">
-			<div class="row"><div class="small-12">
+			<div class="row"><div class="small-12 columns">
 				<p>{{ page.date | date: '%B %d, %Y' }}</p>
 			</div></div>
 			<div class="row">
-				<div class="small-12">
-					<h1>{{ page.subtitle }}</h1>
+				<div class="small-12 columns post-link">
+					<h1><a href="{{ site.baseurl }}{{ page.url }}">{{ page.subtitle }}</a></h1>
 				</div>
 			</div>
 			<div class="row">
-				<div class="small-12">
+				<div class="small-12 columns">
 					<p>{{ page.excerpt }}</p>
 				</div>
 			</div>

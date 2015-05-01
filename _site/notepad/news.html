@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <!--[if IE 9]><html class="lt-ie10" lang="en" > <![endif]-->
 <html class="no-js" lang="en" >
-	<head>
+  <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width initial-scale=1" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -14,9 +14,9 @@
 	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 </head>
 
-  	<body class="light">
+	<body class="light">
 		<div id="wrapper">
-			<header class="site-header show-for-large-up">
+		<header class="site-header show-for-large-up">
   <div class="sticky">
 
     <nav class="top-bar" role="navigation" data-topbar>
@@ -88,30 +88,9 @@
   </div>   
 </header>
 
-			<section class="light content">
-	<div class="row">
-		<div class="medium-12 column">
-			
-
-	
-
-	
-
-	
-
-	
-		
-	
-
-
-
-	
-
-	
-		
-	
-
-	
+		<div class="show-for-large-up">
+	<div class="banner-notepad">
+	</div>
 
 	
 
@@ -120,39 +99,105 @@
 	
 
 	
+		<div id="banner-intro-small" class="row fullWidth" height="200px">
+			<div class="large-12 columns text-center animated fadeInDown">
+				
+					<p class="title">NOTEPAD</p>
+					<p class="subtitle">Our collection of news, events, latest work and technical advice.</p>
+				
+			</div>
+		</div>
+	
+
 
 	
-			
-	
-
-	
 
 
-
-<div id="notepad-bar">
-		<a href="/notepad/news.html" class=" active ">
-			<img src="/assets/img/news.png" alt="">
-			<label>News (0)</label>
-		</a><br>
-		<a href="/notepad/work.html" class="">
-			<img src="/assets/img/work.png" alt="">
-			<label>Work (1)</label>
-		</a><br>
-		<a href="/notepad/events.html" class="">
-			<img src="/assets/img/events.png" alt="">
-			<label>Events (1)</label>
-		</a><br>
-		<a href="/notepad/advice.html" class="">
-			<img src="/assets/img/advice.png" alt="">
-			<label>Advice (1)</label>
-		</a>
 </div>
 
 
+<div class="show-for-small-only">
+	
+</div>
+		<div class="row">
+	<div class="small-12 columns">
+		
+
+	
+
+	
+
+	
+
+	
+		
+	
+
+
+
+	
+
+	
+		
+	
+
+	
+
+	
+
+
+
+	
+
+	
+
+	
+			
+	
+
+	
+
+
+
+<div id="notepad-bar" class="notepad-bar-hide">
+	<div class="row">
+		<div class="small-10 columns">
+			<a href="/notepad" class="">
+				<div class="notepad-bar-icon bar-all "></div>
+				<label>All</label>
+			</a><br>
+			<a href="/notepad/news.html" class="">
+				<div class="notepad-bar-icon bar-news  bar-news-active "></div>
+				<label>News (0)</label>
+			</a><br>
+			<a href="/notepad/work.html" class="">
+				<div class="notepad-bar-icon bar-work "></div>
+				<label>Work (1)</label>
+			</a><br>
+			<a href="/notepad/events.html" class="">
+				<div class="notepad-bar-icon bar-events "></div>
+				<label>Events (1)</label>
+			</a><br>
+			<a href="/notepad/advice.html" class="">
+				<div class="notepad-bar-icon bar-advice "></div>
+				<label>Advice (1)</label>
+			</a>
+		</div>
+		<div class="small-2 columns">
+			<div id="handle" class="handle-show">
+				<div class="notepad-bar-icon bar-right"></div>
+			</div>
 		</div>
 	</div>
-</section>
+</div>
 
+
+	</div>	
+</div>
+
+
+
+	
 
 
 
@@ -164,11 +209,7 @@
 
 
 
-	
-
-
-
-		  	<footer class="footer">
+	  	<footer class="footer">
 	<div class="row fullWidth">
 		<div class="large-12 columns text-center">
 			<ul class="small-block-grid-1 medium-block-grid-1 large-block-grid-3">
@@ -193,7 +234,7 @@
 	</div>
 </footer>
 
-		  	    <script src="/bower_components/foundation/js/vendor/jquery.js"></script>
+		    <script src="/bower_components/foundation/js/vendor/jquery.js"></script>
     <script src="/bower_components/foundation/js/foundation.min.js"></script>   
     <script src="/js/app.js"></script>   
     
@@ -209,17 +250,24 @@
 			var scrolled=false;
 			var moved=false;
 			var lastY=0;
-
+			
+			//$('header.show-for-large-up').addClass('bigger');
+			if($('body').hasClass('f-topbar-fixed')) $('div.banner-notepad').css('margin-top','0px');
+			else $('div.banner-notepad').css('margin-top','-100px');
+			
 			$(window).scroll(function(){
 				var shrinkOn=100;
 				var $header=$('header.show-for-large-up');
 				if(!$header.hasClass('bar-no-reduction')){
 
-					if(!$header.hasClass('notepad')){
+					
 						var $banner=$('div#banner-intro');
 						var distanceY=$(window).scrollTop();
-						
+
+						console.log('distanceY: '+distanceY+' lastY: '+lastY+' Moved:'+moved);
+
 						// Top padding for when the top nave goes fixed
+						/*
 						if(distanceY>0){
 							$('div.banner-notepad').css('margin-top','0px');
 							lastY=distanceY;
@@ -228,8 +276,9 @@
 						if((distanceY<lastY) && (moved)){
 							$('div.banner-notepad').css('margin-top','-100px');
 							moved=false;
-						}
+						}*/
 
+						
 						// Control of the size of the top bar
 						if(distanceY>shrinkOn){
 							$header.removeClass('bigger');
@@ -249,7 +298,11 @@
 								scrolled=false;
 							}
 						}
-					}
+
+						if($('body').hasClass('f-topbar-fixed')) $('div.banner-notepad').css('margin-top','0px');
+						else $('div.banner-notepad').css('margin-top','-100px');
+
+					
 				}
 			});
 		});
@@ -259,9 +312,32 @@
 
 	
 
+	
+		
+		<script>
+			// icon-bar achors control
+			$(document).ready(function(){
+
+				$('div#notepad-bar').on('mouseover',function(){
+					$(this).removeClass('notepad-bar-hide');
+					$(this).addClass('notepad-bar-show');
+						$('div#handle').removeClass('handle-show');
+						$('div#handle').addClass('handle-hide');
+				});
+				$('div#notepad-bar').on('mouseout',function(){
+					$(this).addClass('notepad-bar-hide');
+					$(this).removeClass('notepad-bar-show');
+						$('div#handle').removeClass('handle-hide');
+						$('div#handle').addClass('handle-show');
+				});
+
+			});
+		</script>
+
+	
+
  
 
 		</div>
-  </body>
+	</body>
 </html>
-  

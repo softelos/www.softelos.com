@@ -14,17 +14,24 @@
 			var scrolled=false;
 			var moved=false;
 			var lastY=0;
-
+			
+			//$('header.show-for-large-up').addClass('bigger');
+			if($('body').hasClass('f-topbar-fixed')) $('div.banner-{{ page.id }}').css('margin-top','0px');
+			else $('div.banner-{{ page.id }}').css('margin-top','-100px');
+			
 			$(window).scroll(function(){
 				var shrinkOn=100;
 				var $header=$('header.show-for-large-up');
 				if(!$header.hasClass('bar-no-reduction')){
 
-					if(!$header.hasClass('notepad')){
+					
 						var $banner=$('div#banner-intro');
 						var distanceY=$(window).scrollTop();
-						
+
+						console.log('distanceY: '+distanceY+' lastY: '+lastY+' Moved:'+moved);
+
 						// Top padding for when the top nave goes fixed
+						/*
 						if(distanceY>0){
 							$('div.banner-{{ page.id }}').css('margin-top','0px');
 							lastY=distanceY;
@@ -33,8 +40,9 @@
 						if((distanceY<lastY) && (moved)){
 							$('div.banner-{{ page.id }}').css('margin-top','-100px');
 							moved=false;
-						}
+						}*/
 
+						
 						// Control of the size of the top bar
 						if(distanceY>shrinkOn){
 							$header.removeClass('bigger');
@@ -54,7 +62,11 @@
 								scrolled=false;
 							}
 						}
-					}
+
+						if($('body').hasClass('f-topbar-fixed')) $('div.banner-{{ page.id }}').css('margin-top','0px');
+						else $('div.banner-{{ page.id }}').css('margin-top','-100px');
+
+					
 				}
 			});
 		});
@@ -157,6 +169,30 @@
 				});
 			});	
 		</script>
+	{% endif %}
+
+	{% if page.id == "notepad" %}
+		
+		<script>
+			// icon-bar achors control
+			$(document).ready(function(){
+
+				$('div#notepad-bar').on('mouseover',function(){
+					$(this).removeClass('notepad-bar-hide');
+					$(this).addClass('notepad-bar-show');
+						$('div#handle').removeClass('handle-show');
+						$('div#handle').addClass('handle-hide');
+				});
+				$('div#notepad-bar').on('mouseout',function(){
+					$(this).addClass('notepad-bar-hide');
+					$(this).removeClass('notepad-bar-show');
+						$('div#handle').removeClass('handle-hide');
+						$('div#handle').addClass('handle-show');
+				});
+
+			});
+		</script>
+
 	{% endif %}
 
  

@@ -28,8 +28,12 @@
 	{% if page.id == "notepad" %}
 		<div id="banner-intro-small" class="row fullWidth" height="200px">
 			<div class="large-12 columns text-center animated fadeInDown">
-				<p class="title">NOTEPAD</p>
-				<p class="subtitle">Our collection of news, events, latest work and technical advice.</p>
+				{% if page.type == 'post' %}
+					<p class="title">{{ page.subtitle }}</p>
+				{% else %}
+					<p class="title">NOTEPAD</p>
+					<p class="subtitle">Our collection of news, events, latest work and technical advice.</p>
+				{% endif %}
 			</div>
 		</div>
 	{% endif %}

@@ -456,17 +456,24 @@
 			var scrolled=false;
 			var moved=false;
 			var lastY=0;
-
+			
+			//$('header.show-for-large-up').addClass('bigger');
+			if($('body').hasClass('f-topbar-fixed')) $('div.banner-whatwedo').css('margin-top','0px');
+			else $('div.banner-whatwedo').css('margin-top','-100px');
+			
 			$(window).scroll(function(){
 				var shrinkOn=100;
 				var $header=$('header.show-for-large-up');
 				if(!$header.hasClass('bar-no-reduction')){
 
-					if(!$header.hasClass('notepad')){
+					
 						var $banner=$('div#banner-intro');
 						var distanceY=$(window).scrollTop();
-						
+
+						console.log('distanceY: '+distanceY+' lastY: '+lastY+' Moved:'+moved);
+
 						// Top padding for when the top nave goes fixed
+						/*
 						if(distanceY>0){
 							$('div.banner-whatwedo').css('margin-top','0px');
 							lastY=distanceY;
@@ -475,8 +482,9 @@
 						if((distanceY<lastY) && (moved)){
 							$('div.banner-whatwedo').css('margin-top','-100px');
 							moved=false;
-						}
+						}*/
 
+						
 						// Control of the size of the top bar
 						if(distanceY>shrinkOn){
 							$header.removeClass('bigger');
@@ -496,7 +504,11 @@
 								scrolled=false;
 							}
 						}
-					}
+
+						if($('body').hasClass('f-topbar-fixed')) $('div.banner-whatwedo').css('margin-top','0px');
+						else $('div.banner-whatwedo').css('margin-top','-100px');
+
+					
 				}
 			});
 		});
@@ -584,6 +596,8 @@
 				});
 			});	
 		</script>
+	
+
 	
 
  
