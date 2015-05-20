@@ -1,8 +1,10 @@
 <div class="show-for-large-up">
-	<div class="banner-{{ page.id }}">
-	</div>
 
 	{% if page.id == "hello" %}
+		
+		<div class="banner-{{ page.id }}">
+		</div>
+
 		<div id="banner-intro" class="row fullWidth" height="400px">
 			<div class="large-12 columns text-center animated fadeInDown">
 				<p class="title">WE ARE CREATIVE GEEKS</p>
@@ -14,9 +16,35 @@
 		</div>
 	{% endif %}
 
+	{% if page.id == "whatwedo" %}
+		<div class="banner-{{ page.id }}">
+			<video autoplay loop poster="polina.jpg" id="bgvid">
+				<source src="{{ site.baseurl }}/assets/videos/typing.mp4" type="video/mp4">
+			</video>
+		</div>
+	{% endif %}
+
+	{% if page.id == "ourteam" %}
+		<div class="banner-{{ page.id }}">
+		</div>
+
+		<div id="banner-intro-small" class="row fullWidth" height="200px">
+			<div class="large-12 columns text-center animated fadeInDown">
+				<p class="title">WE ARE HONEST AND HARD WORKERS</p>
+				<p class="subtitle">We are a team that loves unique ideas and enjoys developing creativity.</p>
+			</div>
+			<div class="large-12 columns text-center animated fadeInDown">
+				<p class="subtitle"><a id="go-down-button" href="#section-start" class="fa fa-arrow-circle-down"></a></p>
+			</div>
+		</div>
+	{% endif %}
+
 
 
 	{% if page.id == "contactus" %}
+		<div class="banner-{{ page.id }}">
+		</div>
+
 		<div id="banner-intro-small" class="row fullWidth" height="200px">
 			<div class="large-12 columns text-center animated fadeInDown">
 				<p class="title">LET'S MAKE SOMETHING TOGETHER</p>
@@ -26,6 +54,10 @@
 	{% endif %}
 
 	{% if page.id == "notepad" %}
+
+		<div class="banner-{{ page.id }}">
+		</div>
+
 		<div id="banner-intro-small" class="row fullWidth" height="200px">
 			<div class="large-12 columns text-center animated fadeInDown">
 				{% if page.type == 'post' %}
@@ -40,6 +72,10 @@
 
 
 	{% if page.id == "404" %}
+
+		<div class="banner-{{ page.id }}">
+		</div>
+
 		<div id="banner-intro-only" class="row fullWidth" height="200px">
 			<div class="large-12 columns text-center animated fadeInDown">
 				<p class="title">OH, THE INTERNET EXPLODED!</p>

@@ -1525,9 +1525,12 @@ body{
 $logo-big-size:75px;
 $logo-small-size:25px;
 $logo-big-left-margin:75px;
+$logo-big-left-margin:40px;
 $logo-small-left-margin:10px;
 $menu-big-top-margin:2.5rem;
 $menu-small-top-margin:0px;
+
+$top-bar-section-right-margin:40px;
 
 div#services-top-padding.collapse{
 	height: 0px;
@@ -1541,8 +1544,8 @@ div.banner-hello{
 	margin-top:-$topbar-height;
 	z-index: -100;
 	height:100vh;
-    width: 100vw; 
-    background: url('/assets/img/WomanHappy.jpg') no-repeat center center; 
+    width: 100vw;
+    background: url('/assets/img/creative.jpg') no-repeat center center; 
 	-webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -1581,7 +1584,7 @@ div.banner-notepad{
 	z-index: -100;
 	height:450px;
     width: 100vw; 
-    background: url('/assets/img/WomanHappy.jpg') no-repeat center center; 
+    background: url('/assets/img/notepad.jpg') no-repeat center center; 
 	-webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -1590,19 +1593,32 @@ div.banner-notepad{
   }
 
  div.banner-whatwedo{
-	margin-top:-$topbar-height;
+	/*margin-top:-$topbar-height;*/
 	z-index: -100;
 	height: -o-calc(100vh - 70px); /* opera */
 	height: -webkit-calc(100vh - 70px); /* google, safari */
 	height: -moz-calc(100vh - 70px); /* firefox */
     width: 100vw; 
-    background: url('/assets/img/WomanHappy.jpg') no-repeat center center; 
+    /*background: url('/assets/img/whatwedo.jpg') no-repeat center center; */
 	-webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
     position: relative;    
   }
+	  video#bgvid {
+		margin-top: -140px;
+	    width: 100vw; 
+	    height: auto;
+
+		background: url(polina.jpg) no-repeat;
+		-webkit-background-size: cover;
+	    -moz-background-size: cover;
+	    -o-background-size: cover;
+	    background-size: cover;
+	    position: relative;    
+		}
+
   div.banner-404{
 	margin-top:-$topbar-height;
 	z-index: -100;
@@ -1645,10 +1661,14 @@ div.banner-notepad{
   
   .top-bar-section ul.right{
   	margin-right: 75px;
+  	margin-right: $top-bar-section-right-margin;
+
   	margin-top: $menu-big-top-margin;
   }
   .top-bar-section ul li a{
   	letter-spacing: -0.02rem;
+  	padding-left: 2px;
+  	padding-right: 2px;
   }
 
 
@@ -1847,7 +1867,7 @@ header.bigger .top-bar li.name{
 
 
 header.bigger .top-bar-section ul.right{
-	margin-right: 75px;
+	margin-right: $top-bar-section-right-margin;
 	margin-top: $menu-big-top-margin;
  	-webkit-transition: all 0.5s;
  	-moz-transition: all 0.5s;
@@ -1987,6 +2007,7 @@ p.belowfooter{
 div#banner-intro{
 	position: absolute;
 	bottom: 30px;
+	bottom: 40px;
 }
 div#banner-intro-small{
 	position: absolute;
@@ -2343,4 +2364,39 @@ div.post-link a:hover{
 	display: inline;
 	-webkit-filter:grayscale(100%);
 }
- 
+
+
+
+
+div.team-picture{
+	width: 300px;
+	height: 300px;
+}
+div.team-picture div.image{
+	width: 300px;
+	height: 300px;
+	border-radius: 5px;
+}
+div.team-picture div.chakir{
+	background: url(/assets/img/Chakir.png) no-repeat;
+}
+div.team-picture div.amal{
+	background: url(/assets/img/Amal.png) no-repeat;
+}
+
+div.team-picture div.text{
+	margin-top: -55px;
+}
+div.team-picture div.text h1, div.team-picture div.text h2{
+	margin: 0px;
+	padding: 0px;
+	line-height: 22px;
+	color:#ffffff;
+}
+div.team-picture div.text h1{
+	font-size: 18px;
+
+}
+div.team-picture div.text h2{
+	font-size: 12px;
+}
