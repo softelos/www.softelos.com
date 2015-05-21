@@ -1944,9 +1944,16 @@ div.productbox-logo{
   		height: 106px;
 	}
 
+section.products{
+	padding-bottom: 0px;
+}
+section.products li{
+	padding-bottom: 0px;
+}
 section.products div.panel{
 	border:none;
 	background:none;
+	margin-bottom: 0px;
 }
 section.products div.panel h3{
 	color:#6D6D6D;
@@ -2399,4 +2406,28 @@ div.team-picture div.text h1{
 }
 div.team-picture div.text h2{
 	font-size: 12px;
+}
+
+
+
+
+// M O R E 
+
+section.ourteam{
+	font-family: 'Muli', sans-serif;
+}
+
+section.ourteam div.row{
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+section.ourteam div.left{
+	text-align: right;
+}
+section.ourteam div.right{
+	text-align: left;
+}
+
+section#ourteam-intro div.text-center h2{
+	text-transform: none;
 }

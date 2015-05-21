@@ -17,8 +17,8 @@ textWebsitesShort: "Web Design"
 
 picCMS: /assets/img/cms.png
 iconCMS: /assets/img/CMSIcon.png
-textCMS: "CMS"
-textCMSShort: "CMS"
+textCMS: "Content Management"
+textCMSShort: "Content Management"
 
 picWebDev: /assets/img/WebDevelopment.png
 iconWebDev: /assets/img/WebDevelopmentIcon.png

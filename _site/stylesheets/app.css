@@ -498,29 +498,40 @@ div.productbox-logo img {
 }
 
 /* line 1947, ../scss/_settings.scss */
+section.products {
+  padding-bottom: 0px;
+}
+
+/* line 1950, ../scss/_settings.scss */
+section.products li {
+  padding-bottom: 0px;
+}
+
+/* line 1953, ../scss/_settings.scss */
 section.products div.panel {
   border: none;
   background: none;
+  margin-bottom: 0px;
 }
 
-/* line 1951, ../scss/_settings.scss */
+/* line 1958, ../scss/_settings.scss */
 section.products div.panel h3 {
   color: #6D6D6D;
 }
 
-/* line 1955, ../scss/_settings.scss */
+/* line 1962, ../scss/_settings.scss */
 div.productbox-description p {
   color: #6D6D6D;
   color: #999999;
   text-align: center;
 }
 
-/* line 1961, ../scss/_settings.scss */
+/* line 1968, ../scss/_settings.scss */
 div.product {
   padding: 5px;
 }
 
-/* line 1964, ../scss/_settings.scss */
+/* line 1971, ../scss/_settings.scss */
 div.product:hover {
   filter: grayscale(100%);
   -webkit-filter: grayscale(100%);
@@ -531,7 +542,7 @@ div.product:hover {
   transition: all 0.75s;
 }
 
-/* line 1976, ../scss/_settings.scss */
+/* line 1983, ../scss/_settings.scss */
 footer {
   font-family: 'Montserrat', sans-serif;
   text-transform: uppercase;
@@ -545,7 +556,7 @@ footer {
   padding-right: 20px;
 }
 
-/* line 1988, ../scss/_settings.scss */
+/* line 1995, ../scss/_settings.scss */
 div.footer-social a {
   color: #666666;
   font-size: 2.10rem;
@@ -553,12 +564,12 @@ div.footer-social a {
   padding-left: 10px;
 }
 
-/* line 1994, ../scss/_settings.scss */
+/* line 2001, ../scss/_settings.scss */
 div.footer-social a:hover {
   color: #DEA653;
 }
 
-/* line 1998, ../scss/_settings.scss */
+/* line 2005, ../scss/_settings.scss */
 p.belowfooter {
   font-family: 'Oleo Script', cursive;
   text-transform: lowercase;
@@ -566,26 +577,26 @@ p.belowfooter {
   font-size: 18px;
 }
 
-/* line 2007, ../scss/_settings.scss */
+/* line 2014, ../scss/_settings.scss */
 div#banner-intro {
   position: absolute;
   bottom: 30px;
   bottom: 40px;
 }
 
-/* line 2012, ../scss/_settings.scss */
+/* line 2019, ../scss/_settings.scss */
 div#banner-intro-small {
   position: absolute;
   top: 250px;
 }
 
-/* line 2016, ../scss/_settings.scss */
+/* line 2023, ../scss/_settings.scss */
 div#banner-intro-only {
   position: absolute;
   bottom: 45px;
 }
 
-/* line 2020, ../scss/_settings.scss */
+/* line 2027, ../scss/_settings.scss */
 div#banner-intro p.title, div#banner-intro-small p.title, div#banner-intro-only p.title {
   font-family: 'Montserrat', sans-serif;
   font-size: 2rem;
@@ -595,7 +606,7 @@ div#banner-intro p.title, div#banner-intro-small p.title, div#banner-intro-only 
   -vendor-animation-delay: 1s;
 }
 
-/* line 2028, ../scss/_settings.scss */
+/* line 2035, ../scss/_settings.scss */
 div#banner-intro p.subtitle, div#banner-intro-small p.subtitle, div#banner-intro-only p.subtitle {
   font-family: 'Montserrat', sans-serif;
   font-size: 1rem;
@@ -604,14 +615,14 @@ div#banner-intro p.subtitle, div#banner-intro-small p.subtitle, div#banner-intro
   -vendor-animation-delay: 1s;
 }
 
-/* line 2036, ../scss/_settings.scss */
+/* line 2043, ../scss/_settings.scss */
 div#banner-intro a.hollow, div#banner-intro.small a.hollow, div#banner-intro-only a.hollow, p a.hollow {
   background-color: transparent;
   color: #cccccc;
   border: 2pt solid #cccccc;
 }
 
-/* line 2041, ../scss/_settings.scss */
+/* line 2048, ../scss/_settings.scss */
 div#banner-intro a.hollow:hover, div#banner-intro-small a.hollow:hover, div#banner-intro-only a.hollow:hover, p a.hollow:hover {
   border-color: #ffffff;
   color: #ffffff;
@@ -623,23 +634,23 @@ div#banner-intro a.hollow:hover, div#banner-intro-small a.hollow:hover, div#bann
   transition: all 0.75s;
 }
 
-/* line 2074, ../scss/_settings.scss */
+/* line 2081, ../scss/_settings.scss */
 div#services-icon-bar {
   z-index: 25;
 }
 
-/* line 2077, ../scss/_settings.scss */
+/* line 2084, ../scss/_settings.scss */
 div#services-icon-bar label {
   font-family: 'Montserrat', sans-serif;
 }
 
-/* line 2080, ../scss/_settings.scss */
+/* line 2087, ../scss/_settings.scss */
 .fixedPosition {
   position: fixed;
   top: 45px;
 }
 
-/* line 2085, ../scss/_settings.scss */
+/* line 2092, ../scss/_settings.scss */
 div.icon-bar a:hover {
   background-color: #E4EBED;
   -webkit-transition: all 0.75s;
@@ -649,17 +660,17 @@ div.icon-bar a:hover {
   transition: all 0.75s;
 }
 
-/* line 2094, ../scss/_settings.scss */
+/* line 2101, ../scss/_settings.scss */
 div.icon-bar a.active {
   background-color: #E4EBED;
 }
 
-/* line 2102, ../scss/_settings.scss */
+/* line 2109, ../scss/_settings.scss */
 form.contact label {
   font-family: 'Montserrat', sans-serif;
 }
 
-/* line 2105, ../scss/_settings.scss */
+/* line 2112, ../scss/_settings.scss */
 form.contact input[type=text], form.contact textarea {
   font-family: 'Muli', sans-serif;
   background-color: #dddddd;
@@ -673,43 +684,43 @@ form.contact input[type=text], form.contact textarea {
   box-shadow: none;
 }
 
-/* line 2117, ../scss/_settings.scss */
+/* line 2124, ../scss/_settings.scss */
 form.contact input[type=text] {
   height: 50px;
 }
 
-/* line 2120, ../scss/_settings.scss */
+/* line 2127, ../scss/_settings.scss */
 form.contact input:focus, form.contact textarea:focus {
   background-color: #eeeeee;
   /*background-color: #DEA653;*/
   box-shadow: none;
 }
 
-/* line 2126, ../scss/_settings.scss */
+/* line 2133, ../scss/_settings.scss */
 div.contact p, div.contact strong {
   font-family: 'Montserrat', sans-serif;
   font-size: 1rem;
 }
 
-/* line 2130, ../scss/_settings.scss */
+/* line 2137, ../scss/_settings.scss */
 div.contact strong {
   font-size: 1.10rem;
   color: #000000;
 }
 
-/* line 2134, ../scss/_settings.scss */
+/* line 2141, ../scss/_settings.scss */
 div.contact div.footer-social {
   padding-top: 20px;
   padding-bottom: 20px;
 }
 
-/* line 2141, ../scss/_settings.scss */
+/* line 2148, ../scss/_settings.scss */
 div#map {
   width: 100%;
   height: 300px;
 }
 
-/* line 2150, ../scss/_settings.scss */
+/* line 2157, ../scss/_settings.scss */
 div#notepad-bar {
   padding-top: 5px;
   padding-bottom: 5px;
@@ -720,7 +731,7 @@ div#notepad-bar {
   border-radius: 10px;
 }
 
-/* line 2160, ../scss/_settings.scss */
+/* line 2167, ../scss/_settings.scss */
 div#notepad-bar div {
   margin-left: 0px;
   margin-right: 0px;
@@ -728,7 +739,7 @@ div#notepad-bar div {
   padding-right: 0px;
 }
 
-/* line 2169, ../scss/_settings.scss */
+/* line 2176, ../scss/_settings.scss */
 div#notepad-bar div.notepad-bar-icon {
   width: 32px;
   height: 32px;
@@ -736,62 +747,62 @@ div#notepad-bar div.notepad-bar-icon {
   margin-right: auto;
 }
 
-/* line 2175, ../scss/_settings.scss */
+/* line 2182, ../scss/_settings.scss */
 div#notepad-bar div.bar-all {
   background-image: url(/assets/img/bar-all.png);
 }
 
-/* line 2178, ../scss/_settings.scss */
+/* line 2185, ../scss/_settings.scss */
 div#notepad-bar div.bar-all-active, div#notepad-bar div.bar-all:hover {
   background-image: url(/assets/img/bar-all-active.png);
 }
 
-/* line 2181, ../scss/_settings.scss */
+/* line 2188, ../scss/_settings.scss */
 div#notepad-bar div.bar-news {
   background-image: url(/assets/img/bar-news.png);
 }
 
-/* line 2184, ../scss/_settings.scss */
+/* line 2191, ../scss/_settings.scss */
 div#notepad-bar div.bar-news-active, div#notepad-bar div.bar-news:hover {
   background-image: url(/assets/img/bar-news-active.png);
 }
 
-/* line 2187, ../scss/_settings.scss */
+/* line 2194, ../scss/_settings.scss */
 div#notepad-bar div.bar-events {
   background-image: url(/assets/img/bar-events.png);
 }
 
-/* line 2190, ../scss/_settings.scss */
+/* line 2197, ../scss/_settings.scss */
 div#notepad-bar div.bar-events-active, div#notepad-bar div.bar-events:hover {
   background-image: url(/assets/img/bar-events-active.png);
 }
 
-/* line 2193, ../scss/_settings.scss */
+/* line 2200, ../scss/_settings.scss */
 div#notepad-bar div.bar-work {
   background-image: url(/assets/img/bar-work.png);
 }
 
-/* line 2196, ../scss/_settings.scss */
+/* line 2203, ../scss/_settings.scss */
 div#notepad-bar div.bar-work-active, div#notepad-bar div.bar-work:hover {
   background-image: url(/assets/img/bar-work-active.png);
 }
 
-/* line 2199, ../scss/_settings.scss */
+/* line 2206, ../scss/_settings.scss */
 div#notepad-bar div.bar-advice {
   background-image: url(/assets/img/bar-advice.png);
 }
 
-/* line 2202, ../scss/_settings.scss */
+/* line 2209, ../scss/_settings.scss */
 div#notepad-bar div.bar-advice-active, div#notepad-bar div.bar-advice:hover {
   background-image: url(/assets/img/bar-advice-active.png);
 }
 
-/* line 2205, ../scss/_settings.scss */
+/* line 2212, ../scss/_settings.scss */
 div#notepad-bar div.bar-right {
   background-image: url(/assets/img/bar-right.png);
 }
 
-/* line 2208, ../scss/_settings.scss */
+/* line 2215, ../scss/_settings.scss */
 div#notepad-bar div.handle-show {
   opacity: 1;
   -webkit-transition: all 0.5s;
@@ -801,7 +812,7 @@ div#notepad-bar div.handle-show {
   transition: all 0.5s;
 }
 
-/* line 2216, ../scss/_settings.scss */
+/* line 2223, ../scss/_settings.scss */
 div#notepad-bar div.handle-hide {
   opacity: 0;
   -webkit-transition: all 0.5s;
@@ -811,7 +822,7 @@ div#notepad-bar div.handle-hide {
   transition: all 0.5s;
 }
 
-/* line 2226, ../scss/_settings.scss */
+/* line 2233, ../scss/_settings.scss */
 div#handle {
   position: relative;
   top: 155px;
@@ -819,7 +830,7 @@ div#handle {
   margin-left: -5px !important;
 }
 
-/* line 2232, ../scss/_settings.scss */
+/* line 2239, ../scss/_settings.scss */
 div.notepad-bar-hide {
   left: -85px;
   top: 200px;
@@ -830,7 +841,7 @@ div.notepad-bar-hide {
   transition: all 0.5s;
 }
 
-/* line 2241, ../scss/_settings.scss */
+/* line 2248, ../scss/_settings.scss */
 div.notepad-bar-show {
   left: -10px;
   top: 200px;
@@ -841,61 +852,61 @@ div.notepad-bar-show {
   transition: all 0.5s;
 }
 
-/* line 2251, ../scss/_settings.scss */
+/* line 2258, ../scss/_settings.scss */
 div#notepad-bar label {
   color: #eeeeee;
   font-family: 'Muli', sans-serif;
   font-size: 12px;
 }
 
-/* line 2256, ../scss/_settings.scss */
+/* line 2263, ../scss/_settings.scss */
 div#note-bar img {
   width: 32px;
   height: 32px;
 }
 
-/* line 2260, ../scss/_settings.scss */
+/* line 2267, ../scss/_settings.scss */
 div#notepad-bar a:hover {
   background-color: #DEA653;
 }
 
-/* line 2266, ../scss/_settings.scss */
+/* line 2273, ../scss/_settings.scss */
 div#wrapper {
   /* display: none; */
 }
 
-/* line 2272, ../scss/_settings.scss */
+/* line 2279, ../scss/_settings.scss */
 h2.faq {
   font-family: 'Oleo Script', cursive;
   text-transform: none;
   font-size: 28px;
 }
 
-/* line 2278, ../scss/_settings.scss */
+/* line 2285, ../scss/_settings.scss */
 p.question {
   font-size: 17px;
 }
 
-/* line 2284, ../scss/_settings.scss */
+/* line 2291, ../scss/_settings.scss */
 .vertical-center {
   position: relative;
   top: 50%;
   transform: translateY(-50%);
 }
 
-/* line 2293, ../scss/_settings.scss */
+/* line 2300, ../scss/_settings.scss */
 div.people-small img {
   padding-top: 10px;
   padding-bottom: 10px;
 }
 
-/* line 2298, ../scss/_settings.scss */
+/* line 2305, ../scss/_settings.scss */
 a.fa-arrow-circle-down, a.fa-arrow-circle-down:active, a.fa-arrow-circle-down:visited {
   color: #ffffff;
   font-size: 32px;
 }
 
-/* line 2302, ../scss/_settings.scss */
+/* line 2309, ../scss/_settings.scss */
 a.fa-arrow-circle-down:hover {
   color: #cccccc;
   -webkit-transition: all 0.5s;
@@ -905,35 +916,35 @@ a.fa-arrow-circle-down:hover {
   transition: all 0.5s;
 }
 
-/* line 2311, ../scss/_settings.scss */
+/* line 2318, ../scss/_settings.scss */
 div.text-center p {
   text-align: center;
 }
 
-/* line 2320, ../scss/_settings.scss */
+/* line 2327, ../scss/_settings.scss */
 header.fixed, header.fixed div.fixed {
   height: 45px;
 }
 
-/* line 2326, ../scss/_settings.scss */
+/* line 2333, ../scss/_settings.scss */
 section.blog {
   padding-bottom: 0px;
 }
 
-/* line 2329, ../scss/_settings.scss */
+/* line 2336, ../scss/_settings.scss */
 img.blog-center {
   width: 100%;
   text-align: center;
 }
 
-/* line 2334, ../scss/_settings.scss */
+/* line 2341, ../scss/_settings.scss */
 div.post-author {
   padding-left: 0px;
   padding-right: 0px;
   width: 75px;
 }
 
-/* line 2339, ../scss/_settings.scss */
+/* line 2346, ../scss/_settings.scss */
 img.post-author {
   width: 75px;
   height: 75px;
@@ -942,22 +953,22 @@ img.post-author {
   -moz-border-radius: 75px;
 }
 
-/* line 2347, ../scss/_settings.scss */
+/* line 2354, ../scss/_settings.scss */
 div.post-link a, div.post-link a:active, div.post-link a:visited {
   color: #777777;
 }
 
-/* line 2350, ../scss/_settings.scss */
+/* line 2357, ../scss/_settings.scss */
 div.post-link a:hover {
   color: #999999;
 }
 
-/* line 2356, ../scss/_settings.scss */
+/* line 2363, ../scss/_settings.scss */
 #share-buttons {
   text-align: right;
 }
 
-/* line 2359, ../scss/_settings.scss */
+/* line 2366, ../scss/_settings.scss */
 #share-buttons img {
   width: 35px;
   padding: 5px;
@@ -967,35 +978,35 @@ div.post-link a:hover {
   -webkit-filter: grayscale(100%);
 }
 
-/* line 2371, ../scss/_settings.scss */
+/* line 2378, ../scss/_settings.scss */
 div.team-picture {
   width: 300px;
   height: 300px;
 }
 
-/* line 2375, ../scss/_settings.scss */
+/* line 2382, ../scss/_settings.scss */
 div.team-picture div.image {
   width: 300px;
   height: 300px;
   border-radius: 5px;
 }
 
-/* line 2380, ../scss/_settings.scss */
+/* line 2387, ../scss/_settings.scss */
 div.team-picture div.chakir {
   background: url(/assets/img/Chakir.png) no-repeat;
 }
 
-/* line 2383, ../scss/_settings.scss */
+/* line 2390, ../scss/_settings.scss */
 div.team-picture div.amal {
   background: url(/assets/img/Amal.png) no-repeat;
 }
 
-/* line 2387, ../scss/_settings.scss */
+/* line 2394, ../scss/_settings.scss */
 div.team-picture div.text {
   margin-top: -55px;
 }
 
-/* line 2390, ../scss/_settings.scss */
+/* line 2397, ../scss/_settings.scss */
 div.team-picture div.text h1, div.team-picture div.text h2 {
   margin: 0px;
   padding: 0px;
@@ -1003,14 +1014,40 @@ div.team-picture div.text h1, div.team-picture div.text h2 {
   color: #ffffff;
 }
 
-/* line 2396, ../scss/_settings.scss */
+/* line 2403, ../scss/_settings.scss */
 div.team-picture div.text h1 {
   font-size: 18px;
 }
 
-/* line 2400, ../scss/_settings.scss */
+/* line 2407, ../scss/_settings.scss */
 div.team-picture div.text h2 {
   font-size: 12px;
+}
+
+/* line 2416, ../scss/_settings.scss */
+section.ourteam {
+  font-family: 'Muli', sans-serif;
+}
+
+/* line 2420, ../scss/_settings.scss */
+section.ourteam div.row {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+/* line 2424, ../scss/_settings.scss */
+section.ourteam div.left {
+  text-align: right;
+}
+
+/* line 2427, ../scss/_settings.scss */
+section.ourteam div.right {
+  text-align: left;
+}
+
+/* line 2431, ../scss/_settings.scss */
+section#ourteam-intro div.text-center h2 {
+  text-transform: none;
 }
 
 /* line 347, ../bower_components/foundation/scss/foundation/components/_global.scss */
@@ -5641,6 +5678,26 @@ label.error {
 @media only screen and (min-width: 64.063em) {
   /* line 322, ../bower_components/foundation/scss/foundation/components/_icon-bar.scss */
   .icon-bar.six-up.large-vertical .item {
+    width: auto;
+  }
+}
+/* line 330, ../bower_components/foundation/scss/foundation/components/_icon-bar.scss */
+.icon-bar.seven-up .item {
+  width: 14.28%;
+}
+/* line 331, ../bower_components/foundation/scss/foundation/components/_icon-bar.scss */
+.icon-bar.seven-up.vertical .item, .icon-bar.seven-up.small-vertical .item {
+  width: auto;
+}
+@media only screen and (min-width: 40.063em) {
+  /* line 332, ../bower_components/foundation/scss/foundation/components/_icon-bar.scss */
+  .icon-bar.seven-up.medium-vertical .item {
+    width: auto;
+  }
+}
+@media only screen and (min-width: 64.063em) {
+  /* line 337, ../bower_components/foundation/scss/foundation/components/_icon-bar.scss */
+  .icon-bar.seven-up.large-vertical .item {
     width: auto;
   }
 }
