@@ -3,10 +3,10 @@
   <channel>
     <title></title>
     <description>Softelos is a Web Design and Development Agency located in Lynchburg (VA). We make beautiful, cutting edge, powerfull websites for clients all over the United States.</description>
-    <link>/</link>
-    <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 22 May 2015 19:16:08 -0400</pubDate>
-    <lastBuildDate>Fri, 22 May 2015 19:16:08 -0400</lastBuildDate>
+    <link>http://www.softelos.com/</link>
+    <atom:link href="http://www.softelos.com/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Fri, 22 May 2015 19:39:00 -0400</pubDate>
+    <lastBuildDate>Fri, 22 May 2015 19:39:00 -0400</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
     
       <item>
@@ -29,8 +29,8 @@
 &lt;p&gt;A good analogy for comparing static websites versus dynamic ones is whether the website could be printed out and still function properly. If the website will show information that is designed to be read, then we could print each page out and with the exception of any hyperlinks we may have, it would still work. For this the best option is to go with static websites due the advantages mentioned above.&lt;/p&gt;
 &lt;p&gt;However if the website needs to be interactive and capable of being used by people who will use it not just for reading, the best option is to go with a dynamic website, built on a &lt;span class=&quot;caps&quot;&gt;CMS&lt;/span&gt; or custom web development.&lt;/p&gt;</description>
         <pubDate>Sun, 08 Feb 2015 13:39:10 -0500</pubDate>
-        <link>/advice/2015/02/08/why-we-dont-use-wordpress.html</link>
-        <guid isPermaLink="true">/advice/2015/02/08/why-we-dont-use-wordpress.html</guid>
+        <link>http://www.softelos.com/advice/2015/02/08/why-we-dont-use-wordpress.html</link>
+        <guid isPermaLink="true">http://www.softelos.com/advice/2015/02/08/why-we-dont-use-wordpress.html</guid>
         
         
         <category>advice</category>
@@ -64,10 +64,10 @@
 &lt;p&gt;This is when the fun starts!&lt;/p&gt;
 &lt;p&gt;Once we have defined the customer&amp;#8217;s requirements, selected a couple of design ideas and chosen the technology to use, we are able to turn all them into reality.&lt;/p&gt;
 &lt;p&gt;First we start creating a wire frame structure of the website or web development, with no graphics and real content. This helps us to show to our customer how the project is taking shape and also allows us to get feedback if something needs change.&lt;/p&gt;
-&lt;p style=&quot;text-align:center;&quot;&gt;&lt;img src=&quot;/assets/img/blog/wireframe.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p style=&quot;text-align:center;&quot;&gt;&lt;img src=&quot;http://www.softelos.com/assets/img/blog/wireframe.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;Once the customer is happy with the wire frame structure and all his requests and changes have been applied, we proceed to apply the &amp;#8220;skin&amp;#8221; to the wire frame, which includes colors, pictures and real content.&lt;/p&gt;
 &lt;p&gt;The initial visual concept is ready!&lt;/p&gt;
-&lt;p style=&quot;text-align:center;&quot;&gt;&lt;img src=&quot;/assets/img/blog/skin.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p style=&quot;text-align:center;&quot;&gt;&lt;img src=&quot;http://www.softelos.com/assets/img/blog/skin.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 &lt;h3&gt;.. you comment and we amend&lt;/h3&gt;
 &lt;p&gt;During this stage we meet with our customer to discuss the initial visual concept and refine based on their feedback. Adding extra touches here and there just enhances the design for perfection.&lt;/p&gt;
 &lt;h3&gt;.. website development&lt;/h3&gt;
@@ -77,8 +77,8 @@
 &lt;p&gt;After intense testing and another round of feedback, we prepare to publish the master piece to the world. This is usually done by announcing the site as an email newsletter that we design and send to your customers.&lt;/p&gt;
 &lt;p&gt;In our case since our site is pure &lt;span class=&quot;caps&quot;&gt;HTML&lt;/span&gt;, &lt;span class=&quot;caps&quot;&gt;CSS&lt;/span&gt; and JavaScript, we don&amp;#8217;t need an expensive hosting provider. For Softelos we are using GitHub, a source version control site that offers free hosting for web sites with no server side scripting or database support.&lt;/p&gt;</description>
         <pubDate>Sun, 08 Feb 2015 12:30:00 -0500</pubDate>
-        <link>/work/2015/02/08/how-we-made.softelos.html</link>
-        <guid isPermaLink="true">/work/2015/02/08/how-we-made.softelos.html</guid>
+        <link>http://www.softelos.com/work/2015/02/08/how-we-made.softelos.html</link>
+        <guid isPermaLink="true">http://www.softelos.com/work/2015/02/08/how-we-made.softelos.html</guid>
         
         
         <category>work</category>
@@ -100,8 +100,8 @@
 &lt;p&gt;Sed dictum augue at lorem rhoncus efficitur. Curabitur tincidunt ligula sed bibendum rhoncus. Nunc non pretium velit. Mauris facilisis elit ut mauris tristique, et sagittis risus eleifend. Pellentesque aliquam, eros sit amet mollis bibendum, elit purus efficitur mi, eu lacinia ipsum est sit amet libero. Nam tincidunt neque vel neque luctus viverra. Suspendisse sit amet egestas lacus, non aliquam arcu. Donec volutpat vel neque id faucibus. Nullam sodales blandit leo vitae vestibulum. Proin pharetra porta dictum. Cras quis scelerisque velit, at pellentesque nisi. Cras ultrices, nisl fermentum ultrices fringilla, diam urna convallis sapien, eget lobortis enim felis ac felis. Vivamus malesuada purus nulla, sit amet lacinia libero faucibus sed. Suspendisse potenti.&lt;/p&gt;
 </description>
         <pubDate>Mon, 26 Jan 2015 13:39:10 -0500</pubDate>
-        <link>/events/2015/01/26/softelos-is-on.html</link>
-        <guid isPermaLink="true">/events/2015/01/26/softelos-is-on.html</guid>
+        <link>http://www.softelos.com/events/2015/01/26/softelos-is-on.html</link>
+        <guid isPermaLink="true">http://www.softelos.com/events/2015/01/26/softelos-is-on.html</guid>
         
         
         <category>events</category>
