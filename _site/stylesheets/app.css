@@ -877,36 +877,39 @@ div#wrapper {
 
 /* line 2279, ../scss/_settings.scss */
 h2.faq {
-  font-family: 'Oleo Script', cursive;
-  text-transform: none;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
   font-size: 28px;
+  padding-bottom: 20px;
 }
 
-/* line 2285, ../scss/_settings.scss */
-p.question {
-  font-size: 17px;
+/* line 2286, ../scss/_settings.scss */
+p.question b {
+  font-size: 22px;
+  font-family: 'Oleo Script', cursive;
+  color: #888888;
 }
 
-/* line 2291, ../scss/_settings.scss */
+/* line 2294, ../scss/_settings.scss */
 .vertical-center {
   position: relative;
   top: 50%;
   transform: translateY(-50%);
 }
 
-/* line 2300, ../scss/_settings.scss */
+/* line 2303, ../scss/_settings.scss */
 div.people-small img {
   padding-top: 10px;
   padding-bottom: 10px;
 }
 
-/* line 2305, ../scss/_settings.scss */
+/* line 2308, ../scss/_settings.scss */
 a.fa-arrow-circle-down, a.fa-arrow-circle-down:active, a.fa-arrow-circle-down:visited {
   color: #ffffff;
   font-size: 32px;
 }
 
-/* line 2309, ../scss/_settings.scss */
+/* line 2312, ../scss/_settings.scss */
 a.fa-arrow-circle-down:hover {
   color: #cccccc;
   -webkit-transition: all 0.5s;
@@ -916,35 +919,35 @@ a.fa-arrow-circle-down:hover {
   transition: all 0.5s;
 }
 
-/* line 2318, ../scss/_settings.scss */
+/* line 2321, ../scss/_settings.scss */
 div.text-center p {
   text-align: center;
 }
 
-/* line 2327, ../scss/_settings.scss */
+/* line 2330, ../scss/_settings.scss */
 header.fixed, header.fixed div.fixed {
   height: 45px;
 }
 
-/* line 2333, ../scss/_settings.scss */
+/* line 2336, ../scss/_settings.scss */
 section.blog {
   padding-bottom: 0px;
 }
 
-/* line 2336, ../scss/_settings.scss */
+/* line 2339, ../scss/_settings.scss */
 img.blog-center {
   width: 100%;
   text-align: center;
 }
 
-/* line 2341, ../scss/_settings.scss */
+/* line 2344, ../scss/_settings.scss */
 div.post-author {
   padding-left: 0px;
   padding-right: 0px;
   width: 75px;
 }
 
-/* line 2346, ../scss/_settings.scss */
+/* line 2349, ../scss/_settings.scss */
 img.post-author {
   width: 75px;
   height: 75px;
@@ -953,22 +956,22 @@ img.post-author {
   -moz-border-radius: 75px;
 }
 
-/* line 2354, ../scss/_settings.scss */
+/* line 2357, ../scss/_settings.scss */
 div.post-link a, div.post-link a:active, div.post-link a:visited {
   color: #777777;
 }
 
-/* line 2357, ../scss/_settings.scss */
+/* line 2360, ../scss/_settings.scss */
 div.post-link a:hover {
   color: #999999;
 }
 
-/* line 2363, ../scss/_settings.scss */
+/* line 2366, ../scss/_settings.scss */
 #share-buttons {
   text-align: right;
 }
 
-/* line 2366, ../scss/_settings.scss */
+/* line 2369, ../scss/_settings.scss */
 #share-buttons img {
   width: 35px;
   padding: 5px;
@@ -978,76 +981,111 @@ div.post-link a:hover {
   -webkit-filter: grayscale(100%);
 }
 
-/* line 2378, ../scss/_settings.scss */
+/* line 2383, ../scss/_settings.scss */
+div.team {
+  padding-bottom: 25px !important;
+}
+
+/* line 2386, ../scss/_settings.scss */
 div.team-picture {
-  width: 300px;
+  width: 250px;
   height: 300px;
 }
 
-/* line 2382, ../scss/_settings.scss */
+/* line 2390, ../scss/_settings.scss */
 div.team-picture div.image {
-  width: 300px;
-  height: 300px;
+  width: 250px;
+  height: 250px;
   border-radius: 5px;
 }
 
-/* line 2387, ../scss/_settings.scss */
+/* line 2395, ../scss/_settings.scss */
 div.team-picture div.chakir {
   background: url(/assets/img/Chakir.png) no-repeat;
 }
 
-/* line 2390, ../scss/_settings.scss */
+/* line 2398, ../scss/_settings.scss */
 div.team-picture div.amal {
   background: url(/assets/img/Amal.png) no-repeat;
 }
 
-/* line 2394, ../scss/_settings.scss */
+/* line 2402, ../scss/_settings.scss */
 div.team-picture div.text {
-  margin-top: -55px;
+  margin-top: 10px;
+  text-align: center;
+  color: #ffffff;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
 }
 
-/* line 2397, ../scss/_settings.scss */
+/* line 2410, ../scss/_settings.scss */
 div.team-picture div.text h1, div.team-picture div.text h2 {
   margin: 0px;
   padding: 0px;
   line-height: 22px;
-  color: #ffffff;
 }
 
-/* line 2403, ../scss/_settings.scss */
+/* line 2415, ../scss/_settings.scss */
 div.team-picture div.text h1 {
-  font-size: 18px;
+  font-size: 20px;
+  font-family: 'Oleo Script', cursive;
+  text-transform: none;
+  color: #6D6D6D;
 }
 
-/* line 2407, ../scss/_settings.scss */
+/* line 2421, ../scss/_settings.scss */
 div.team-picture div.text h2 {
-  font-size: 12px;
+  font-size: 16px;
+  color: #999999;
 }
 
-/* line 2416, ../scss/_settings.scss */
+/* line 2431, ../scss/_settings.scss */
 section.ourteam {
   font-family: 'Muli', sans-serif;
+  font-size: 17px;
+  color: #999999;
 }
 
-/* line 2420, ../scss/_settings.scss */
+/* line 2437, ../scss/_settings.scss */
 section.ourteam div.row {
   padding-top: 10px;
   padding-bottom: 10px;
 }
 
-/* line 2424, ../scss/_settings.scss */
+/* line 2441, ../scss/_settings.scss */
 section.ourteam div.left {
   text-align: right;
 }
 
-/* line 2427, ../scss/_settings.scss */
+/* line 2444, ../scss/_settings.scss */
 section.ourteam div.right {
   text-align: left;
 }
 
-/* line 2431, ../scss/_settings.scss */
+/* line 2448, ../scss/_settings.scss */
 section#ourteam-intro div.text-center h2 {
   text-transform: none;
+}
+
+/* line 2452, ../scss/_settings.scss */
+section.ourteam i.fa {
+  font-size: 30px;
+  color: #DEA653;
+}
+
+/* line 2457, ../scss/_settings.scss */
+section.ourteam div.icon {
+  width: 30px;
+  padding-right: 0px;
+  padding-left: 0px;
+  text-align: center;
+}
+
+/* line 2464, ../scss/_settings.scss */
+section.ourteam div b {
+  font-family: 'Oleo Script', cursive;
+  font-size: 22px;
+  color: #6D6D6D;
 }
 
 /* line 347, ../bower_components/foundation/scss/foundation/components/_global.scss */
