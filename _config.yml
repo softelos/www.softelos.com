@@ -40,3 +40,5 @@ iconSEO: /assets/img/SEOIcon.png
 textSEO: "SEO"
 textSEOShort: "SEO"
 
+gems:
+  - jekyll-sitemap
