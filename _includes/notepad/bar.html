@@ -22,29 +22,29 @@
 	<div class="row">
 		<div class="small-10 columns">
 			<a href="{{ site.baseurl }}/notepad" class="">
-				<div class="notepad-bar-icon bar-all {% if page.subid == 'all' %} bar-all-active {% endif %}"></div>
+				<div class="notepad-bar-icon blog blog-bar-all {% if page.subid == 'all' %} blog-bar-all-active {% endif %}"></div>
 				<label>All</label>
 			</a><br>
 			<a href="{{ site.baseurl }}/notepad/news.html" class="">
-				<div class="notepad-bar-icon bar-news {% if page.subid == 'news' %} bar-news-active {% endif %}"></div>
+				<div class="notepad-bar-icon blog blog-bar-news {% if page.subid == 'news' %} blog-bar-news-active {% endif %}"></div>
 				<label>News ({{ newsC | size }})</label>
 			</a><br>
 			<a href="{{ site.baseurl }}/notepad/work.html" class="">
-				<div class="notepad-bar-icon bar-work {% if page.subid == 'work' %} bar-work-active {% endif %}"></div>
+				<div class="notepad-bar-icon blog  blog-bar-work {% if page.subid == 'work' %} blog-bar-work-active {% endif %}"></div>
 				<label>Work ({{ workC | size }})</label>
 			</a><br>
 			<a href="{{ site.baseurl }}/notepad/events.html" class="">
-				<div class="notepad-bar-icon bar-events {% if page.subid == 'events' %} bar-events-active {% endif %}"></div>
+				<div class="notepad-bar-icon blog  blog-bar-events {% if page.subid == 'events' %} blog-bar-events-active {% endif %}"></div>
 				<label>Events ({{ eventsC | size }})</label>
 			</a><br>
 			<a href="{{ site.baseurl }}/notepad/advice.html" class="">
-				<div class="notepad-bar-icon bar-advice {% if page.subid == 'advice' %} bar-advice-active {% endif %}"></div>
+				<div class="notepad-bar-icon blog  blog-bar-advice {% if page.subid == 'advice' %} blog-bar-advice-active {% endif %}"></div>
 				<label>Advice ({{ adviceC | size }})</label>
 			</a>
 		</div>
 		<div class="small-2 columns">
 			<div id="handle" class="handle-show">
-				<div class="notepad-bar-icon bar-right"></div>
+				<div class="notepad-bar-icon blog blog-bar-right"></div>
 			</div>
 		</div>
 	</div>

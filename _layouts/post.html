@@ -14,11 +14,12 @@ type: post
 <section class="content">
 		<div class="row">
 			<div class="small-1 columns post-author">
-				<img class="post-author" alt="{{ page.author }}" src="http://placehold.it/75x75"/>
+				<div class="post-author blog blog-{{ page.author }}-small"></div>
 			</div>
 		
 			<div class="small-11 columns">
 				<p>{{ page.date | date: '%B %d, %Y' }} | <a href="{{ site.baseurl }}/notepad/{{ page.categories }}.html">{{ page.categories }}</a></p>
+				<p class="author-name">{{ page.author-name }}</p>
 			</div>
 		</div>
 		<div class="row">

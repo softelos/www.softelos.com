@@ -7,6 +7,8 @@ subtitle: "Why we don't use Wordpress"
 date:   2015-02-08 18:39:10
 banner: http://placehold.it/1500x500
 categories: "advice"
+author: cmrabet
+author-name: "Chakir Mrabet"
 ---
 
 Nowadays most of the websites are built using a Content Management System or CMS such as WordPress, Drupal or Joomla.  They allow the user to manage all their content through nice administrator control screens, and PHP, ASP.NET, or whatever server side technology the CMS is built on, will magically and dynamically create the website pages every single time a visitor hits the page.  

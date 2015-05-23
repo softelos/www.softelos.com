@@ -1514,6 +1514,43 @@ p{
     margin: 0 0 23px 0;
 }
 
+// S P R I T E S    D E F I N I T I O N S
+
+
+.hello {
+    background-image: url('/assets/img/ss-hello.png');
+    background-repeat: no-repeat;
+    display: block;
+}
+.hello-Amal {width: 250px;height: 250px;background-position: 0 0;}
+.hello-CMSIcon {width: 110px;height: 106px;background-position: -250px 0;}
+.hello-Chakir {width: 250px;height: 250px;background-position: -360px 0;}
+.hello-ResponsiveIcon {width: 110px;height: 106px;background-position: 0 -250px;}
+.hello-SEOIcon {width: 110px;height: 106px;background-position: -110px -250px;}
+.hello-WebDesignIcon {width: 110px;height: 106px;background-position: -220px -250px;}
+.hello-WebDevelopmentIcon {width: 110px;height: 106px;background-position: -330px -250px;}
+.hello-eCommerceIcon {width: 110px;height: 106px;background-position: -440px -250px;}
+
+
+.blog {
+    background-image: url('/assets/img/ss-blog.png');
+    background-repeat: no-repeat;
+    display: block;
+}
+.blog-aboujenna-small {width: 70px;height: 70px;background-position: 0 0;}
+.blog-bar-advice {width: 32px;height: 32px;background-position: -70px 0;}
+.blog-bar-advice-active {width: 32px;height: 32px;background-position: -102px 0;}
+.blog-bar-all {width: 32px;height: 32px;background-position: -70px -32px;}
+.blog-bar-all-active {width: 32px;height: 32px;background-position: -102px -32px;}
+.blog-bar-events {width: 32px;height: 32px;background-position: -70px -64px;}
+.blog-bar-events-active {width: 32px;height: 32px;background-position: -102px -64px;}
+.blog-bar-news {width: 32px;height: 32px;background-position: 0 -96px;}
+.blog-bar-news-active {width: 34px;height: 32px;background-position: -32px -96px;}
+.blog-bar-right {width: 32px;height: 32px;background-position: -66px -96px;}
+.blog-bar-work {width: 32px;height: 32px;background-position: -98px -96px;}
+.blog-bar-work-active {width: 32px;height: 32px;background-position: -134px 0;}
+.blog-cmrabet-small {width: 70px;height: 70px;background-position: -166px 0;}
+
 // G E N E R A L
 
 body{
@@ -1545,6 +1582,7 @@ div.banner-hello{
 	z-index: -100;
 	height:100vh;
     width: 100vw;
+    background-color: #666666;
     background: url('/assets/img/creative.jpg') no-repeat center center; 
 	-webkit-background-size: cover;
     -moz-background-size: cover;
@@ -1936,7 +1974,8 @@ header.small .top-bar li.name img{
 div.productbox-logo{
 	height: 100px;
 }
-	div.productbox-logo img{
+	div.productbox-logo div{
+		margin: 0px auto;
 		/*position: relative;
   		top: 50%;
   		transform: translateY(-50%);*/

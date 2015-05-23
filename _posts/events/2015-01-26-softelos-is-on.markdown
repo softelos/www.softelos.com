@@ -7,6 +7,8 @@ subtitle: "We have finally launched the new website for Softelos"
 date:   2015-01-26 18:39:10
 banner: http://placehold.it/1500x500
 categories: events
+author: aboujenna
+author-name: Amal Boujenna
 ---
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed interdum tortor enim. Ut felis tellus, varius eleifend sapien a, sollicitudin ultrices lorem. Maecenas at pellentesque lacus. Donec sollicitudin eros erat, et porta nulla rutrum quis. Cras mauris odio, elementum at leo eu, pellentesque tincidunt elit. Phasellus ullamcorper leo sit amet urna congue, sit amet pellentesque sapien placerat. Integer sagittis dui a dignissim sodales. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam ullamcorper congue porta. Aenean cursus dapibus cursus. Nam eu commodo nulla, a sagittis orci.
 

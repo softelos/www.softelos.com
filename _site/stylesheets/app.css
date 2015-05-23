@@ -28,27 +28,189 @@ p {
   margin: 0 0 23px 0;
 }
 
-/* line 1519, ../scss/_settings.scss */
+/* line 1520, ../scss/_settings.scss */
+.hello {
+  background-image: url("/assets/img/ss-hello.png");
+  background-repeat: no-repeat;
+  display: block;
+}
+
+/* line 1525, ../scss/_settings.scss */
+.hello-Amal {
+  width: 250px;
+  height: 250px;
+  background-position: 0 0;
+}
+
+/* line 1526, ../scss/_settings.scss */
+.hello-CMSIcon {
+  width: 110px;
+  height: 106px;
+  background-position: -250px 0;
+}
+
+/* line 1527, ../scss/_settings.scss */
+.hello-Chakir {
+  width: 250px;
+  height: 250px;
+  background-position: -360px 0;
+}
+
+/* line 1528, ../scss/_settings.scss */
+.hello-ResponsiveIcon {
+  width: 110px;
+  height: 106px;
+  background-position: 0 -250px;
+}
+
+/* line 1529, ../scss/_settings.scss */
+.hello-SEOIcon {
+  width: 110px;
+  height: 106px;
+  background-position: -110px -250px;
+}
+
+/* line 1530, ../scss/_settings.scss */
+.hello-WebDesignIcon {
+  width: 110px;
+  height: 106px;
+  background-position: -220px -250px;
+}
+
+/* line 1531, ../scss/_settings.scss */
+.hello-WebDevelopmentIcon {
+  width: 110px;
+  height: 106px;
+  background-position: -330px -250px;
+}
+
+/* line 1532, ../scss/_settings.scss */
+.hello-eCommerceIcon {
+  width: 110px;
+  height: 106px;
+  background-position: -440px -250px;
+}
+
+/* line 1535, ../scss/_settings.scss */
+.blog {
+  background-image: url("/assets/img/ss-blog.png");
+  background-repeat: no-repeat;
+  display: block;
+}
+
+/* line 1540, ../scss/_settings.scss */
+.blog-aboujenna-small {
+  width: 70px;
+  height: 70px;
+  background-position: 0 0;
+}
+
+/* line 1541, ../scss/_settings.scss */
+.blog-bar-advice {
+  width: 32px;
+  height: 32px;
+  background-position: -70px 0;
+}
+
+/* line 1542, ../scss/_settings.scss */
+.blog-bar-advice-active {
+  width: 32px;
+  height: 32px;
+  background-position: -102px 0;
+}
+
+/* line 1543, ../scss/_settings.scss */
+.blog-bar-all {
+  width: 32px;
+  height: 32px;
+  background-position: -70px -32px;
+}
+
+/* line 1544, ../scss/_settings.scss */
+.blog-bar-all-active {
+  width: 32px;
+  height: 32px;
+  background-position: -102px -32px;
+}
+
+/* line 1545, ../scss/_settings.scss */
+.blog-bar-events {
+  width: 32px;
+  height: 32px;
+  background-position: -70px -64px;
+}
+
+/* line 1546, ../scss/_settings.scss */
+.blog-bar-events-active {
+  width: 32px;
+  height: 32px;
+  background-position: -102px -64px;
+}
+
+/* line 1547, ../scss/_settings.scss */
+.blog-bar-news {
+  width: 32px;
+  height: 32px;
+  background-position: 0 -96px;
+}
+
+/* line 1548, ../scss/_settings.scss */
+.blog-bar-news-active {
+  width: 34px;
+  height: 32px;
+  background-position: -32px -96px;
+}
+
+/* line 1549, ../scss/_settings.scss */
+.blog-bar-right {
+  width: 32px;
+  height: 32px;
+  background-position: -66px -96px;
+}
+
+/* line 1550, ../scss/_settings.scss */
+.blog-bar-work {
+  width: 32px;
+  height: 32px;
+  background-position: -98px -96px;
+}
+
+/* line 1551, ../scss/_settings.scss */
+.blog-bar-work-active {
+  width: 32px;
+  height: 32px;
+  background-position: -134px 0;
+}
+
+/* line 1552, ../scss/_settings.scss */
+.blog-cmrabet-small {
+  width: 70px;
+  height: 70px;
+  background-position: -166px 0;
+}
+
+/* line 1556, ../scss/_settings.scss */
 body {
   overflow-x: hidden;
 }
 
-/* line 1535, ../scss/_settings.scss */
+/* line 1572, ../scss/_settings.scss */
 div#services-top-padding.collapse {
   height: 0px;
 }
 
-/* line 1538, ../scss/_settings.scss */
+/* line 1575, ../scss/_settings.scss */
 div#services-top-padding.expand {
   height: 75px;
 }
 
-/* line 1543, ../scss/_settings.scss */
+/* line 1580, ../scss/_settings.scss */
 div.banner-hello {
   margin-top: -6.25rem;
   z-index: -100;
   height: 100vh;
   width: 100vw;
+  background-color: #666666;
   background: url("/assets/img/creative.jpg") no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -57,7 +219,7 @@ div.banner-hello {
   position: relative;
 }
 
-/* line 1556, ../scss/_settings.scss */
+/* line 1594, ../scss/_settings.scss */
 div.banner-ourteam {
   margin-top: -6.25rem;
   z-index: -100;
@@ -71,7 +233,7 @@ div.banner-ourteam {
   position: relative;
 }
 
-/* line 1569, ../scss/_settings.scss */
+/* line 1607, ../scss/_settings.scss */
 div.banner-contactus {
   margin-top: -6.25rem;
   z-index: -100;
@@ -85,7 +247,7 @@ div.banner-contactus {
   position: relative;
 }
 
-/* line 1582, ../scss/_settings.scss */
+/* line 1620, ../scss/_settings.scss */
 div.banner-notepad {
   margin-top: -6.25rem;
   z-index: -100;
@@ -99,7 +261,7 @@ div.banner-notepad {
   position: relative;
 }
 
-/* line 1595, ../scss/_settings.scss */
+/* line 1633, ../scss/_settings.scss */
 div.banner-whatwedo {
   /*margin-top:-$topbar-height;*/
   z-index: -100;
@@ -118,7 +280,7 @@ div.banner-whatwedo {
   position: relative;
 }
 
-/* line 1609, ../scss/_settings.scss */
+/* line 1647, ../scss/_settings.scss */
 video#bgvid {
   margin-top: -140px;
   width: 100vw;
@@ -131,7 +293,7 @@ video#bgvid {
   position: relative;
 }
 
-/* line 1622, ../scss/_settings.scss */
+/* line 1660, ../scss/_settings.scss */
 div.banner-404 {
   margin-top: -6.25rem;
   z-index: -100;
@@ -145,7 +307,7 @@ div.banner-404 {
   position: relative;
 }
 
-/* line 1634, ../scss/_settings.scss */
+/* line 1672, ../scss/_settings.scss */
 div.banner-small-404 {
   margin-top: -6.25rem;
   z-index: -100;
@@ -159,39 +321,39 @@ div.banner-small-404 {
   position: relative;
 }
 
-/* line 1647, ../scss/_settings.scss */
+/* line 1685, ../scss/_settings.scss */
 p.title {
   text-transform: uppercase;
 }
 
-/* line 1651, ../scss/_settings.scss */
+/* line 1689, ../scss/_settings.scss */
 .top-bar li.name {
   margin-top: 10px;
   margin-left: 40px;
   font-size: 75px;
 }
 
-/* line 1657, ../scss/_settings.scss */
+/* line 1695, ../scss/_settings.scss */
 .top-bar li.name img {
   width: 250px;
   height: 102px;
 }
 
-/* line 1662, ../scss/_settings.scss */
+/* line 1700, ../scss/_settings.scss */
 .top-bar-section ul.right {
   margin-right: 75px;
   margin-right: 40px;
   margin-top: 2.5rem;
 }
 
-/* line 1668, ../scss/_settings.scss */
+/* line 1706, ../scss/_settings.scss */
 .top-bar-section ul li a {
   letter-spacing: -0.02rem;
   padding-left: 2px;
   padding-right: 2px;
 }
 
-/* line 1675, ../scss/_settings.scss */
+/* line 1713, ../scss/_settings.scss */
 .top-bar-section ul li.active a:before {
   content: "";
   position: absolute;
@@ -203,48 +365,48 @@ p.title {
   height: 4px;
 }
 
-/* line 1685, ../scss/_settings.scss */
+/* line 1723, ../scss/_settings.scss */
 .top-bar-section ul li:hover a:before {
   background: #DEA653;
 }
 
-/* line 1689, ../scss/_settings.scss */
+/* line 1727, ../scss/_settings.scss */
 section#mobile-topbar ul li.active {
   background: #DEA653;
 }
 
-/* line 1692, ../scss/_settings.scss */
+/* line 1730, ../scss/_settings.scss */
 section#mobile-topbar ul li:hover {
   background: #cccccc;
 }
 
-/* line 1701, ../scss/_settings.scss */
+/* line 1739, ../scss/_settings.scss */
 body {
   color: #6D6D6D;
 }
 
-/* line 1705, ../scss/_settings.scss */
+/* line 1743, ../scss/_settings.scss */
 body.light {
   background-color: #ffffff;
   background-image: url(/assets/img/mesh-bg.jpg);
 }
 
-/* line 1709, ../scss/_settings.scss */
+/* line 1747, ../scss/_settings.scss */
 section.light, div.light, section.light div.row {
   background: transparent;
 }
 
-/* line 1712, ../scss/_settings.scss */
+/* line 1750, ../scss/_settings.scss */
 section.dark {
   background-color: #DFE2DB;
 }
 
-/* line 1716, ../scss/_settings.scss */
+/* line 1754, ../scss/_settings.scss */
 section b {
   color: #000000;
 }
 
-/* line 1720, ../scss/_settings.scss */
+/* line 1758, ../scss/_settings.scss */
 section.content {
   padding-top: 50px;
   padding-bottom: 50px;
@@ -252,7 +414,7 @@ section.content {
   padding-right: 20px;
 }
 
-/* line 1726, ../scss/_settings.scss */
+/* line 1764, ../scss/_settings.scss */
 section h1 {
   color: #6D6D6D;
   font-family: 'Montserrat', sans-serif;
@@ -263,7 +425,7 @@ section h1 {
   margin: 0 0 15px 0;
 }
 
-/* line 1735, ../scss/_settings.scss */
+/* line 1773, ../scss/_settings.scss */
 section h2 {
   color: #6D6D6D;
   font-size: 1rem;
@@ -276,7 +438,7 @@ section h2 {
   margin: 0 0 23px 0;
 }
 
-/* line 1746, ../scss/_settings.scss */
+/* line 1784, ../scss/_settings.scss */
 section h3 {
   color: #6D6D6D;
   font-family: 'Montserrat', sans-serif;
@@ -287,14 +449,14 @@ section h3 {
   margin-top: 32px;
 }
 
-/* line 1756, ../scss/_settings.scss */
+/* line 1794, ../scss/_settings.scss */
 section.process h3 {
   font-family: 'Oleo Script', cursive;
   margin-top: 16px;
   margin-bottom: 16px;
 }
 
-/* line 1762, ../scss/_settings.scss */
+/* line 1800, ../scss/_settings.scss */
 section p {
   color: #6D6D6D;
   text-align: justify;
@@ -304,12 +466,12 @@ section p {
   margin: 0 0 23px 0;
 }
 
-/* line 1770, ../scss/_settings.scss */
+/* line 1808, ../scss/_settings.scss */
 section p.subtitle {
   text-align: center;
 }
 
-/* line 1774, ../scss/_settings.scss */
+/* line 1812, ../scss/_settings.scss */
 div.fullWidth {
   width: 100%;
   margin-left: auto;
@@ -317,18 +479,18 @@ div.fullWidth {
   max-width: initial;
 }
 
-/* line 1783, ../scss/_settings.scss */
+/* line 1821, ../scss/_settings.scss */
 div.learnmore-button {
   margin-top: -25px;
   background-color: transparent;
 }
 
-/* line 1790, ../scss/_settings.scss */
+/* line 1828, ../scss/_settings.scss */
 i.fa {
   padding-left: 5px;
 }
 
-/* line 1796, ../scss/_settings.scss */
+/* line 1834, ../scss/_settings.scss */
 header.bigger nav.top-bar {
   background-color: rgba(25, 25, 25, 0);
   -webkit-transition: all 0.5s;
@@ -338,7 +500,7 @@ header.bigger nav.top-bar {
   transition: all 0.5s;
 }
 
-/* line 1805, ../scss/_settings.scss */
+/* line 1843, ../scss/_settings.scss */
 header.bigger nav.top-bar, header.bigger .top-bar-section ul li {
   height: 6.25rem;
   line-height: 6.25rem;
@@ -349,7 +511,7 @@ header.bigger nav.top-bar, header.bigger .top-bar-section ul li {
   transition: all 0.5s;
 }
 
-/* line 1814, ../scss/_settings.scss */
+/* line 1852, ../scss/_settings.scss */
 header.bigger .top-bar-section ul li:not(.has-form) a:not(.button) {
   height: 6.25rem;
   line-height: 6.25rem;
@@ -360,7 +522,7 @@ header.bigger .top-bar-section ul li:not(.has-form) a:not(.button) {
   transition: all 0.5s;
 }
 
-/* line 1824, ../scss/_settings.scss */
+/* line 1862, ../scss/_settings.scss */
 header.smaller nav.top-bar, header.smaller .top-bar-section ul li {
   height: 45px;
   line-height: 45px;
@@ -372,7 +534,7 @@ header.smaller nav.top-bar, header.smaller .top-bar-section ul li {
   transition: all 0.5s;
 }
 
-/* line 1835, ../scss/_settings.scss */
+/* line 1873, ../scss/_settings.scss */
 header.smaller .top-bar-section ul li:not(.has-form) a:not(.button) {
   height: 45px;
   line-height: 45px;
@@ -383,7 +545,7 @@ header.smaller .top-bar-section ul li:not(.has-form) a:not(.button) {
   transition: all 0.5s;
 }
 
-/* line 1846, ../scss/_settings.scss */
+/* line 1884, ../scss/_settings.scss */
 header.smaller .top-bar li.name {
   font-size: 25px;
   margin-left: 10px;
@@ -395,7 +557,7 @@ header.smaller .top-bar li.name {
   transition: all 0.5s;
 }
 
-/* line 1858, ../scss/_settings.scss */
+/* line 1896, ../scss/_settings.scss */
 header.bigger .top-bar li.name {
   font-size: 75px;
   margin-left: 40px;
@@ -406,7 +568,7 @@ header.bigger .top-bar li.name {
   transition: all 0.5s;
 }
 
-/* line 1869, ../scss/_settings.scss */
+/* line 1907, ../scss/_settings.scss */
 header.bigger .top-bar-section ul.right {
   margin-right: 40px;
   margin-top: 2.5rem;
@@ -417,7 +579,7 @@ header.bigger .top-bar-section ul.right {
   transition: all 0.5s;
 }
 
-/* line 1878, ../scss/_settings.scss */
+/* line 1916, ../scss/_settings.scss */
 header.smaller .top-bar-section ul.right {
   margin-right: 10px;
   margin-top: 0px;
@@ -428,7 +590,7 @@ header.smaller .top-bar-section ul.right {
   transition: all 0.5s;
 }
 
-/* line 1889, ../scss/_settings.scss */
+/* line 1927, ../scss/_settings.scss */
 header.smaller .top-bar li.name img {
   width: 98px;
   height: 40px;
@@ -439,7 +601,7 @@ header.smaller .top-bar li.name img {
   transition: all 0.5s;
 }
 
-/* line 1898, ../scss/_settings.scss */
+/* line 1936, ../scss/_settings.scss */
 header.bigger .top-bar li.name img {
   width: 250px;
   height: 102px;
@@ -450,46 +612,47 @@ header.bigger .top-bar li.name img {
   transition: all 0.5s;
 }
 
-/* line 1910, ../scss/_settings.scss */
+/* line 1948, ../scss/_settings.scss */
 header.small nav.top-bar, header.small .top-bar-section ul li {
   min-height: 45px;
   line-height: 45px;
   background-color: #191919;
 }
 
-/* line 1915, ../scss/_settings.scss */
+/* line 1953, ../scss/_settings.scss */
 header.small .top-bar-section ul li:not(.has-form) a:not(.button) {
   min-height: 45px;
   line-height: 45px;
 }
 
-/* line 1919, ../scss/_settings.scss */
+/* line 1957, ../scss/_settings.scss */
 header.small .top-bar li.name {
   font-size: 25px;
   margin-left: 10px;
   margin-top: 0px;
 }
 
-/* line 1924, ../scss/_settings.scss */
+/* line 1962, ../scss/_settings.scss */
 header.small .top-bar-section ul.right {
   margin-right: 10px;
   margin-top: 0px;
 }
 
-/* line 1928, ../scss/_settings.scss */
+/* line 1966, ../scss/_settings.scss */
 header.small .top-bar li.name img {
   margin-top: 24px;
   width: 98px;
   height: 40px;
 }
 
-/* line 1936, ../scss/_settings.scss */
+/* line 1974, ../scss/_settings.scss */
 div.productbox-logo {
   height: 100px;
 }
 
-/* line 1939, ../scss/_settings.scss */
-div.productbox-logo img {
+/* line 1977, ../scss/_settings.scss */
+div.productbox-logo div {
+  margin: 0px auto;
   		/*position: relative;
     		top: 50%;
     		transform: translateY(-50%);*/
@@ -497,41 +660,41 @@ div.productbox-logo img {
   height: 106px;
 }
 
-/* line 1947, ../scss/_settings.scss */
+/* line 1986, ../scss/_settings.scss */
 section.products {
   padding-bottom: 0px;
 }
 
-/* line 1950, ../scss/_settings.scss */
+/* line 1989, ../scss/_settings.scss */
 section.products li {
   padding-bottom: 0px;
 }
 
-/* line 1953, ../scss/_settings.scss */
+/* line 1992, ../scss/_settings.scss */
 section.products div.panel {
   border: none;
   background: none;
   margin-bottom: 0px;
 }
 
-/* line 1958, ../scss/_settings.scss */
+/* line 1997, ../scss/_settings.scss */
 section.products div.panel h3 {
   color: #6D6D6D;
 }
 
-/* line 1962, ../scss/_settings.scss */
+/* line 2001, ../scss/_settings.scss */
 div.productbox-description p {
   color: #6D6D6D;
   color: #999999;
   text-align: center;
 }
 
-/* line 1968, ../scss/_settings.scss */
+/* line 2007, ../scss/_settings.scss */
 div.product {
   padding: 5px;
 }
 
-/* line 1971, ../scss/_settings.scss */
+/* line 2010, ../scss/_settings.scss */
 div.product:hover {
   filter: grayscale(100%);
   -webkit-filter: grayscale(100%);
@@ -542,7 +705,7 @@ div.product:hover {
   transition: all 0.75s;
 }
 
-/* line 1983, ../scss/_settings.scss */
+/* line 2022, ../scss/_settings.scss */
 footer {
   font-family: 'Montserrat', sans-serif;
   text-transform: uppercase;
@@ -556,7 +719,7 @@ footer {
   padding-right: 20px;
 }
 
-/* line 1995, ../scss/_settings.scss */
+/* line 2034, ../scss/_settings.scss */
 div.footer-social a {
   color: #666666;
   font-size: 2.10rem;
@@ -564,12 +727,12 @@ div.footer-social a {
   padding-left: 10px;
 }
 
-/* line 2001, ../scss/_settings.scss */
+/* line 2040, ../scss/_settings.scss */
 div.footer-social a:hover {
   color: #DEA653;
 }
 
-/* line 2005, ../scss/_settings.scss */
+/* line 2044, ../scss/_settings.scss */
 p.belowfooter {
   font-family: 'Oleo Script', cursive;
   text-transform: lowercase;
@@ -577,26 +740,26 @@ p.belowfooter {
   font-size: 18px;
 }
 
-/* line 2014, ../scss/_settings.scss */
+/* line 2053, ../scss/_settings.scss */
 div#banner-intro {
   position: absolute;
   bottom: 30px;
   bottom: 40px;
 }
 
-/* line 2019, ../scss/_settings.scss */
+/* line 2058, ../scss/_settings.scss */
 div#banner-intro-small {
   position: absolute;
   top: 250px;
 }
 
-/* line 2023, ../scss/_settings.scss */
+/* line 2062, ../scss/_settings.scss */
 div#banner-intro-only {
   position: absolute;
   bottom: 45px;
 }
 
-/* line 2027, ../scss/_settings.scss */
+/* line 2066, ../scss/_settings.scss */
 div#banner-intro p.title, div#banner-intro-small p.title, div#banner-intro-only p.title {
   font-family: 'Montserrat', sans-serif;
   font-size: 2rem;
@@ -606,7 +769,7 @@ div#banner-intro p.title, div#banner-intro-small p.title, div#banner-intro-only 
   -vendor-animation-delay: 1s;
 }
 
-/* line 2035, ../scss/_settings.scss */
+/* line 2074, ../scss/_settings.scss */
 div#banner-intro p.subtitle, div#banner-intro-small p.subtitle, div#banner-intro-only p.subtitle {
   font-family: 'Montserrat', sans-serif;
   font-size: 1rem;
@@ -615,14 +778,14 @@ div#banner-intro p.subtitle, div#banner-intro-small p.subtitle, div#banner-intro
   -vendor-animation-delay: 1s;
 }
 
-/* line 2043, ../scss/_settings.scss */
+/* line 2082, ../scss/_settings.scss */
 div#banner-intro a.hollow, div#banner-intro.small a.hollow, div#banner-intro-only a.hollow, p a.hollow {
   background-color: transparent;
   color: #cccccc;
   border: 2pt solid #cccccc;
 }
 
-/* line 2048, ../scss/_settings.scss */
+/* line 2087, ../scss/_settings.scss */
 div#banner-intro a.hollow:hover, div#banner-intro-small a.hollow:hover, div#banner-intro-only a.hollow:hover, p a.hollow:hover {
   border-color: #ffffff;
   color: #ffffff;
@@ -634,23 +797,23 @@ div#banner-intro a.hollow:hover, div#banner-intro-small a.hollow:hover, div#bann
   transition: all 0.75s;
 }
 
-/* line 2081, ../scss/_settings.scss */
+/* line 2120, ../scss/_settings.scss */
 div#services-icon-bar {
   z-index: 25;
 }
 
-/* line 2084, ../scss/_settings.scss */
+/* line 2123, ../scss/_settings.scss */
 div#services-icon-bar label {
   font-family: 'Montserrat', sans-serif;
 }
 
-/* line 2087, ../scss/_settings.scss */
+/* line 2126, ../scss/_settings.scss */
 .fixedPosition {
   position: fixed;
   top: 45px;
 }
 
-/* line 2092, ../scss/_settings.scss */
+/* line 2131, ../scss/_settings.scss */
 div.icon-bar a:hover {
   background-color: #E4EBED;
   -webkit-transition: all 0.75s;
@@ -660,17 +823,17 @@ div.icon-bar a:hover {
   transition: all 0.75s;
 }
 
-/* line 2101, ../scss/_settings.scss */
+/* line 2140, ../scss/_settings.scss */
 div.icon-bar a.active {
   background-color: #E4EBED;
 }
 
-/* line 2109, ../scss/_settings.scss */
+/* line 2148, ../scss/_settings.scss */
 form.contact label {
   font-family: 'Montserrat', sans-serif;
 }
 
-/* line 2112, ../scss/_settings.scss */
+/* line 2151, ../scss/_settings.scss */
 form.contact input[type=text], form.contact textarea {
   font-family: 'Muli', sans-serif;
   background-color: #dddddd;
@@ -684,43 +847,43 @@ form.contact input[type=text], form.contact textarea {
   box-shadow: none;
 }
 
-/* line 2124, ../scss/_settings.scss */
+/* line 2163, ../scss/_settings.scss */
 form.contact input[type=text] {
   height: 50px;
 }
 
-/* line 2127, ../scss/_settings.scss */
+/* line 2166, ../scss/_settings.scss */
 form.contact input:focus, form.contact textarea:focus {
   background-color: #eeeeee;
   /*background-color: #DEA653;*/
   box-shadow: none;
 }
 
-/* line 2133, ../scss/_settings.scss */
+/* line 2172, ../scss/_settings.scss */
 div.contact p, div.contact strong {
   font-family: 'Montserrat', sans-serif;
   font-size: 1rem;
 }
 
-/* line 2137, ../scss/_settings.scss */
+/* line 2176, ../scss/_settings.scss */
 div.contact strong {
   font-size: 1.10rem;
   color: #000000;
 }
 
-/* line 2141, ../scss/_settings.scss */
+/* line 2180, ../scss/_settings.scss */
 div.contact div.footer-social {
   padding-top: 20px;
   padding-bottom: 20px;
 }
 
-/* line 2148, ../scss/_settings.scss */
+/* line 2187, ../scss/_settings.scss */
 div#map {
   width: 100%;
   height: 300px;
 }
 
-/* line 2157, ../scss/_settings.scss */
+/* line 2196, ../scss/_settings.scss */
 div#notepad-bar {
   padding-top: 5px;
   padding-bottom: 5px;
@@ -731,7 +894,7 @@ div#notepad-bar {
   border-radius: 10px;
 }
 
-/* line 2167, ../scss/_settings.scss */
+/* line 2206, ../scss/_settings.scss */
 div#notepad-bar div {
   margin-left: 0px;
   margin-right: 0px;
@@ -739,7 +902,7 @@ div#notepad-bar div {
   padding-right: 0px;
 }
 
-/* line 2176, ../scss/_settings.scss */
+/* line 2215, ../scss/_settings.scss */
 div#notepad-bar div.notepad-bar-icon {
   width: 32px;
   height: 32px;
@@ -747,62 +910,62 @@ div#notepad-bar div.notepad-bar-icon {
   margin-right: auto;
 }
 
-/* line 2182, ../scss/_settings.scss */
+/* line 2221, ../scss/_settings.scss */
 div#notepad-bar div.bar-all {
   background-image: url(/assets/img/bar-all.png);
 }
 
-/* line 2185, ../scss/_settings.scss */
+/* line 2224, ../scss/_settings.scss */
 div#notepad-bar div.bar-all-active, div#notepad-bar div.bar-all:hover {
   background-image: url(/assets/img/bar-all-active.png);
 }
 
-/* line 2188, ../scss/_settings.scss */
+/* line 2227, ../scss/_settings.scss */
 div#notepad-bar div.bar-news {
   background-image: url(/assets/img/bar-news.png);
 }
 
-/* line 2191, ../scss/_settings.scss */
+/* line 2230, ../scss/_settings.scss */
 div#notepad-bar div.bar-news-active, div#notepad-bar div.bar-news:hover {
   background-image: url(/assets/img/bar-news-active.png);
 }
 
-/* line 2194, ../scss/_settings.scss */
+/* line 2233, ../scss/_settings.scss */
 div#notepad-bar div.bar-events {
   background-image: url(/assets/img/bar-events.png);
 }
 
-/* line 2197, ../scss/_settings.scss */
+/* line 2236, ../scss/_settings.scss */
 div#notepad-bar div.bar-events-active, div#notepad-bar div.bar-events:hover {
   background-image: url(/assets/img/bar-events-active.png);
 }
 
-/* line 2200, ../scss/_settings.scss */
+/* line 2239, ../scss/_settings.scss */
 div#notepad-bar div.bar-work {
   background-image: url(/assets/img/bar-work.png);
 }
 
-/* line 2203, ../scss/_settings.scss */
+/* line 2242, ../scss/_settings.scss */
 div#notepad-bar div.bar-work-active, div#notepad-bar div.bar-work:hover {
   background-image: url(/assets/img/bar-work-active.png);
 }
 
-/* line 2206, ../scss/_settings.scss */
+/* line 2245, ../scss/_settings.scss */
 div#notepad-bar div.bar-advice {
   background-image: url(/assets/img/bar-advice.png);
 }
 
-/* line 2209, ../scss/_settings.scss */
+/* line 2248, ../scss/_settings.scss */
 div#notepad-bar div.bar-advice-active, div#notepad-bar div.bar-advice:hover {
   background-image: url(/assets/img/bar-advice-active.png);
 }
 
-/* line 2212, ../scss/_settings.scss */
+/* line 2251, ../scss/_settings.scss */
 div#notepad-bar div.bar-right {
   background-image: url(/assets/img/bar-right.png);
 }
 
-/* line 2215, ../scss/_settings.scss */
+/* line 2254, ../scss/_settings.scss */
 div#notepad-bar div.handle-show {
   opacity: 1;
   -webkit-transition: all 0.5s;
@@ -812,7 +975,7 @@ div#notepad-bar div.handle-show {
   transition: all 0.5s;
 }
 
-/* line 2223, ../scss/_settings.scss */
+/* line 2262, ../scss/_settings.scss */
 div#notepad-bar div.handle-hide {
   opacity: 0;
   -webkit-transition: all 0.5s;
@@ -822,7 +985,7 @@ div#notepad-bar div.handle-hide {
   transition: all 0.5s;
 }
 
-/* line 2233, ../scss/_settings.scss */
+/* line 2272, ../scss/_settings.scss */
 div#handle {
   position: relative;
   top: 155px;
@@ -830,7 +993,7 @@ div#handle {
   margin-left: -5px !important;
 }
 
-/* line 2239, ../scss/_settings.scss */
+/* line 2278, ../scss/_settings.scss */
 div.notepad-bar-hide {
   left: -85px;
   top: 200px;
@@ -841,7 +1004,7 @@ div.notepad-bar-hide {
   transition: all 0.5s;
 }
 
-/* line 2248, ../scss/_settings.scss */
+/* line 2287, ../scss/_settings.scss */
 div.notepad-bar-show {
   left: -10px;
   top: 200px;
@@ -852,30 +1015,30 @@ div.notepad-bar-show {
   transition: all 0.5s;
 }
 
-/* line 2258, ../scss/_settings.scss */
+/* line 2297, ../scss/_settings.scss */
 div#notepad-bar label {
   color: #eeeeee;
   font-family: 'Muli', sans-serif;
   font-size: 12px;
 }
 
-/* line 2263, ../scss/_settings.scss */
+/* line 2302, ../scss/_settings.scss */
 div#note-bar img {
   width: 32px;
   height: 32px;
 }
 
-/* line 2267, ../scss/_settings.scss */
+/* line 2306, ../scss/_settings.scss */
 div#notepad-bar a:hover {
   background-color: #DEA653;
 }
 
-/* line 2273, ../scss/_settings.scss */
+/* line 2312, ../scss/_settings.scss */
 div#wrapper {
   /* display: none; */
 }
 
-/* line 2279, ../scss/_settings.scss */
+/* line 2318, ../scss/_settings.scss */
 h2.faq {
   font-family: 'Montserrat', sans-serif;
   text-transform: uppercase;
@@ -883,33 +1046,33 @@ h2.faq {
   padding-bottom: 20px;
 }
 
-/* line 2286, ../scss/_settings.scss */
+/* line 2325, ../scss/_settings.scss */
 p.question b {
   font-size: 22px;
   font-family: 'Oleo Script', cursive;
   color: #888888;
 }
 
-/* line 2294, ../scss/_settings.scss */
+/* line 2333, ../scss/_settings.scss */
 .vertical-center {
   position: relative;
   top: 50%;
   transform: translateY(-50%);
 }
 
-/* line 2303, ../scss/_settings.scss */
+/* line 2342, ../scss/_settings.scss */
 div.people-small img {
   padding-top: 10px;
   padding-bottom: 10px;
 }
 
-/* line 2308, ../scss/_settings.scss */
+/* line 2347, ../scss/_settings.scss */
 a.fa-arrow-circle-down, a.fa-arrow-circle-down:active, a.fa-arrow-circle-down:visited {
   color: #ffffff;
   font-size: 32px;
 }
 
-/* line 2312, ../scss/_settings.scss */
+/* line 2351, ../scss/_settings.scss */
 a.fa-arrow-circle-down:hover {
   color: #cccccc;
   -webkit-transition: all 0.5s;
@@ -919,35 +1082,35 @@ a.fa-arrow-circle-down:hover {
   transition: all 0.5s;
 }
 
-/* line 2321, ../scss/_settings.scss */
+/* line 2360, ../scss/_settings.scss */
 div.text-center p {
   text-align: center;
 }
 
-/* line 2330, ../scss/_settings.scss */
+/* line 2369, ../scss/_settings.scss */
 header.fixed, header.fixed div.fixed {
   height: 45px;
 }
 
-/* line 2336, ../scss/_settings.scss */
+/* line 2375, ../scss/_settings.scss */
 section.blog {
   padding-bottom: 0px;
 }
 
-/* line 2339, ../scss/_settings.scss */
+/* line 2378, ../scss/_settings.scss */
 img.blog-center {
   width: 100%;
   text-align: center;
 }
 
-/* line 2344, ../scss/_settings.scss */
+/* line 2383, ../scss/_settings.scss */
 div.post-author {
   padding-left: 0px;
   padding-right: 0px;
   width: 75px;
 }
 
-/* line 2349, ../scss/_settings.scss */
+/* line 2388, ../scss/_settings.scss */
 img.post-author {
   width: 75px;
   height: 75px;
@@ -956,22 +1119,22 @@ img.post-author {
   -moz-border-radius: 75px;
 }
 
-/* line 2357, ../scss/_settings.scss */
+/* line 2396, ../scss/_settings.scss */
 div.post-link a, div.post-link a:active, div.post-link a:visited {
   color: #777777;
 }
 
-/* line 2360, ../scss/_settings.scss */
+/* line 2399, ../scss/_settings.scss */
 div.post-link a:hover {
   color: #999999;
 }
 
-/* line 2366, ../scss/_settings.scss */
+/* line 2405, ../scss/_settings.scss */
 #share-buttons {
   text-align: right;
 }
 
-/* line 2369, ../scss/_settings.scss */
+/* line 2408, ../scss/_settings.scss */
 #share-buttons img {
   width: 35px;
   padding: 5px;
@@ -981,35 +1144,35 @@ div.post-link a:hover {
   -webkit-filter: grayscale(100%);
 }
 
-/* line 2383, ../scss/_settings.scss */
+/* line 2422, ../scss/_settings.scss */
 div.team {
   padding-bottom: 25px !important;
 }
 
-/* line 2386, ../scss/_settings.scss */
+/* line 2425, ../scss/_settings.scss */
 div.team-picture {
   width: 250px;
   height: 300px;
 }
 
-/* line 2390, ../scss/_settings.scss */
+/* line 2429, ../scss/_settings.scss */
 div.team-picture div.image {
   width: 250px;
   height: 250px;
   border-radius: 5px;
 }
 
-/* line 2395, ../scss/_settings.scss */
+/* line 2434, ../scss/_settings.scss */
 div.team-picture div.chakir {
   background: url(/assets/img/Chakir.png) no-repeat;
 }
 
-/* line 2398, ../scss/_settings.scss */
+/* line 2437, ../scss/_settings.scss */
 div.team-picture div.amal {
   background: url(/assets/img/Amal.png) no-repeat;
 }
 
-/* line 2402, ../scss/_settings.scss */
+/* line 2441, ../scss/_settings.scss */
 div.team-picture div.text {
   margin-top: 10px;
   text-align: center;
@@ -1018,14 +1181,14 @@ div.team-picture div.text {
   font-size: 14px;
 }
 
-/* line 2410, ../scss/_settings.scss */
+/* line 2449, ../scss/_settings.scss */
 div.team-picture div.text h1, div.team-picture div.text h2 {
   margin: 0px;
   padding: 0px;
   line-height: 22px;
 }
 
-/* line 2415, ../scss/_settings.scss */
+/* line 2454, ../scss/_settings.scss */
 div.team-picture div.text h1 {
   font-size: 20px;
   font-family: 'Oleo Script', cursive;
@@ -1033,47 +1196,47 @@ div.team-picture div.text h1 {
   color: #6D6D6D;
 }
 
-/* line 2421, ../scss/_settings.scss */
+/* line 2460, ../scss/_settings.scss */
 div.team-picture div.text h2 {
   font-size: 16px;
   color: #999999;
 }
 
-/* line 2431, ../scss/_settings.scss */
+/* line 2470, ../scss/_settings.scss */
 section.ourteam {
   font-family: 'Muli', sans-serif;
   font-size: 17px;
   color: #999999;
 }
 
-/* line 2437, ../scss/_settings.scss */
+/* line 2476, ../scss/_settings.scss */
 section.ourteam div.row {
   padding-top: 10px;
   padding-bottom: 10px;
 }
 
-/* line 2441, ../scss/_settings.scss */
+/* line 2480, ../scss/_settings.scss */
 section.ourteam div.left {
   text-align: right;
 }
 
-/* line 2444, ../scss/_settings.scss */
+/* line 2483, ../scss/_settings.scss */
 section.ourteam div.right {
   text-align: left;
 }
 
-/* line 2448, ../scss/_settings.scss */
+/* line 2487, ../scss/_settings.scss */
 section#ourteam-intro div.text-center h2 {
   text-transform: none;
 }
 
-/* line 2452, ../scss/_settings.scss */
+/* line 2491, ../scss/_settings.scss */
 section.ourteam i.fa {
   font-size: 30px;
   color: #DEA653;
 }
 
-/* line 2457, ../scss/_settings.scss */
+/* line 2496, ../scss/_settings.scss */
 section.ourteam div.icon {
   width: 30px;
   padding-right: 0px;
@@ -1081,7 +1244,7 @@ section.ourteam div.icon {
   text-align: center;
 }
 
-/* line 2464, ../scss/_settings.scss */
+/* line 2503, ../scss/_settings.scss */
 section.ourteam div b {
   font-family: 'Oleo Script', cursive;
   font-size: 22px;

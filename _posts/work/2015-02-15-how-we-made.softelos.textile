@@ -7,6 +7,8 @@ subtitle: "How we made softelos.com"
 date:   2015-02-08 17:30:00
 banner: http://placehold.it/1500x500
 categories: "work"
+author: cmrabet
+author-name: Chakir Mrabet
 ---
 
 Our web site is no different from other web projects we develop for our customers. We follow the same values and apply the same principles when creating software for us.

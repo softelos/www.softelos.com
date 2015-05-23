@@ -18,7 +18,7 @@ title: The Notepad | Softelos | Web Design + Web Development + SEO | Lynchburg (
 			<section class="content light blog">
 				<div class="row">
 					<div class="small-2 columns post-author">
-						<img class="post-author" alt="{{ page.author }}" src="http://placehold.it/75x75"/>
+						<div class="post-author blog blog-{{ page.author }}-small"></div>
 					</div>
 					<div class="small-10 columns">
 						<div class="row">
@@ -27,6 +27,8 @@ title: The Notepad | Softelos | Web Design + Web Development + SEO | Lynchburg (
 							</div>
 							<div class="small-12 columns">
 								<p>{{ page.date | date: '%B %d, %Y' }} | <a href="{{ site.baseurl }}/notepad/{{ page.categories }}.html">{{ page.categories }}</a></p>
+								<p class="author-name">{{ page.author-name }}</p>
+
 							</div>
 					</div>
 				</div>
