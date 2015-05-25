@@ -2,10 +2,11 @@
 layout: default
 id: notepad
 subid: all
-title: The Notepad | Softelos | Web Design + Web Development + SEO | Lynchburg (VA)
+title: "The Notepad"
+description: "The notepad is the blog where you can read about what we do at Softelos. Softelos is a Web Design and Development Agency located in Lynchburg (VA). We make professional websites and top-notch web applications for clients all over the United States."
 ---
 
-<div class="row">
+<div class="row show-for-medium-up">
 	<div class="small-12 columns">
 		{% include notepad/bar.html %}
 	</div>	
@@ -26,7 +27,7 @@ title: The Notepad | Softelos | Web Design + Web Development + SEO | Lynchburg (
 								<h1><a href="{{ site.baseurl }}{{ page.url }}">{{ page.subtitle }}</a></h1>
 							</div>
 							<div class="small-12 columns">
-								<p>{{ page.date | date: '%B %d, %Y' }} | <a href="{{ site.baseurl }}/notepad/{{ page.categories }}.html">{{ page.categories }}</a></p>
+								<p class="post-info">{{ page.date | date: '%B %d, %Y' }} | <a href="{{ site.baseurl }}/notepad/{{ page.categories }}.html">{{ page.categories }}</a></p>
 								<p class="author-name">{{ page.author-name }}</p>
 
 							</div>

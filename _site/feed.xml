@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title></title>
-    <description>Softelos is a Web Design and Development Agency located in Lynchburg (VA). We make beautiful, cutting edge, powerfull websites for clients all over the United States.</description>
+    <description></description>
     <link>http://softelos.com/</link>
     <atom:link href="http://softelos.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 23 May 2015 10:11:36 -0400</pubDate>
-    <lastBuildDate>Sat, 23 May 2015 10:11:36 -0400</lastBuildDate>
+    <pubDate>Mon, 25 May 2015 00:32:23 -0400</pubDate>
+    <lastBuildDate>Mon, 25 May 2015 00:32:23 -0400</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
     
       <item>
-        <title>Fast Websites</title>
-        <description>&lt;p&gt;Nowadays most of the websites are built using a Content Management System or &lt;span class=&quot;caps&quot;&gt;CMS&lt;/span&gt; such as WordPress, Drupal or Joomla.  They allow the user to manage all their content through nice administrator control screens, and &lt;span class=&quot;caps&quot;&gt;PHP&lt;/span&gt;, &lt;span class=&quot;caps&quot;&gt;ASP&lt;/span&gt;.&lt;span class=&quot;caps&quot;&gt;NET&lt;/span&gt;, or whatever server side technology the &lt;span class=&quot;caps&quot;&gt;CMS&lt;/span&gt; is built on, will magically and dynamically create the website pages every single time a visitor hits the page.&lt;/p&gt;
+        <title>Static Websites</title>
+        <description>&lt;h3&gt;Static vs Dynamic websites&lt;/h3&gt;
+&lt;p&gt;Nowadays most of the websites are built using a Content Management System or &lt;span class=&quot;caps&quot;&gt;CMS&lt;/span&gt; such as WordPress, Drupal or Joomla.  They allow the user to manage all their content through nice administrator control screens, and &lt;span class=&quot;caps&quot;&gt;PHP&lt;/span&gt;, &lt;span class=&quot;caps&quot;&gt;ASP&lt;/span&gt;.&lt;span class=&quot;caps&quot;&gt;NET&lt;/span&gt;, or whatever server side technology the &lt;span class=&quot;caps&quot;&gt;CMS&lt;/span&gt; is built on, will magically and dynamically create the website pages every single time a visitor hits the page.&lt;/p&gt;
 &lt;p&gt;Building a website using a &lt;span class=&quot;caps&quot;&gt;CMS&lt;/span&gt; is one of the many ways the Internet has become so powerful, since the old days when all websites were just a link or two and a flash banner. However it&amp;#8217;s not the only way, building websites exclusively on .html static files is still one of the most efficient methods of creating fast and secure websites.&lt;/p&gt;
-&lt;p&gt;We are experts in technologies used to generate static websites, and we choose them to develop many projects we work on, including our own website &lt;a href=&quot;http://www.softelos.com&quot;&gt;www.softelos.com&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;&lt;!--more--&gt;&lt;/p&gt;
 &lt;h3&gt;What is a static .html site anyway?&lt;/h3&gt;
 &lt;p&gt;A static site is the opposite of a dynamic one. This doesn&amp;#8217;t mean that nothing on a static site moves, it means that the site is made in such a way that its .html content has already been pre-generated and is just laying out on the web server, as opposed to all the content being stored in a database waiting to be dynamically mashed together when a request comes by a server side technology like &lt;span class=&quot;caps&quot;&gt;PHP&lt;/span&gt;.&lt;/p&gt;
@@ -27,10 +27,15 @@
 &lt;/ul&gt;
 &lt;h3&gt;When to go with static websites?&lt;/h3&gt;
 &lt;p&gt;A good analogy for comparing static websites versus dynamic ones is whether the website could be printed out and still function properly. If the website will show information that is designed to be read, then we could print each page out and with the exception of any hyperlinks we may have, it would still work. For this the best option is to go with static websites due the advantages mentioned above.&lt;/p&gt;
-&lt;p&gt;However if the website needs to be interactive and capable of being used by people who will use it not just for reading, the best option is to go with a dynamic website, built on a &lt;span class=&quot;caps&quot;&gt;CMS&lt;/span&gt; or custom web development.&lt;/p&gt;</description>
+&lt;p&gt;However if the website needs to be interactive and capable of being used by people who will use it not just for reading, the best option is to go with a dynamic website, built on a &lt;span class=&quot;caps&quot;&gt;CMS&lt;/span&gt; or custom web development.&lt;/p&gt;
+&lt;h3&gt;How to create a static website?&lt;/h3&gt;
+&lt;p&gt;If you are creating a landing page or a very basic website with two or three pages, all what you need to create a static website is a text editor where you can write your &lt;span class=&quot;caps&quot;&gt;HTML&lt;/span&gt; code. However if you need more pages, a more complex layout, and blocks that can be re-used from different pages, there are other options that simplify the process for you:&lt;/p&gt;
+&lt;h4&gt;Jekyll&lt;/h4&gt;
+&lt;p&gt;Jekyll is a simple, user friendly, blog-aware static site generator powered by Ruby, and is also the engine behind GitHub Pages.&lt;/p&gt;
+&lt;p&gt;It takes a template directory containing raw text files in various formats, runs it through a converter (like Markdown) and our Liquid renderer, and spits out a complete, ready-to-publish static website suitable for serving with your favorite web server. Jekyll also happens to be the engine behind GitHub Pages, which means you can use Jekyll to host your project’s page, blog, or website from GitHub’s servers for free.&lt;/p&gt;</description>
         <pubDate>Sun, 08 Feb 2015 13:39:10 -0500</pubDate>
-        <link>http://softelos.com/advice/2015/02/08/why-we-dont-use-wordpress.html</link>
-        <guid isPermaLink="true">http://softelos.com/advice/2015/02/08/why-we-dont-use-wordpress.html</guid>
+        <link>http://softelos.com/advice/2015/02/08/static-websites-are-still-alive-!.html</link>
+        <guid isPermaLink="true">http://softelos.com/advice/2015/02/08/static-websites-are-still-alive-!.html</guid>
         
         
         <category>advice</category>
@@ -39,7 +44,7 @@
     
       <item>
         <title>How we made softelos.com</title>
-        <description>&lt;p&gt;Our web site is no different from other web projects we develop for our customers. We follow the same values and apply the same principles when creating software for us.&lt;/p&gt;
+        <description>&lt;p&gt;Our website is no different from other web projects we develop for our customers. We follow the same values and apply the same principles when creating software for us.&lt;/p&gt;
 &lt;p&gt;This article describes how we did this with &lt;a href=&quot;http:\\www.softelos.com&quot;&gt;www.softelos.com&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;&lt;!--more--&gt;&lt;/p&gt;
 &lt;h3&gt;.. discuss your needs&lt;/h3&gt;

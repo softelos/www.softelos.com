@@ -100,7 +100,7 @@ p {
 
 /* line 1540, ../scss/_settings.scss */
 .blog-aboujenna-small {
-  width: 70px;
+  width: 70px !important;
   height: 70px;
   background-position: 0 0;
 }
@@ -708,9 +708,11 @@ div.product:hover {
 /* line 2022, ../scss/_settings.scss */
 footer {
   font-family: 'Montserrat', sans-serif;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
   background-color: #191919;
+  background-color: #AAB4BB;
   color: #888888;
+  color: #444444;
   line-height: 13px;
   font-size: 10px;
   padding-top: 50px;
@@ -719,20 +721,22 @@ footer {
   padding-right: 20px;
 }
 
-/* line 2034, ../scss/_settings.scss */
+/* line 2036, ../scss/_settings.scss */
 div.footer-social a {
   color: #666666;
+  color: #444444;
   font-size: 2.10rem;
   padding-right: 10px;
   padding-left: 10px;
 }
 
-/* line 2040, ../scss/_settings.scss */
+/* line 2043, ../scss/_settings.scss */
 div.footer-social a:hover {
   color: #DEA653;
+  color: #777777;
 }
 
-/* line 2044, ../scss/_settings.scss */
+/* line 2048, ../scss/_settings.scss */
 p.belowfooter {
   font-family: 'Oleo Script', cursive;
   text-transform: lowercase;
@@ -740,26 +744,26 @@ p.belowfooter {
   font-size: 18px;
 }
 
-/* line 2053, ../scss/_settings.scss */
+/* line 2057, ../scss/_settings.scss */
 div#banner-intro {
   position: absolute;
   bottom: 30px;
   bottom: 40px;
 }
 
-/* line 2058, ../scss/_settings.scss */
+/* line 2062, ../scss/_settings.scss */
 div#banner-intro-small {
   position: absolute;
   top: 250px;
 }
 
-/* line 2062, ../scss/_settings.scss */
+/* line 2066, ../scss/_settings.scss */
 div#banner-intro-only {
   position: absolute;
   bottom: 45px;
 }
 
-/* line 2066, ../scss/_settings.scss */
+/* line 2070, ../scss/_settings.scss */
 div#banner-intro p.title, div#banner-intro-small p.title, div#banner-intro-only p.title {
   font-family: 'Montserrat', sans-serif;
   font-size: 2rem;
@@ -769,7 +773,7 @@ div#banner-intro p.title, div#banner-intro-small p.title, div#banner-intro-only 
   -vendor-animation-delay: 1s;
 }
 
-/* line 2074, ../scss/_settings.scss */
+/* line 2078, ../scss/_settings.scss */
 div#banner-intro p.subtitle, div#banner-intro-small p.subtitle, div#banner-intro-only p.subtitle {
   font-family: 'Montserrat', sans-serif;
   font-size: 1rem;
@@ -778,14 +782,14 @@ div#banner-intro p.subtitle, div#banner-intro-small p.subtitle, div#banner-intro
   -vendor-animation-delay: 1s;
 }
 
-/* line 2082, ../scss/_settings.scss */
+/* line 2086, ../scss/_settings.scss */
 div#banner-intro a.hollow, div#banner-intro.small a.hollow, div#banner-intro-only a.hollow, p a.hollow {
   background-color: transparent;
   color: #cccccc;
   border: 2pt solid #cccccc;
 }
 
-/* line 2087, ../scss/_settings.scss */
+/* line 2091, ../scss/_settings.scss */
 div#banner-intro a.hollow:hover, div#banner-intro-small a.hollow:hover, div#banner-intro-only a.hollow:hover, p a.hollow:hover {
   border-color: #ffffff;
   color: #ffffff;
@@ -797,23 +801,23 @@ div#banner-intro a.hollow:hover, div#banner-intro-small a.hollow:hover, div#bann
   transition: all 0.75s;
 }
 
-/* line 2120, ../scss/_settings.scss */
+/* line 2124, ../scss/_settings.scss */
 div#services-icon-bar {
   z-index: 25;
 }
 
-/* line 2123, ../scss/_settings.scss */
+/* line 2127, ../scss/_settings.scss */
 div#services-icon-bar label {
   font-family: 'Montserrat', sans-serif;
 }
 
-/* line 2126, ../scss/_settings.scss */
+/* line 2130, ../scss/_settings.scss */
 .fixedPosition {
   position: fixed;
   top: 45px;
 }
 
-/* line 2131, ../scss/_settings.scss */
+/* line 2135, ../scss/_settings.scss */
 div.icon-bar a:hover {
   background-color: #E4EBED;
   -webkit-transition: all 0.75s;
@@ -823,17 +827,17 @@ div.icon-bar a:hover {
   transition: all 0.75s;
 }
 
-/* line 2140, ../scss/_settings.scss */
+/* line 2144, ../scss/_settings.scss */
 div.icon-bar a.active {
   background-color: #E4EBED;
 }
 
-/* line 2148, ../scss/_settings.scss */
+/* line 2152, ../scss/_settings.scss */
 form.contact label {
   font-family: 'Montserrat', sans-serif;
 }
 
-/* line 2151, ../scss/_settings.scss */
+/* line 2155, ../scss/_settings.scss */
 form.contact input[type=text], form.contact textarea {
   font-family: 'Muli', sans-serif;
   background-color: #dddddd;
@@ -847,43 +851,43 @@ form.contact input[type=text], form.contact textarea {
   box-shadow: none;
 }
 
-/* line 2163, ../scss/_settings.scss */
+/* line 2167, ../scss/_settings.scss */
 form.contact input[type=text] {
   height: 50px;
 }
 
-/* line 2166, ../scss/_settings.scss */
+/* line 2170, ../scss/_settings.scss */
 form.contact input:focus, form.contact textarea:focus {
   background-color: #eeeeee;
   /*background-color: #DEA653;*/
   box-shadow: none;
 }
 
-/* line 2172, ../scss/_settings.scss */
+/* line 2176, ../scss/_settings.scss */
 div.contact p, div.contact strong {
   font-family: 'Montserrat', sans-serif;
   font-size: 1rem;
 }
 
-/* line 2176, ../scss/_settings.scss */
+/* line 2180, ../scss/_settings.scss */
 div.contact strong {
   font-size: 1.10rem;
   color: #000000;
 }
 
-/* line 2180, ../scss/_settings.scss */
+/* line 2184, ../scss/_settings.scss */
 div.contact div.footer-social {
   padding-top: 20px;
   padding-bottom: 20px;
 }
 
-/* line 2187, ../scss/_settings.scss */
+/* line 2191, ../scss/_settings.scss */
 div#map {
   width: 100%;
   height: 300px;
 }
 
-/* line 2196, ../scss/_settings.scss */
+/* line 2200, ../scss/_settings.scss */
 div#notepad-bar {
   padding-top: 5px;
   padding-bottom: 5px;
@@ -894,7 +898,7 @@ div#notepad-bar {
   border-radius: 10px;
 }
 
-/* line 2206, ../scss/_settings.scss */
+/* line 2210, ../scss/_settings.scss */
 div#notepad-bar div {
   margin-left: 0px;
   margin-right: 0px;
@@ -902,7 +906,7 @@ div#notepad-bar div {
   padding-right: 0px;
 }
 
-/* line 2215, ../scss/_settings.scss */
+/* line 2219, ../scss/_settings.scss */
 div#notepad-bar div.notepad-bar-icon {
   width: 32px;
   height: 32px;
@@ -910,62 +914,62 @@ div#notepad-bar div.notepad-bar-icon {
   margin-right: auto;
 }
 
-/* line 2221, ../scss/_settings.scss */
+/* line 2225, ../scss/_settings.scss */
 div#notepad-bar div.bar-all {
   background-image: url(/assets/img/bar-all.png);
 }
 
-/* line 2224, ../scss/_settings.scss */
+/* line 2228, ../scss/_settings.scss */
 div#notepad-bar div.bar-all-active, div#notepad-bar div.bar-all:hover {
   background-image: url(/assets/img/bar-all-active.png);
 }
 
-/* line 2227, ../scss/_settings.scss */
+/* line 2231, ../scss/_settings.scss */
 div#notepad-bar div.bar-news {
   background-image: url(/assets/img/bar-news.png);
 }
 
-/* line 2230, ../scss/_settings.scss */
+/* line 2234, ../scss/_settings.scss */
 div#notepad-bar div.bar-news-active, div#notepad-bar div.bar-news:hover {
   background-image: url(/assets/img/bar-news-active.png);
 }
 
-/* line 2233, ../scss/_settings.scss */
+/* line 2237, ../scss/_settings.scss */
 div#notepad-bar div.bar-events {
   background-image: url(/assets/img/bar-events.png);
 }
 
-/* line 2236, ../scss/_settings.scss */
+/* line 2240, ../scss/_settings.scss */
 div#notepad-bar div.bar-events-active, div#notepad-bar div.bar-events:hover {
   background-image: url(/assets/img/bar-events-active.png);
 }
 
-/* line 2239, ../scss/_settings.scss */
+/* line 2243, ../scss/_settings.scss */
 div#notepad-bar div.bar-work {
   background-image: url(/assets/img/bar-work.png);
 }
 
-/* line 2242, ../scss/_settings.scss */
+/* line 2246, ../scss/_settings.scss */
 div#notepad-bar div.bar-work-active, div#notepad-bar div.bar-work:hover {
   background-image: url(/assets/img/bar-work-active.png);
 }
 
-/* line 2245, ../scss/_settings.scss */
+/* line 2249, ../scss/_settings.scss */
 div#notepad-bar div.bar-advice {
   background-image: url(/assets/img/bar-advice.png);
 }
 
-/* line 2248, ../scss/_settings.scss */
+/* line 2252, ../scss/_settings.scss */
 div#notepad-bar div.bar-advice-active, div#notepad-bar div.bar-advice:hover {
   background-image: url(/assets/img/bar-advice-active.png);
 }
 
-/* line 2251, ../scss/_settings.scss */
+/* line 2255, ../scss/_settings.scss */
 div#notepad-bar div.bar-right {
   background-image: url(/assets/img/bar-right.png);
 }
 
-/* line 2254, ../scss/_settings.scss */
+/* line 2258, ../scss/_settings.scss */
 div#notepad-bar div.handle-show {
   opacity: 1;
   -webkit-transition: all 0.5s;
@@ -975,7 +979,7 @@ div#notepad-bar div.handle-show {
   transition: all 0.5s;
 }
 
-/* line 2262, ../scss/_settings.scss */
+/* line 2266, ../scss/_settings.scss */
 div#notepad-bar div.handle-hide {
   opacity: 0;
   -webkit-transition: all 0.5s;
@@ -985,7 +989,7 @@ div#notepad-bar div.handle-hide {
   transition: all 0.5s;
 }
 
-/* line 2272, ../scss/_settings.scss */
+/* line 2276, ../scss/_settings.scss */
 div#handle {
   position: relative;
   top: 155px;
@@ -993,7 +997,7 @@ div#handle {
   margin-left: -5px !important;
 }
 
-/* line 2278, ../scss/_settings.scss */
+/* line 2282, ../scss/_settings.scss */
 div.notepad-bar-hide {
   left: -85px;
   top: 200px;
@@ -1004,7 +1008,7 @@ div.notepad-bar-hide {
   transition: all 0.5s;
 }
 
-/* line 2287, ../scss/_settings.scss */
+/* line 2291, ../scss/_settings.scss */
 div.notepad-bar-show {
   left: -10px;
   top: 200px;
@@ -1015,30 +1019,30 @@ div.notepad-bar-show {
   transition: all 0.5s;
 }
 
-/* line 2297, ../scss/_settings.scss */
+/* line 2301, ../scss/_settings.scss */
 div#notepad-bar label {
   color: #eeeeee;
   font-family: 'Muli', sans-serif;
   font-size: 12px;
 }
 
-/* line 2302, ../scss/_settings.scss */
+/* line 2306, ../scss/_settings.scss */
 div#note-bar img {
   width: 32px;
   height: 32px;
 }
 
-/* line 2306, ../scss/_settings.scss */
+/* line 2310, ../scss/_settings.scss */
 div#notepad-bar a:hover {
   background-color: #DEA653;
 }
 
-/* line 2312, ../scss/_settings.scss */
+/* line 2316, ../scss/_settings.scss */
 div#wrapper {
   /* display: none; */
 }
 
-/* line 2318, ../scss/_settings.scss */
+/* line 2322, ../scss/_settings.scss */
 h2.faq {
   font-family: 'Montserrat', sans-serif;
   text-transform: uppercase;
@@ -1046,33 +1050,33 @@ h2.faq {
   padding-bottom: 20px;
 }
 
-/* line 2325, ../scss/_settings.scss */
+/* line 2329, ../scss/_settings.scss */
 p.question b {
   font-size: 22px;
   font-family: 'Oleo Script', cursive;
   color: #888888;
 }
 
-/* line 2333, ../scss/_settings.scss */
+/* line 2337, ../scss/_settings.scss */
 .vertical-center {
   position: relative;
   top: 50%;
   transform: translateY(-50%);
 }
 
-/* line 2342, ../scss/_settings.scss */
+/* line 2346, ../scss/_settings.scss */
 div.people-small img {
   padding-top: 10px;
   padding-bottom: 10px;
 }
 
-/* line 2347, ../scss/_settings.scss */
+/* line 2351, ../scss/_settings.scss */
 a.fa-arrow-circle-down, a.fa-arrow-circle-down:active, a.fa-arrow-circle-down:visited {
   color: #ffffff;
   font-size: 32px;
 }
 
-/* line 2351, ../scss/_settings.scss */
+/* line 2355, ../scss/_settings.scss */
 a.fa-arrow-circle-down:hover {
   color: #cccccc;
   -webkit-transition: all 0.5s;
@@ -1082,35 +1086,35 @@ a.fa-arrow-circle-down:hover {
   transition: all 0.5s;
 }
 
-/* line 2360, ../scss/_settings.scss */
+/* line 2364, ../scss/_settings.scss */
 div.text-center p {
   text-align: center;
 }
 
-/* line 2369, ../scss/_settings.scss */
+/* line 2373, ../scss/_settings.scss */
 header.fixed, header.fixed div.fixed {
   height: 45px;
 }
 
-/* line 2375, ../scss/_settings.scss */
+/* line 2379, ../scss/_settings.scss */
 section.blog {
   padding-bottom: 0px;
 }
 
-/* line 2378, ../scss/_settings.scss */
+/* line 2382, ../scss/_settings.scss */
 img.blog-center {
   width: 100%;
   text-align: center;
 }
 
-/* line 2383, ../scss/_settings.scss */
+/* line 2387, ../scss/_settings.scss */
 div.post-author {
   padding-left: 0px;
   padding-right: 0px;
   width: 75px;
 }
 
-/* line 2388, ../scss/_settings.scss */
+/* line 2392, ../scss/_settings.scss */
 img.post-author {
   width: 75px;
   height: 75px;
@@ -1119,22 +1123,32 @@ img.post-author {
   -moz-border-radius: 75px;
 }
 
-/* line 2396, ../scss/_settings.scss */
+/* line 2400, ../scss/_settings.scss */
 div.post-link a, div.post-link a:active, div.post-link a:visited {
   color: #777777;
 }
 
-/* line 2399, ../scss/_settings.scss */
+/* line 2403, ../scss/_settings.scss */
 div.post-link a:hover {
   color: #999999;
 }
 
-/* line 2405, ../scss/_settings.scss */
+/* line 2407, ../scss/_settings.scss */
+p.post-info {
+  margin-bottom: 0px;
+}
+
+/* line 2408, ../scss/_settings.scss */
+p.author-name {
+  font-family: 'Oleo Script', cursive;
+}
+
+/* line 2414, ../scss/_settings.scss */
 #share-buttons {
   text-align: right;
 }
 
-/* line 2408, ../scss/_settings.scss */
+/* line 2417, ../scss/_settings.scss */
 #share-buttons img {
   width: 35px;
   padding: 5px;
@@ -1144,35 +1158,35 @@ div.post-link a:hover {
   -webkit-filter: grayscale(100%);
 }
 
-/* line 2422, ../scss/_settings.scss */
+/* line 2431, ../scss/_settings.scss */
 div.team {
   padding-bottom: 25px !important;
 }
 
-/* line 2425, ../scss/_settings.scss */
+/* line 2434, ../scss/_settings.scss */
 div.team-picture {
   width: 250px;
   height: 300px;
 }
 
-/* line 2429, ../scss/_settings.scss */
+/* line 2438, ../scss/_settings.scss */
 div.team-picture div.image {
   width: 250px;
   height: 250px;
   border-radius: 5px;
 }
 
-/* line 2434, ../scss/_settings.scss */
+/* line 2443, ../scss/_settings.scss */
 div.team-picture div.chakir {
   background: url(/assets/img/Chakir.png) no-repeat;
 }
 
-/* line 2437, ../scss/_settings.scss */
+/* line 2446, ../scss/_settings.scss */
 div.team-picture div.amal {
   background: url(/assets/img/Amal.png) no-repeat;
 }
 
-/* line 2441, ../scss/_settings.scss */
+/* line 2450, ../scss/_settings.scss */
 div.team-picture div.text {
   margin-top: 10px;
   text-align: center;
@@ -1181,14 +1195,14 @@ div.team-picture div.text {
   font-size: 14px;
 }
 
-/* line 2449, ../scss/_settings.scss */
+/* line 2458, ../scss/_settings.scss */
 div.team-picture div.text h1, div.team-picture div.text h2 {
   margin: 0px;
   padding: 0px;
   line-height: 22px;
 }
 
-/* line 2454, ../scss/_settings.scss */
+/* line 2463, ../scss/_settings.scss */
 div.team-picture div.text h1 {
   font-size: 20px;
   font-family: 'Oleo Script', cursive;
@@ -1196,55 +1210,67 @@ div.team-picture div.text h1 {
   color: #6D6D6D;
 }
 
-/* line 2460, ../scss/_settings.scss */
+/* line 2469, ../scss/_settings.scss */
 div.team-picture div.text h2 {
   font-size: 16px;
   color: #999999;
 }
 
-/* line 2470, ../scss/_settings.scss */
+/* line 2479, ../scss/_settings.scss */
 section.ourteam {
   font-family: 'Muli', sans-serif;
   font-size: 17px;
   color: #999999;
 }
 
-/* line 2476, ../scss/_settings.scss */
+/* line 2485, ../scss/_settings.scss */
 section.ourteam div.row {
   padding-top: 10px;
   padding-bottom: 10px;
 }
 
-/* line 2480, ../scss/_settings.scss */
+/* line 2489, ../scss/_settings.scss */
 section.ourteam div.left {
   text-align: right;
 }
 
-/* line 2483, ../scss/_settings.scss */
+/* line 2492, ../scss/_settings.scss */
 section.ourteam div.right {
   text-align: left;
 }
 
-/* line 2487, ../scss/_settings.scss */
+/* line 2496, ../scss/_settings.scss */
 section#ourteam-intro div.text-center h2 {
   text-transform: none;
 }
 
-/* line 2491, ../scss/_settings.scss */
+/* line 2500, ../scss/_settings.scss */
 section.ourteam i.fa {
   font-size: 30px;
   color: #DEA653;
+  padding-left: 0px;
 }
 
-/* line 2496, ../scss/_settings.scss */
+/* line 2506, ../scss/_settings.scss */
+section.ourteam-small i.fa {
+  padding-right: 5px;
+  font-size: 26px;
+}
+
+/* line 2510, ../scss/_settings.scss */
+section.ourteam-small div.columns {
+  text-align: justify;
+}
+
+/* line 2514, ../scss/_settings.scss */
 section.ourteam div.icon {
-  width: 30px;
+  width: 35px;
   padding-right: 0px;
   padding-left: 0px;
   text-align: center;
 }
 
-/* line 2503, ../scss/_settings.scss */
+/* line 2521, ../scss/_settings.scss */
 section.ourteam div b {
   font-family: 'Oleo Script', cursive;
   font-size: 22px;

@@ -2,20 +2,20 @@
 layout: post
 id: notepad
 subid: advice
-title:  "Fast Websites"
-subtitle: "Why we don't use Wordpress"
+title:  "Static Websites"
+subtitle: "Static websites are still alive!"
+description: "This is and article from Softelos that describes the advantages of creating websites with static HTML in comparison to CMS systems based on PHP and SQL databases. Softelos is a Web Design and Development Agency located in Lynchburg (VA)."
 date:   2015-02-08 18:39:10
 banner: http://placehold.it/1500x500
 categories: "advice"
 author: cmrabet
 author-name: "Chakir Mrabet"
 ---
+h3. Static vs Dynamic websites
 
 Nowadays most of the websites are built using a Content Management System or CMS such as WordPress, Drupal or Joomla.  They allow the user to manage all their content through nice administrator control screens, and PHP, ASP.NET, or whatever server side technology the CMS is built on, will magically and dynamically create the website pages every single time a visitor hits the page.  
 
 Building a website using a CMS is one of the many ways the Internet has become so powerful, since the old days when all websites were just a link or two and a flash banner. However it's not the only way, building websites exclusively on .html static files is still one of the most efficient methods of creating fast and secure websites.
-
-We are experts in technologies used to generate static websites, and we choose them to develop many projects we work on, including our own website "www.softelos.com":http://www.softelos.com.
 
 <!--more-->
 
@@ -37,5 +37,17 @@ h3. When to go with static websites?
 A good analogy for comparing static websites versus dynamic ones is whether the website could be printed out and still function properly. If the website will show information that is designed to be read, then we could print each page out and with the exception of any hyperlinks we may have, it would still work. For this the best option is to go with static websites due the advantages mentioned above. 
 
 However if the website needs to be interactive and capable of being used by people who will use it not just for reading, the best option is to go with a dynamic website, built on a CMS or custom web development.
+
+h3. How to create a static website?
+
+If you are creating a landing page or a very basic website with two or three pages, all what you need to create a static website is a text editor where you can write your HTML code. However if you need more pages, a more complex layout, and blocks that can be re-used from different pages, there are other options that simplify the process for you:
+
+h4. Jekyll
+
+Jekyll is a simple, user friendly, blog-aware static site generator powered by Ruby, and is also the engine behind GitHub Pages.
+
+It takes a template directory containing raw text files in various formats, runs it through a converter (like Markdown) and our Liquid renderer, and spits out a complete, ready-to-publish static website suitable for serving with your favorite web server. Jekyll also happens to be the engine behind GitHub Pages, which means you can use Jekyll to host your project’s page, blog, or website from GitHub’s servers for free.
+
+
 
 

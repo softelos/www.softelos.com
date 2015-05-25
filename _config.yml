@@ -1,7 +1,7 @@
 # Site settings
 url: http://softelos.com
-name: Softelos
-description: "Softelos is a Web Design and Development Agency located in Lynchburg (VA). We make beautiful, cutting edge, powerfull websites for clients all over the United States."
+name: Softelos LLC
+titleBase: " | Softelos | Web Design + Web Development + SEO | Lynchburg (VA)"
 email: hello@softelos.com
 baseurl: "" 
 copyright: 2015

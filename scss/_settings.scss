@@ -1537,7 +1537,7 @@ p{
     background-repeat: no-repeat;
     display: block;
 }
-.blog-aboujenna-small {width: 70px;height: 70px;background-position: 0 0;}
+.blog-aboujenna-small {width: 70px !important;height: 70px;background-position: 0 0;}
 .blog-bar-advice {width: 32px;height: 32px;background-position: -70px 0;}
 .blog-bar-advice-active {width: 32px;height: 32px;background-position: -102px 0;}
 .blog-bar-all {width: 32px;height: 32px;background-position: -70px -32px;}
@@ -2021,9 +2021,11 @@ div.product{
 
 footer{
 	font-family: 'Montserrat', sans-serif;
-	text-transform: uppercase;
+	/*text-transform: uppercase;*/
 	background-color:$dark;	
+	background-color: #AAB4BB;
 	color:#888888;
+	color:#444444;
     line-height: 13px;
     font-size: 10px;	
 	padding-top:$padding-topbottom;
@@ -2033,12 +2035,14 @@ footer{
 }
 div.footer-social a{
 	color:#666666;
+	color:#444444;
 	font-size: 2.10rem;
 	padding-right: 10px;
 	padding-left: 10px;
 }
 	div.footer-social a:hover{
 		color:#DEA653;
+		color:#777777;
 	}
 
 p.belowfooter{
@@ -2400,6 +2404,11 @@ div.post-link a:hover{
 	color:#999999;
 }
 
+p.post-info{margin-bottom: 0px;}
+p.author-name{
+	font-family: 'Oleo Script', cursive;
+}
+
 
 // S O C I A L
 #share-buttons{
@@ -2491,10 +2500,19 @@ section#ourteam-intro div.text-center h2{
 section.ourteam i.fa{
 	font-size: 30px;
 	color:#DEA653;
+	padding-left: 0px;
+}
+
+section.ourteam-small i.fa{
+	padding-right: 5px;
+	font-size: 26px;
+}
+section.ourteam-small div.columns{
+	text-align: justify;
 }
 
 section.ourteam div.icon{
-	width: 30px;
+	width: 35px;
 	padding-right: 0px;
 	padding-left: 0px;
 	text-align: center;

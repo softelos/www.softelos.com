@@ -4,6 +4,7 @@ id: notepad
 subid: work
 title:  "How we made softelos.com"
 subtitle: "How we made softelos.com"
+description: "This is and article from Softelos that describes the process of creating a website. Softelos is a Web Design and Development Agency located in Lynchburg (VA)."
 date:   2015-02-08 17:30:00
 banner: http://placehold.it/1500x500
 categories: "work"
@@ -11,7 +12,7 @@ author: cmrabet
 author-name: Chakir Mrabet
 ---
 
-Our web site is no different from other web projects we develop for our customers. We follow the same values and apply the same principles when creating software for us.
+Our website is no different from other web projects we develop for our customers. We follow the same values and apply the same principles when creating software for us.
 
 This article describes how we did this with "www.softelos.com":http:\\www.softelos.com.
 
