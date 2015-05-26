@@ -1715,6 +1715,18 @@ div.banner-notepad{
     background-size: cover;
     position: relative;    
   }
+div.banner-contactus-thanks{
+	margin-top:-$topbar-height;
+	z-index: -100;
+	height:450px;
+    width: 100vw; 
+    background: url('/assets/img/typing.jpg') no-repeat center center; 
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    position: relative;    
+  }
 
  div.banner-whatwedo{
 	/*margin-top:-$topbar-height;*/
@@ -1735,7 +1747,7 @@ div.banner-notepad{
 	    /*width: 100hw; */
 	    width:100%;
 	    height: auto;
-	    background: url('/assets/img/typing.png') no-repeat center center; 
+	    background: url('/assets/img/typing.jpg') no-repeat center center; 
 		-webkit-background-size: cover;
 	    -moz-background-size: cover;
 	    -o-background-size: cover;

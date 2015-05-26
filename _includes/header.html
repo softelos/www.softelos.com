@@ -1,4 +1,4 @@
-<header class="site-header {% if page.id == 'whatwedo' %} smaller bar-no-reduction fixed {% endif %} show-for-large-up">
+<header class="site-header {% if page.id == 'whatwedo' or page.id == 'contactus-thanks' %} smaller bar-no-reduction fixed {% endif %} show-for-large-up">
   <div class="sticky">
 
     <nav class="top-bar" role="navigation" data-topbar>
@@ -12,7 +12,7 @@
         <ul class="right">
           <li class="{% if page.id == 'hello' %} active {% endif %}"><a href="{{ site.baseurl }}/" class="hvr-underline-from-center">Hello!</a></li>
           <li class="{% if page.id == 'whatwedo' %} active {% endif %}"><a href="{{ site.baseurl }}/whatwedo" class="hvr-underline-from-center">What We Do</a></li>
-          <li class="{% if page.id == 'contactus' %} active {% endif %}"><a href="{{ site.baseurl }}/contactus" class="hvr-underline-from-center">Contact Us</a></li>
+          <li class="{% if page.id == 'contactus' or page.id == 'contactus-thanks' %} active {% endif %}"><a href="{{ site.baseurl }}/contactus" class="hvr-underline-from-center">Contact Us</a></li>
           <li class="{% if page.id == 'notepad' %} active {% endif %}"><a href="{{ site.baseurl }}/notepad" class="hvr-underline-from-center">Notepad</a></li>
         </ul>
       </section>
@@ -38,7 +38,7 @@
           <li class="{% if page.id == 'hello' %} active {% endif %}"><a href="{{ site.baseurl }}/" >Hello!</a></li>
           <li class="{% if page.id == 'whatwedo' %} active {% endif %}"><a href="{{ site.baseurl }}/whatwedo">What We Do</a></li>
           <li class="{% if page.id == 'contactus' %} active {% endif %}"><a href="{{ site.baseurl }}/contactus">Contact Us</a></li>
-          <li class="{% if page.id == 'notepad' %} active {% endif %}"><a href="{{ site.baseurl }}/notepad">Notepad</a></li>
+          <li class="{% if page.id == 'notepad' or page.id == 'contactus-thanks' %} active {% endif %}"><a href="{{ site.baseurl }}/notepad">Notepad</a></li>
         </ul>
       </section>
     </nav>

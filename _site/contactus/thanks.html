@@ -21,7 +21,7 @@
 
 	<body class="light">
 		<div id="wrapper">
-		<header class="site-header  show-for-large-up">
+		<header class="site-header  smaller bar-no-reduction fixed  show-for-large-up">
   <div class="sticky">
 
     <nav class="top-bar" role="navigation" data-topbar>
@@ -60,8 +60,8 @@
         <ul class="right">
           <li class=""><a href="/" >Hello!</a></li>
           <li class=""><a href="/whatwedo">What We Do</a></li>
-          <li class=" active "><a href="/contactus">Contact Us</a></li>
-          <li class=""><a href="/notepad">Notepad</a></li>
+          <li class=""><a href="/contactus">Contact Us</a></li>
+          <li class=" active "><a href="/notepad">Notepad</a></li>
         </ul>
       </section>
     </nav>
@@ -82,7 +82,7 @@
         <ul class="right">
           <li class=""><a href="/">Hello!</a></li>
           <li class=""><a href="/whatwedo">What We Do</a></li>
-          <li class=" active "><a href="/contactus">Contact Us</a></li>
+          <li class=""><a href="/contactus">Contact Us</a></li>
           <li class=""><a href="/notepad">Notepad</a></li>
         </ul>
       </section>
@@ -102,23 +102,17 @@
 
 
 	
-		<div class="banner-contactus">
-			<video autoplay loop poster="/assets/img/typing.png" id="bgvid">
-				<source src="/assets/videos/typing.webm" type="video/webm">
-				<source src="/assets/videos/typing.mp4" type="video/mp4">
-			</video>
+
+	
+		<div class="banner-contactus-thanks">
 		</div>
 
-		<div id="banner-intro-small-full" class="row fullWidth" height="200px">
+		<div id="banner-intro-small" class="row fullWidth" height="200px">
 			<div class="large-12 columns text-center animated fadeInDown">
-				<p class="title">LET'S MAKE SOMETHING TOGETHER</p>
-				<p class="subtitle">There’s nothing we enjoy more than rolling up our sleeves and starting a new project.</p>
-			</div>
-			<div class="large-12 columns text-center animated fadeInDown">
-				<p class="subtitle"><a id="go-down-button" href="#section-start" class="fa fa-arrow-circle-down"></a></p>
+				<p class="title">THANK YOU!</p>
+				<p class="subtitle">Your message was successfully sent to Softelos.</p>
 			</div>
 		</div>
-
 	
 
 	
@@ -140,9 +134,9 @@
 		
 			<div class="medium-8 column">
 
-			<h1>Thank You</h1>
-			<p>Your message was successfully sent to Softelos.</p>
-			<p>You should receive a reply from us by the end of the next business day. Occasionally we receive a very large number of messages, and your response may take a little longer. If this occurs, we appreciate your patience, and we assure you that you will receive a response. </p>
+			<h2>What's next?</h2>
+			<p>You should receive a reply from us by the end of the next business day.</p>
+			<p>Occasionally we receive a very large number of messages, and your response may take a little longer. If this occurs, we appreciate your patience, and we assure you that you will receive a response. </p>
 			<p>Thank you for taking the time to contact us.</p>
 			</div>
 			<div class="medium-4 column contact">
@@ -270,6 +264,8 @@
 					</div>
 				</li>
 				
+					<li><a href="/contactus" class="button round"><i class="fa fa-envelope-o"></i> CONTACT US</a></li>
+				
 
 			</ul>
 		</div>
@@ -294,8 +290,8 @@
 			var lastY=0;
 			
 			//$('header.show-for-large-up').addClass('bigger');
-			if($('body').hasClass('f-topbar-fixed')) $('div.banner-contactus').css('margin-top','0px');
-			else $('div.banner-contactus').css('margin-top','-100px');
+			if($('body').hasClass('f-topbar-fixed')) $('div.banner-contactus-thanks').css('margin-top','0px');
+			else $('div.banner-contactus-thanks').css('margin-top','-100px');
 			
 			$(window).scroll(function(){
 				var shrinkOn=100;
@@ -311,12 +307,12 @@
 						// Top padding for when the top nave goes fixed
 						/*
 						if(distanceY>0){
-							$('div.banner-contactus').css('margin-top','0px');
+							$('div.banner-contactus-thanks').css('margin-top','0px');
 							lastY=distanceY;
 							moved=true;
 						}
 						if((distanceY<lastY) && (moved)){
-							$('div.banner-contactus').css('margin-top','-100px');
+							$('div.banner-contactus-thanks').css('margin-top','-100px');
 							moved=false;
 						}*/
 
@@ -332,7 +328,7 @@
 						}else{
 							$header.removeClass('smaller');
 							$header.addClass('bigger');
-							$('div#contactus-toppadding').hide();
+							$('div#contactus-thanks-toppadding').hide();
 							if(scrolled){
 								$header.removeClass('fixed');
 								$banner.removeClass('fadeOut');
@@ -341,8 +337,8 @@
 							}
 						}
 
-						if($('body').hasClass('f-topbar-fixed')) $('div.banner-contactus').css('margin-top','0px');
-						else $('div.banner-contactus').css('margin-top','-100px');
+						if($('body').hasClass('f-topbar-fixed')) $('div.banner-contactus-thanks').css('margin-top','0px');
+						else $('div.banner-contactus-thanks').css('margin-top','-100px');
 
 					
 				}
@@ -354,22 +350,6 @@
 
 	
 
-
-	
-		<script>
-			// icon-bar achors control
-			$(document).ready(function(){
-				// Smooth scrollz				
-				$('a#go-down-button').click(function(e){
-					e.preventDefault();
-					// Calc offset
-					// 145 is = 100 (when top bar is big) and 45 (when top bar is small)
-					var pos=$('a[name="section-start"]').offset().top-135;
-					$('html,body').scrollTo(pos);
-					
-				});
-			});
-		</script>
 
 	
 	
