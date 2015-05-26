@@ -1516,7 +1516,7 @@ p{
 
 // S P R I T E S    D E F I N I T I O N S
 
-
+/*
 .hello {
     background-image: url('/assets/img/ss-hello.png');
     background-repeat: no-repeat;
@@ -1530,6 +1530,19 @@ p{
 .hello-WebDesignIcon {width: 110px;height: 106px;background-position: -220px -250px;}
 .hello-WebDevelopmentIcon {width: 110px;height: 106px;background-position: -330px -250px;}
 .hello-eCommerceIcon {width: 110px;height: 106px;background-position: -440px -250px;}
+*/
+
+.hello {
+    background-image: url(/assets/img/ss-hello.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+.hello-CMSIcon {width: 110px;height: 106px;background-position: 0 0;}
+.hello-ResponsiveIcon {width: 110px;height: 106px;background-position: -110px 0;}
+.hello-SEOIcon {width: 110px;height: 106px;background-position: 0 -106px;}
+.hello-WebDesignIcon {width: 110px;height: 106px;background-position: -110px -106px;}
+.hello-WebDevelopmentIcon {width: 110px;height: 106px;background-position: -220px 0;}
+.hello-eCommerceIcon {width: 110px;height: 106px;background-position: -220px -106px;}
 
 
 .blog {
@@ -1551,7 +1564,7 @@ p{
 .blog-bar-work-active {width: 32px;height: 32px;background-position: -134px 0;}
 .blog-cmrabet-small {width: 70px;height: 70px;background-position: -166px 0;}
 
-
+/*
 .whatwedo {
     background-image: url(/assets/img/ss-whatwedo.png);
     background-repeat: no-repeat;
@@ -1570,7 +1583,29 @@ p{
 .whatwedo-ecommerce {width: 400px;height: 383px;background-position: -460px -376px;}
 .whatwedo-responsive {width: 400px;height: 387px;background-position: -950px 0;}
 .whatwedo-seo {width: 400px;height: 389px;background-position: -860px -387px;}
+*/
 
+.whatwedo {
+    background-image: url(/assets/img/ss-whatwedo.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.whatwedo-CMSIconSmall {width: 30px;height: 30px;background-position: 0 0;}
+.whatwedo-ProcessIconSmall {width: 30px;height: 30px;background-position: -30px 0;}
+.whatwedo-ResponsiveIconSmall {width: 30px;height: 30px;background-position: -60px 0;}
+.whatwedo-SEOIconSmall {width: 30px;height: 30px;background-position: -90px 0;}
+.whatwedo-Web {width: 400px;height: 376px;background-position: -120px 0;}
+.whatwedo-WebDesignIconSmall {width: 30px;height: 30px;background-position: -520px 0;}
+.whatwedo-WebDevelopment {width: 400px;height: 376px;background-position: -550px 0;}
+.whatwedo-WebDevelopmentIconSmall {width: 30px;height: 30px;background-position: 0 -376px;}
+.whatwedo-cms {width: 400px;height: 390px;background-position: -30px -376px;}
+.whatwedo-eCommerceIconSmall {width: 30px;height: 30px;background-position: -430px -376px;}
+.whatwedo-ecommerce {width: 400px;height: 383px;background-position: -460px -376px;}
+.whatwedo-responsive {width: 400px;height: 387px;background-position: -950px 0;}
+.whatwedo-seo {width: 400px;height: 389px;background-position: -860px -387px;}
+
+/*
 .process {
     background-image: url(/assets/img/ss-process.png);
     background-repeat: no-repeat;
@@ -1583,6 +1618,23 @@ p{
 .process-process-feedback {width: 235px;height: 219px;background-position: -573px 0;}
 .process-process-show {width: 235px;height: 219px;background-position: -573px -219px;}
 .process-process-think {width: 235px;height: 219px;background-position: -573px -438px;}
+*/
+
+.process {
+    background-image: url(/assets/img/ss-process.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+.process-process {width: 338px;height: 743px;background-position: 0 0;}
+.process-process-design {width: 235px;height: 219px;background-position: -338px 0;}
+.process-process-develop {width: 235px;height: 219px;background-position: -338px -219px;}
+.process-process-discuss {width: 235px;height: 219px;background-position: -338px -438px;}
+.process-process-feedback {width: 235px;height: 219px;background-position: -573px 0;}
+.process-process-show {width: 235px;height: 219px;background-position: -573px -219px;}
+.process-process-think {width: 235px;height: 219px;background-position: -573px -438px;}
+
+
+
 
 // G E N E R A L
 
@@ -1696,7 +1748,7 @@ div.banner-notepad{
 	z-index: -100;
 	height:100vh;
     width: 100vw; 
-    background: url('/assets/img/WomanHappy.jpg') no-repeat center center; 
+    background: url('/assets/img/404.png') no-repeat center center; 
 	-webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
