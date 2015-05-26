@@ -1,0 +1,39 @@
+---
+layout: post
+id: notepad
+subid: advice
+title:  "Static websites are still cool"
+subtitle: "Static websites are still cool!"
+description: "This is and article from Softelos that describes the advantages of creating websites with static HTML in comparison to CMS systems based on PHP and SQL databases. Softelos is a Web Design and Development Agency located in Lynchburg (VA)."
+date:   2015-03-16 18:39:10
+banner: http://placehold.it/1500x500
+categories: "advice"
+author: cmrabet
+author-name: "Chakir Mrabet"
+---
+
+Nowadays most of the websites are built using a Content Management System or CMS such as WordPress, Drupal or Joomla.  They allow the user to manage all their content through nice administrator control screens, and PHP, ASP.NET, or whatever server side technology the CMS is built on, will magically and dynamically create the website pages every single time a visitor hits the page.  
+
+Building a website using a CMS is one of the many ways the Internet has become so powerful, since the old days when all websites were just a link or two and a flash banner. However it's not the only way, building websites exclusively on .html static files is still one of the most efficient methods of creating fast and secure websites.
+
+<!--more-->
+
+h3. What is a static .html site anyway?
+
+A static site is the opposite of a dynamic one. This doesn't mean that nothing on a static site moves, it means that the site is made in such a way that its .html content has already been pre-generated and is just laying out on the web server, as opposed to all the content being stored in a database waiting to be dynamically mashed together when a request comes by a server side technology like PHP.  
+
+When we first heard about Jekyll, Rake, and a few other technologies to pre-generate a static site in seconds, we really wondered why would anyone want a static .html site with the options we have today in CMS products?
+
+h3. Why static .html sites?
+
+* *Performance*.  Seconds can mean the difference between someone getting frustrated and leaving your website versus them staying and reading, buying, or clicking your ad.  With static .html, your site is ready and rearing to go because there is no database to query from or server side scripting to parse. Static websites are fast, superfast, since they are pure HTML.
+* *No MySQL calls for WordPress or Joomla*.  No mashing together of content and templates, all that’s been done already.  HTML is what browsers read and they don't know PHP or ASP.NET, all they know is HTML markup, and it’s already there waiting for them.
+* *Security* is another thing static sites solve. When building websites we constantly need to watch for SQL injection or other trickeries from the bad guys.  With static sites, the majority of the security issues go away since the site doesn’t have any database to inject SQL to. It’s just a set of read-only files sitting out on a file server. Where WordPress or other CMS products have access (potentially write) to the database, they are inherently more hacker-prone than static files.
+* *HTML is portable*.  With static websites there is no more PHP, ASP.NET or Java requirements for the web server. HTML is the most portable website technology of all time, because at the end of the day, it's THE web technology, and can be moved from Apache to IIS to Nginx to whatever host environment we need and it's guaranteed it’ll work just as great as before we made the move.  
+
+h3. When to go with static websites?
+
+A good analogy for comparing static websites versus dynamic ones is whether the website could be printed out and still function properly. If the website will show information that is designed to be read, then we could print each page out and with the exception of any hyperlinks we may have, it would still work. For this the best option is to go with static websites due the advantages mentioned above. 
+
+However if the website needs to be interactive and capable of being used by people who will use it not just for reading, the best option is to go with a dynamic website, built on a CMS or custom web development.
+

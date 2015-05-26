@@ -21,7 +21,7 @@
 
 	<body class="light">
 		<div id="wrapper">
-		<header class="site-header show-for-large-up">
+		<header class="site-header  show-for-large-up">
   <div class="sticky">
 
     <nav class="top-bar" role="navigation" data-topbar>
@@ -96,20 +96,29 @@
 
 	
 
+
 	
 
 
 
 	
 		<div class="banner-contactus">
+			<video autoplay loop poster="/assets/img/typing.png" id="bgvid">
+				<source src="/assets/videos/typing.webm" type="video/webm">
+				<source src="/assets/videos/typing.mp4" type="video/mp4">
+			</video>
 		</div>
 
-		<div id="banner-intro-small" class="row fullWidth" height="200px">
+		<div id="banner-intro-small-full" class="row fullWidth" height="200px">
 			<div class="large-12 columns text-center animated fadeInDown">
 				<p class="title">LET'S MAKE SOMETHING TOGETHER</p>
 				<p class="subtitle">There’s nothing we enjoy more than rolling up our sleeves and starting a new project.</p>
 			</div>
+			<div class="large-12 columns text-center animated fadeInDown">
+				<p class="subtitle"><a id="go-down-button" href="#section-start" class="fa fa-arrow-circle-down"></a></p>
+			</div>
 		</div>
+
 	
 
 	
@@ -261,6 +270,7 @@
 					</div>
 				</li>
 				
+
 			</ul>
 		</div>
 	</div>
@@ -344,6 +354,25 @@
 
 	
 
+
+	
+		<script>
+			// icon-bar achors control
+			$(document).ready(function(){
+				// Smooth scrollz				
+				$('a#go-down-button').click(function(e){
+					e.preventDefault();
+					// Calc offset
+					// 145 is = 100 (when top bar is big) and 45 (when top bar is small)
+					var pos=$('a[name="section-start"]').offset().top-135;
+					$('html,body').scrollTo(pos);
+					
+				});
+			});
+		</script>
+
+	
+	
 	
 
 	<script>

@@ -142,7 +142,7 @@
 				$(window).scroll(function(){
 					if($('div#services-icon-bar')!=null){
 						var a;
-						var sections=['{{ site.textWebsites }}','{{ site.textWebDev }}','{{ site.textResponsive }}','{{ site.textCMS }}','{{ site.textECommerce}}','{{ site.textSEO }}','ourprocess'];
+						var sections=['{{ site.textWebsitesShort }}','{{ site.textWebDevShort }}','{{ site.textResponsiveShort }}','{{ site.textCMSShort }}','{{ site.textECommerceShort }}','{{ site.textSEOShort }}','ourprocess'];
 						// Gest size of bars
 						var barSize=$('nav.top-bar').outerHeight();
 						var miniBarSize=$('div#services-icon-bar').outerHeight();
@@ -155,7 +155,7 @@
 
 							var sectionSize=$('a[name="'+name+'"]').parent('section').outerHeight();							
 							var sectionPos=$('section a[name="'+name+'"]').offset().top;
-							var cursor=$(this).scrollTop()+offset;
+							var cursor=$(this).scrollTop()+offset+10;
 
 							if((cursor>sectionPos) && (cursor<(sectionPos+sectionSize))) $('div#services-icon-bar a[href="#'+name+'"]').addClass('active');
 			    			else $('div#services-icon-bar a[href="#'+name+'"]').removeClass('active');
@@ -169,6 +169,7 @@
 		<script>
 			// Services icon-bar control
 			$(document).ready(function(){
+				/*
 				$(window).scroll(function(){
 					var shrinkOn=45;
 					var windowTop=$(window).scrollTop();
@@ -190,11 +191,30 @@
 								$('div#services-top-padding').addClass('collapse');							
 							}
 						}
-				});
+				});*/
 			});	
 		</script>
 	{% endif %}
 
+
+	{% if page.id == "contactus" %}
+		<script>
+			// icon-bar achors control
+			$(document).ready(function(){
+				// Smooth scrollz				
+				$('a#go-down-button').click(function(e){
+					e.preventDefault();
+					// Calc offset
+					// 145 is = 100 (when top bar is big) and 45 (when top bar is small)
+					var pos=$('a[name="section-start"]').offset().top-135;
+					$('html,body').scrollTo(pos);
+					
+				});
+			});
+		</script>
+
+	{% endif %}
+	
 	{% if page.id == "notepad" %}
 		
 		<script>

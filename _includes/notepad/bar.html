@@ -25,22 +25,25 @@
 				<div class="notepad-bar-icon blog blog-bar-all {% if page.subid == 'all' %} blog-bar-all-active {% endif %}"></div>
 				<label>All</label>
 			</a><br>
-			<a href="{{ site.baseurl }}/notepad/news.html" class="">
+			{% if (newsC | size) > 0 %}<a href="{{ site.baseurl }}/notepad/news.html" class="">{% endif %}
 				<div class="notepad-bar-icon blog blog-bar-news {% if page.subid == 'news' %} blog-bar-news-active {% endif %}"></div>
 				<label>News ({{ newsC | size }})</label>
-			</a><br>
-			<a href="{{ site.baseurl }}/notepad/work.html" class="">
+			{% if (newsC | size) > 0 %}</a>{% endif %}
+			<br>
+			{% if (workC | size) > 0 %}<a href="{{ site.baseurl }}/notepad/work.html" class="">{% endif %}
 				<div class="notepad-bar-icon blog  blog-bar-work {% if page.subid == 'work' %} blog-bar-work-active {% endif %}"></div>
 				<label>Work ({{ workC | size }})</label>
-			</a><br>
-			<a href="{{ site.baseurl }}/notepad/events.html" class="">
+			{% if (workC | size) > 0 %}</a>{% endif %}
+			<br>
+			{% if (eventsC | size) > 0 %}<a href="{{ site.baseurl }}/notepad/events.html" class="">{% endif %}
 				<div class="notepad-bar-icon blog  blog-bar-events {% if page.subid == 'events' %} blog-bar-events-active {% endif %}"></div>
 				<label>Events ({{ eventsC | size }})</label>
-			</a><br>
-			<a href="{{ site.baseurl }}/notepad/advice.html" class="">
+			{% if (evetnsC | size) > 0 %}</a>{% endif %}
+			<br>
+			{% if (adviceC | size) > 0 %}<a href="{{ site.baseurl }}/notepad/advice.html" class="">{% endif %}
 				<div class="notepad-bar-icon blog  blog-bar-advice {% if page.subid == 'advice' %} blog-bar-advice-active {% endif %}"></div>
 				<label>Advice ({{ adviceC | size }})</label>
-			</a>
+			{% if (adviceC | size) > 0 %}</a>{% endif %}
 		</div>
 		<div class="small-2 columns">
 			<div id="handle" class="handle-show">

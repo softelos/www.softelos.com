@@ -1551,10 +1551,44 @@ p{
 .blog-bar-work-active {width: 32px;height: 32px;background-position: -134px 0;}
 .blog-cmrabet-small {width: 70px;height: 70px;background-position: -166px 0;}
 
+
+.whatwedo {
+    background-image: url(/assets/img/ss-whatwedo.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+.whatwedo-CMSIconSmall {width: 30px;height: 30px;background-position: 0 0;}
+.whatwedo-ProcessIconSmall {width: 30px;height: 30px;background-position: -30px 0;}
+.whatwedo-ResponsiveIconSmall {width: 30px;height: 30px;background-position: -60px 0;}
+.whatwedo-SEOIconSmall {width: 30px;height: 30px;background-position: -90px 0;}
+.whatwedo-Web {width: 400px;height: 376px;background-position: -120px 0;}
+.whatwedo-WebDesignIconSmall {width: 30px;height: 30px;background-position: -520px 0;}
+.whatwedo-WebDevelopment {width: 400px;height: 376px;background-position: -550px 0;}
+.whatwedo-WebDevelopmentIconSmall {width: 30px;height: 30px;background-position: 0 -376px;}
+.whatwedo-cms {width: 400px;height: 390px;background-position: -30px -376px;}
+.whatwedo-eCommerceIconSmall {width: 30px;height: 30px;background-position: -430px -376px;}
+.whatwedo-ecommerce {width: 400px;height: 383px;background-position: -460px -376px;}
+.whatwedo-responsive {width: 400px;height: 387px;background-position: -950px 0;}
+.whatwedo-seo {width: 400px;height: 389px;background-position: -860px -387px;}
+
+.process {
+    background-image: url(/assets/img/ss-process.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+.process-process {width: 338px;height: 741px;background-position: 0 0;}
+.process-process-design {width: 235px;height: 219px;background-position: -338px 0;}
+.process-process-develop {width: 235px;height: 219px;background-position: -338px -219px;}
+.process-process-discuss {width: 235px;height: 219px;background-position: -338px -438px;}
+.process-process-feedback {width: 235px;height: 219px;background-position: -573px 0;}
+.process-process-show {width: 235px;height: 219px;background-position: -573px -219px;}
+.process-process-think {width: 235px;height: 219px;background-position: -573px -438px;}
+
 // G E N E R A L
 
 body{
 	overflow-x:hidden;
+	background-color: #AAB4BB;
 }
 
 // H E A D E R
@@ -1573,7 +1607,7 @@ div#services-top-padding.collapse{
 	height: 0px;
 }
 div#services-top-padding.expand{
-	height: 75px;
+	height: 115px;
 }
 
 
@@ -1607,9 +1641,9 @@ div.banner-ourteam{
 div.banner-contactus{
 	margin-top:-$topbar-height;
 	z-index: -100;
-	height:450px;
+	/*height:450px;*/
+	height: auto;
     width: 100vw; 
-    background: url('/assets/img/WomanHappy.jpg') no-repeat center center; 
 	-webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -1645,11 +1679,11 @@ div.banner-notepad{
     position: relative;    
   }
 	  video#bgvid {
-		margin-top: -140px;
-	    width: 100vw; 
+		margin-top: -145px;
+	    /*width: 100hw; */
+	    width:100%;
 	    height: auto;
-
-		background: url(polina.jpg) no-repeat;
+	    background: url('/assets/img/typing.png') no-repeat center center; 
 		-webkit-background-size: cover;
 	    -moz-background-size: cover;
 	    -o-background-size: cover;
@@ -1885,6 +1919,7 @@ header.smaller .top-bar li.name{
 	font-size: $logo-small-size; 
 	margin-left: $logo-small-left-margin;
 	margin-top: 0px;
+	height: 45px;
  	-webkit-transition: all 0.5s;
 	-moz-transition: all 0.5s;
 	-ms-transition: all 0.5s;
@@ -2063,11 +2098,15 @@ div#banner-intro-small{
 	position: absolute;
 	top: 250px;
 }
+div#banner-intro-small-full{
+	position: absolute;
+	top: 450px;
+}
 div#banner-intro-only{
 	position: absolute;
 	bottom: 45px;
 }
-div#banner-intro p.title, div#banner-intro-small p.title, div#banner-intro-only p.title{
+div#banner-intro p.title, div#banner-intro-small p.title, div#banner-intro-small-full p.title,div#banner-intro-only p.title{
 	font-family: 'Montserrat', sans-serif;
 	font-size: 2rem;
 	color:#ffffff;
@@ -2075,7 +2114,7 @@ div#banner-intro p.title, div#banner-intro-small p.title, div#banner-intro-only 
 	-vendor-animation-duration: 1s;
   	-vendor-animation-delay: 1s;
 }
-div#banner-intro p.subtitle, div#banner-intro-small p.subtitle, div#banner-intro-only p.subtitle{
+div#banner-intro p.subtitle, div#banner-intro-small p.subtitle, div#banner-intro-small-full p.subtitle, div#banner-intro-only p.subtitle{
 	font-family: 'Montserrat', sans-serif;
 	font-size: 1rem;
 	color:#ffffff;
@@ -2088,7 +2127,7 @@ div#banner-intro a.hollow, div#banner-intro.small a.hollow, div#banner-intro-onl
 	color:#cccccc;
 	border:2pt solid #cccccc;
 }
-div#banner-intro a.hollow:hover, div#banner-intro-small a.hollow:hover, div#banner-intro-only a.hollow:hover,p a.hollow:hover{
+div#banner-intro a.hollow:hover, div#banner-intro-small a.hollow:hover, div#banner-intro-small-full a.hollow:hover, div#banner-intro-only a.hollow:hover,p a.hollow:hover{
 	border-color: #ffffff;
 	color:#ffffff;
 	margin-bottom: 0px;
@@ -2120,6 +2159,15 @@ $icon-bar-active-color:transparent;
 
 // $icon-bar-item-padding: 1.25rem;
 
+section.our-services h1{
+	font-family:'Montserrat', sans-serif;
+}
+h2.service-title{
+	font-family: 'Oleo Script', cursive;
+font-family: 'Montserrat', sans-serif;	
+	text-transform: none;
+	font-size: 28px;	
+}
 
 div#services-icon-bar{
 	z-index: 25;
@@ -2141,8 +2189,20 @@ div.icon-bar a:hover{
 	-o-transition: all 0.75s;
 	transition: all 0.75s;	   	
 }
+div.icon-bar div{
+	margin: 0 auto;
+}
 div.icon-bar a.active{
 	background-color: #E4EBED;
+}
+
+section.process-small div.process{
+	margin: 0px auto;
+}
+
+div.services-small div.whatwedo{
+	margin:0px auto;
+	margin-bottom: 20px;
 }
 
 

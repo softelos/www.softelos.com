@@ -5,14 +5,13 @@
     <description></description>
     <link>http://softelos.com/</link>
     <atom:link href="http://softelos.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 25 May 2015 00:32:23 -0400</pubDate>
-    <lastBuildDate>Mon, 25 May 2015 00:32:23 -0400</lastBuildDate>
+    <pubDate>Tue, 26 May 2015 00:11:08 -0400</pubDate>
+    <lastBuildDate>Tue, 26 May 2015 00:11:08 -0400</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
     
       <item>
-        <title>Static Websites</title>
-        <description>&lt;h3&gt;Static vs Dynamic websites&lt;/h3&gt;
-&lt;p&gt;Nowadays most of the websites are built using a Content Management System or &lt;span class=&quot;caps&quot;&gt;CMS&lt;/span&gt; such as WordPress, Drupal or Joomla.  They allow the user to manage all their content through nice administrator control screens, and &lt;span class=&quot;caps&quot;&gt;PHP&lt;/span&gt;, &lt;span class=&quot;caps&quot;&gt;ASP&lt;/span&gt;.&lt;span class=&quot;caps&quot;&gt;NET&lt;/span&gt;, or whatever server side technology the &lt;span class=&quot;caps&quot;&gt;CMS&lt;/span&gt; is built on, will magically and dynamically create the website pages every single time a visitor hits the page.&lt;/p&gt;
+        <title>Static websites are still cool</title>
+        <description>&lt;p&gt;Nowadays most of the websites are built using a Content Management System or &lt;span class=&quot;caps&quot;&gt;CMS&lt;/span&gt; such as WordPress, Drupal or Joomla.  They allow the user to manage all their content through nice administrator control screens, and &lt;span class=&quot;caps&quot;&gt;PHP&lt;/span&gt;, &lt;span class=&quot;caps&quot;&gt;ASP&lt;/span&gt;.&lt;span class=&quot;caps&quot;&gt;NET&lt;/span&gt;, or whatever server side technology the &lt;span class=&quot;caps&quot;&gt;CMS&lt;/span&gt; is built on, will magically and dynamically create the website pages every single time a visitor hits the page.&lt;/p&gt;
 &lt;p&gt;Building a website using a &lt;span class=&quot;caps&quot;&gt;CMS&lt;/span&gt; is one of the many ways the Internet has become so powerful, since the old days when all websites were just a link or two and a flash banner. However it&amp;#8217;s not the only way, building websites exclusively on .html static files is still one of the most efficient methods of creating fast and secure websites.&lt;/p&gt;
 &lt;p&gt;&lt;!--more--&gt;&lt;/p&gt;
 &lt;h3&gt;What is a static .html site anyway?&lt;/h3&gt;
@@ -27,15 +26,10 @@
 &lt;/ul&gt;
 &lt;h3&gt;When to go with static websites?&lt;/h3&gt;
 &lt;p&gt;A good analogy for comparing static websites versus dynamic ones is whether the website could be printed out and still function properly. If the website will show information that is designed to be read, then we could print each page out and with the exception of any hyperlinks we may have, it would still work. For this the best option is to go with static websites due the advantages mentioned above.&lt;/p&gt;
-&lt;p&gt;However if the website needs to be interactive and capable of being used by people who will use it not just for reading, the best option is to go with a dynamic website, built on a &lt;span class=&quot;caps&quot;&gt;CMS&lt;/span&gt; or custom web development.&lt;/p&gt;
-&lt;h3&gt;How to create a static website?&lt;/h3&gt;
-&lt;p&gt;If you are creating a landing page or a very basic website with two or three pages, all what you need to create a static website is a text editor where you can write your &lt;span class=&quot;caps&quot;&gt;HTML&lt;/span&gt; code. However if you need more pages, a more complex layout, and blocks that can be re-used from different pages, there are other options that simplify the process for you:&lt;/p&gt;
-&lt;h4&gt;Jekyll&lt;/h4&gt;
-&lt;p&gt;Jekyll is a simple, user friendly, blog-aware static site generator powered by Ruby, and is also the engine behind GitHub Pages.&lt;/p&gt;
-&lt;p&gt;It takes a template directory containing raw text files in various formats, runs it through a converter (like Markdown) and our Liquid renderer, and spits out a complete, ready-to-publish static website suitable for serving with your favorite web server. Jekyll also happens to be the engine behind GitHub Pages, which means you can use Jekyll to host your project’s page, blog, or website from GitHub’s servers for free.&lt;/p&gt;</description>
-        <pubDate>Sun, 08 Feb 2015 13:39:10 -0500</pubDate>
-        <link>http://softelos.com/advice/2015/02/08/static-websites-are-still-alive-!.html</link>
-        <guid isPermaLink="true">http://softelos.com/advice/2015/02/08/static-websites-are-still-alive-!.html</guid>
+&lt;p&gt;However if the website needs to be interactive and capable of being used by people who will use it not just for reading, the best option is to go with a dynamic website, built on a &lt;span class=&quot;caps&quot;&gt;CMS&lt;/span&gt; or custom web development.&lt;/p&gt;</description>
+        <pubDate>Mon, 16 Mar 2015 14:39:10 -0400</pubDate>
+        <link>http://softelos.com/advice/2015/03/16/static-websites-are-still-cool.html</link>
+        <guid isPermaLink="true">http://softelos.com/advice/2015/03/16/static-websites-are-still-cool.html</guid>
         
         
         <category>advice</category>
@@ -91,22 +85,16 @@
       </item>
     
       <item>
-        <title>Softelos is ON!</title>
+        <title>We launched Softelos!</title>
         <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed interdum tortor enim. Ut felis tellus, varius eleifend sapien a, sollicitudin ultrices lorem. Maecenas at pellentesque lacus. Donec sollicitudin eros erat, et porta nulla rutrum quis. Cras mauris odio, elementum at leo eu, pellentesque tincidunt elit. Phasellus ullamcorper leo sit amet urna congue, sit amet pellentesque sapien placerat. Integer sagittis dui a dignissim sodales. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam ullamcorper congue porta. Aenean cursus dapibus cursus. Nam eu commodo nulla, a sagittis orci.&lt;/p&gt;
-
 &lt;p&gt;Vivamus accumsan convallis tortor, in dictum massa viverra a. In sapien ipsum, placerat non odio id, volutpat ullamcorper neque. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Quisque mollis ut velit ut tempus. Fusce ut rutrum urna. In eu leo rhoncus mauris luctus condimentum. Integer rhoncus ipsum eu pulvinar feugiat.&lt;/p&gt;
-
-&lt;!--more--&gt;
-
+&lt;p&gt;&lt;!--more--&gt;&lt;/p&gt;
 &lt;p&gt;Vestibulum a arcu tristique, tempor diam sit amet, malesuada ante. Curabitur bibendum orci vel sem aliquam, a rhoncus ex imperdiet. Aliquam erat volutpat. Aliquam finibus efficitur rutrum. Proin volutpat imperdiet dolor, a egestas orci hendrerit eget. Phasellus convallis commodo tortor, rutrum fermentum neque auctor ac. Suspendisse potenti. Nunc tempor faucibus ligula, eget bibendum lectus malesuada eget. Phasellus ac ultricies nisl. Mauris feugiat facilisis maximus. Etiam finibus nec nisl vitae maximus. Donec congue ex est, id aliquam neque pretium nec. Fusce in arcu diam. Nullam dictum eget diam id facilisis. Praesent aliquam dapibus lorem sed suscipit. Sed et nibh quis arcu feugiat dignissim at a nunc.&lt;/p&gt;
-
 &lt;p&gt;Nulla tempor ex nisi, nec pretium nibh fringilla non. Nunc dignissim ex mauris, quis auctor orci venenatis ac. Morbi placerat mattis diam, vitae interdum felis tempus feugiat. Nunc laoreet nisi in purus fringilla feugiat. Duis ac arcu et tortor pharetra maximus. Nunc vehicula erat id elit ullamcorper, ac vehicula diam fermentum. Praesent id venenatis ligula, mollis convallis leo. Nulla vulputate bibendum convallis. Duis aliquet metus elementum, elementum nulla quis, finibus purus. Nam pulvinar cursus eros, non finibus elit tincidunt eget. Proin faucibus luctus tristique. Curabitur luctus sapien neque, a sagittis ipsum fringilla eget. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aenean ac massa libero. Interdum et malesuada fames ac ante ipsum primis in faucibus.&lt;/p&gt;
-
-&lt;p&gt;Sed dictum augue at lorem rhoncus efficitur. Curabitur tincidunt ligula sed bibendum rhoncus. Nunc non pretium velit. Mauris facilisis elit ut mauris tristique, et sagittis risus eleifend. Pellentesque aliquam, eros sit amet mollis bibendum, elit purus efficitur mi, eu lacinia ipsum est sit amet libero. Nam tincidunt neque vel neque luctus viverra. Suspendisse sit amet egestas lacus, non aliquam arcu. Donec volutpat vel neque id faucibus. Nullam sodales blandit leo vitae vestibulum. Proin pharetra porta dictum. Cras quis scelerisque velit, at pellentesque nisi. Cras ultrices, nisl fermentum ultrices fringilla, diam urna convallis sapien, eget lobortis enim felis ac felis. Vivamus malesuada purus nulla, sit amet lacinia libero faucibus sed. Suspendisse potenti.&lt;/p&gt;
-</description>
+&lt;p&gt;Sed dictum augue at lorem rhoncus efficitur. Curabitur tincidunt ligula sed bibendum rhoncus. Nunc non pretium velit. Mauris facilisis elit ut mauris tristique, et sagittis risus eleifend. Pellentesque aliquam, eros sit amet mollis bibendum, elit purus efficitur mi, eu lacinia ipsum est sit amet libero. Nam tincidunt neque vel neque luctus viverra. Suspendisse sit amet egestas lacus, non aliquam arcu. Donec volutpat vel neque id faucibus. Nullam sodales blandit leo vitae vestibulum. Proin pharetra porta dictum. Cras quis scelerisque velit, at pellentesque nisi. Cras ultrices, nisl fermentum ultrices fringilla, diam urna convallis sapien, eget lobortis enim felis ac felis. Vivamus malesuada purus nulla, sit amet lacinia libero faucibus sed. Suspendisse potenti.&lt;/p&gt;</description>
         <pubDate>Mon, 26 Jan 2015 13:39:10 -0500</pubDate>
-        <link>http://softelos.com/events/2015/01/26/softelos-is-on.html</link>
-        <guid isPermaLink="true">http://softelos.com/events/2015/01/26/softelos-is-on.html</guid>
+        <link>http://softelos.com/events/2015/01/26/we-launched-softelos.html</link>
+        <guid isPermaLink="true">http://softelos.com/events/2015/01/26/we-launched-softelos.html</guid>
         
         
         <category>events</category>
