@@ -1,0 +1,26 @@
+---
+layout: post
+id: notepad
+subid: events
+title:  "We have launched!"
+subtitle: "We have launched!"
+description: "This article describes the story behind Softelos and its start up. Softelos is a Web Design and Development Agency located in Lynchburg (VA)."
+date:   2015-01-26 18:39:10
+banner: http://placehold.it/1500x500
+categories: events
+author: aboujenna
+author-name: Amal Boujenna
+---
+
+After many years working as professionals for different companies, we finally decided to make our dream come true and launch Softelos, a small web design and development agency based in our lovely city of Lynchburg, right in the heart of the state of Virginia. 
+
+We come from different educational and professional backgrounds, but we share the same passion for web design, web development and software technologies in general. We used to live in Spain, where we worked for different industrial and technical companies. In 2008 we had the opportunity to travel to the US and visit Lynchburg for work related issues. 
+
+I remember that once at the Washington Dulles Airport customs, the emigration officer didn't even know where the city was, he even asked me "what I lost there that I needed to go". What we couldn't imagine at that moment is that we were going to fall in love with this city, its people, its way of life, and with the state of Virginia in general.
+
+Five years later we moved for good and established this city as the place where to raise a family! 
+
+
+
+
+<!--more-->
