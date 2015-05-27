@@ -5,9 +5,11 @@
     <meta name="description" content="{{ page.description }}">     
     <meta name="viewport" content="width=device-width initial-scale=1" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    
-    <title>{{ page.title }}{{ site.titleBase }}</title>
-
+    {% if page.id == 'hello' %}
+        <title>{{ site.titleHome }}</title>
+    {% else %}
+        <title>{{ page.title }}{{ site.titleBase }}</title>
+    {% endif %}
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
 	<link rel="icon" href="/favicon.ico" type="image/x-icon">

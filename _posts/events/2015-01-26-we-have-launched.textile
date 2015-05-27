@@ -12,15 +12,26 @@ author: aboujenna
 author-name: Amal Boujenna
 ---
 
-After many years working as professionals for different companies, we finally decided to make our dream come true and launch Softelos, a small web design and development agency based in our lovely city of Lynchburg, right in the heart of the state of Virginia. 
+We have launched Softelos, a small web design and development agency based in Lynchburg, right in the heart of Virginia. Softelos provides professional websites and cutting edge web applications for clients all over the United States.
 
-We come from different educational and professional backgrounds, but we share the same passion for web design, web development and software technologies in general. We used to live in Spain, where we worked for different industrial and technical companies. In 2008 we had the opportunity to travel to the US and visit Lynchburg for work related issues. 
+We’re looking forward to working with many wonderful clients, and provide them the expertise we acquired as designers and software developers for different companies along the last years, so do not hesitate to <a href="{{ site.baseurl }}/contactus">contact us</a> telling us about the project you have in mind, we will make it happen technically!.
 
-I remember that once at the Washington Dulles Airport customs, the emigration officer didn't even know where the city was, he even asked me "what I lost there that I needed to go". What we couldn't imagine at that moment is that we were going to fall in love with this city, its people, its way of life, and with the state of Virginia in general.
+We provide a fresh approach to web design and development. Our focus relies heavily on beautiful designs and implementations based on top notch web technologies. We’re always learning so that we can incorporate new technologies in our project as soon as they emerge. It’s a balance that we’ve perfected by our hunger for learning and our desire to achieve new challenges.
 
-Five years later we moved for good and established this city as the place where to raise a family! 
-
-
-
+We also have a unique process approach that we apply to any project we work on, and which is based on rapid design and individual development phases. We care about long standing relationships, repeatedly delivery excellence, and building teams which extract the best in ourselves and brands we work with. 
 
 <!--more-->
+
+We provide many specific <a href="{{ site.baseurl }}/whatwedo">services</a>, but we are also open to approach different problems. We offer custom development services for clients based on a specific campaign launch or requirements. We have a strong capacity of problem solving and meeting deadlines. 
+
+h3. The Website
+
+We created <a href="http://softelos.com">softelos.com</a> taking a simple and clean design approach that works for anyone on any web-enabled device. Using responsive web design techniques, our site will respond and adapt according to the orientation of our visitor’s screen size and resolution. We also decided to make the website to load fast, so we used pure HTML with the help of the <a href="http://jekyllrb.com/">Jekyll</a> generator.
+
+The website offers clear navigation to our visitors, making our <a href="{{ site.baseurl }}/">homepage</a>, <a href="{{ site.baseurl }}/whatwedo">services</a>, <a href="{{ site.baseurl }}/notepad">blog</a> and <a href="{{ site.baseurl }}/contactus">contact</a> information easily accessible. Also our <a href="{{ site.baseurl }}/notepad">blog</a> (The Notepad) is easy, simple to navigate and read, and helps to position our website as a valuable asset to the community.
+
+A simple yet powerful <a href="{{ site.baseurl }}/contactus">contact page</a> allows us to quickly respond to questions, requests or comments from our customers and friends. 
+
+Click through our website to see for yourself!, and don't forget to read our <a href="{{ site.baseurl }}/contacus">frequented asked questions</a> to know us better. If you have questions, fill our <a href="{{ site.baseurl }}/contactus">contact</a> form or just send as a message saying hello!.
+
+

@@ -1,0 +1,55 @@
+---
+layout: post
+id: notepad
+subid: advice
+title:  "Fast and Secure Websites - Static Sites"
+subtitle: "Fast and Secure Websites - Static Sites"
+description: "This is and article from Softelos that describes the advantages of creating websites with static HTML in comparison to CMS systems based on PHP and SQL databases. Softelos is a Web Design and Development Agency located in Lynchburg (VA)."
+date:   2015-03-16 18:39:10
+banner: http://placehold.it/1500x500
+categories: "advice"
+author: cmrabet
+author-name: "Chakir Mrabet"
+---
+
+Nowadays many websites are built using a Content Management System or CMS such as WordPress, Drupal or Joomla.  They allow the user to manage all their content through nice administrator control screens, and PHP, ASP.NET, or whatever server side technology the CMS is built on, will magically and dynamically create the website pages every single time a visitor hits the page.  
+
+Building a website using a CMS is one of the many ways the Internet has become so powerful, since the old days when all websites were just a link or two and a flash banner. As a matter of fact, in 2015, 23.9% of the websites are made on WordPress, but using a CMS also involves having to deal with issues related to deployment, security, performance and maintenance.
+
+However using a CMS is not the only way to create a website. Building them exclusively on HTML static files is still one of the most efficient methods of creating fast and secure websites that still conform a big portion of the 60.4% that are not using a CMS.
+
+<!--more-->
+
+h3. What is a static HTML site?
+
+A static site is a website made in such a way that its HTML content has already been pre-generated and is just laying out on the web server, as opposed to all the content being stored in a database waiting to be dynamically mashed together when a request comes by a server side technology like PHP.  
+
+When we first heard about this concept we really wondered why would anyone want a static HTML site with the options we have today in CMS products. However in many cases using a CMS is over kill, not only technically wise, but also in terms of hosting and maintenance costs.
+
+h3. Advantages of static HTML sites
+
+* *performance*.  Seconds can mean the difference between someone getting frustrated and leaving your website versus them staying and reading, buying, or clicking your ad.  With static HTML, your site is ready and rearing to go because there is no database to query from or server side scripting to parse. Static websites are fast, superfast, since they are pure HTML.
+
+* *no database calls*.  No mashing together of content and templates, all that’s been done already.  HTML is what browsers read and they don't know PHP or ASP.NET, all they know is HTML markup, and it’s already there waiting for them.
+
+* *security* is another thing static sites solve. When building websites we constantly need to watch for SQL injection or other trickeries from the bad guys.  With static sites, the majority of the security issues go away since the site doesn’t have any database to inject SQL to. It’s just a set of read-only files sitting out on a file server. Where WordPress or other CMS products have access (potentially write) to the database, they are inherently more hacker-prone than static files.
+
+* *portability*.  With static websites there is no more PHP, ASP.NET or Java requirements for the web server. HTML is the most portable website technology of all time, because at the end of the day, it's THE web technology, and can be moved from Apache to IIS to Nginx to whatever host environment we need and it's guaranteed it’ll work just as great as before we made the move.  
+
+* *deployment*. Hosting only HTML files is very cheap since it doesn't require the servers to have other services installed and running. As a matter of fact, static HTML websites can be even hosted for free! Services such as GitHub provide this option.
+
+h3. So should I use only static websites?
+
+No. A static website is a way of solving a specific problem, it's a tool that we need to make use when it makes sense. 
+
+A good analogy for comparing static websites versus dynamic ones is whether the website could be printed out and still function properly. If the website will show information that is designed to be read, then we could print each page out, and with the exception of any hyperlinks we may have, it would still work. For projects like this the best option is to go with static websites due the advantages mentioned above. 
+
+Examples of this are landing pages, business pages like <a href="http://softelos.com">softelos.com</a> (home, services, about, contact us), or blogs. At Softelos we are experts in static websites and we suggest them to our clients when they provide the best outcome for their projects.
+
+However if the website needs to be interactive and capable of being used by people who will use it not just for reading, the best option is to go with a dynamic website, built on a CMS or custom web development.
+
+
+
+
+
+

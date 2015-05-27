@@ -1,7 +1,8 @@
 # Site settings
 url: http://softelos.com
 name: Softelos LLC
-titleBase: " | Softelos | Web Design + Web Development + SEO | Lynchburg (VA)"
+titleHome: "Softelos • Web Design + Web Development + SEO • Lynchburg (VA)"
+titleBase: " • Softelos • Web Design + Web Development + SEO • Lynchburg (VA)"
 email: hello@softelos.com
 baseurl: "" 
 copyright: 2015

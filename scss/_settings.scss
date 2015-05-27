@@ -1859,6 +1859,15 @@ section.content{
 	padding-left:$padding-sides;
 	padding-right:$padding-sides;
 }
+section.content li{
+	font-family: 'Muli', sans-serif;
+	font-size: 17px;
+	text-align: justify;
+}
+section.content strong{
+	font-family: 'Oleo Script', cursive;
+	font-size: 22px;
+}
 section h1{
 	color:#6D6D6D;	
 	font-family: 'Montserrat', sans-serif;
