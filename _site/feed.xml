@@ -5,8 +5,8 @@
     <description></description>
     <link>http://softelos.com/</link>
     <atom:link href="http://softelos.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 26 May 2015 21:20:00 -0400</pubDate>
-    <lastBuildDate>Tue, 26 May 2015 21:20:00 -0400</lastBuildDate>
+    <pubDate>Wed, 27 May 2015 22:33:34 -0400</pubDate>
+    <lastBuildDate>Wed, 27 May 2015 22:33:34 -0400</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
     
       <item>
@@ -50,46 +50,58 @@
     
       <item>
         <title>How we made softelos.com</title>
-        <description>&lt;p&gt;Our website is no different from other web projects we develop for our customers. We follow the same values and apply the same principles when creating software for us.&lt;/p&gt;
-&lt;p&gt;This article describes how we did this with &lt;a href=&quot;http:\\www.softelos.com&quot;&gt;www.softelos.com&lt;/a&gt;.&lt;/p&gt;
+        <description>&lt;p&gt;Our website is no different from other web projects we develop for our customers. We follow the same procedures and apply the same principles when creating software for our own needs. Doing this allows us to be more critical with our methods and to spot possible issues to fix, or even to find better ways of doing things.&lt;/p&gt;
+&lt;p&gt;In this article we describe the process we followed to make &lt;a href=&quot;http:\\softelos.com&quot;&gt;softelos.com&lt;/a&gt;. This will give an idea of how we approach and work on new projects in general from our clients.&lt;/p&gt;
 &lt;p&gt;&lt;!--more--&gt;&lt;/p&gt;
 &lt;h3&gt;.. discuss your needs&lt;/h3&gt;
-&lt;p&gt;This is the first and most important stage of any web design or web development project we work on. During this stage we meet with our customers to learn about their business and needs, and to discuss their requirements for the web design or development.&lt;/p&gt;
-&lt;p&gt;After a call to briefly introduce each other and to get a quick glimpse of what the customer needs, we usually meet in person for this stage. Sometimes when the project is very complex, we might need more than one session in order to gather all the information we need to develop the project.&lt;/p&gt;
-&lt;p&gt;In the case of Softelos, we are our own customers, and we needed a web site with the following requirements:&lt;/p&gt;
+&lt;p&gt;This is the first and most important stage of any web design or web development project we work on. During this stage we communicate with our customers to learn about their business, and to discuss their requirements for the project they have in mind.&lt;/p&gt;
+&lt;p&gt;After a call or email to briefly introduce each other and to get a quick glimpse of what our customer needs, we usually meet in person for this stage if there are details that are not clear enough. Sometimes when the project is very complex, we might need more than one session in order to gather all the information we need to develop the project.&lt;/p&gt;
+&lt;p&gt;In the case of &lt;a href=&quot;http:\\softelos.com&quot;&gt;softelos.com&lt;/a&gt;, the customer is us. We wanted a website that announces and promotes our business with the following requirements:&lt;/p&gt;
 &lt;ol&gt;
-	&lt;li&gt;The content has to summarize who we are, what we do and our values.&lt;/li&gt;
-	&lt;li&gt;The design has to be attractive but light.&lt;/li&gt;
-	&lt;li&gt;The design has to support mobile devices.&lt;/li&gt;
+	&lt;li&gt;We need a logo and branding (colors, fonts, and style).&lt;/li&gt;
+	&lt;li&gt;The content has to summarize who we are, what we do, and our values. It shouldn&amp;#8217;t flood the visitor with unnecessary information and graphics.&lt;/li&gt;
+	&lt;li&gt;The design has to be attractive and very light.&lt;/li&gt;
 	&lt;li&gt;The design has to load fast.&lt;/li&gt;
-	&lt;li&gt;The content doesn&amp;#8217;t flood the visitor with unnecessary information and graphics.&lt;/li&gt;
-	&lt;li&gt;A form that allows visitors to send inquiries.&lt;/li&gt;
-	&lt;li&gt;A blog where news, events and other interesting content can be published periodically to all visitors.&lt;/li&gt;
+	&lt;li&gt;The design has to support mobile devices.&lt;/li&gt;
+	&lt;li&gt;There should be at least the following clearly identified pages:
+	&lt;ol&gt;
+		&lt;li&gt;Home&lt;/li&gt;
+		&lt;li&gt;Services&lt;/li&gt;
+		&lt;li&gt;Contact&lt;/li&gt;
+		&lt;li&gt;Blog&lt;/li&gt;
+	&lt;/ol&gt;&lt;/li&gt;
+	&lt;li&gt;The home page will summarize the services we provide and our values.&lt;/li&gt;
+	&lt;li&gt;The services page should provide more detailed information of the services we provide. It also should describe how we develop our projects.&lt;/li&gt;
+	&lt;li&gt;The contact page should provide a simple contact form and most important frequently answered questions.&lt;/li&gt;
+	&lt;li&gt;The blog page will be used to periodically publish news, events and other interesting content from &lt;a href=&quot;http:\\softelos.com&quot;&gt;Softelos&lt;/a&gt;. It should list a teaser of all the articles we have sorted by categories. The title of each article should forward the visitor to the full article.&lt;/li&gt;
 &lt;/ol&gt;
+&lt;p&gt;Once the requirements are clearly defined, we review the time it&amp;#8217;ll take to complete the project and send an estimate to our customer.&lt;/p&gt;
 &lt;h3&gt;.. think of an unique idea&lt;/h3&gt;
-&lt;p&gt;In this stage we review all the requirements gathered during our meetings with our customer and brainstorm amazing ways of implementing them in a unique way. During this stage we also evaluate different possible technologies and pick the one that fits the project needs in the most efficient way.&lt;/p&gt;
-&lt;p&gt;For www.softelos.com we decided to go very simple and implement the website in pure &lt;span class=&quot;caps&quot;&gt;HTML&lt;/span&gt;, with no databases or server side scripting. This makes our website simple, light and very secure.&lt;/p&gt;
-&lt;p&gt;Many web design agencies use content management systems (&lt;span class=&quot;caps&quot;&gt;CMS&lt;/span&gt;) for everything they do, no matter the size or requirements of the website or web development they are working on. Softelos takes a different approach, we are experts in many different web design and software development technologies, and we apply them when they make sense.&lt;/p&gt;
-&lt;p&gt;See why we don&amp;#8217;t use Wordpress to learn more about our philosophy.&lt;/p&gt;
+&lt;p&gt;We start this stage when our customer accepts our estimate and places a purchase order.&lt;/p&gt;
+&lt;p&gt;In this stage we review all the requirements gathered during our communications with our customer, and we brainstorm amazing ways of implementing them in a unique way.&lt;/p&gt;
+&lt;p&gt;During this stage we also evaluate different possible technologies and pick the one that suits best to the project needs in the most efficient way. Many web agencies and web developers tend to use the same tool for all the projects they work on, making their final products to look all the same with very little innovation or flexibility. At &lt;a href=&quot;http:\\softelos.com&quot;&gt;Softelos&lt;/a&gt; we take a very different approach, we are experts in many different web design and software development technologies, which allows us to provide very imaginative solutions to the problems (when you have more than a hammer, not everything looks like a nail).&lt;/p&gt;
+&lt;p&gt;For &lt;a href=&quot;http:\\softelos.com&quot;&gt;softelos.com&lt;/a&gt; we decided to go very simple and implement the website in pure &lt;span class=&quot;caps&quot;&gt;HTML&lt;/span&gt;, with no databases or server side scripting. This makes our website simple, light, fast, and very secure. However if the site was more complex, we would have probably gone with a &lt;span class=&quot;caps&quot;&gt;CMS&lt;/span&gt; such us WordPress or even Drupal if the project was really complicated and needed to handle thousands of users connected at the same time. And if our side required complex data processing, real time data process such, we would have developed it from scratch with &lt;span class=&quot;caps&quot;&gt;PHP&lt;/span&gt; or node.js.&lt;/p&gt;
+&lt;p&gt;If you want to learn more about pure &lt;span class=&quot;caps&quot;&gt;HTML&lt;/span&gt; websites, read our article &lt;a href=&quot;http://localhost:4000/advice/2015/03/16/fast-and-secure-websites-static-sites.html&quot;&gt;Fast and Secure Static Sites&lt;/a&gt;.&lt;/p&gt;
 &lt;h3&gt;.. design the concept&lt;/h3&gt;
 &lt;p&gt;This is when the fun starts!&lt;/p&gt;
-&lt;p&gt;Once we have defined the customer&amp;#8217;s requirements, selected a couple of design ideas and chosen the technology to use, we are able to turn all them into reality.&lt;/p&gt;
-&lt;p&gt;First we start creating a wire frame structure of the website or web development, with no graphics and real content. This helps us to show to our customer how the project is taking shape and also allows us to get feedback if something needs change.&lt;/p&gt;
-&lt;p style=&quot;text-align:center;&quot;&gt;&lt;img src=&quot;http://softelos.com/assets/img/blog/wireframe.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;Once we have defined the customer&amp;#8217;s requirements, selected a couple of design ideas, and chosen the right technology to use, we are able to turn all them into reality.&lt;/p&gt;
+&lt;p&gt;First we start creating a wire frame structure of the website or web application, with no graphics or real content. This helps us to show to our customer how the project is taking shape and also allows us to get feedback if something needs to change.&lt;/p&gt;
+&lt;p&gt;This wire frame structure is like the framing of a house. It&amp;#8217;s functional, it allows the client to get an idea and make comments in case a room should be reallocated or more doors should be added on the wall. In the case of a website, the same principle applies, our customer will be able to test how all pages are connected, how all the blocks of information are structured, the size of the design, the contact forms, etc..&lt;/p&gt;
+&lt;p style=&quot;text-align:center;&quot;&gt;&lt;img src=&quot;/assets/img/blog/wireframe.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;Once the customer is happy with the wire frame structure and all his requests and changes have been applied, we proceed to apply the &amp;#8220;skin&amp;#8221; to the wire frame, which includes colors, pictures and real content.&lt;/p&gt;
-&lt;p&gt;The initial visual concept is ready!&lt;/p&gt;
-&lt;p style=&quot;text-align:center;&quot;&gt;&lt;img src=&quot;http://softelos.com/assets/img/blog/skin.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;This produces the initial visual concept which we share with our customer for evaluation.&lt;/p&gt;
+&lt;p style=&quot;text-align:center;&quot;&gt;&lt;img src=&quot;/assets/img/blog/skin.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 &lt;h3&gt;.. you comment and we amend&lt;/h3&gt;
-&lt;p&gt;During this stage we meet with our customer to discuss the initial visual concept and refine based on their feedback. Adding extra touches here and there just enhances the design for perfection.&lt;/p&gt;
+&lt;p&gt;During this stage we communicate with our customer to discuss the initial visual concept and refine based on their feedback. Adding extra touches here and there just enhances the design for perfection. We usually allows two or three iterations of changes before closing the design.&lt;/p&gt;
 &lt;h3&gt;.. website development&lt;/h3&gt;
-&lt;p&gt;Once all the designs have been completed, it&amp;#8217;s time to get the programming started. At this stage all features and functionality would have been clarified. Our developers use this specification to build the site.&lt;/p&gt;
-&lt;p&gt;Although www.softelos.com doesn&amp;#8217;t require any server side scripting (development), still needs JavaScript code that makes possible some cool features such as the top header expanding and collapsing when scrolling the browser. This is an example of what is implemented in this stage.&lt;/p&gt;
+&lt;p&gt;Once the design has been completed and accepted by the customer, it&amp;#8217;s time to get the programming started, which is the heart or engine that makes everything to work. At this stage we start developing all the features and functionality of the website which at this point should have been already clarified with the customer.&lt;/p&gt;
+&lt;p&gt;In the case of &lt;a href=&quot;http:\\softelos.com&quot;&gt;softelos.com&lt;/a&gt;, although the website doesn&amp;#8217;t require any server side scripting (development), it still needs JavaScript code that makes possible some cool features such as the top header expanding and collapsing when scrolling the browser.&lt;/p&gt;
 &lt;h3&gt;.. show it to the world&lt;/h3&gt;
-&lt;p&gt;After intense testing and another round of feedback, we prepare to publish the master piece to the world. This is usually done by announcing the site as an email newsletter that we design and send to your customers.&lt;/p&gt;
-&lt;p&gt;In our case since our site is pure &lt;span class=&quot;caps&quot;&gt;HTML&lt;/span&gt;, &lt;span class=&quot;caps&quot;&gt;CSS&lt;/span&gt; and JavaScript, we don&amp;#8217;t need an expensive hosting provider. For Softelos we are using GitHub, a source version control site that offers free hosting for web sites with no server side scripting or database support.&lt;/p&gt;</description>
+&lt;p&gt;After intense testing and another round of feedback, we prepare to publish the master piece to the world. This is usually done by announcing the site as an email newsletter that we design and send to our client&amp;#8217;s customers.&lt;/p&gt;
+&lt;p&gt;In our case since our website is pure &lt;span class=&quot;caps&quot;&gt;HTML&lt;/span&gt;, &lt;span class=&quot;caps&quot;&gt;CSS&lt;/span&gt; and JavaScript, we don&amp;#8217;t need an expensive hosting provider. We are using GitHub, a source version control site that offers free hosting for websites with no server side scripting or database support.&lt;/p&gt;</description>
         <pubDate>Sun, 08 Feb 2015 12:30:00 -0500</pubDate>
-        <link>http://softelos.com/work/2015/02/08/how-we-made.softelos.html</link>
-        <guid isPermaLink="true">http://softelos.com/work/2015/02/08/how-we-made.softelos.html</guid>
+        <link>http://softelos.com/work/2015/02/08/how-we-made-softelos.html</link>
+        <guid isPermaLink="true">http://softelos.com/work/2015/02/08/how-we-made-softelos.html</guid>
         
         
         <category>work</category>

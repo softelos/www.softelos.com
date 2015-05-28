@@ -1,0 +1,90 @@
+---
+layout: post
+id: notepad
+subid: work
+title:  "How we made softelos.com"
+subtitle: "How we made softelos.com"
+description: "This is and article that describes the process that we follow to create a website. Softelos is a Web Design and Development Agency located in Lynchburg (VA)."
+date:   2015-02-08 17:30:00
+banner: http://placehold.it/1500x500
+categories: "work"
+author: cmrabet
+author-name: Chakir Mrabet
+---
+
+Our website is no different from other web projects we develop for our customers. We follow the same procedures and apply the same principles when creating software for our own needs. Doing this allows us to be more critical with our methods and to spot possible issues to fix, or even to find better ways of doing things.
+
+In this article we describe the process we followed to make "softelos.com":http:\\softelos.com. This will give an idea of how we approach and work on new projects in general from our clients.
+
+<!--more-->
+
+h3. .. discuss your needs
+
+This is the first and most important stage of any web design or web development project we work on. During this stage we communicate with our customers to learn about their business, and to discuss their requirements for the project they have in mind. 
+
+After a call or email to briefly introduce each other and to get a quick glimpse of what our customer needs, we usually meet in person for this stage if there are details that are not clear enough. Sometimes when the project is very complex, we might need more than one session in order to gather all the information we need to develop the project.
+
+In the case of "softelos.com":http:\\softelos.com, the customer is us. We wanted a website that announces and promotes our business with the following requirements:
+
+# We need a logo and branding (colors, fonts, and style).
+# The content has to summarize who we are, what we do, and our values. It shouldn't flood the visitor with unnecessary information and graphics.
+# The design has to be attractive and very light.
+# The design has to load fast.
+# The design has to support mobile devices.
+# There should be at least the following clearly identified pages:
+## Home
+## Services
+## Contact 
+## Blog
+# The home page will summarize the services we provide and our values.
+# The services page should provide more detailed information of the services we provide. It also should describe how we develop our projects.
+# The contact page should provide a simple contact form and most important frequently answered questions.
+# The blog page will be used to periodically publish news, events and other interesting content from "Softelos":http:\\softelos.com. It should list a teaser of all the articles we have sorted by categories. The title of each article should forward the visitor to the full article.
+
+Once the requirements are clearly defined, we review the time it'll take to complete the project and send an estimate to our customer.
+
+h3. .. think of an unique idea
+
+We start this stage when our customer accepts our estimate and places a purchase order. 
+
+In this stage we review all the requirements gathered during our communications with our customer, and we brainstorm amazing ways of implementing them in a unique way. 
+
+During this stage we also evaluate different possible technologies and pick the one that suits best to the project needs in the most efficient way. Many web agencies and web developers tend to use the same tool for all the projects they work on, making their final products to look all the same with very little innovation or flexibility. At "Softelos":http:\\softelos.com we take a very different approach, we are experts in many different web design and software development technologies, which allows us to provide very imaginative solutions to the problems (when you have more than a hammer, not everything looks like a nail).
+
+For "softelos.com":http:\\softelos.com we decided to go very simple and implement the website in pure HTML, with no databases or server side scripting. This makes our website simple, light, fast, and very secure. However if the site was more complex, we would have probably gone with a CMS such us WordPress or even Drupal if the project was really complicated and needed to handle thousands of users connected at the same time. And if our side required complex data processing, real time data process such, we would have developed it from scratch with PHP or node.js. 
+
+If you want to learn more about pure HTML websites, read our article "Fast and Secure Static Sites":http://localhost:4000/advice/2015/03/16/fast-and-secure-websites-static-sites.html.
+
+h3. .. design the concept
+
+This is when the fun starts!
+
+Once we have defined the customer's requirements, selected a couple of design ideas, and chosen the right technology to use, we are able to turn all them into reality.
+
+First we start creating a wire frame structure of the website or web application, with no graphics or real content. This helps us to show to our customer how the project is taking shape and also allows us to get feedback if something needs to change. 
+
+This wire frame structure is like the framing of a house. It's functional, it allows the client to get an idea and make comments in case a room should be reallocated or more doors should be added on the wall. In the case of a website, the same principle applies, our customer will be able to test how all pages are connected, how all the blocks of information are structured, the size of the design, the contact forms, etc..
+
+p=. !{{ site.baseurl }}/assets/img/blog/wireframe.png!
+
+Once the customer is happy with the wire frame structure and all his requests and changes have been applied, we proceed to apply the "skin" to the wire frame, which includes colors, pictures and real content. 
+
+This produces the initial visual concept which we share with our customer for evaluation.
+
+p=. !{{ site.baseurl }}/assets/img/blog/skin.png!
+
+h3. .. you comment and we amend
+
+During this stage we communicate with our customer to discuss the initial visual concept and refine based on their feedback. Adding extra touches here and there just enhances the design for perfection. We usually allows two or three iterations of changes before closing the design.
+
+h3. .. website development
+
+Once the design has been completed and accepted by the customer, it's time to get the programming started, which is the heart or engine that makes everything to work. At this stage we start developing all the features and functionality of the website which at this point should have been already clarified with the customer.
+
+In the case of "softelos.com":http:\\softelos.com, although the website doesn't require any server side scripting (development), it still needs JavaScript code that makes possible some cool features such as the top header expanding and collapsing when scrolling the browser.
+
+h3. .. show it to the world
+
+After intense testing and another round of feedback, we prepare to publish the master piece to the world. This is usually done by announcing the site as an email newsletter that we design and send to our client's customers.
+
+In our case since our website is pure HTML, CSS and JavaScript, we don't need an expensive hosting provider. We are using GitHub, a source version control site that offers free hosting for websites with no server side scripting or database support.
