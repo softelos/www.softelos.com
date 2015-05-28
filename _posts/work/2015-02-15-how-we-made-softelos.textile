@@ -51,7 +51,7 @@ In this stage we review all the requirements gathered during our communications 
 
 During this stage we also evaluate different possible technologies and pick the one that suits best to the project needs in the most efficient way. Many web agencies and web developers tend to use the same tool for all the projects they work on, making their final products to look all the same with very little innovation or flexibility. At "Softelos":http:\\softelos.com we take a very different approach, we are experts in many different web design and software development technologies, which allows us to provide very imaginative solutions to the problems (when you have more than a hammer, not everything looks like a nail).
 
-For "softelos.com":http:\\softelos.com we decided to go very simple and implement the website in pure HTML, with no databases or server side scripting. This makes our website simple, light, fast, and very secure. However if the site was more complex, we would have probably gone with a CMS such us WordPress or even Drupal if the project was really complicated and needed to handle thousands of users connected at the same time. And if our side required complex data processing, real time data process such, we would have developed it from scratch with PHP or node.js. 
+For "softelos.com":http:\\softelos.com we decided to go very simple and implement the website in pure HTML, with no databases or server side scripting. This makes our website simple, light, fast, and very secure. However if the site was more complex, we would have probably gone with a CMS such us WordPress or even Drupal if the project was really complicated and needed to handle thousands of users connected at the same time. And if our website required complex data processing, real time data process, or complex user-data interaction, we would have developed it from scratch with PHP or node.js. 
 
 If you want to learn more about pure HTML websites, read our article "Fast and Secure Static Sites":http://localhost:4000/advice/2015/03/16/fast-and-secure-websites-static-sites.html.
 
@@ -63,7 +63,7 @@ Once we have defined the customer's requirements, selected a couple of design id
 
 First we start creating a wire frame structure of the website or web application, with no graphics or real content. This helps us to show to our customer how the project is taking shape and also allows us to get feedback if something needs to change. 
 
-This wire frame structure is like the framing of a house. It's functional, it allows the client to get an idea and make comments in case a room should be reallocated or more doors should be added on the wall. In the case of a website, the same principle applies, our customer will be able to test how all pages are connected, how all the blocks of information are structured, the size of the design, the contact forms, etc..
+This wire frame structure is like the framing of a house. It's functional, it allows the client to get an idea and make comments in case a room should be reallocated or more doors should be added on a wall. In the case of a website, the same principle applies, our customer will be able to test how all pages are connected together, how all the blocks of information are structured, the size of the design, the contact forms, etc..
 
 p=. !{{ site.baseurl }}/assets/img/blog/wireframe.png!
 
@@ -75,7 +75,7 @@ p=. !{{ site.baseurl }}/assets/img/blog/skin.png!
 
 h3. .. you comment and we amend
 
-During this stage we communicate with our customer to discuss the initial visual concept and refine based on their feedback. Adding extra touches here and there just enhances the design for perfection. We usually allows two or three iterations of changes before closing the design.
+During this stage we communicate with our customer to discuss the initial visual concept and refine based on their feedback. Adding extra touches here and there just enhances the design for perfection. We usually allow two or three iterations of changes before closing the design.
 
 h3. .. website development
 
