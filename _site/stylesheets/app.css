@@ -378,23 +378,47 @@ p {
   background-position: -573px -438px;
 }
 
-/* line 1641, ../scss/_settings.scss */
+/* line 1636, ../scss/_settings.scss */
+.ourteam {
+  background-image: url(/assets/img/ss-ourteam.png);
+  background-repeat: no-repeat;
+  display: block;
+  margin: 0px auto;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+/* line 1644, ../scss/_settings.scss */
+.ourteam-amal {
+  width: 250px;
+  height: 250px;
+  background-position: 0 0;
+}
+
+/* line 1645, ../scss/_settings.scss */
+.ourteam-chakir {
+  width: 250px;
+  height: 250px;
+  background-position: -250px 0;
+}
+
+/* line 1651, ../scss/_settings.scss */
 body {
   overflow-x: hidden;
   background-color: #AAB4BB;
 }
 
-/* line 1658, ../scss/_settings.scss */
+/* line 1668, ../scss/_settings.scss */
 div#services-top-padding.collapse {
   height: 0px;
 }
 
-/* line 1661, ../scss/_settings.scss */
+/* line 1671, ../scss/_settings.scss */
 div#services-top-padding.expand {
   height: 115px;
 }
 
-/* line 1666, ../scss/_settings.scss */
+/* line 1676, ../scss/_settings.scss */
 div.banner-hello {
   margin-top: -6.25rem;
   z-index: -100;
@@ -409,13 +433,14 @@ div.banner-hello {
   position: relative;
 }
 
-/* line 1680, ../scss/_settings.scss */
+/* line 1690, ../scss/_settings.scss */
 div.banner-ourteam {
   margin-top: -6.25rem;
+  margin-top: 0px auto;
   z-index: -100;
-  height: 100vh;
+  height: 450px;
   width: 100vw;
-  background: url("/assets/img/WomanHappy.jpg") no-repeat center center;
+  background: url("/assets/img/aboutus.jpg") no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -423,7 +448,7 @@ div.banner-ourteam {
   position: relative;
 }
 
-/* line 1693, ../scss/_settings.scss */
+/* line 1704, ../scss/_settings.scss */
 div.banner-contactus {
   margin-top: -6.25rem;
   z-index: -100;
@@ -437,7 +462,7 @@ div.banner-contactus {
   position: relative;
 }
 
-/* line 1706, ../scss/_settings.scss */
+/* line 1717, ../scss/_settings.scss */
 div.banner-notepad {
   margin-top: -6.25rem;
   z-index: -100;
@@ -451,7 +476,21 @@ div.banner-notepad {
   position: relative;
 }
 
-/* line 1718, ../scss/_settings.scss */
+/* line 1731, ../scss/_settings.scss */
+div.banner-post-img {
+  margin-top: -6.25rem;
+  z-index: -100;
+  height: 450px;
+  width: 100vw;
+  background-position: no-repeat 0 0;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  position: relative;
+}
+
+/* line 1745, ../scss/_settings.scss */
 div.banner-contactus-thanks {
   margin-top: -6.25rem;
   z-index: -100;
@@ -465,7 +504,7 @@ div.banner-contactus-thanks {
   position: relative;
 }
 
-/* line 1731, ../scss/_settings.scss */
+/* line 1758, ../scss/_settings.scss */
 div.banner-whatwedo {
   /*margin-top:-$topbar-height;*/
   z-index: -100;
@@ -484,7 +523,7 @@ div.banner-whatwedo {
   position: relative;
 }
 
-/* line 1745, ../scss/_settings.scss */
+/* line 1772, ../scss/_settings.scss */
 video#bgvid {
   margin-top: -145px;
   /*width: 100hw; */
@@ -498,7 +537,7 @@ video#bgvid {
   position: relative;
 }
 
-/* line 1758, ../scss/_settings.scss */
+/* line 1785, ../scss/_settings.scss */
 div.banner-404 {
   margin-top: -6.25rem;
   z-index: -100;
@@ -512,7 +551,7 @@ div.banner-404 {
   position: relative;
 }
 
-/* line 1770, ../scss/_settings.scss */
+/* line 1797, ../scss/_settings.scss */
 div.banner-small-404 {
   margin-top: -6.25rem;
   z-index: -100;
@@ -526,39 +565,39 @@ div.banner-small-404 {
   position: relative;
 }
 
-/* line 1783, ../scss/_settings.scss */
+/* line 1810, ../scss/_settings.scss */
 p.title {
   text-transform: uppercase;
 }
 
-/* line 1787, ../scss/_settings.scss */
+/* line 1814, ../scss/_settings.scss */
 .top-bar li.name {
   margin-top: 10px;
   margin-left: 40px;
   font-size: 75px;
 }
 
-/* line 1793, ../scss/_settings.scss */
+/* line 1820, ../scss/_settings.scss */
 .top-bar li.name img {
   width: 250px;
   height: 102px;
 }
 
-/* line 1798, ../scss/_settings.scss */
+/* line 1825, ../scss/_settings.scss */
 .top-bar-section ul.right {
   margin-right: 75px;
   margin-right: 40px;
   margin-top: 2.5rem;
 }
 
-/* line 1804, ../scss/_settings.scss */
+/* line 1831, ../scss/_settings.scss */
 .top-bar-section ul li a {
   letter-spacing: -0.02rem;
   padding-left: 2px;
   padding-right: 2px;
 }
 
-/* line 1811, ../scss/_settings.scss */
+/* line 1838, ../scss/_settings.scss */
 .top-bar-section ul li.active a:before {
   content: "";
   position: absolute;
@@ -570,48 +609,48 @@ p.title {
   height: 4px;
 }
 
-/* line 1821, ../scss/_settings.scss */
+/* line 1848, ../scss/_settings.scss */
 .top-bar-section ul li:hover a:before {
   background: #DEA653;
 }
 
-/* line 1825, ../scss/_settings.scss */
+/* line 1852, ../scss/_settings.scss */
 section#mobile-topbar ul li.active {
   background: #DEA653;
 }
 
-/* line 1828, ../scss/_settings.scss */
+/* line 1855, ../scss/_settings.scss */
 section#mobile-topbar ul li:hover {
   background: #cccccc;
 }
 
-/* line 1837, ../scss/_settings.scss */
+/* line 1864, ../scss/_settings.scss */
 body {
   color: #6D6D6D;
 }
 
-/* line 1841, ../scss/_settings.scss */
+/* line 1868, ../scss/_settings.scss */
 body.light {
   background-color: #ffffff;
   background-image: url(/assets/img/mesh-bg.jpg);
 }
 
-/* line 1845, ../scss/_settings.scss */
+/* line 1872, ../scss/_settings.scss */
 section.light, div.light, section.light div.row {
   background: transparent;
 }
 
-/* line 1848, ../scss/_settings.scss */
+/* line 1875, ../scss/_settings.scss */
 section.dark {
   background-color: #DFE2DB;
 }
 
-/* line 1852, ../scss/_settings.scss */
+/* line 1879, ../scss/_settings.scss */
 section b {
   color: #000000;
 }
 
-/* line 1856, ../scss/_settings.scss */
+/* line 1883, ../scss/_settings.scss */
 section.content {
   padding-top: 50px;
   padding-bottom: 50px;
@@ -619,20 +658,20 @@ section.content {
   padding-right: 20px;
 }
 
-/* line 1862, ../scss/_settings.scss */
+/* line 1889, ../scss/_settings.scss */
 section.content li {
   font-family: 'Muli', sans-serif;
   font-size: 17px;
   text-align: justify;
 }
 
-/* line 1867, ../scss/_settings.scss */
+/* line 1894, ../scss/_settings.scss */
 section.content strong {
   font-family: 'Oleo Script', cursive;
   font-size: 22px;
 }
 
-/* line 1871, ../scss/_settings.scss */
+/* line 1898, ../scss/_settings.scss */
 section h1 {
   color: #6D6D6D;
   font-family: 'Montserrat', sans-serif;
@@ -643,7 +682,7 @@ section h1 {
   margin: 0 0 15px 0;
 }
 
-/* line 1880, ../scss/_settings.scss */
+/* line 1907, ../scss/_settings.scss */
 section h2 {
   color: #6D6D6D;
   font-size: 1rem;
@@ -656,7 +695,7 @@ section h2 {
   margin: 0 0 23px 0;
 }
 
-/* line 1891, ../scss/_settings.scss */
+/* line 1918, ../scss/_settings.scss */
 section h3 {
   color: #6D6D6D;
   font-family: 'Montserrat', sans-serif;
@@ -667,14 +706,14 @@ section h3 {
   margin-top: 32px;
 }
 
-/* line 1901, ../scss/_settings.scss */
+/* line 1928, ../scss/_settings.scss */
 section.process h3 {
   font-family: 'Oleo Script', cursive;
   margin-top: 16px;
   margin-bottom: 16px;
 }
 
-/* line 1907, ../scss/_settings.scss */
+/* line 1934, ../scss/_settings.scss */
 section p {
   color: #6D6D6D;
   text-align: justify;
@@ -684,12 +723,12 @@ section p {
   margin: 0 0 23px 0;
 }
 
-/* line 1915, ../scss/_settings.scss */
+/* line 1942, ../scss/_settings.scss */
 section p.subtitle {
   text-align: center;
 }
 
-/* line 1919, ../scss/_settings.scss */
+/* line 1946, ../scss/_settings.scss */
 div.fullWidth {
   width: 100%;
   margin-left: auto;
@@ -697,18 +736,18 @@ div.fullWidth {
   max-width: initial;
 }
 
-/* line 1928, ../scss/_settings.scss */
+/* line 1955, ../scss/_settings.scss */
 div.learnmore-button {
   margin-top: -25px;
   background-color: transparent;
 }
 
-/* line 1935, ../scss/_settings.scss */
+/* line 1962, ../scss/_settings.scss */
 i.fa {
   padding-left: 5px;
 }
 
-/* line 1941, ../scss/_settings.scss */
+/* line 1968, ../scss/_settings.scss */
 header.bigger nav.top-bar {
   background-color: rgba(25, 25, 25, 0);
   -webkit-transition: all 0.5s;
@@ -718,7 +757,7 @@ header.bigger nav.top-bar {
   transition: all 0.5s;
 }
 
-/* line 1950, ../scss/_settings.scss */
+/* line 1977, ../scss/_settings.scss */
 header.bigger nav.top-bar, header.bigger .top-bar-section ul li {
   height: 6.25rem;
   line-height: 6.25rem;
@@ -729,7 +768,7 @@ header.bigger nav.top-bar, header.bigger .top-bar-section ul li {
   transition: all 0.5s;
 }
 
-/* line 1959, ../scss/_settings.scss */
+/* line 1986, ../scss/_settings.scss */
 header.bigger .top-bar-section ul li:not(.has-form) a:not(.button) {
   height: 6.25rem;
   line-height: 6.25rem;
@@ -740,7 +779,7 @@ header.bigger .top-bar-section ul li:not(.has-form) a:not(.button) {
   transition: all 0.5s;
 }
 
-/* line 1969, ../scss/_settings.scss */
+/* line 1996, ../scss/_settings.scss */
 header.smaller nav.top-bar, header.smaller .top-bar-section ul li {
   height: 45px;
   line-height: 45px;
@@ -752,7 +791,7 @@ header.smaller nav.top-bar, header.smaller .top-bar-section ul li {
   transition: all 0.5s;
 }
 
-/* line 1980, ../scss/_settings.scss */
+/* line 2007, ../scss/_settings.scss */
 header.smaller .top-bar-section ul li:not(.has-form) a:not(.button) {
   height: 45px;
   line-height: 45px;
@@ -763,7 +802,7 @@ header.smaller .top-bar-section ul li:not(.has-form) a:not(.button) {
   transition: all 0.5s;
 }
 
-/* line 1991, ../scss/_settings.scss */
+/* line 2018, ../scss/_settings.scss */
 header.smaller .top-bar li.name {
   font-size: 25px;
   margin-left: 10px;
@@ -776,7 +815,7 @@ header.smaller .top-bar li.name {
   transition: all 0.5s;
 }
 
-/* line 2004, ../scss/_settings.scss */
+/* line 2031, ../scss/_settings.scss */
 header.bigger .top-bar li.name {
   font-size: 75px;
   margin-left: 40px;
@@ -787,7 +826,7 @@ header.bigger .top-bar li.name {
   transition: all 0.5s;
 }
 
-/* line 2015, ../scss/_settings.scss */
+/* line 2042, ../scss/_settings.scss */
 header.bigger .top-bar-section ul.right {
   margin-right: 40px;
   margin-top: 2.5rem;
@@ -798,7 +837,7 @@ header.bigger .top-bar-section ul.right {
   transition: all 0.5s;
 }
 
-/* line 2024, ../scss/_settings.scss */
+/* line 2051, ../scss/_settings.scss */
 header.smaller .top-bar-section ul.right {
   margin-right: 10px;
   margin-top: 0px;
@@ -809,7 +848,7 @@ header.smaller .top-bar-section ul.right {
   transition: all 0.5s;
 }
 
-/* line 2035, ../scss/_settings.scss */
+/* line 2062, ../scss/_settings.scss */
 header.smaller .top-bar li.name img {
   width: 98px;
   height: 40px;
@@ -820,7 +859,7 @@ header.smaller .top-bar li.name img {
   transition: all 0.5s;
 }
 
-/* line 2044, ../scss/_settings.scss */
+/* line 2071, ../scss/_settings.scss */
 header.bigger .top-bar li.name img {
   width: 250px;
   height: 102px;
@@ -831,45 +870,45 @@ header.bigger .top-bar li.name img {
   transition: all 0.5s;
 }
 
-/* line 2056, ../scss/_settings.scss */
+/* line 2083, ../scss/_settings.scss */
 header.small nav.top-bar, header.small .top-bar-section ul li {
   min-height: 45px;
   line-height: 45px;
   background-color: #191919;
 }
 
-/* line 2061, ../scss/_settings.scss */
+/* line 2088, ../scss/_settings.scss */
 header.small .top-bar-section ul li:not(.has-form) a:not(.button) {
   min-height: 45px;
   line-height: 45px;
 }
 
-/* line 2065, ../scss/_settings.scss */
+/* line 2092, ../scss/_settings.scss */
 header.small .top-bar li.name {
   font-size: 25px;
   margin-left: 10px;
   margin-top: 0px;
 }
 
-/* line 2070, ../scss/_settings.scss */
+/* line 2097, ../scss/_settings.scss */
 header.small .top-bar-section ul.right {
   margin-right: 10px;
   margin-top: 0px;
 }
 
-/* line 2074, ../scss/_settings.scss */
+/* line 2101, ../scss/_settings.scss */
 header.small .top-bar li.name img {
   margin-top: 24px;
   width: 98px;
   height: 40px;
 }
 
-/* line 2082, ../scss/_settings.scss */
+/* line 2109, ../scss/_settings.scss */
 div.productbox-logo {
   height: 100px;
 }
 
-/* line 2085, ../scss/_settings.scss */
+/* line 2112, ../scss/_settings.scss */
 div.productbox-logo div {
   margin: 0px auto;
   		/*position: relative;
@@ -879,46 +918,46 @@ div.productbox-logo div {
   height: 106px;
 }
 
-/* line 2094, ../scss/_settings.scss */
+/* line 2121, ../scss/_settings.scss */
 section.products {
   padding-bottom: 0px;
 }
 
-/* line 2097, ../scss/_settings.scss */
+/* line 2124, ../scss/_settings.scss */
 section.products li {
   padding-bottom: 0px;
 }
 
-/* line 2100, ../scss/_settings.scss */
+/* line 2127, ../scss/_settings.scss */
 section.products div.panel {
   border: none;
   background: none;
   margin-bottom: 0px;
 }
 
-/* line 2105, ../scss/_settings.scss */
+/* line 2132, ../scss/_settings.scss */
 section.products div.panel h3 {
   color: #6D6D6D;
 }
 
-/* line 2109, ../scss/_settings.scss */
+/* line 2136, ../scss/_settings.scss */
 div.productbox-title {
   text-align: center;
 }
 
-/* line 2113, ../scss/_settings.scss */
+/* line 2140, ../scss/_settings.scss */
 div.productbox-description p {
   color: #6D6D6D;
   color: #999999;
   text-align: center;
 }
 
-/* line 2119, ../scss/_settings.scss */
+/* line 2146, ../scss/_settings.scss */
 div.product {
   padding: 5px;
 }
 
-/* line 2122, ../scss/_settings.scss */
+/* line 2149, ../scss/_settings.scss */
 div.product:hover {
   filter: grayscale(100%);
   -webkit-filter: grayscale(100%);
@@ -929,7 +968,7 @@ div.product:hover {
   transition: all 0.75s;
 }
 
-/* line 2134, ../scss/_settings.scss */
+/* line 2161, ../scss/_settings.scss */
 footer {
   font-family: 'Montserrat', sans-serif;
   /*text-transform: uppercase;*/
@@ -945,7 +984,7 @@ footer {
   padding-right: 20px;
 }
 
-/* line 2148, ../scss/_settings.scss */
+/* line 2175, ../scss/_settings.scss */
 div.footer-social a {
   color: #666666;
   color: #444444;
@@ -954,13 +993,13 @@ div.footer-social a {
   padding-left: 10px;
 }
 
-/* line 2155, ../scss/_settings.scss */
+/* line 2182, ../scss/_settings.scss */
 div.footer-social a:hover {
   color: #DEA653;
   color: #777777;
 }
 
-/* line 2160, ../scss/_settings.scss */
+/* line 2187, ../scss/_settings.scss */
 p.belowfooter {
   font-family: 'Oleo Script', cursive;
   text-transform: lowercase;
@@ -968,32 +1007,32 @@ p.belowfooter {
   font-size: 18px;
 }
 
-/* line 2169, ../scss/_settings.scss */
+/* line 2196, ../scss/_settings.scss */
 div#banner-intro {
   position: absolute;
   bottom: 30px;
   bottom: 40px;
 }
 
-/* line 2174, ../scss/_settings.scss */
+/* line 2201, ../scss/_settings.scss */
 div#banner-intro-small {
   position: absolute;
   top: 250px;
 }
 
-/* line 2178, ../scss/_settings.scss */
+/* line 2205, ../scss/_settings.scss */
 div#banner-intro-small-full {
   position: absolute;
   top: 450px;
 }
 
-/* line 2182, ../scss/_settings.scss */
+/* line 2209, ../scss/_settings.scss */
 div#banner-intro-only {
   position: absolute;
   bottom: 45px;
 }
 
-/* line 2186, ../scss/_settings.scss */
+/* line 2213, ../scss/_settings.scss */
 div#banner-intro p.title, div#banner-intro-small p.title, div#banner-intro-small-full p.title, div#banner-intro-only p.title {
   font-family: 'Montserrat', sans-serif;
   font-size: 2rem;
@@ -1003,7 +1042,7 @@ div#banner-intro p.title, div#banner-intro-small p.title, div#banner-intro-small
   -vendor-animation-delay: 1s;
 }
 
-/* line 2194, ../scss/_settings.scss */
+/* line 2221, ../scss/_settings.scss */
 div#banner-intro p.subtitle, div#banner-intro-small p.subtitle, div#banner-intro-small-full p.subtitle, div#banner-intro-only p.subtitle {
   font-family: 'Montserrat', sans-serif;
   font-size: 1rem;
@@ -1012,14 +1051,14 @@ div#banner-intro p.subtitle, div#banner-intro-small p.subtitle, div#banner-intro
   -vendor-animation-delay: 1s;
 }
 
-/* line 2202, ../scss/_settings.scss */
+/* line 2229, ../scss/_settings.scss */
 div#banner-intro a.hollow, div#banner-intro.small a.hollow, div#banner-intro-only a.hollow, p a.hollow {
   background-color: transparent;
   color: #cccccc;
   border: 2pt solid #cccccc;
 }
 
-/* line 2207, ../scss/_settings.scss */
+/* line 2234, ../scss/_settings.scss */
 div#banner-intro a.hollow:hover, div#banner-intro-small a.hollow:hover, div#banner-intro-small-full a.hollow:hover, div#banner-intro-only a.hollow:hover, p a.hollow:hover {
   border-color: #ffffff;
   color: #ffffff;
@@ -1031,36 +1070,36 @@ div#banner-intro a.hollow:hover, div#banner-intro-small a.hollow:hover, div#bann
   transition: all 0.75s;
 }
 
-/* line 2239, ../scss/_settings.scss */
+/* line 2266, ../scss/_settings.scss */
 section.our-services h1 {
   font-family: 'Montserrat', sans-serif;
 }
 
-/* line 2242, ../scss/_settings.scss */
+/* line 2269, ../scss/_settings.scss */
 h2.service-title {
   font-family: 'Oleo Script', cursive;
-  font-family: 'Montserrat', sans-serif;
+  /*font-family: 'Montserrat', sans-serif;	*/
   text-transform: none;
-  font-size: 28px;
+  font-size: 38px;
 }
 
-/* line 2249, ../scss/_settings.scss */
+/* line 2276, ../scss/_settings.scss */
 div#services-icon-bar {
   z-index: 25;
 }
 
-/* line 2252, ../scss/_settings.scss */
+/* line 2279, ../scss/_settings.scss */
 div#services-icon-bar label {
   font-family: 'Montserrat', sans-serif;
 }
 
-/* line 2255, ../scss/_settings.scss */
+/* line 2282, ../scss/_settings.scss */
 .fixedPosition {
   position: fixed;
   top: 45px;
 }
 
-/* line 2260, ../scss/_settings.scss */
+/* line 2287, ../scss/_settings.scss */
 div.icon-bar a:hover {
   background-color: #E4EBED;
   -webkit-transition: all 0.75s;
@@ -1070,33 +1109,33 @@ div.icon-bar a:hover {
   transition: all 0.75s;
 }
 
-/* line 2269, ../scss/_settings.scss */
+/* line 2296, ../scss/_settings.scss */
 div.icon-bar div {
   margin: 0 auto;
 }
 
-/* line 2272, ../scss/_settings.scss */
+/* line 2299, ../scss/_settings.scss */
 div.icon-bar a.active {
   background-color: #E4EBED;
 }
 
-/* line 2276, ../scss/_settings.scss */
+/* line 2303, ../scss/_settings.scss */
 section.process-small div.process {
   margin: 0px auto;
 }
 
-/* line 2280, ../scss/_settings.scss */
+/* line 2307, ../scss/_settings.scss */
 div.services-small div.whatwedo {
   margin: 0px auto;
   margin-bottom: 20px;
 }
 
-/* line 2289, ../scss/_settings.scss */
+/* line 2316, ../scss/_settings.scss */
 form.contact label {
   font-family: 'Montserrat', sans-serif;
 }
 
-/* line 2292, ../scss/_settings.scss */
+/* line 2319, ../scss/_settings.scss */
 form.contact input[type=text], form.contact textarea {
   font-family: 'Muli', sans-serif;
   background-color: #dddddd;
@@ -1110,43 +1149,43 @@ form.contact input[type=text], form.contact textarea {
   box-shadow: none;
 }
 
-/* line 2304, ../scss/_settings.scss */
+/* line 2331, ../scss/_settings.scss */
 form.contact input[type=text] {
   height: 50px;
 }
 
-/* line 2307, ../scss/_settings.scss */
+/* line 2334, ../scss/_settings.scss */
 form.contact input:focus, form.contact textarea:focus {
   background-color: #eeeeee;
   /*background-color: #DEA653;*/
   box-shadow: none;
 }
 
-/* line 2313, ../scss/_settings.scss */
+/* line 2340, ../scss/_settings.scss */
 div.contact p, div.contact strong {
   font-family: 'Montserrat', sans-serif;
   font-size: 1rem;
 }
 
-/* line 2317, ../scss/_settings.scss */
+/* line 2344, ../scss/_settings.scss */
 div.contact strong {
   font-size: 1.10rem;
   color: #000000;
 }
 
-/* line 2321, ../scss/_settings.scss */
+/* line 2348, ../scss/_settings.scss */
 div.contact div.footer-social {
   padding-top: 20px;
   padding-bottom: 20px;
 }
 
-/* line 2328, ../scss/_settings.scss */
+/* line 2355, ../scss/_settings.scss */
 div#map {
   width: 100%;
   height: 300px;
 }
 
-/* line 2337, ../scss/_settings.scss */
+/* line 2364, ../scss/_settings.scss */
 div#notepad-bar {
   padding-top: 5px;
   padding-bottom: 5px;
@@ -1157,7 +1196,7 @@ div#notepad-bar {
   border-radius: 10px;
 }
 
-/* line 2347, ../scss/_settings.scss */
+/* line 2374, ../scss/_settings.scss */
 div#notepad-bar div {
   margin-left: 0px;
   margin-right: 0px;
@@ -1165,7 +1204,7 @@ div#notepad-bar div {
   padding-right: 0px;
 }
 
-/* line 2356, ../scss/_settings.scss */
+/* line 2383, ../scss/_settings.scss */
 div#notepad-bar div.notepad-bar-icon {
   width: 32px;
   height: 32px;
@@ -1173,62 +1212,62 @@ div#notepad-bar div.notepad-bar-icon {
   margin-right: auto;
 }
 
-/* line 2362, ../scss/_settings.scss */
+/* line 2389, ../scss/_settings.scss */
 div#notepad-bar div.bar-all {
   background-image: url(/assets/img/bar-all.png);
 }
 
-/* line 2365, ../scss/_settings.scss */
+/* line 2392, ../scss/_settings.scss */
 div#notepad-bar div.bar-all-active, div#notepad-bar div.bar-all:hover {
   background-image: url(/assets/img/bar-all-active.png);
 }
 
-/* line 2368, ../scss/_settings.scss */
+/* line 2395, ../scss/_settings.scss */
 div#notepad-bar div.bar-news {
   background-image: url(/assets/img/bar-news.png);
 }
 
-/* line 2371, ../scss/_settings.scss */
+/* line 2398, ../scss/_settings.scss */
 div#notepad-bar div.bar-news-active, div#notepad-bar div.bar-news:hover {
   background-image: url(/assets/img/bar-news-active.png);
 }
 
-/* line 2374, ../scss/_settings.scss */
+/* line 2401, ../scss/_settings.scss */
 div#notepad-bar div.bar-events {
   background-image: url(/assets/img/bar-events.png);
 }
 
-/* line 2377, ../scss/_settings.scss */
+/* line 2404, ../scss/_settings.scss */
 div#notepad-bar div.bar-events-active, div#notepad-bar div.bar-events:hover {
   background-image: url(/assets/img/bar-events-active.png);
 }
 
-/* line 2380, ../scss/_settings.scss */
+/* line 2407, ../scss/_settings.scss */
 div#notepad-bar div.bar-work {
   background-image: url(/assets/img/bar-work.png);
 }
 
-/* line 2383, ../scss/_settings.scss */
+/* line 2410, ../scss/_settings.scss */
 div#notepad-bar div.bar-work-active, div#notepad-bar div.bar-work:hover {
   background-image: url(/assets/img/bar-work-active.png);
 }
 
-/* line 2386, ../scss/_settings.scss */
+/* line 2413, ../scss/_settings.scss */
 div#notepad-bar div.bar-advice {
   background-image: url(/assets/img/bar-advice.png);
 }
 
-/* line 2389, ../scss/_settings.scss */
+/* line 2416, ../scss/_settings.scss */
 div#notepad-bar div.bar-advice-active, div#notepad-bar div.bar-advice:hover {
   background-image: url(/assets/img/bar-advice-active.png);
 }
 
-/* line 2392, ../scss/_settings.scss */
+/* line 2419, ../scss/_settings.scss */
 div#notepad-bar div.bar-right {
   background-image: url(/assets/img/bar-right.png);
 }
 
-/* line 2395, ../scss/_settings.scss */
+/* line 2422, ../scss/_settings.scss */
 div#notepad-bar div.handle-show {
   opacity: 1;
   -webkit-transition: all 0.5s;
@@ -1238,7 +1277,7 @@ div#notepad-bar div.handle-show {
   transition: all 0.5s;
 }
 
-/* line 2403, ../scss/_settings.scss */
+/* line 2430, ../scss/_settings.scss */
 div#notepad-bar div.handle-hide {
   opacity: 0;
   -webkit-transition: all 0.5s;
@@ -1248,7 +1287,7 @@ div#notepad-bar div.handle-hide {
   transition: all 0.5s;
 }
 
-/* line 2413, ../scss/_settings.scss */
+/* line 2440, ../scss/_settings.scss */
 div#handle {
   position: relative;
   top: 155px;
@@ -1256,7 +1295,7 @@ div#handle {
   margin-left: -5px !important;
 }
 
-/* line 2419, ../scss/_settings.scss */
+/* line 2446, ../scss/_settings.scss */
 div.notepad-bar-hide {
   left: -85px;
   top: 200px;
@@ -1267,7 +1306,7 @@ div.notepad-bar-hide {
   transition: all 0.5s;
 }
 
-/* line 2428, ../scss/_settings.scss */
+/* line 2455, ../scss/_settings.scss */
 div.notepad-bar-show {
   left: -10px;
   top: 200px;
@@ -1278,30 +1317,30 @@ div.notepad-bar-show {
   transition: all 0.5s;
 }
 
-/* line 2438, ../scss/_settings.scss */
+/* line 2465, ../scss/_settings.scss */
 div#notepad-bar label {
   color: #eeeeee;
   font-family: 'Muli', sans-serif;
   font-size: 12px;
 }
 
-/* line 2443, ../scss/_settings.scss */
+/* line 2470, ../scss/_settings.scss */
 div#note-bar img {
   width: 32px;
   height: 32px;
 }
 
-/* line 2447, ../scss/_settings.scss */
+/* line 2474, ../scss/_settings.scss */
 div#notepad-bar a:hover {
   background-color: #DEA653;
 }
 
-/* line 2453, ../scss/_settings.scss */
+/* line 2480, ../scss/_settings.scss */
 div#wrapper {
   /* display: none; */
 }
 
-/* line 2459, ../scss/_settings.scss */
+/* line 2486, ../scss/_settings.scss */
 h2.faq {
   font-family: 'Montserrat', sans-serif;
   text-transform: uppercase;
@@ -1309,33 +1348,33 @@ h2.faq {
   padding-bottom: 20px;
 }
 
-/* line 2466, ../scss/_settings.scss */
+/* line 2493, ../scss/_settings.scss */
 p.question b {
   font-size: 22px;
   font-family: 'Oleo Script', cursive;
   color: #888888;
 }
 
-/* line 2474, ../scss/_settings.scss */
+/* line 2501, ../scss/_settings.scss */
 .vertical-center {
   position: relative;
   top: 50%;
   transform: translateY(-50%);
 }
 
-/* line 2483, ../scss/_settings.scss */
+/* line 2510, ../scss/_settings.scss */
 div.people-small img {
   padding-top: 10px;
   padding-bottom: 10px;
 }
 
-/* line 2488, ../scss/_settings.scss */
+/* line 2515, ../scss/_settings.scss */
 a.fa-arrow-circle-down, a.fa-arrow-circle-down:active, a.fa-arrow-circle-down:visited {
   color: #ffffff;
   font-size: 32px;
 }
 
-/* line 2492, ../scss/_settings.scss */
+/* line 2519, ../scss/_settings.scss */
 a.fa-arrow-circle-down:hover {
   color: #cccccc;
   -webkit-transition: all 0.5s;
@@ -1345,35 +1384,35 @@ a.fa-arrow-circle-down:hover {
   transition: all 0.5s;
 }
 
-/* line 2501, ../scss/_settings.scss */
+/* line 2528, ../scss/_settings.scss */
 div.text-center p {
   text-align: center;
 }
 
-/* line 2510, ../scss/_settings.scss */
+/* line 2537, ../scss/_settings.scss */
 header.fixed, header.fixed div.fixed {
   height: 45px;
 }
 
-/* line 2516, ../scss/_settings.scss */
+/* line 2543, ../scss/_settings.scss */
 section.blog {
   padding-bottom: 0px;
 }
 
-/* line 2519, ../scss/_settings.scss */
+/* line 2546, ../scss/_settings.scss */
 img.blog-center {
   width: 100%;
   text-align: center;
 }
 
-/* line 2524, ../scss/_settings.scss */
+/* line 2551, ../scss/_settings.scss */
 div.post-author {
   padding-left: 0px;
   padding-right: 0px;
   width: 75px;
 }
 
-/* line 2529, ../scss/_settings.scss */
+/* line 2556, ../scss/_settings.scss */
 img.post-author {
   width: 75px;
   height: 75px;
@@ -1382,32 +1421,32 @@ img.post-author {
   -moz-border-radius: 75px;
 }
 
-/* line 2537, ../scss/_settings.scss */
+/* line 2564, ../scss/_settings.scss */
 div.post-link a, div.post-link a:active, div.post-link a:visited {
   color: #777777;
 }
 
-/* line 2540, ../scss/_settings.scss */
+/* line 2567, ../scss/_settings.scss */
 div.post-link a:hover {
   color: #999999;
 }
 
-/* line 2544, ../scss/_settings.scss */
+/* line 2571, ../scss/_settings.scss */
 p.post-info {
   margin-bottom: 0px;
 }
 
-/* line 2545, ../scss/_settings.scss */
+/* line 2572, ../scss/_settings.scss */
 p.author-name {
   font-family: 'Oleo Script', cursive;
 }
 
-/* line 2551, ../scss/_settings.scss */
+/* line 2578, ../scss/_settings.scss */
 #share-buttons {
   text-align: right;
 }
 
-/* line 2554, ../scss/_settings.scss */
+/* line 2581, ../scss/_settings.scss */
 #share-buttons img {
   width: 35px;
   padding: 5px;
@@ -1417,35 +1456,35 @@ p.author-name {
   -webkit-filter: grayscale(100%);
 }
 
-/* line 2568, ../scss/_settings.scss */
+/* line 2595, ../scss/_settings.scss */
 div.team {
   padding-bottom: 25px !important;
 }
 
-/* line 2571, ../scss/_settings.scss */
+/* line 2598, ../scss/_settings.scss */
 div.team-picture {
   width: 250px;
   height: 300px;
 }
 
-/* line 2575, ../scss/_settings.scss */
+/* line 2602, ../scss/_settings.scss */
 div.team-picture div.image {
   width: 250px;
   height: 250px;
   border-radius: 5px;
 }
 
-/* line 2580, ../scss/_settings.scss */
+/* line 2607, ../scss/_settings.scss */
 div.team-picture div.chakir {
   background: url(/assets/img/Chakir.png) no-repeat;
 }
 
-/* line 2583, ../scss/_settings.scss */
+/* line 2610, ../scss/_settings.scss */
 div.team-picture div.amal {
   background: url(/assets/img/Amal.png) no-repeat;
 }
 
-/* line 2587, ../scss/_settings.scss */
+/* line 2614, ../scss/_settings.scss */
 div.team-picture div.text {
   margin-top: 10px;
   text-align: center;
@@ -1454,14 +1493,14 @@ div.team-picture div.text {
   font-size: 14px;
 }
 
-/* line 2595, ../scss/_settings.scss */
+/* line 2622, ../scss/_settings.scss */
 div.team-picture div.text h1, div.team-picture div.text h2 {
   margin: 0px;
   padding: 0px;
   line-height: 22px;
 }
 
-/* line 2600, ../scss/_settings.scss */
+/* line 2627, ../scss/_settings.scss */
 div.team-picture div.text h1 {
   font-size: 20px;
   font-family: 'Oleo Script', cursive;
@@ -1469,59 +1508,59 @@ div.team-picture div.text h1 {
   color: #6D6D6D;
 }
 
-/* line 2606, ../scss/_settings.scss */
+/* line 2633, ../scss/_settings.scss */
 div.team-picture div.text h2 {
   font-size: 16px;
   color: #999999;
 }
 
-/* line 2616, ../scss/_settings.scss */
+/* line 2643, ../scss/_settings.scss */
 section.ourteam {
   font-family: 'Muli', sans-serif;
   font-size: 17px;
   color: #999999;
 }
 
-/* line 2622, ../scss/_settings.scss */
+/* line 2649, ../scss/_settings.scss */
 section.ourteam div.row {
   padding-top: 10px;
   padding-bottom: 10px;
 }
 
-/* line 2626, ../scss/_settings.scss */
+/* line 2653, ../scss/_settings.scss */
 section.ourteam div.left {
   text-align: right;
 }
 
-/* line 2629, ../scss/_settings.scss */
+/* line 2656, ../scss/_settings.scss */
 section.ourteam div.right {
   text-align: left;
 }
 
-/* line 2633, ../scss/_settings.scss */
+/* line 2660, ../scss/_settings.scss */
 section#ourteam-intro div.text-center h2 {
   text-transform: none;
 }
 
-/* line 2637, ../scss/_settings.scss */
+/* line 2664, ../scss/_settings.scss */
 section.ourteam i.fa {
   font-size: 30px;
   color: #DEA653;
   padding-left: 0px;
 }
 
-/* line 2643, ../scss/_settings.scss */
+/* line 2670, ../scss/_settings.scss */
 section.ourteam-small i.fa {
   padding-right: 5px;
   font-size: 26px;
 }
 
-/* line 2647, ../scss/_settings.scss */
+/* line 2674, ../scss/_settings.scss */
 section.ourteam-small div.columns {
   text-align: justify;
 }
 
-/* line 2651, ../scss/_settings.scss */
+/* line 2678, ../scss/_settings.scss */
 section.ourteam div.icon {
   width: 35px;
   padding-right: 0px;
@@ -1529,11 +1568,34 @@ section.ourteam div.icon {
   text-align: center;
 }
 
-/* line 2658, ../scss/_settings.scss */
+/* line 2685, ../scss/_settings.scss */
 section.ourteam div b {
   font-family: 'Oleo Script', cursive;
   font-size: 22px;
   color: #6D6D6D;
+}
+
+/* line 2692, ../scss/_settings.scss */
+section.aboutus h2 {
+  font-family: 'Oleo Script', cursive;
+  font-size: 36px;
+  color: #6D6D6D;
+  text-transform: none;
+  margin-bottom: 10px;
+}
+
+/* line 2699, ../scss/_settings.scss */
+section.aboutus h3 {
+  font-family: 'Muli', sans-serif;
+  font-size: 17px;
+  color: #999999;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+/* line 2706, ../scss/_settings.scss */
+section.aboutus div.email {
+  padding-bottom: 20px;
 }
 
 /* line 347, ../bower_components/foundation/scss/foundation/components/_global.scss */

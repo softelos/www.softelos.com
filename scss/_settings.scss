@@ -1633,6 +1633,16 @@ p{
 .process-process-show {width: 235px;height: 219px;background-position: -573px -219px;}
 .process-process-think {width: 235px;height: 219px;background-position: -573px -438px;}
 
+.ourteam {
+    background-image: url(/assets/img/ss-ourteam.png);
+    background-repeat: no-repeat;
+    display: block;
+    margin:0px auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.ourteam-amal {width: 250px;height: 250px;background-position: 0 0;}
+.ourteam-chakir {width: 250px;height: 250px;background-position: -250px 0;}
 
 
 
@@ -1679,10 +1689,11 @@ div.banner-hello{
 
 div.banner-ourteam{
 	margin-top:-$topbar-height;
+	margin-top:0px auto;
 	z-index: -100;
-	height:100vh;
+	height:450px;
     width: 100vw; 
-    background: url('/assets/img/WomanHappy.jpg') no-repeat center center; 
+    background: url('/assets/img/aboutus.jpg') no-repeat center center; 
 	-webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -1715,6 +1726,22 @@ div.banner-notepad{
     background-size: cover;
     position: relative;    
   }
+
+
+div.banner-post-img{
+	margin-top:-$topbar-height;
+	z-index: -100;
+	height:450px;
+    width: 100vw; 
+    background-position: no-repeat 0 0;
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    position: relative;    
+  }
+
+
 div.banner-contactus-thanks{
 	margin-top:-$topbar-height;
 	z-index: -100;
@@ -2241,9 +2268,9 @@ section.our-services h1{
 }
 h2.service-title{
 	font-family: 'Oleo Script', cursive;
-font-family: 'Montserrat', sans-serif;	
+	/*font-family: 'Montserrat', sans-serif;	*/
 	text-transform: none;
-	font-size: 28px;	
+	font-size: 38px;	
 }
 
 div#services-icon-bar{
@@ -2660,3 +2687,24 @@ section.ourteam div b{
 	font-size: 22px;
 	color:#6D6D6D;
 }
+
+
+section.aboutus h2{
+	font-family: 'Oleo Script', cursive;
+	font-size: 36px;
+	color:#6D6D6D;
+	text-transform: none;
+	margin-bottom: 10px;
+}
+section.aboutus h3{
+	font-family: 'Muli', sans-serif;
+	font-size: 17px;
+	color:#999999;
+	margin-top: 10px;
+	margin-bottom: 5px;
+}
+section.aboutus div.email{
+	padding-bottom: 20px;
+}
+
+

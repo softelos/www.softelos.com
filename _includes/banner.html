@@ -29,13 +29,9 @@
 		<div class="banner-{{ page.id }}">
 		</div>
 
-		<div id="banner-intro-small" class="row fullWidth" height="200px">
+		<div id="banner-intro-small" class="row fullWidth gray-intro" height="200px">
 			<div class="large-12 columns text-center animated fadeInDown">
-				<p class="title">WE ARE HONEST AND HARD WORKERS</p>
-				<p class="subtitle">We are a team that loves unique ideas and enjoys developing creativity.</p>
-			</div>
-			<div class="large-12 columns text-center animated fadeInDown">
-				<p class="subtitle"><a id="go-down-button" href="#section-start" class="fa fa-arrow-circle-down"></a></p>
+					<p class="title intro-gray">We are a small team with an enormous skill Set</p>
 			</div>
 		</div>
 	{% endif %}
@@ -44,7 +40,7 @@
 
 	{% if page.id == "contactus" %}
 		<div class="banner-{{ page.id }}">
-			<video autoplay loop poster="{{ site.baseurl }}/assets/img/typing.png" id="bgvid">
+			<video autoplay loop poster="{{ site.baseurl }}/assets/img/typing.jpg" id="bgvid">
 				<source src="{{ site.baseurl }}/assets/videos/typing.webm" type="video/webm">
 				<source src="{{ site.baseurl }}/assets/videos/typing.mp4" type="video/mp4">
 			</video>
@@ -76,8 +72,12 @@
 
 	{% if page.id == "notepad" %}
 
-		<div class="banner-{{ page.id }}">
-		</div>
+		{% if page.banner %}
+			<div class="banner-post-img" style="background-image:url({{ site.baseurl }}/assets/img/blog/{{ page.banner }})"></div>
+		{% else %}
+			<div class="banner-{{ page.id }}">
+			</div>
+		{% endif %}
 
 		<div id="banner-intro-small" class="row fullWidth" height="200px">
 			<div class="large-12 columns text-center animated fadeInDown">

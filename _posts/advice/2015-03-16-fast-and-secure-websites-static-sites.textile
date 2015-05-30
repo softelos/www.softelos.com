@@ -6,10 +6,10 @@ title:  "Fast and Secure Websites - Static Sites"
 subtitle: "Fast and Secure Websites - Static Sites"
 description: "This is and article from Softelos that describes the advantages of creating websites with static HTML in comparison to CMS systems based on PHP and SQL databases. Softelos is a Web Design and Development Agency located in Lynchburg (VA)."
 date:   2015-03-16 18:39:10
-banner: http://placehold.it/1500x500
+banner: jekyll.png
 categories: "advice"
 author: cmrabet
-author-name: "Chakir Mrabet"
+author-name: "chakir mrabet"
 ---
 
 Nowadays many websites are built using a Content Management System or CMS such as WordPress, Drupal or Joomla.  They allow the user to manage all their content through nice administrator control screens, and PHP, ASP.NET, or whatever server side technology the CMS is built on, will magically and dynamically create the website pages every single time a visitor hits the page.  
