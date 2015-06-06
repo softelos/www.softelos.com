@@ -18,6 +18,8 @@ Building a website using a CMS is one of the many ways the Internet has become s
 
 However using a CMS is not the only way to create a website. Building them exclusively on HTML static files is still one of the most efficient methods of creating fast and secure websites that still conform a big portion of the 60.4% that are not using a CMS.
 
+p=. !{{ site.baseurl }}/assets/img/blog/staticvsdynamic.jpg(Static vs Dynamic websites)!
+
 <!--more-->
 
 h3. What is a static HTML site?

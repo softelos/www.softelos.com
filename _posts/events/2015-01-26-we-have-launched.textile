@@ -22,6 +22,8 @@ We also have a unique process approach that we apply to any project we work on, 
 
 <!--more-->
 
+p=. !{{ site.baseurl }}/assets/img/blog/virginia.jpg(Softelos is based in Virginia)!
+
 We provide many specific <a href="{{ site.baseurl }}/whatwedo">services</a>, but we are also open to approach different problems. We offer custom development services for clients based on a specific campaign launch or requirements. We have a strong capacity of problem solving and meeting deadlines. 
 
 h3. The Website

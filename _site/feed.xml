@@ -5,8 +5,8 @@
     <description></description>
     <link>http://softelos.com/</link>
     <atom:link href="http://softelos.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 06 Jun 2015 11:56:10 -0400</pubDate>
-    <lastBuildDate>Sat, 06 Jun 2015 11:56:10 -0400</lastBuildDate>
+    <pubDate>Sat, 06 Jun 2015 13:59:06 -0400</pubDate>
+    <lastBuildDate>Sat, 06 Jun 2015 13:59:06 -0400</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
     
       <item>
@@ -14,6 +14,7 @@
         <description>&lt;p&gt;Nowadays many websites are built using a Content Management System or &lt;span class=&quot;caps&quot;&gt;CMS&lt;/span&gt; such as WordPress, Drupal or Joomla.  They allow the user to manage all their content through nice administrator control screens, and &lt;span class=&quot;caps&quot;&gt;PHP&lt;/span&gt;, &lt;span class=&quot;caps&quot;&gt;ASP&lt;/span&gt;.&lt;span class=&quot;caps&quot;&gt;NET&lt;/span&gt;, or whatever server side technology the &lt;span class=&quot;caps&quot;&gt;CMS&lt;/span&gt; is built on, will magically and dynamically create the website pages every single time a visitor hits the page.&lt;/p&gt;
 &lt;p&gt;Building a website using a &lt;span class=&quot;caps&quot;&gt;CMS&lt;/span&gt; is one of the many ways the Internet has become so powerful, since the old days when all websites were just a link or two and a flash banner. As a matter of fact, in 2015, 23.9% of the websites are made on WordPress, but using a &lt;span class=&quot;caps&quot;&gt;CMS&lt;/span&gt; also involves having to deal with issues related to deployment, security, performance and maintenance.&lt;/p&gt;
 &lt;p&gt;However using a &lt;span class=&quot;caps&quot;&gt;CMS&lt;/span&gt; is not the only way to create a website. Building them exclusively on &lt;span class=&quot;caps&quot;&gt;HTML&lt;/span&gt; static files is still one of the most efficient methods of creating fast and secure websites that still conform a big portion of the 60.4% that are not using a &lt;span class=&quot;caps&quot;&gt;CMS&lt;/span&gt;.&lt;/p&gt;
+&lt;p style=&quot;text-align:center;&quot;&gt;&lt;img src=&quot;/assets/img/blog/staticvsdynamic.jpg&quot; title=&quot;Static vs Dynamic websites&quot; alt=&quot;Static vs Dynamic websites&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;&lt;!--more--&gt;&lt;/p&gt;
 &lt;h3&gt;What is a static &lt;span class=&quot;caps&quot;&gt;HTML&lt;/span&gt; site?&lt;/h3&gt;
 &lt;p&gt;A static site is a website made in such a way that its &lt;span class=&quot;caps&quot;&gt;HTML&lt;/span&gt; content has already been pre-generated and is just laying out on the web server, as opposed to all the content being stored in a database waiting to be dynamically mashed together when a request comes by a server side technology like &lt;span class=&quot;caps&quot;&gt;PHP&lt;/span&gt;.&lt;/p&gt;
@@ -115,6 +116,7 @@
 &lt;p&gt;We provide a fresh approach to web design and development. Our focus relies heavily on beautiful designs and implementations based on top notch web technologies. We’re always learning so that we can incorporate new technologies in our project as soon as they emerge. It’s a balance that we’ve perfected by our hunger for learning and our desire to achieve new challenges.&lt;/p&gt;
 &lt;p&gt;We also have a unique process approach that we apply to any project we work on, and which is based on rapid design and individual development phases. We care about long standing relationships, repeatedly delivery excellence, and building teams which extract the best in ourselves and brands we work with.&lt;/p&gt;
 &lt;p&gt;&lt;!--more--&gt;&lt;/p&gt;
+&lt;p style=&quot;text-align:center;&quot;&gt;&lt;img src=&quot;/assets/img/blog/virginia.jpg&quot; title=&quot;Softelos is based in Virginia&quot; alt=&quot;Softelos is based in Virginia&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;We provide many specific &lt;a href=&quot;/whatwedo&quot;&gt;services&lt;/a&gt;, but we are also open to approach different problems. We offer custom development services for clients based on a specific campaign launch or requirements. We have a strong capacity of problem solving and meeting deadlines.&lt;/p&gt;
 &lt;h3&gt;The Website&lt;/h3&gt;
 &lt;p&gt;We created &lt;a href=&quot;http://softelos.com&quot;&gt;softelos.com&lt;/a&gt; taking a simple and clean design approach that works for anyone on any web-enabled device. Using responsive web design techniques, our site will respond and adapt according to the orientation of our visitor’s screen size and resolution. We also decided to make the website to load fast, so we used pure &lt;span class=&quot;caps&quot;&gt;HTML&lt;/span&gt; with the help of the &lt;a href=&quot;http://jekyllrb.com/&quot;&gt;Jekyll&lt;/a&gt; generator.&lt;/p&gt;
