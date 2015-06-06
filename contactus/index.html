@@ -8,8 +8,7 @@ description: "Softelos is a Web Design and Development Agency located in Lynchbu
 <section class="light content">
 
 	<div class="show-for-medium-up">
-		<div class="row">
-		
+		<div class="row">		
 			<div class="medium-8 column">
 				<form action="//formspree.io/cmrabet@softelos.com" method="post" class="contact">
 				    <label for="name">Name</label><input type="text" name="name" autocomplete="off" required/>
@@ -29,16 +28,21 @@ description: "Softelos is a Web Design and Development Agency located in Lynchbu
 						{% include /contactus/social.html %}
 					</div>
 				</div>
-				<strong>Softelos LLC</strong>
-				<p>
-					4925 Boonsboro Rd. #230<br>
-					Lynchburg, 24503 VA
-				</p>
-				<strong>New business:</strong>
-				
-				{% include /contactus/hello-email.html %}
+				<div class="row">
+					<div class="small-12 columns">
+						<strong>Softelos LLC</strong>
+						<p>
+							4925 Boonsboro Rd. #230<br>
+							Lynchburg, 24503 VA
+						</p>
+						<p>
+							<strong>New business:</strong>				
+							{% include /contactus/hello-email.html %}
+							<i class="fa fa-phone-square"></i>&#40;&#52;&#51;&#52;&#41; &#51;&#55;&#51;&#45;&#48;&#48;&#57;&#53;
+						</p>
+					</div>
+				</div>
 			</div>
-
 		</div>
 	</div>
 	
@@ -74,10 +78,10 @@ description: "Softelos is a Web Design and Development Agency located in Lynchbu
 					<div class="small-12 columns text-center">
 						<strong>Softelos LLC</strong>
 						<p class="text-center">
-							1472 Old Farm Rd.<br>
+							4925 Boonsboro Rd. #230<br>
 							Lynchburg, 24503 VA <br>
-							<a href="mailto:hello@softelos.com">hello@softelos.com</a><br>
-							(434) 534-7761
+							{% include /contactus/hello-email.html %}
+							<i class="fa fa-phone-square"></i>&#40;&#52;&#51;&#52;&#41; &#51;&#55;&#51;&#45;&#48;&#48;&#57;&#53;
 						</p>
 					</div>
 				</div>
