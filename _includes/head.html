@@ -3,7 +3,7 @@
 	<meta name="robots" content="index, follow">
     <meta name="author" content="Softelos LLC"> 
     <meta name="description" content="{{ page.description }}">     
-    <meta name="viewport" content="width=device-width initial-scale=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     {% if page.id == 'hello' %}
         <title>{{ site.titleHome }}</title>
@@ -11,6 +11,7 @@
         <title>{{ page.title }}{{ site.titleBase }}</title>
     {% endif %}
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+    <link rel="publisher" href="https://plus.google.com/+SoftelosLynchburg/posts">
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
 	<link rel="icon" href="/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="{{ "/stylesheets/app.css" | prepend: site.baseurl }}">

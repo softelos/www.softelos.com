@@ -4,7 +4,7 @@ id: notepad
 subid: work
 title:  "How we made softelos.com"
 subtitle: "How we made softelos.com"
-description: "This is and article that describes the process that we follow to create a website. Softelos is a Web Design and Development Agency located in Lynchburg (VA)."
+description: "How we made softelos.com and how we make websites for our clients. Softelos is a Web Design and Development Agency located in Lynchburg (VA)."
 date:   2015-02-08 17:30:00
 banner: code.jpg
 categories: "work"

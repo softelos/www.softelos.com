@@ -4,7 +4,7 @@ id: notepad
 subid: advice
 title:  "Fast and Secure Websites - Static Sites"
 subtitle: "Fast and Secure Websites - Static Sites"
-description: "This is and article from Softelos that describes the advantages of creating websites with static HTML in comparison to CMS systems based on PHP and SQL databases. Softelos is a Web Design and Development Agency located in Lynchburg (VA)."
+description: "Static HTML sites, fast and secure websites. Softelos is a Web Design and Development Agency located in Lynchburg (VA)."
 date:   2015-03-16 18:39:10
 banner: jekyll.png
 categories: "advice"

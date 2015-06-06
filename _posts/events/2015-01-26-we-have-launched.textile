@@ -4,7 +4,7 @@ id: notepad
 subid: events
 title:  "We have launched!"
 subtitle: "We have launched!"
-description: "This article describes the story behind Softelos and its start up. Softelos is a Web Design and Development Agency located in Lynchburg (VA)."
+description: "Read the story behind Softelos and its start up. Softelos is a Web Design and Development Agency located in Lynchburg (VA)."
 date:   2015-01-26 18:39:10
 banner: lynchburg.jpg
 categories: events
