@@ -1350,7 +1350,7 @@ h2.faq {
 
 /* line 2493, ../scss/_settings.scss */
 p.question b {
-  font-size: 22px;
+  font-size: 24px;
   font-family: 'Oleo Script', cursive;
   color: #888888;
 }
@@ -1571,7 +1571,7 @@ section.ourteam div.icon {
 /* line 2685, ../scss/_settings.scss */
 section.ourteam div b {
   font-family: 'Oleo Script', cursive;
-  font-size: 22px;
+  font-size: 24px;
   color: #6D6D6D;
 }
 

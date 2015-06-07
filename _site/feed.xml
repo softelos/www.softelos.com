@@ -5,8 +5,8 @@
     <description></description>
     <link>http://softelos.com/</link>
     <atom:link href="http://softelos.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 06 Jun 2015 13:59:06 -0400</pubDate>
-    <lastBuildDate>Sat, 06 Jun 2015 13:59:06 -0400</lastBuildDate>
+    <pubDate>Sun, 07 Jun 2015 19:57:18 -0400</pubDate>
+    <lastBuildDate>Sun, 07 Jun 2015 19:57:18 -0400</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
     
       <item>
@@ -122,7 +122,7 @@
 &lt;p&gt;We created &lt;a href=&quot;http://softelos.com&quot;&gt;softelos.com&lt;/a&gt; taking a simple and clean design approach that works for anyone on any web-enabled device. Using responsive web design techniques, our site will respond and adapt according to the orientation of our visitor’s screen size and resolution. We also decided to make the website to load fast, so we used pure &lt;span class=&quot;caps&quot;&gt;HTML&lt;/span&gt; with the help of the &lt;a href=&quot;http://jekyllrb.com/&quot;&gt;Jekyll&lt;/a&gt; generator.&lt;/p&gt;
 &lt;p&gt;The website offers clear navigation to our visitors, making our &lt;a href=&quot;/&quot;&gt;homepage&lt;/a&gt;, &lt;a href=&quot;/whatwedo&quot;&gt;services&lt;/a&gt;, &lt;a href=&quot;/notepad&quot;&gt;blog&lt;/a&gt; and &lt;a href=&quot;/contactus&quot;&gt;contact&lt;/a&gt; information easily accessible. Also our &lt;a href=&quot;/notepad&quot;&gt;blog&lt;/a&gt; (The Notepad) is easy, simple to navigate and read, and helps to position our website as a valuable asset to the community.&lt;/p&gt;
 &lt;p&gt;A simple yet powerful &lt;a href=&quot;/contactus&quot;&gt;contact page&lt;/a&gt; allows us to quickly respond to questions, requests or comments from our customers and friends.&lt;/p&gt;
-&lt;p&gt;Click through our website to see for yourself!, and don&amp;#8217;t forget to read our &lt;a href=&quot;/contacus&quot;&gt;frequented asked questions&lt;/a&gt; to know us better. If you have questions, fill our &lt;a href=&quot;/contactus&quot;&gt;contact&lt;/a&gt; form or just send as a message saying hello!.&lt;/p&gt;</description>
+&lt;p&gt;Click through our website to see for yourself!, and don&amp;#8217;t forget to read our &lt;a href=&quot;/contactus#faq&quot;&gt;frequented asked questions&lt;/a&gt; to know us better. If you have questions, fill our &lt;a href=&quot;/contactus&quot;&gt;contact&lt;/a&gt; form or just send as a message saying hello!.&lt;/p&gt;</description>
         <pubDate>Mon, 26 Jan 2015 13:39:10 -0500</pubDate>
         <link>http://softelos.com/events/2015/01/26/we-have-launched.html</link>
         <guid isPermaLink="true">http://softelos.com/events/2015/01/26/we-have-launched.html</guid>

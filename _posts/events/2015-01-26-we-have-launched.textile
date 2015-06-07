@@ -34,6 +34,6 @@ The website offers clear navigation to our visitors, making our <a href="{{ site
 
 A simple yet powerful <a href="{{ site.baseurl }}/contactus">contact page</a> allows us to quickly respond to questions, requests or comments from our customers and friends. 
 
-Click through our website to see for yourself!, and don't forget to read our <a href="{{ site.baseurl }}/contacus">frequented asked questions</a> to know us better. If you have questions, fill our <a href="{{ site.baseurl }}/contactus">contact</a> form or just send as a message saying hello!.
+Click through our website to see for yourself!, and don't forget to read our <a href="{{ site.baseurl }}/contactus#faq">frequented asked questions</a> to know us better. If you have questions, fill our <a href="{{ site.baseurl }}/contactus">contact</a> form or just send as a message saying hello!.
 
 
