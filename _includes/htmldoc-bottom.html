@@ -210,6 +210,15 @@
 					$('html,body').scrollTo(pos);
 					
 				});
+				// scrollz to contact form				
+				$('a.contact-form').click(function(e){
+					e.preventDefault();
+					// Calc offset
+					// 145 is = 100 (when top bar is big) and 45 (when top bar is small)
+					var pos=$('a[name="contact-form"]').offset().top-100;
+					$('html,body').scrollTo(pos);
+					
+				});
 			});
 		</script>
 

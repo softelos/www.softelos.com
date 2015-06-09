@@ -145,6 +145,7 @@
 	<div class="show-for-medium-up">
 		<div class="row">		
 			<div class="medium-8 column">
+				<a name="contact-form"></a>
 				<form action="//formspree.io/cmrabet@softelos.com" method="post" class="contact">
 				    <label for="name">Name</label><input type="text" name="name" autocomplete="off" required/>
 				    <label for="_replyto">email</label><input type="text" autocomplete="off" name="_replyto" required />
@@ -289,7 +290,7 @@
 			</li>
 			<li>
 				<p class="question"><i class="fa fa-comment-o fa-flip-horizontal"></i><b>how much do you charge?</b></p>
-				<p>Our pricing is based on the amount of hours your project will take. In order to determine this, we'll need to have a brief discussion about your project, the level of detail involved and technical requirements. The best way to start this process is filling our <a href="/contactus">contact form</a> and we’ll get back to you as soon as possible.</p>
+				<p>Our pricing is based on the amount of hours your project will take. In order to determine this, we'll need to have a brief discussion about your project, the level of detail involved and technical requirements. The best way to start this process is filling our <a href="" class="contact-form">contact form</a> and we’ll get back to you as soon as possible.</p>
 			</li>
 			<li>
 				<p class="question"><i class="fa fa-comment-o fa-flip-horizontal"></i><b>why Softelos when I could build a web myself?</b></p>
@@ -297,7 +298,7 @@
 			</li>			
 			<li>
 				<p class="question"><i class="fa fa-comment-o fa-flip-horizontal"></i><b>how long will it take you to complete my project?</b></p>
-				<p>Each project is different, and is determined by the amount of deliverables and the level of complexity. Once we get more information about your project, we’ll be able to give you an estimated time frame. The best way to start this process is filling our <a href="/contactus">contact form</a> and we’ll get back to you.</p>
+				<p>Each project is different, and is determined by the amount of deliverables and the level of complexity. Once we get more information about your project, we’ll be able to give you an estimated time frame. The best way to start this process is filling our <a href="" class="contact-form">contact form</a> and we’ll get back to you.</p>
 			</li>
 			<li>
 				<p class="question"><i class="fa fa-comment-o fa-flip-horizontal"></i><b>can my graphic designer do the web design?</b></p>
@@ -307,7 +308,7 @@
 	</div>
 	<div class="row">
 		<div class="small-centered text-center column">
-			<p class="subtitle">If your question is not above, please <a href="/contactus" class="">contact us</a> and we’ll get back to you as soon as possible.</p>
+			<p class="subtitle">If your question is not above, please <a href="" class="contact-form">contact us</a> and we’ll get back to you as soon as possible.</p>
 		</div>
 	</div>	
 </section>
@@ -428,6 +429,15 @@
 					// Calc offset
 					// 145 is = 100 (when top bar is big) and 45 (when top bar is small)
 					var pos=$('a[name="section-start"]').offset().top-135;
+					$('html,body').scrollTo(pos);
+					
+				});
+				// scrollz to contact form				
+				$('a.contact-form').click(function(e){
+					e.preventDefault();
+					// Calc offset
+					// 145 is = 100 (when top bar is big) and 45 (when top bar is small)
+					var pos=$('a[name="contact-form"]').offset().top-100;
 					$('html,body').scrollTo(pos);
 					
 				});
