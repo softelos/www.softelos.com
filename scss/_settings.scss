@@ -1993,7 +1993,7 @@ header.bigger .top-bar-section ul li:not(.has-form) a:not(.button){
 	    transition: all 0.5s;	    
 	}
 
-	header.smaller nav.top-bar, header.smaller .top-bar-section ul li{
+	header.smaller nav.top-bar{
 	    height: 45px;
 	    line-height: 45px;
 		background-color: rgba(25, 25, 25, 1);	    
@@ -2003,7 +2003,15 @@ header.bigger .top-bar-section ul li:not(.has-form) a:not(.button){
 	    -o-transition: all 0.5s;
 	    transition: all 0.5s;	    
 	}
-
+		header.smaller .top-bar-section ul li{
+		    height: 45px;
+		    line-height: 45px;
+	 		-webkit-transition: all 0.5s;
+		    -moz-transition: all 0.5s;
+		    -ms-transition: all 0.5s;
+		    -o-transition: all 0.5s;
+		    transition: all 0.5s;	    
+		}
 header.smaller .top-bar-section ul li:not(.has-form) a:not(.button){
 	    height: 45px;
 	    line-height: 45px;
@@ -2051,7 +2059,7 @@ header.bigger .top-bar-section ul.right{
 header.smaller .top-bar-section ul.right{
 	margin-right: 10px;
 	margin-top: $menu-small-top-margin;
- 	-webkit-transition: all 0.5s;
+	-webkit-transition: all 0.5s;
  	-moz-transition: all 0.5s;
 	-ms-transition: all 0.5s;
 	-o-transition: all 0.5s;
