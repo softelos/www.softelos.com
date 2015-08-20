@@ -11,12 +11,24 @@ description: "Softelos is a Web Design and Development Agency located in Lynchbu
 		<div class="row">		
 			<div class="medium-8 column">
 				<a name="contact-form"></a>
-				<form action="//formspree.io/cmrabet@softelos.com" method="post" class="contact">
+				<form action="//formspree.io/hello@softelos.com" method="post" class="contact">
 				    <label for="name">Name</label><input type="text" name="name" autocomplete="off" required/>
 				    <label for="_replyto">email</label><input type="text" autocomplete="off" name="_replyto" required />
 				    <label for="company">Company/Organization</label><input type="text" name="company" autocomplete="off" />
 				    <label for="phone">Phone<input type="text" name="phone" autocomplete="off" />
-				    <label for="message">Message</label><textarea name="message" rows="5" cols="20" autocomplete="off" required></textarea>
+				    <label for="interest">Interest</label>
+					<select name="interest" id="interest">
+						<option value="new website">New Website</option>
+						<option value="edit website">Modify/Update Existing Website</option>
+						<option value="other" selected="selected">Other</option>
+					</select>
+
+				    <span id="contact-us-url"><label for="url">URL<input type="url" name="url" autocomplete="off" /></label></span>
+
+				    <span id="contact-us-more-message"><label for="message">Comments</label><textarea name="message" rows="5" cols="20" autocomplete="off" required></textarea></span>
+
+				    {% include /contactus/contact-form-extra.html %}
+
 				    <input type="text" name="_gotcha" style="display:none" />
 				    <input type="submit" value="Send" class="button round">
 				    <input type="hidden" name="_next" value="/contactus/thanks.html" />

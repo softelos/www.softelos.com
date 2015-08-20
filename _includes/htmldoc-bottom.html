@@ -223,6 +223,45 @@
 					$('html,body').scrollTo(pos);
 					
 				});
+
+				// Advanced contact form
+				var textValues=['Tell us more..','Tell us less..'];
+
+				$('select#interest').change(function(e){
+					var option=$(this).val();
+					if(option=='new website'){
+						$('div#contact-us-more').slideDown('slow',function(){
+							//$('span#contact-us-more-message').fadeOut('fast');
+							$('span#contact-us-url').fadeOut('slow');
+						});
+					}else if(option=="edit website"){
+						$('div#contact-us-more').slideUp('slow',function(){
+							//$('span#contact-us-more-message').fadeIn('fast');
+							$('span#contact-us-url').fadeIn('slow');
+						});						
+					}else{
+						$('div#contact-us-more').slideUp('slow',function(){
+						$('span#contact-us-more-message').fadeIn('slow');
+						$('span#contact-us-url').fadeOut('slow');
+					});						
+
+					}
+
+				});
+
+				$('select#contact-us-online-store').change(function(e){
+					var option=$(this).val();
+					if(option=='yes'){
+						$('span#contact-us-store').slideDown('fast');
+					}else{
+						$('span#contact-us-store').slideUp('fast');
+					}
+				});
+
+
+
+
+
 			});
 		</script>
 

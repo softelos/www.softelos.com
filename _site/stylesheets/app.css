@@ -1147,7 +1147,17 @@ form.contact label {
 }
 
 /* line 2327, ../scss/_settings.scss */
-form.contact input[type=text], form.contact textarea {
+form.contact h4 {
+  font-family: 'Muli', sans-serif;
+}
+
+/* line 2330, ../scss/_settings.scss */
+form.contact input[type=number] {
+  width: 4em;
+}
+
+/* line 2333, ../scss/_settings.scss */
+form.contact input[type=text], form.contact textarea, form.contact select, form.contact input[type=url], form.contact input[type=number] {
   font-family: 'Muli', sans-serif;
   background-color: #dddddd;
   border: none;
@@ -1160,43 +1170,43 @@ form.contact input[type=text], form.contact textarea {
   box-shadow: none;
 }
 
-/* line 2339, ../scss/_settings.scss */
-form.contact input[type=text] {
+/* line 2345, ../scss/_settings.scss */
+form.contact input[type=text], form.contact select, form.contact input[type=url], form.contact input[type=number] {
   height: 50px;
 }
 
-/* line 2342, ../scss/_settings.scss */
-form.contact input:focus, form.contact textarea:focus {
+/* line 2348, ../scss/_settings.scss */
+form.contact input:focus, form.contact textarea:focus, form.contact select:focus, form.contact input[type=url]:focus, form.contact input[type=number]:focus {
   background-color: #eeeeee;
   /*background-color: #DEA653;*/
   box-shadow: none;
 }
 
-/* line 2348, ../scss/_settings.scss */
+/* line 2354, ../scss/_settings.scss */
 div.contact p, div.contact strong {
   font-family: 'Montserrat', sans-serif;
   font-size: 1rem;
 }
 
-/* line 2352, ../scss/_settings.scss */
+/* line 2358, ../scss/_settings.scss */
 div.contact strong {
   font-size: 1.10rem;
   color: #000000;
 }
 
-/* line 2356, ../scss/_settings.scss */
+/* line 2362, ../scss/_settings.scss */
 div.contact div.footer-social {
   padding-top: 20px;
   padding-bottom: 20px;
 }
 
-/* line 2363, ../scss/_settings.scss */
+/* line 2369, ../scss/_settings.scss */
 div#map {
   width: 100%;
   height: 300px;
 }
 
-/* line 2372, ../scss/_settings.scss */
+/* line 2378, ../scss/_settings.scss */
 div#notepad-bar {
   padding-top: 5px;
   padding-bottom: 5px;
@@ -1207,7 +1217,7 @@ div#notepad-bar {
   border-radius: 10px;
 }
 
-/* line 2382, ../scss/_settings.scss */
+/* line 2388, ../scss/_settings.scss */
 div#notepad-bar div {
   margin-left: 0px;
   margin-right: 0px;
@@ -1215,7 +1225,7 @@ div#notepad-bar div {
   padding-right: 0px;
 }
 
-/* line 2391, ../scss/_settings.scss */
+/* line 2397, ../scss/_settings.scss */
 div#notepad-bar div.notepad-bar-icon {
   width: 32px;
   height: 32px;
@@ -1223,62 +1233,62 @@ div#notepad-bar div.notepad-bar-icon {
   margin-right: auto;
 }
 
-/* line 2397, ../scss/_settings.scss */
+/* line 2403, ../scss/_settings.scss */
 div#notepad-bar div.bar-all {
   background-image: url(/assets/img/bar-all.png);
 }
 
-/* line 2400, ../scss/_settings.scss */
+/* line 2406, ../scss/_settings.scss */
 div#notepad-bar div.bar-all-active, div#notepad-bar div.bar-all:hover {
   background-image: url(/assets/img/bar-all-active.png);
 }
 
-/* line 2403, ../scss/_settings.scss */
+/* line 2409, ../scss/_settings.scss */
 div#notepad-bar div.bar-news {
   background-image: url(/assets/img/bar-news.png);
 }
 
-/* line 2406, ../scss/_settings.scss */
+/* line 2412, ../scss/_settings.scss */
 div#notepad-bar div.bar-news-active, div#notepad-bar div.bar-news:hover {
   background-image: url(/assets/img/bar-news-active.png);
 }
 
-/* line 2409, ../scss/_settings.scss */
+/* line 2415, ../scss/_settings.scss */
 div#notepad-bar div.bar-events {
   background-image: url(/assets/img/bar-events.png);
 }
 
-/* line 2412, ../scss/_settings.scss */
+/* line 2418, ../scss/_settings.scss */
 div#notepad-bar div.bar-events-active, div#notepad-bar div.bar-events:hover {
   background-image: url(/assets/img/bar-events-active.png);
 }
 
-/* line 2415, ../scss/_settings.scss */
+/* line 2421, ../scss/_settings.scss */
 div#notepad-bar div.bar-work {
   background-image: url(/assets/img/bar-work.png);
 }
 
-/* line 2418, ../scss/_settings.scss */
+/* line 2424, ../scss/_settings.scss */
 div#notepad-bar div.bar-work-active, div#notepad-bar div.bar-work:hover {
   background-image: url(/assets/img/bar-work-active.png);
 }
 
-/* line 2421, ../scss/_settings.scss */
+/* line 2427, ../scss/_settings.scss */
 div#notepad-bar div.bar-advice {
   background-image: url(/assets/img/bar-advice.png);
 }
 
-/* line 2424, ../scss/_settings.scss */
+/* line 2430, ../scss/_settings.scss */
 div#notepad-bar div.bar-advice-active, div#notepad-bar div.bar-advice:hover {
   background-image: url(/assets/img/bar-advice-active.png);
 }
 
-/* line 2427, ../scss/_settings.scss */
+/* line 2433, ../scss/_settings.scss */
 div#notepad-bar div.bar-right {
   background-image: url(/assets/img/bar-right.png);
 }
 
-/* line 2430, ../scss/_settings.scss */
+/* line 2436, ../scss/_settings.scss */
 div#notepad-bar div.handle-show {
   opacity: 1;
   -webkit-transition: all 0.5s;
@@ -1288,7 +1298,7 @@ div#notepad-bar div.handle-show {
   transition: all 0.5s;
 }
 
-/* line 2438, ../scss/_settings.scss */
+/* line 2444, ../scss/_settings.scss */
 div#notepad-bar div.handle-hide {
   opacity: 0;
   -webkit-transition: all 0.5s;
@@ -1298,7 +1308,7 @@ div#notepad-bar div.handle-hide {
   transition: all 0.5s;
 }
 
-/* line 2448, ../scss/_settings.scss */
+/* line 2454, ../scss/_settings.scss */
 div#handle {
   position: relative;
   top: 155px;
@@ -1306,7 +1316,7 @@ div#handle {
   margin-left: -5px !important;
 }
 
-/* line 2454, ../scss/_settings.scss */
+/* line 2460, ../scss/_settings.scss */
 div.notepad-bar-hide {
   left: -85px;
   top: 200px;
@@ -1317,7 +1327,7 @@ div.notepad-bar-hide {
   transition: all 0.5s;
 }
 
-/* line 2463, ../scss/_settings.scss */
+/* line 2469, ../scss/_settings.scss */
 div.notepad-bar-show {
   left: -10px;
   top: 200px;
@@ -1328,30 +1338,30 @@ div.notepad-bar-show {
   transition: all 0.5s;
 }
 
-/* line 2473, ../scss/_settings.scss */
+/* line 2479, ../scss/_settings.scss */
 div#notepad-bar label {
   color: #eeeeee;
   font-family: 'Muli', sans-serif;
   font-size: 12px;
 }
 
-/* line 2478, ../scss/_settings.scss */
+/* line 2484, ../scss/_settings.scss */
 div#note-bar img {
   width: 32px;
   height: 32px;
 }
 
-/* line 2482, ../scss/_settings.scss */
+/* line 2488, ../scss/_settings.scss */
 div#notepad-bar a:hover {
   background-color: #DEA653;
 }
 
-/* line 2488, ../scss/_settings.scss */
+/* line 2494, ../scss/_settings.scss */
 div#wrapper {
   /* display: none; */
 }
 
-/* line 2494, ../scss/_settings.scss */
+/* line 2500, ../scss/_settings.scss */
 h2.faq {
   font-family: 'Montserrat', sans-serif;
   text-transform: uppercase;
@@ -1359,33 +1369,33 @@ h2.faq {
   padding-bottom: 20px;
 }
 
-/* line 2501, ../scss/_settings.scss */
+/* line 2507, ../scss/_settings.scss */
 p.question b {
   font-size: 24px;
   font-family: 'Oleo Script', cursive;
   color: #888888;
 }
 
-/* line 2509, ../scss/_settings.scss */
+/* line 2515, ../scss/_settings.scss */
 .vertical-center {
   position: relative;
   top: 50%;
   transform: translateY(-50%);
 }
 
-/* line 2518, ../scss/_settings.scss */
+/* line 2524, ../scss/_settings.scss */
 div.people-small img {
   padding-top: 10px;
   padding-bottom: 10px;
 }
 
-/* line 2523, ../scss/_settings.scss */
+/* line 2529, ../scss/_settings.scss */
 a.fa-arrow-circle-down, a.fa-arrow-circle-down:active, a.fa-arrow-circle-down:visited {
   color: #ffffff;
   font-size: 32px;
 }
 
-/* line 2527, ../scss/_settings.scss */
+/* line 2533, ../scss/_settings.scss */
 a.fa-arrow-circle-down:hover {
   color: #cccccc;
   -webkit-transition: all 0.5s;
@@ -1395,35 +1405,35 @@ a.fa-arrow-circle-down:hover {
   transition: all 0.5s;
 }
 
-/* line 2536, ../scss/_settings.scss */
+/* line 2542, ../scss/_settings.scss */
 div.text-center p {
   text-align: center;
 }
 
-/* line 2545, ../scss/_settings.scss */
+/* line 2551, ../scss/_settings.scss */
 header.fixed, header.fixed div.fixed {
   height: 45px;
 }
 
-/* line 2551, ../scss/_settings.scss */
+/* line 2557, ../scss/_settings.scss */
 section.blog {
   padding-bottom: 0px;
 }
 
-/* line 2554, ../scss/_settings.scss */
+/* line 2560, ../scss/_settings.scss */
 img.blog-center {
   width: 100%;
   text-align: center;
 }
 
-/* line 2559, ../scss/_settings.scss */
+/* line 2565, ../scss/_settings.scss */
 div.post-author {
   padding-left: 0px;
   padding-right: 0px;
   width: 75px;
 }
 
-/* line 2564, ../scss/_settings.scss */
+/* line 2570, ../scss/_settings.scss */
 img.post-author {
   width: 75px;
   height: 75px;
@@ -1432,32 +1442,32 @@ img.post-author {
   -moz-border-radius: 75px;
 }
 
-/* line 2572, ../scss/_settings.scss */
+/* line 2578, ../scss/_settings.scss */
 div.post-link a, div.post-link a:active, div.post-link a:visited {
   color: #777777;
 }
 
-/* line 2575, ../scss/_settings.scss */
+/* line 2581, ../scss/_settings.scss */
 div.post-link a:hover {
   color: #999999;
 }
 
-/* line 2579, ../scss/_settings.scss */
+/* line 2585, ../scss/_settings.scss */
 p.post-info {
   margin-bottom: 0px;
 }
 
-/* line 2580, ../scss/_settings.scss */
+/* line 2586, ../scss/_settings.scss */
 p.author-name {
   font-family: 'Oleo Script', cursive;
 }
 
-/* line 2586, ../scss/_settings.scss */
+/* line 2592, ../scss/_settings.scss */
 #share-buttons {
   text-align: right;
 }
 
-/* line 2589, ../scss/_settings.scss */
+/* line 2595, ../scss/_settings.scss */
 #share-buttons img {
   width: 35px;
   padding: 5px;
@@ -1467,35 +1477,35 @@ p.author-name {
   -webkit-filter: grayscale(100%);
 }
 
-/* line 2603, ../scss/_settings.scss */
+/* line 2609, ../scss/_settings.scss */
 div.team {
   padding-bottom: 25px !important;
 }
 
-/* line 2606, ../scss/_settings.scss */
+/* line 2612, ../scss/_settings.scss */
 div.team-picture {
   width: 250px;
   height: 300px;
 }
 
-/* line 2610, ../scss/_settings.scss */
+/* line 2616, ../scss/_settings.scss */
 div.team-picture div.image {
   width: 250px;
   height: 250px;
   border-radius: 5px;
 }
 
-/* line 2615, ../scss/_settings.scss */
+/* line 2621, ../scss/_settings.scss */
 div.team-picture div.chakir {
   background: url(/assets/img/Chakir.png) no-repeat;
 }
 
-/* line 2618, ../scss/_settings.scss */
+/* line 2624, ../scss/_settings.scss */
 div.team-picture div.amal {
   background: url(/assets/img/Amal.png) no-repeat;
 }
 
-/* line 2622, ../scss/_settings.scss */
+/* line 2628, ../scss/_settings.scss */
 div.team-picture div.text {
   margin-top: 10px;
   text-align: center;
@@ -1504,14 +1514,14 @@ div.team-picture div.text {
   font-size: 14px;
 }
 
-/* line 2630, ../scss/_settings.scss */
+/* line 2636, ../scss/_settings.scss */
 div.team-picture div.text h1, div.team-picture div.text h2 {
   margin: 0px;
   padding: 0px;
   line-height: 22px;
 }
 
-/* line 2635, ../scss/_settings.scss */
+/* line 2641, ../scss/_settings.scss */
 div.team-picture div.text h1 {
   font-size: 20px;
   font-family: 'Oleo Script', cursive;
@@ -1519,59 +1529,59 @@ div.team-picture div.text h1 {
   color: #6D6D6D;
 }
 
-/* line 2641, ../scss/_settings.scss */
+/* line 2647, ../scss/_settings.scss */
 div.team-picture div.text h2 {
   font-size: 16px;
   color: #999999;
 }
 
-/* line 2651, ../scss/_settings.scss */
+/* line 2657, ../scss/_settings.scss */
 section.ourteam {
   font-family: 'Muli', sans-serif;
   font-size: 17px;
   color: #999999;
 }
 
-/* line 2657, ../scss/_settings.scss */
+/* line 2663, ../scss/_settings.scss */
 section.ourteam div.row {
   padding-top: 10px;
   padding-bottom: 10px;
 }
 
-/* line 2661, ../scss/_settings.scss */
+/* line 2667, ../scss/_settings.scss */
 section.ourteam div.left {
   text-align: right;
 }
 
-/* line 2664, ../scss/_settings.scss */
+/* line 2670, ../scss/_settings.scss */
 section.ourteam div.right {
   text-align: left;
 }
 
-/* line 2668, ../scss/_settings.scss */
+/* line 2674, ../scss/_settings.scss */
 section#ourteam-intro div.text-center h2 {
   text-transform: none;
 }
 
-/* line 2672, ../scss/_settings.scss */
+/* line 2678, ../scss/_settings.scss */
 section.ourteam i.fa {
   font-size: 30px;
   color: #DEA653;
   padding-left: 0px;
 }
 
-/* line 2678, ../scss/_settings.scss */
+/* line 2684, ../scss/_settings.scss */
 section.ourteam-small i.fa {
   padding-right: 5px;
   font-size: 26px;
 }
 
-/* line 2682, ../scss/_settings.scss */
+/* line 2688, ../scss/_settings.scss */
 section.ourteam-small div.columns {
   text-align: justify;
 }
 
-/* line 2686, ../scss/_settings.scss */
+/* line 2692, ../scss/_settings.scss */
 section.ourteam div.icon {
   width: 35px;
   padding-right: 0px;
@@ -1579,14 +1589,14 @@ section.ourteam div.icon {
   text-align: center;
 }
 
-/* line 2693, ../scss/_settings.scss */
+/* line 2699, ../scss/_settings.scss */
 section.ourteam div b {
   font-family: 'Oleo Script', cursive;
   font-size: 24px;
   color: #6D6D6D;
 }
 
-/* line 2700, ../scss/_settings.scss */
+/* line 2706, ../scss/_settings.scss */
 section.aboutus h2 {
   font-family: 'Oleo Script', cursive;
   font-size: 36px;
@@ -1595,7 +1605,7 @@ section.aboutus h2 {
   margin-bottom: 10px;
 }
 
-/* line 2707, ../scss/_settings.scss */
+/* line 2713, ../scss/_settings.scss */
 section.aboutus h3 {
   font-family: 'Muli', sans-serif;
   font-size: 17px;
@@ -1604,7 +1614,7 @@ section.aboutus h3 {
   margin-bottom: 5px;
 }
 
-/* line 2714, ../scss/_settings.scss */
+/* line 2720, ../scss/_settings.scss */
 section.aboutus div.email {
   padding-bottom: 20px;
 }
@@ -18664,4 +18674,34 @@ Copyright (c) 2015 Daniel Eden
 .hvr-curl-bottom-left:hover:before, .hvr-curl-bottom-left:focus:before, .hvr-curl-bottom-left:active:before {
   width: 25px;
   height: 25px;
+}
+
+/* line 47, ../scss/app.scss */
+div#contact-us-more {
+  display: none;
+}
+
+/* line 50, ../scss/app.scss */
+span#contact-us-url {
+  display: none;
+}
+
+/* line 53, ../scss/app.scss */
+span#contact-us-store {
+  width: 100%;
+  display: none;
+}
+
+/* line 58, ../scss/app.scss */
+form.contact fieldset {
+  margin: 0px;
+  padding: 0px;
+  border: none;
+  padding-left: 20px;
+  color: #888888;
+}
+
+/* line 66, ../scss/app.scss */
+form.contact h4 {
+  color: #DEA653;
 }

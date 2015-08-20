@@ -2324,7 +2324,13 @@ div.services-small div.whatwedo{
 form.contact label{
 	font-family: 'Montserrat', sans-serif;
 }
-form.contact input[type=text],form.contact textarea{
+form.contact h4{
+	font-family: 'Muli', sans-serif;	
+}
+form.contact input[type=number]{
+	width: 4em;
+}
+form.contact input[type=text],form.contact textarea, form.contact select, form.contact input[type=url], form.contact input[type=number]{
 	font-family: 'Muli', sans-serif;
 	background-color: #dddddd;
 	border:none;
@@ -2336,10 +2342,10 @@ form.contact input[type=text],form.contact textarea{
 	line-height: 1.4;
 	box-shadow: none;
 }
-form.contact input[type=text]{
+form.contact input[type=text], form.contact select, form.contact input[type=url], form.contact input[type=number]{
 	height: 50px;
 }
-form.contact input:focus,form.contact textarea:focus{
+form.contact input:focus,form.contact textarea:focus, form.contact select:focus, form.contact input[type=url]:focus, form.contact input[type=number]:focus{
 	background-color: #eeeeee;
 	/*background-color: #DEA653;*/
 	box-shadow: none;

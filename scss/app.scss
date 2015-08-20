@@ -43,3 +43,26 @@
 // L I B S
 @import 'animate';	// animate.css
 @import 'hover';	// hover.css
+
+div#contact-us-more{
+	display:none;
+}
+span#contact-us-url{
+	display:none;
+}
+span#contact-us-store{
+	width: 100%;
+	display:none;
+}
+
+form.contact fieldset{
+	margin:0px;
+	padding: 0px;
+	border:none;
+	padding-left: 20px;
+	color:#888888;
+}
+
+form.contact h4{
+	color:#DEA653;
+}
