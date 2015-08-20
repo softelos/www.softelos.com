@@ -69,7 +69,19 @@ description: "Softelos is a Web Design and Development Agency located in Lynchbu
 				    <label for="_replyto">email</label><input type="text" autocomplete="off" name="_replyto" required />
 				    <label for="company">Company/Organization</label><input type="text" name="company" autocomplete="off" />
 				    <label for="phone">Phone</label><input type="text" name="phone" autocomplete="off" />
+				     <label for="interest">Interest</label>
+					<select name="interest" id="interest">
+						<option value="new website">New Website</option>
+						<option value="edit website">Modify/Update Existing Website</option>
+						<option value="other" selected="selected">Other</option>
+					</select>
+
+				    <span id="contact-us-url"><label for="url">URL<input type="url" name="url" autocomplete="off" /></label></span>
+
 				    <label for="message">Message</label><textarea name="message" rows="5" cols="20" autocomplete="off" required></textarea>
+				    
+				    {% include /contactus/contact-form-extra.html %}
+
 				    <input type="text" name="_gotcha" style="display:none" />
 				    <div class="text-center"><input type="submit" value="Send" class="button round"></div>
 				    <input type="hidden" name="_next" value="/contactus" />

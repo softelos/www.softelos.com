@@ -337,7 +337,131 @@
 				    <label for="_replyto">email</label><input type="text" autocomplete="off" name="_replyto" required />
 				    <label for="company">Company/Organization</label><input type="text" name="company" autocomplete="off" />
 				    <label for="phone">Phone</label><input type="text" name="phone" autocomplete="off" />
+				     <label for="interest">Interest</label>
+					<select name="interest" id="interest">
+						<option value="new website">New Website</option>
+						<option value="edit website">Modify/Update Existing Website</option>
+						<option value="other" selected="selected">Other</option>
+					</select>
+
+				    <span id="contact-us-url"><label for="url">URL<input type="url" name="url" autocomplete="off" /></label></span>
+
 				    <label for="message">Message</label><textarea name="message" rows="5" cols="20" autocomplete="off" required></textarea>
+				    
+				    <div id="contact-us-more">
+
+	<label>Why do you need a new website?</label><textarea name="Why do you need a new website?" rows="3" cols="20" autocomplete="off"></textarea>
+
+	<label>Can you describe your organization in a few sentences?</label><textarea name="Can you describe your organization in a few sentences?" rows="3" cols="20" autocomplete="off"></textarea>
+
+	<label>What problems do your prospects have that your business solves?</label><textarea name="What problems do your prospects have that your business solves?" rows="3" cols="20" autocomplete="off"></textarea>
+
+	<label for="Do you have a slogan or tagline that clearly describes what you offer in terms of benefits or features?">Do you have a slogan or tagline that clearly describes what you offer in terms of benefits or features?</label><textarea rows="3" cols="20" autocomplete="off"></textarea>
+
+	<h4>Target</h4>
+
+	<label for="Who is the target audience of the site? (age, local, worldwide)">Who is the target audience of the site? (age, local, worldwide)</label><textarea rows="3" cols="20" autocomplete="off"></textarea>	    
+
+	<label for="If your website is a business-to-business site, what sort of companies are you hoping to attract?">If your website is a business-to-business site, what sort of companies are you hoping to attract?</label><textarea rows="3" cols="20" autocomplete="off"></textarea>	    
+
+	<label for="If you were using Google, what words or phrases would you use to find your website?">If you were using Google, what words or phrases would you use to find your website?</label><textarea rows="3" cols="20" autocomplete="off"></textarea>	    
+
+	<label for="Do you know who your competitors are? If so please list them here:">Do you know who your competitors are? If so please list them here:</label><textarea rows="3" cols="20" autocomplete="off"></textarea>	
+
+	<label>What makes your products/services unique? How do you stand out from the crowd?</label><textarea name="What makes your products/services unique? How do you stand out from the crowd?" rows="3" cols="20" autocomplete="off"></textarea>    
+	
+	<h4>Online Store</h4>
+
+	<label for="Are you planning to do online sales?">Are you planning to do online sales?</label>
+	<select id="contact-us-online-store" name="Are you planning to do online sales?" id="">
+		<option value="no" selected="selected">No</option>
+		<option value="yes">Yes</option>
+	</select>
+
+	<span id="contact-us-store">
+
+		<label>Describe the products you plan to sell from your online store:</label><textarea name="Describe the products you plan to sell from your online store:" rows="3" cols="20" autocomplete="off"></textarea>	    
+
+		<label>How many products do you plan to sell at first?</label><input type="number" name="How many products do you plan to sell at first?" autocomplete="off" min="0" max="9999"/>
+
+		<label>How many products do you plan to sell in the future?</label><input type="number" name="How many products do you plan to sell in the future?" autocomplete="off" min="0" max="9999"/>
+
+		<label>How will you handle shipping?</label><textarea name="How will you handle shipping?" rows="3" cols="20" autocomplete="off"></textarea>
+	</span>
+
+	<h4>Design</h4>
+
+	<label for="Please list the address of five other websites that you like. Why are they attractive to you?">Please list the address of at least 3 other websites that you like. Why are they attractive to you?</label><textarea rows="3" cols="20" autocomplete="off"></textarea>	    
+
+
+	<label for="What do you NOT want on your website in terms of text, content, etc.?">What do you NOT want on your website in terms of text, content, etc.?</label><textarea rows="3" cols="20" autocomplete="off"></textarea>	    
+
+	<label for="What pages do you want your website to have? List their headings:">What pages do you want your website to have? List their headings:</label><textarea rows="3" cols="20" autocomplete="off"></textarea>	    
+
+
+	<label for="When a visitor arrives at your site, what would you like them to do?">When a visitor arrives at your home page, what would you like them to do?</label><textarea rows="3" cols="20" autocomplete="off"></textarea>	    
+
+	<label>Which features do you want the website to have?</label>
+	<fieldset>
+		<input type="checkbox" name="Blog" /> Blog<br />
+		<input type="checkbox" name="Forum" /> Forum<br />
+		<input type="checkbox" name="Chat" /> Chat<br />
+		<input type="checkbox" name="Photo Gallery" /> Photo Gallery<br />
+		<input type="checkbox" name="Embedded Videos" /> Embedded Videos<br />
+		<input type="checkbox" name="Private Area For Users" /> Private Area For Users<br />
+		<input type="checkbox" name="Search Content" /> Search Content<br />
+		<input type="checkbox" name="Newsletter" /> Newsletter<br />
+		<input type="checkbox" name="Complex Data Acquisition And Processing" /> Complex Data Acquisition And Processing<br />
+		<input type="checkbox" name="Intranet" /> Intranet<br />
+		<input type="checkbox" name="Social Media (Facebook, Linkedin, etc.)"/> Social Media (Facebook, Linkedin, etc.)<br />
+		<input type="checkbox" name="Maps" /> Maps<br />
+	</fieldset>
+
+	<h4>Resources</h4>
+
+	<label>Do you have any of the following materials?</label>
+	<fieldset>
+		<input type="checkbox" name="Domain Name" /> Domain Name<br />
+		<input type="checkbox" name="Hosting" /> Hosting<br />
+		<input type="checkbox" name="Company Identity Materials (logo, letterhead, business cards, etc.)" /> Company Identity Materials (logo, letterhead, business cards, etc.)<br />
+		<input type="checkbox" name="High Quality Images" /> High Quality Images<br />
+		<input type="checkbox" name="Text for the content (pages, blog if applicable)" /> Text for the content (pages, blog if applicable)<br />
+		<input type="checkbox" name="Videos" /> Videos (if applicable)<br />
+		<input type="checkbox" name="Music" /> Music (if applicable)<br />
+	</fieldset>
+	
+	<h4>Post-Launch</h4>
+
+	<label>Which of these services do you want us to provide once the website is up and running?</label>
+	<fieldset>
+		<input type="checkbox" name="Search Engine Optimization (SEO)" /> Search Engine Optimization (SEO)<br />
+		<input type="checkbox" name="Content Development" /> Content Development<br />
+		<input type="checkbox" name="Social Media Update" /> Social Media Update<br />
+		<input type="checkbox" name="General Website Maintenance" /> General Website Maintenance<br />
+		<input type="checkbox" name="General Website Maintenance" /> Online Store Management<br />
+	</fieldset>
+
+	<label>Other than what search engines will produce, what methods do you have in mind to spread the word about your website?</label><textarea name="Other than what search engines will produce, what methods do you have in mind to spread the word about your website?" rows="3" cols="20" autocomplete="off"></textarea>	    
+
+	<h4>Deadline and Budget</h4>
+
+	<label>When do you need to have the website completed? (after placing the purchase order)</label>
+	<select name="When do you need to have the website completed? (after placing the purchase order)" id="">
+		<option value="1 month" selected="selected">1 month</option>
+		<option value="2 months">2 months</option>
+		<option value="3 months">3 months</option>
+	</select>
+
+	<label for="How much are you planing to spend in this project?">How much are you planing to spend in this project?</label>
+	<select name="How much are you planing to spend in this project?" id="">
+		<option value="Less than $500" selected="selected">Less than $500</option>
+		<option value="Between $500 and $2500">Between $500 and $2500</option>
+		<option value="Between $2500 and $5000">Between $2500 and $5000</option>
+		<option value="More than $5000">More than $5000</option>
+	</select>
+
+</div>
+
 				    <input type="text" name="_gotcha" style="display:none" />
 				    <div class="text-center"><input type="submit" value="Send" class="button round"></div>
 				    <input type="hidden" name="_next" value="/contactus" />
