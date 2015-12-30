@@ -1,0 +1,64 @@
+---
+layout: post
+id: notepad
+subid: work
+title:  "Building Violations"
+subtitle: "Building Violation"
+description: "How we made www.buildingviolation.com . Softelos is a Web Design and Development Agency located in Lynchburg (VA)."
+date:   2015-11-29 17:00:00
+banner: building-violation4.jpg
+categories: "work"
+author: cmrabet
+author-name: "chakir mrabet"
+---
+
+<a href="http://www.buildingviolation.com">Building Violation</a> is a team of professionals that help homeowners and businesses to resolve building violations and Complaints. Since 2007 they have been managing violations issued by all Government agencies, including Department of Buildings, Fire Department, and Housing Authority.
+
+<a href="http://www.buildingviolation.com">Building Violation</a> also provides other services such as helping customers to learn more about their properties, and saving them from buying a problematic house, by providing them complete records research. They also help customers to present, submit or furnish applications or construction documents and remove documents from the Department of Buildings in New York City and other major cities.
+
+<a href="http://www.softelos.com">Softelos</a> has worked for <a href="http://www.buildingviolation.com">Building Violation</a> on making a completely brand new website redesigned from scratch with the latest design trends, as well as a fully customized bidding system where customers can report building violations and have professionals sending them offers to solve them, similar to how sites like Thumbtack, Elance or Fiverr work.
+
+p=. !{{ site.baseurl }}/assets/img/blog/building-violation.png(Building Violation)!
+
+<!--more-->
+
+h3. The Problem
+
+The <a href="http://www.buildingviolation.com">Building Violation</a> team wanted two achieve two things very well differentiated:
+
+# They needed a new website with a modern and responsive design where customers can not only learn about the team behind and their services, but also where they can fill a form to report a new building violation. This website needed to be pure HTML in order for the <a href="http://www.buildingviolation.com">Building Violation</a> team to be able to edit its content quickly with just a text editor (no content management systems).
+# They needed a full bidding system where the customers are forwarded after they fill the form to report a building violation. This bidding system would have customers reporting building violations from one side, and professionals from the other one sending them offers with their approach to resolve the violation, estimated cost, and estimated time needed to complete it. The customers then would choose the offer they like the most and start the project with the professional who sent it. The bidding system then would track the whole cycle of the violation resolution, including communications between the customer and professional, payments, reporting and reviews to the professional once the violation is solved.
+
+h3. Approach
+
+<a href="http://www.softelos.com">Softelos</a> chose the following arrangement to achieve the goals of this project:
+
+* An HTML static website developed with <a href="http://www.softelos.com/advice/2015/03/16/fast-and-secure-websites-static-sites.html">Jekyll</a>, using a custom design built from scratch that matches the <a href="http://www.buildingviolation.com">Building Violation</a> team's branding, including clean colors, sharp fonts, and very simple layout. This website would be easily editable since is pure HTML, hosted in a server that doesn't require special resources, and virtually un-hackable because it doesn't make use of any database or server side scripting, both very to prone malicious attacks. This website would have the URL <a href="http://www.buildingviolation.com">www.buildingviolation.com</a>, and would be the "landing place" for new visitors or users who don't make use of the active tools.
+
+p=. !{{ site.baseurl }}/assets/img/blog/building-violation1.png(Building Violation)!
+
+* A dynamic website developed with Laravel PHP framework for the server side scripting, hosted in a more powerful server in order to absorb large amount of users connected at the same time. This dynamic site has the URL <a href="http://app.buildingviolation.com">app.buildingviolation.com</a>, and is interconnected with the static website in many ways, for example, when providing maps showing the reported violations for different states, or the last three reported violations shown at the bottom of the static website main page.
+* This dynamic website provides also the following features:
+** User accounts with different profiles (customers, professionals, administrators).
+** Dashboards and latest content created by the users.
+** Dynamic forms created with jQuery that make reporting violations or sending offers a very easy task.
+** Private messaging system between customers and professionals.
+** Violation status tracker.
+** Payment gateway to PayPal.
+** Active maps showing the location of each violation with pop ups that provide a summary of its information.
+** Automatic mailing system that informs customers and professionals of important events.
+
+p=. !{{ site.baseurl }}/assets/img/blog/building-violation3.png(Building Violation)!
+
+h3. Technologies Used
+
+* HTML5
+* CSS3
+* jQuery 2
+* Foundation 5
+* Laravel 5.1
+* PHP 5.5
+* MySQL server 5.5
+* All images optimized for fast download
+* Google Fonts
+* FontAwesome

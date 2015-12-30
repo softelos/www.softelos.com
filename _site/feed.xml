@@ -5,9 +5,99 @@
     <description></description>
     <link>http://www.softelos.com/</link>
     <atom:link href="http://www.softelos.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 27 Aug 2015 17:53:39 -0400</pubDate>
-    <lastBuildDate>Thu, 27 Aug 2015 17:53:39 -0400</lastBuildDate>
+    <pubDate>Wed, 30 Dec 2015 18:03:58 -0500</pubDate>
+    <lastBuildDate>Wed, 30 Dec 2015 18:03:58 -0500</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
+    
+      <item>
+        <title>Building Violations</title>
+        <description>&lt;p&gt;&lt;a href=&quot;http://www.buildingviolation.com&quot;&gt;Building Violation&lt;/a&gt; is a team of professionals that help homeowners and businesses to resolve building violations and Complaints. Since 2007 they have been managing violations issued by all Government agencies, including Department of Buildings, Fire Department, and Housing Authority.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.buildingviolation.com&quot;&gt;Building Violation&lt;/a&gt; also provides other services such as helping customers to learn more about their properties, and saving them from buying a problematic house, by providing them complete records research. They also help customers to present, submit or furnish applications or construction documents and remove documents from the Department of Buildings in New York City and other major cities.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.softelos.com&quot;&gt;Softelos&lt;/a&gt; has worked for &lt;a href=&quot;http://www.buildingviolation.com&quot;&gt;Building Violation&lt;/a&gt; on making a completely brand new website redesigned from scratch with the latest design trends, as well as a fully customized bidding system where customers can report building violations and have professionals sending them offers to solve them, similar to how sites like Thumbtack, Elance or Fiverr work.&lt;/p&gt;
+&lt;p style=&quot;text-align:center;&quot;&gt;&lt;img src=&quot;/assets/img/blog/building-violation.png&quot; title=&quot;Building Violation&quot; alt=&quot;Building Violation&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;!--more--&gt;&lt;/p&gt;
+&lt;h3&gt;The Problem&lt;/h3&gt;
+&lt;p&gt;The &lt;a href=&quot;http://www.buildingviolation.com&quot;&gt;Building Violation&lt;/a&gt; team wanted two achieve two things very well differentiated:&lt;/p&gt;
+&lt;ol&gt;
+	&lt;li&gt;They needed a new website with a modern and responsive design where customers can not only learn about the team behind and their services, but also where they can fill a form to report a new building violation. This website needed to be pure &lt;span class=&quot;caps&quot;&gt;HTML&lt;/span&gt; in order for the &lt;a href=&quot;http://www.buildingviolation.com&quot;&gt;Building Violation&lt;/a&gt; team to be able to edit its content quickly with just a text editor (no content management systems).&lt;/li&gt;
+	&lt;li&gt;They needed a full bidding system where the customers are forwarded after they fill the form to report a building violation. This bidding system would have customers reporting building violations from one side, and professionals from the other one sending them offers with their approach to resolve the violation, estimated cost, and estimated time needed to complete it. The customers then would choose the offer they like the most and start the project with the professional who sent it. The bidding system then would track the whole cycle of the violation resolution, including communications between the customer and professional, payments, reporting and reviews to the professional once the violation is solved.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3&gt;Approach&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.softelos.com&quot;&gt;Softelos&lt;/a&gt; chose the following arrangement to achieve the goals of this project:&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;An &lt;span class=&quot;caps&quot;&gt;HTML&lt;/span&gt; static website developed with &lt;a href=&quot;http://www.softelos.com/advice/2015/03/16/fast-and-secure-websites-static-sites.html&quot;&gt;Jekyll&lt;/a&gt;, using a custom design built from scratch that matches the &lt;a href=&quot;http://www.buildingviolation.com&quot;&gt;Building Violation&lt;/a&gt; team&amp;#8217;s branding, including clean colors, sharp fonts, and very simple layout. This website would be easily editable since is pure &lt;span class=&quot;caps&quot;&gt;HTML&lt;/span&gt;, hosted in a server that doesn&amp;#8217;t require special resources, and virtually un-hackable because it doesn&amp;#8217;t make use of any database or server side scripting, both very to prone malicious attacks. This website would have the &lt;span class=&quot;caps&quot;&gt;URL&lt;/span&gt; &lt;a href=&quot;http://www.buildingviolation.com&quot;&gt;www.buildingviolation.com&lt;/a&gt;, and would be the &amp;#8220;landing place&amp;#8221; for new visitors or users who don&amp;#8217;t make use of the active tools.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p style=&quot;text-align:center;&quot;&gt;&lt;img src=&quot;/assets/img/blog/building-violation1.png&quot; title=&quot;Building Violation&quot; alt=&quot;Building Violation&quot; /&gt;&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;A dynamic website developed with Laravel &lt;span class=&quot;caps&quot;&gt;PHP&lt;/span&gt; framework for the server side scripting, hosted in a more powerful server in order to absorb large amount of users connected at the same time. This dynamic site has the &lt;span class=&quot;caps&quot;&gt;URL&lt;/span&gt; &lt;a href=&quot;http://app.buildingviolation.com&quot;&gt;app.buildingviolation.com&lt;/a&gt;, and is interconnected with the static website in many ways, for example, when providing maps showing the reported violations for different states, or the last three reported violations shown at the bottom of the static website main page.&lt;/li&gt;
+	&lt;li&gt;This dynamic website provides also the following features:
+	&lt;ul&gt;
+		&lt;li&gt;User accounts with different profiles (customers, professionals, administrators).&lt;/li&gt;
+		&lt;li&gt;Dashboards and latest content created by the users.&lt;/li&gt;
+		&lt;li&gt;Dynamic forms created with jQuery that make reporting violations or sending offers a very easy task.&lt;/li&gt;
+		&lt;li&gt;Private messaging system between customers and professionals.&lt;/li&gt;
+		&lt;li&gt;Violation status tracker.&lt;/li&gt;
+		&lt;li&gt;Payment gateway to PayPal.&lt;/li&gt;
+		&lt;li&gt;Active maps showing the location of each violation with pop ups that provide a summary of its information.&lt;/li&gt;
+		&lt;li&gt;Automatic mailing system that informs customers and professionals of important events.&lt;/li&gt;
+	&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p style=&quot;text-align:center;&quot;&gt;&lt;img src=&quot;/assets/img/blog/building-violation3.png&quot; title=&quot;Building Violation&quot; alt=&quot;Building Violation&quot; /&gt;&lt;/p&gt;
+&lt;h3&gt;Technologies Used&lt;/h3&gt;
+&lt;ul&gt;
+	&lt;li&gt;HTML5&lt;/li&gt;
+	&lt;li&gt;CSS3&lt;/li&gt;
+	&lt;li&gt;jQuery 2&lt;/li&gt;
+	&lt;li&gt;Foundation 5&lt;/li&gt;
+	&lt;li&gt;Laravel 5.1&lt;/li&gt;
+	&lt;li&gt;&lt;span class=&quot;caps&quot;&gt;PHP&lt;/span&gt; 5.5&lt;/li&gt;
+	&lt;li&gt;MySQL server 5.5&lt;/li&gt;
+	&lt;li&gt;All images optimized for fast download&lt;/li&gt;
+	&lt;li&gt;Google Fonts&lt;/li&gt;
+	&lt;li&gt;FontAwesome&lt;/li&gt;
+&lt;/ul&gt;</description>
+        <pubDate>Sun, 29 Nov 2015 12:00:00 -0500</pubDate>
+        <link>http://www.softelos.com/work/2015/11/29/building-violation.html</link>
+        <guid isPermaLink="true">http://www.softelos.com/work/2015/11/29/building-violation.html</guid>
+        
+        
+        <category>work</category>
+        
+      </item>
+    
+      <item>
+        <title>The Shimmer Sparkle Shine Project</title>
+        <description>&lt;p&gt;The &lt;a href=&quot;http://www.shimmersparkleshineproject.org/&quot;&gt;Shimmer Sparkle Shine Project&lt;/a&gt; is an organization that mentors individually girls and women across the United States on their self-esteem, through positive activities that nourish them to realize their own individual worth and divine potential.&lt;/p&gt;
+&lt;p&gt;While the &lt;a href=&quot;http://www.shimmersparkleshineproject.org/&quot;&gt;Shimmer Sparkle Shine Project&lt;/a&gt; didn’t hold its first workshop until 2012, their roots go back to when the founder, Ciara, was in middle school. Throughout middle school, especially in 7th grade, Ciara was severely bullied from her peers. The bullying was so aggressive that she would fake sick to come home or just bluntly leave school early in tears, because she couldn’t handle anymore bullying from everyone around her. As a result of her peers constantly belittling her self-worth she came up with the phrase “Shimmer Sparkle Shine” as a way to encourage herself to get through the day.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.softelos.com&quot;&gt;Softelos&lt;/a&gt; has worked with Ciara on providing The Shimmer Sparkle Shine Project with a top-notch website that transmits the project&amp;#8217;s values and workshop activities through the Internet to every girl and woman in need.&lt;/p&gt;
+&lt;p style=&quot;text-align:center;&quot;&gt;&lt;img src=&quot;/assets/img/blog/sss-small.jpg&quot; title=&quot;The Shimmer Sparkle Shine Project&quot; alt=&quot;The Shimmer Sparkle Shine Project&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;!--more--&gt;&lt;/p&gt;
+&lt;h3&gt;The story behind the project&lt;/h3&gt;
+&lt;p&gt;When Ciara went to high school and was able to surround herself with a new set of people, her wounds healed and she was able to rediscover her self-worth. Ciara decided that she wanted to make sure no girl felt the way she did in middle school, thus the Shimmer Sparkle Shine Project was born. In the summer of 2011, she started mentoring girls individually on their self-esteem. With support from fellow students, Ciara was able to plan the Shimmer Sparkle Shine Project’s first workshop in February of 2012. After much effort in the years that followed the Shimmer Sparkle Shine Project was granted 501 ( c )( 3 ) tax exemption status in May of 2014. Between these efforts the Shimmer Sparkle Shine Project blossomed into what it is today.&lt;/p&gt;
+&lt;h3&gt;Approach&lt;/h3&gt;
+&lt;p&gt;Ciara wanted a Website that is easy to use and update, but at the same time, with a beautiful and simple design that transmits the emotions of the girls and women who participate in the project.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.softelos.com&quot;&gt;Softelos&lt;/a&gt; chose Wordpress to build the website structure, a very easy to use and update content management system, and created a nice design for the interface that makes use of clean and warm colors, and simple layouts that structure the content in a clear and easy way. The website includes not only static pages, but also active forms for contact information and for donations using a gateway to PayPal.&lt;/p&gt;
+&lt;p style=&quot;text-align:center;&quot;&gt;&lt;img src=&quot;/assets/img/blog/sss.png&quot; title=&quot;The Shimmer Sparkle Shine Project&quot; alt=&quot;The Shimmer Sparkle Shine Project&quot; /&gt;&lt;/p&gt;
+&lt;h3&gt;Technologies Used&lt;/h3&gt;
+&lt;ul&gt;
+	&lt;li&gt;HTML5&lt;/li&gt;
+	&lt;li&gt;CSS3&lt;/li&gt;
+	&lt;li&gt;jQuery 2&lt;/li&gt;
+	&lt;li&gt;Bootstrap 3&lt;/li&gt;
+	&lt;li&gt;WordPress 4&lt;/li&gt;
+	&lt;li&gt;MySQL server 5.5&lt;/li&gt;
+	&lt;li&gt;All images optimized for fast download&lt;/li&gt;
+	&lt;li&gt;Google Fonts&lt;/li&gt;
+	&lt;li&gt;FontAwesome&lt;/li&gt;
+&lt;/ul&gt;</description>
+        <pubDate>Tue, 01 Sep 2015 09:00:00 -0400</pubDate>
+        <link>http://www.softelos.com/work/2015/09/01/shimmer-sparkle-shine-project.html</link>
+        <guid isPermaLink="true">http://www.softelos.com/work/2015/09/01/shimmer-sparkle-shine-project.html</guid>
+        
+        
+        <category>work</category>
+        
+      </item>
     
       <item>
         <title>Fast and Secure Websites - Static Sites</title>
@@ -99,7 +189,18 @@
 &lt;p&gt;In the case of &lt;a href=&quot;http:\\softelos.com&quot;&gt;softelos.com&lt;/a&gt;, although the website doesn&amp;#8217;t require any server side scripting (development), it still needs JavaScript code that makes possible some cool features such as the top header expanding and collapsing when scrolling the browser.&lt;/p&gt;
 &lt;h3&gt;.. show it to the world&lt;/h3&gt;
 &lt;p&gt;After intense testing and another round of feedback, we prepare to publish the master piece to the world. This is usually done by announcing the site as an email newsletter that we design and send to our client&amp;#8217;s customers.&lt;/p&gt;
-&lt;p&gt;In our case since our website is pure &lt;span class=&quot;caps&quot;&gt;HTML&lt;/span&gt;, &lt;span class=&quot;caps&quot;&gt;CSS&lt;/span&gt; and JavaScript, we don&amp;#8217;t need an expensive hosting provider. We are using GitHub, a source version control site that offers free hosting for websites with no server side scripting or database support.&lt;/p&gt;</description>
+&lt;p&gt;In our case since our website is pure &lt;span class=&quot;caps&quot;&gt;HTML&lt;/span&gt;, &lt;span class=&quot;caps&quot;&gt;CSS&lt;/span&gt; and JavaScript, we don&amp;#8217;t need an expensive hosting provider. We are using GitHub, a source version control site that offers free hosting for websites with no server side scripting or database support.&lt;/p&gt;
+&lt;h3&gt;Technologies Used&lt;/h3&gt;
+&lt;ul&gt;
+	&lt;li&gt;HTML5&lt;/li&gt;
+	&lt;li&gt;CSS3&lt;/li&gt;
+	&lt;li&gt;jQuery 2&lt;/li&gt;
+	&lt;li&gt;FOundation 5&lt;/li&gt;
+	&lt;li&gt;Jekyll 3.0.1&lt;/li&gt;
+	&lt;li&gt;All images optimized for fast download&lt;/li&gt;
+	&lt;li&gt;Google Fonts&lt;/li&gt;
+	&lt;li&gt;FontAwesome&lt;/li&gt;
+&lt;/ul&gt;</description>
         <pubDate>Sun, 08 Feb 2015 12:30:00 -0500</pubDate>
         <link>http://www.softelos.com/work/2015/02/08/how-we-made-softelos.html</link>
         <guid isPermaLink="true">http://www.softelos.com/work/2015/02/08/how-we-made-softelos.html</guid>

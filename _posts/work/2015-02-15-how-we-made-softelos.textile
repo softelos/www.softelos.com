@@ -88,3 +88,14 @@ h3. .. show it to the world
 After intense testing and another round of feedback, we prepare to publish the master piece to the world. This is usually done by announcing the site as an email newsletter that we design and send to our client's customers.
 
 In our case since our website is pure HTML, CSS and JavaScript, we don't need an expensive hosting provider. We are using GitHub, a source version control site that offers free hosting for websites with no server side scripting or database support.
+
+h3. Technologies Used
+
+* HTML5
+* CSS3
+* jQuery 2
+* FOundation 5
+* Jekyll 3.0.1
+* All images optimized for fast download
+* Google Fonts
+* FontAwesome

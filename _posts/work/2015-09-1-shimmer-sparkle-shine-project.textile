@@ -1,0 +1,47 @@
+---
+layout: post
+id: notepad
+subid: work
+title:  "The Shimmer Sparkle Shine Project"
+subtitle: "The Shimmer Sparkle Shine Project"
+description: "How we made www.shimmersparkleshineproject.org. Softelos is a Web Design and Development Agency located in Lynchburg (VA)."
+date:   2015-09-01 13:00:00
+banner: sssproject.png
+categories: "work"
+author: cmrabet
+author-name: "chakir mrabet"
+---
+
+The <a href="http://www.shimmersparkleshineproject.org/">Shimmer Sparkle Shine Project</a> is an organization that mentors individually girls and women across the United States on their self-esteem, through positive activities that nourish them to realize their own individual worth and divine potential.
+
+While the <a href="http://www.shimmersparkleshineproject.org/">Shimmer Sparkle Shine Project</a> didn’t hold its first workshop until 2012, their roots go back to when the founder, Ciara, was in middle school. Throughout middle school, especially in 7th grade, Ciara was severely bullied from her peers. The bullying was so aggressive that she would fake sick to come home or just bluntly leave school early in tears, because she couldn’t handle anymore bullying from everyone around her. As a result of her peers constantly belittling her self-worth she came up with the phrase “Shimmer Sparkle Shine” as a way to encourage herself to get through the day.
+
+<a href="http://www.softelos.com">Softelos</a> has worked with Ciara on providing The Shimmer Sparkle Shine Project with a top-notch website that transmits the project's values and workshop activities through the Internet to every girl and woman in need.
+
+p=. !{{ site.baseurl }}/assets/img/blog/sss-small.jpg(The Shimmer Sparkle Shine Project)!
+
+<!--more-->
+
+h3. The story behind the project
+
+When Ciara went to high school and was able to surround herself with a new set of people, her wounds healed and she was able to rediscover her self-worth. Ciara decided that she wanted to make sure no girl felt the way she did in middle school, thus the Shimmer Sparkle Shine Project was born. In the summer of 2011, she started mentoring girls individually on their self-esteem. With support from fellow students, Ciara was able to plan the Shimmer Sparkle Shine Project’s first workshop in February of 2012. After much effort in the years that followed the Shimmer Sparkle Shine Project was granted 501 ( c )( 3 ) tax exemption status in May of 2014. Between these efforts the Shimmer Sparkle Shine Project blossomed into what it is today.
+
+h3. Approach
+
+Ciara wanted a Website that is easy to use and update, but at the same time, with a beautiful and simple design that transmits the emotions of the girls and women who participate in the project.
+
+<a href="http://www.softelos.com">Softelos</a> chose Wordpress to build the website structure, a very easy to use and update content management system, and created a nice design for the interface that makes use of clean and warm colors, and simple layouts that structure the content in a clear and easy way. The website includes not only static pages, but also active forms for contact information and for donations using a gateway to PayPal.
+
+p=. !{{ site.baseurl }}/assets/img/blog/sss.png(The Shimmer Sparkle Shine Project)!
+
+h3. Technologies Used
+
+* HTML5
+* CSS3
+* jQuery 2
+* Bootstrap 3
+* WordPress 4
+* MySQL server 5.5
+* All images optimized for fast download
+* Google Fonts
+* FontAwesome
